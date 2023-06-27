@@ -1,0 +1,46 @@
+2023-01-04 14:39:11,481 - root - INFO -  Se abre el chrome
+2023-01-04 14:39:12,637 - root - INFO -  Entra a la URL
+2023-01-04 14:39:12,771 - root - INFO -  Maximiza la pantalla
+2023-01-04 14:39:15,902 - root - INFO -  Escribe el usuario
+2023-01-04 14:39:15,980 - root - INFO -  Escribe la contraseña
+2023-01-04 14:39:16,057 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-04 14:39:18,309 - root - INFO -  Ejecutar Enterprise
+2023-01-04 14:39:22,345 - root - INFO -  Cambia entre pestañas
+2023-01-04 14:39:35,904 - root - INFO -  Abre la pantalla de Cajas
+2023-01-04 14:39:36,968 - root - INFO -  La pantalla ejecutada es Cajas
+2023-01-04 14:39:36,970 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CAJ\report\img  screen：20230104_14_39_36.png
+2023-01-04 14:39:37,107 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-04 14:39:37,647 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-04 14:39:37,705 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-04 14:39:37,832 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-04 14:39:37,832 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CAJ\report\img  screen：20230104_14_39_37.png
+2023-01-04 14:39:37,998 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-04 14:39:38,560 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-04 14:39:44,969 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-01-04 14:39:45,540 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-04 14:39:45,968 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 14:39:48,010 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-04 14:39:48,547 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-04 14:39:48,596 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-04 14:39:48,708 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-04 14:39:48,746 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-04 14:39:49,317 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-04 14:39:51,318 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CAJ\report\img  screen：20230104_14_39_51.png
+2023-01-04 14:39:51,487 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-04 14:39:51,598 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-04 14:39:51,713 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 14:39:54,279 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-04 14:39:54,944 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-04 14:39:54,945 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CAJ\report\img  screen：20230104_14_39_54.png
+2023-01-04 14:39:55,098 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-04 14:39:56,686 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-04 14:40:02,992 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-01-04 14:40:03,556 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-04 14:40:04,040 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-04 14:40:06,600 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-04 14:40:06,666 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-04 14:40:08,667 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CAJ\report\img  screen：20230104_14_40_08.png
+2023-01-04 14:40:08,798 - root - INFO -  Se confirma el eliminado del registro
+2023-01-04 14:40:08,969 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 14:40:11,021 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2023-01-04 14:40:15,323 - root - INFO -  Se cierra chrome
