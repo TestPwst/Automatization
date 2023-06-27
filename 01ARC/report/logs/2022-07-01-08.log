@@ -1,0 +1,157 @@
+2022-07-01 08:21:21,983 - root - INFO -  Se abre el chrome
+2022-07-01 08:21:25,217 - root - INFO -  Entra a la URL
+2022-07-01 08:21:41,651 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:21:41,651 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_21_41.png
+2022-07-01 08:22:06,078 - root - ERROR - No se encontró el botón Cerrar Error, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:22:06,078 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_22_06.png
+2022-07-01 08:22:16,614 - root - INFO -  Se abre el chrome
+2022-07-01 08:22:18,992 - root - INFO -  Entra a la URL
+2022-07-01 08:22:19,251 - root - INFO -  Maximiza la pantalla
+2022-07-01 08:22:22,443 - root - INFO -  Cambia al frame
+2022-07-01 08:22:25,870 - root - INFO -  Escribe el usuario
+2022-07-01 08:22:26,032 - root - INFO -  Escribe la contraseña
+2022-07-01 08:22:26,187 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-01 08:22:28,164 - root - INFO -  Ejecutar Enterprise
+2022-07-01 08:22:30,386 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:22:30,388 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_22_30.png
+2022-07-01 08:22:32,270 - root - INFO -  Cambia entre pestañas
+2022-07-01 08:22:41,617 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-01 08:22:44,882 - root - INFO -  Abre el menu completo
+2022-07-01 08:22:54,688 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:22:54,688 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_22_54.png
+2022-07-01 08:23:00,440 - root - INFO -  Abre la pantalla de Arquitectura de CLiente
+2022-07-01 08:23:00,578 - root - INFO -  La pantalla ejecutada es Tipos de Cliente
+2022-07-01 08:23:00,796 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-01 08:23:01,422 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-01 08:23:01,506 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-01 08:23:01,588 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-07-01 08:23:01,664 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-01 08:23:03,800 - root - INFO -  El campo 'Unidad de Negocio' si se encuentra visible.
+2022-07-01 08:23:04,016 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-01 08:23:07,271 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-01 08:23:10,577 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-01 08:23:19,023 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:23:19,023 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_23_19.png
+2022-07-01 08:23:26,665 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:23:29,880 - root - INFO -  Se presiona el boton de segundo nivel 'Nuevo', para crear un nuevo registro.
+2022-07-01 08:23:30,536 - root - INFO -  El campo 'Codigo de segundo nivel' si se encuentra visible.
+2022-07-01 08:23:30,652 - root - INFO -  El campo 'Codigo Alternativo de segundo nivel' si se encuentra visible.
+2022-07-01 08:23:30,782 - root - INFO -  El campo 'Descrición de segundo nivel' si se encuentra visible.
+2022-07-01 08:23:33,004 - root - INFO -  Ingresa el codigo del nuevo registro en segundo nivel
+2022-07-01 08:23:36,223 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en segundo nivel 
+2022-07-01 08:23:39,548 - root - INFO -  Ingresa la descripción del nuevo registro del segundo nivel
+2022-07-01 08:23:42,774 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:23:43,366 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:23:43,366 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_23_43.png
+2022-07-01 08:23:45,953 - root - INFO -  Se presiona el boton 'Nuevo' de tercer nivel, para crear un nuevo registro.
+2022-07-01 08:23:46,603 - root - INFO -  El campo 'Codigo de tercer nivel' si se encuentra visible.
+2022-07-01 08:23:46,723 - root - INFO -  El campo 'Codigo Alternativo de tercer nivel' si se encuentra visible.
+2022-07-01 08:23:46,849 - root - INFO -  El campo 'Descrición de tercer nivel' si se encuentra visible.
+2022-07-01 08:23:49,072 - root - INFO -  Ingresa el codigo del nuevo registro en tercer nivel
+2022-07-01 08:23:52,322 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en tercer nivel 
+2022-07-01 08:23:55,646 - root - INFO -  Ingresa la descripción del nuevo registro del tercer nivel
+2022-07-01 08:23:58,782 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:24:01,991 - root - INFO -  Se presiona el boton 'Nuevo' de cuarto nivel, para crear un nuevo registro.
+2022-07-01 08:24:02,633 - root - INFO -  El campo 'Codigo de cuarto nivel' si se encuentra visible.
+2022-07-01 08:24:02,776 - root - INFO -  El campo 'Codigo Alternativo de cuarto nivel' si se encuentra visible.
+2022-07-01 08:24:02,899 - root - INFO -  El campo 'Descrición de cuarto nivel' si se encuentra visible.
+2022-07-01 08:24:05,130 - root - INFO -  Ingresa el codigo del nuevo registro en cuarto nivel
+2022-07-01 08:24:07,757 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 08:24:07,758 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ARC\report\img  screen：20220701_08_24_07.png
+2022-07-01 08:24:08,279 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2022-07-01 08:24:11,535 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2022-07-01 08:24:14,769 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2022-07-01 08:24:17,948 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-07-01 08:24:21,227 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-07-01 08:24:24,504 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:24:27,718 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-01 08:24:30,944 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-01 08:24:31,593 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-01 08:24:31,706 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-01 08:24:31,837 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-07-01 08:24:31,911 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-01 08:24:34,034 - root - INFO -  El campo 'Unidad de Negocio' si se encuentra visible.
+2022-07-01 08:24:34,201 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-01 08:24:37,426 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-01 08:24:40,605 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-01 08:24:56,627 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:24:59,837 - root - INFO -  Se presiona el boton de segundo nivel 'Nuevo', para crear un nuevo registro.
+2022-07-01 08:25:00,493 - root - INFO -  El campo 'Codigo de segundo nivel' si se encuentra visible.
+2022-07-01 08:25:00,644 - root - INFO -  El campo 'Codigo Alternativo de segundo nivel' si se encuentra visible.
+2022-07-01 08:25:00,763 - root - INFO -  El campo 'Descrición de segundo nivel' si se encuentra visible.
+2022-07-01 08:25:02,965 - root - INFO -  Ingresa el codigo del nuevo registro en segundo nivel
+2022-07-01 08:25:06,212 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en segundo nivel 
+2022-07-01 08:25:09,576 - root - INFO -  Ingresa la descripción del nuevo registro del segundo nivel
+2022-07-01 08:25:12,813 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:25:16,024 - root - INFO -  Se presiona el boton 'Nuevo' de tercer nivel, para crear un nuevo registro.
+2022-07-01 08:25:16,693 - root - INFO -  El campo 'Codigo de tercer nivel' si se encuentra visible.
+2022-07-01 08:25:16,818 - root - INFO -  El campo 'Codigo Alternativo de tercer nivel' si se encuentra visible.
+2022-07-01 08:25:16,953 - root - INFO -  El campo 'Descrición de tercer nivel' si se encuentra visible.
+2022-07-01 08:25:19,154 - root - INFO -  Ingresa el codigo del nuevo registro en tercer nivel
+2022-07-01 08:25:22,375 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en tercer nivel 
+2022-07-01 08:25:25,688 - root - INFO -  Ingresa la descripción del nuevo registro del tercer nivel
+2022-07-01 08:25:28,884 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:25:32,073 - root - INFO -  Se presiona el boton 'Nuevo' de cuarto nivel, para crear un nuevo registro.
+2022-07-01 08:25:32,733 - root - INFO -  El campo 'Codigo de cuarto nivel' si se encuentra visible.
+2022-07-01 08:25:32,848 - root - INFO -  El campo 'Codigo Alternativo de cuarto nivel' si se encuentra visible.
+2022-07-01 08:25:32,971 - root - INFO -  El campo 'Descrición de cuarto nivel' si se encuentra visible.
+2022-07-01 08:25:35,186 - root - INFO -  Ingresa el codigo del nuevo registro en cuarto nivel
+2022-07-01 08:25:38,408 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2022-07-01 08:25:41,722 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2022-07-01 08:25:44,806 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2022-07-01 08:25:47,945 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-07-01 08:25:51,097 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-07-01 08:25:54,294 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:25:57,496 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-01 08:25:59,733 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-01 08:26:03,934 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-01 08:26:18,521 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-01 08:26:18,856 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-01 08:26:22,282 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-01 08:26:38,315 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:26:52,926 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a modificarlo.
+2022-07-01 08:26:56,138 - root - INFO -  Ingresa el codigo alternativo del registro modificado en segundo nivel 
+2022-07-01 08:26:59,403 - root - INFO -  Ingresa la descripción del registro modificado del segundo nivel
+2022-07-01 08:27:02,521 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:27:17,130 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a modificarlo.
+2022-07-01 08:27:20,484 - root - INFO -  Ingresa el codigo alternativo del registro modificado en tercer nivel 
+2022-07-01 08:27:23,865 - root - INFO -  Ingresa la descripción del registro modificado del tercer nivel
+2022-07-01 08:27:27,063 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:27:41,633 - root - INFO -  Se da clic en el registro de cuarto nivel creado, para proceder a modificarlo.
+2022-07-01 08:27:45,024 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2022-07-01 08:27:48,450 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2022-07-01 08:27:51,628 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2022-07-01 08:27:56,849 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-07-01 08:28:02,077 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-07-01 08:28:07,247 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:28:12,404 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-01 08:28:26,979 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-01 08:28:27,155 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:28:41,738 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2022-07-01 08:28:41,840 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:28:56,429 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a eliminarlo.
+2022-07-01 08:28:56,610 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:29:11,160 - root - INFO -  Se da clic en el registro de cuarto nivel creado, para proceder a eliminarlo.
+2022-07-01 08:29:11,364 - root - INFO -  Se presiona el boton 'Eliminar' de cuarto nivel, para eliminar el registro.
+2022-07-01 08:29:14,597 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-07-01 08:29:19,844 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-07-01 08:29:25,065 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:29:44,771 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-01 08:29:44,982 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:29:59,566 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2022-07-01 08:29:59,753 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:30:14,335 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a eliminarlo.
+2022-07-01 08:30:14,452 - root - INFO -  Se presiona el boton 'Eliminar' de tercer nivel, para eliminar el registro.
+2022-07-01 08:30:17,641 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-07-01 08:30:22,876 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:30:42,582 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-01 08:30:42,777 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 08:30:57,357 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2022-07-01 08:30:57,570 - root - INFO -  Se presiona el boton 'Eliminar' de segundo nivel, para eliminar el registro.
+2022-07-01 08:31:00,759 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 08:31:20,403 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-01 08:31:20,560 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-01 08:31:21,237 - root - INFO -  Se confirma el eliminado del registro
+2022-07-01 08:31:23,464 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-01 08:31:25,639 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-01 08:31:30,500 - root - INFO -  Se cierra chrome

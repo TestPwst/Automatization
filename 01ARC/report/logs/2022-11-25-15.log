@@ -1,0 +1,38 @@
+2022-11-25 15:00:02,929 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-11-25 15:00:05,979 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 15:00:06,027 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 15:00:06,078 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-11-25 15:00:06,129 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 15:00:08,215 - root - INFO -  El campo 'Unidad de Negocio' si se encuentra visible.
+2022-11-25 15:00:08,278 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 15:00:11,371 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-25 15:00:14,560 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 15:00:25,300 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 15:00:28,301 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_15_00_28.png
+2022-11-25 15:00:29,088 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-11-25 15:00:31,249 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-11-25 15:00:35,327 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-25 15:00:42,878 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-25 15:00:42,994 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-25 15:00:46,188 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 15:00:56,678 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 15:01:04,272 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a modificarlo.
+2022-11-25 15:01:07,401 - root - INFO -  Ingresa el codigo alternativo del registro modificado en segundo nivel 
+2022-11-25 15:01:10,610 - root - INFO -  Ingresa la descripción del registro modificado del segundo nivel
+2022-11-25 15:01:13,731 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 15:01:21,308 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a modificarlo.
+2022-11-25 15:01:24,494 - root - INFO -  Ingresa el codigo alternativo del registro modificado en tercer nivel 
+2022-11-25 15:01:27,757 - root - INFO -  Ingresa la descripción del registro modificado del tercer nivel
+2022-11-25 15:01:30,826 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 15:01:38,402 - root - INFO -  Se da clic en el registro de cuarto nivel creado, para proceder a modificarlo.
+2022-11-25 15:01:41,586 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2022-11-25 15:01:44,807 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2022-11-25 15:01:48,341 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2022-11-25 15:01:55,524 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-11-25 15:02:00,951 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-11-25 15:02:06,630 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 15:02:11,766 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-25 15:02:21,061 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-25 15:02:21,074 - root - ERROR - No se encontró el botón segundo nivel, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 15:02:21,075 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_15_02_21.png
+2022-11-25 15:02:30,516 - root - INFO -  Se cierra chrome

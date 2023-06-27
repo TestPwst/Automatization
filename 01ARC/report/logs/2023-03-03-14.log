@@ -1,0 +1,101 @@
+2023-03-03 14:49:42,441 - root - INFO -  Se abre el chrome
+2023-03-03 14:49:44,397 - root - INFO -  Entra a la URL
+2023-03-03 14:49:44,516 - root - INFO -  Maximiza la pantalla
+2023-03-03 14:49:47,638 - root - INFO -  Escribe el usuario
+2023-03-03 14:49:47,725 - root - INFO -  Escribe la contraseña
+2023-03-03 14:49:47,808 - root - INFO -  Se dio clic en el boton ingresar
+2023-03-03 14:49:49,527 - root - INFO -  Ejecutar Enterprise
+2023-03-03 14:49:53,581 - root - INFO -  Cambia entre pestañas
+2023-03-03 14:50:04,296 - root - INFO -  Abre la pantalla de Arquitectura de Cliente
+2023-03-03 14:50:04,307 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20230303_14_50_04.png
+2023-03-03 14:50:04,992 - root - INFO -  La pantalla ejecutada es Tipos de Cliente
+2023-03-03 14:50:05,083 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-03-03 14:50:05,627 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-03-03 14:50:05,701 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-03-03 14:50:05,801 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-03-03 14:50:05,984 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-03-03 14:50:06,888 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20230303_14_50_06.png
+2023-03-03 14:50:07,076 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:07,656 - root - INFO -  Se presiona el boton de segundo nivel 'Nuevo', para crear un nuevo registro.
+2023-03-03 14:50:08,257 - root - INFO -  Ingresa el codigo del nuevo registro en segundo nivel
+2023-03-03 14:50:08,393 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en segundo nivel 
+2023-03-03 14:50:08,580 - root - INFO -  Ingresa la descripción del nuevo registro del segundo nivel
+2023-03-03 14:50:08,656 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:09,249 - root - INFO -  Se presiona el boton 'Nuevo' de tercer nivel, para crear un nuevo registro.
+2023-03-03 14:50:09,831 - root - INFO -  Ingresa el codigo del nuevo registro en tercer nivel
+2023-03-03 14:50:09,987 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en tercer nivel 
+2023-03-03 14:50:10,215 - root - INFO -  Ingresa la descripción del nuevo registro del tercer nivel
+2023-03-03 14:50:10,299 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:10,901 - root - INFO -  Se presiona el boton 'Nuevo' de cuarto nivel, para crear un nuevo registro.
+2023-03-03 14:50:11,520 - root - INFO -  Ingresa el codigo del nuevo registro en cuarto nivel
+2023-03-03 14:50:11,658 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2023-03-03 14:50:11,949 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2023-03-03 14:50:12,022 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:12,556 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:12,786 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:12,971 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:13,210 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 14:50:15,261 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-03-03 14:50:15,821 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-03-03 14:50:15,883 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-03-03 14:50:15,974 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-03-03 14:50:16,127 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-03-03 14:50:17,447 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:18,084 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-03-03 14:50:20,085 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20230303_14_50_20.png
+2023-03-03 14:50:20,270 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-03-03 14:50:20,361 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-03-03 14:50:20,467 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 14:50:23,048 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-03-03 14:50:23,706 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-03-03 14:50:23,893 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-03-03 14:50:24,791 - root - INFO -  Se da doble click en el registro de Unidad Negocio.
+2023-03-03 14:50:24,792 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20230303_14_50_24.png
+2023-03-03 14:50:24,992 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:26,093 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a modificarlo.
+2023-03-03 14:50:26,754 - root - INFO -  Ingresa el codigo alternativo del registro modificado en segundo nivel 
+2023-03-03 14:50:26,989 - root - INFO -  Ingresa la descripción del registro modificado del segundo nivel
+2023-03-03 14:50:27,062 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:28,170 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a modificarlo.
+2023-03-03 14:50:28,832 - root - INFO -  Ingresa el codigo alternativo del registro modificado en tercer nivel 
+2023-03-03 14:50:29,060 - root - INFO -  Ingresa la descripción del registro modificado del tercer nivel
+2023-03-03 14:50:29,139 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:30,275 - root - INFO -  Se da clic en el registro de cuarto nivel creado, para proceder a modificarlo.
+2023-03-03 14:50:31,014 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2023-03-03 14:50:31,263 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2023-03-03 14:50:31,332 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:31,687 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:31,923 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:32,126 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:32,335 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-03-03 14:50:34,914 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-03-03 14:50:35,515 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:36,607 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:37,203 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:38,306 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:38,899 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:40,023 - root - INFO -  Se da clic en el registro de cuarto nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:40,109 - root - INFO -  Se presiona el boton 'Eliminar' de cuarto nivel, para eliminar el registro.
+2023-03-03 14:50:40,265 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:40,465 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:40,643 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:41,207 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-03-03 14:50:41,790 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:42,883 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:43,471 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:44,588 - root - INFO -  Se da clic en el registro de tercer nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:44,670 - root - INFO -  Se presiona el boton 'Eliminar' de tercer nivel, para eliminar el registro.
+2023-03-03 14:50:44,776 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2023-03-03 14:50:44,973 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:45,550 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-03-03 14:50:46,128 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-03-03 14:50:47,194 - root - INFO -  Se da clic en el registro de segundo nivel creado, para proceder a eliminarlo.
+2023-03-03 14:50:47,279 - root - INFO -  Se presiona el boton 'Eliminar' de segundo nivel, para eliminar el registro.
+2023-03-03 14:50:47,552 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 14:50:48,105 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-03-03 14:50:48,202 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-03-03 14:50:50,203 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20230303_14_50_50.png
+2023-03-03 14:50:50,363 - root - INFO -  Se confirma el eliminado del registro
+2023-03-03 14:50:50,540 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 14:50:52,630 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Arquitectura Cliente.
+2023-03-03 14:50:58,959 - root - INFO -  Se cierra chrome

@@ -1,0 +1,71 @@
+2022-11-25 14:57:20,339 - root - INFO -  Se abre el chrome
+2022-11-25 14:57:21,735 - root - INFO -  Entra a la URL
+2022-11-25 14:57:21,924 - root - INFO -  Maximiza la pantalla
+2022-11-25 14:57:24,971 - root - INFO -  Cambia al frame
+2022-11-25 14:57:28,052 - root - INFO -  Escribe el usuario
+2022-11-25 14:57:28,169 - root - INFO -  Escribe la contraseña
+2022-11-25 14:57:28,323 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 14:57:29,629 - root - INFO -  Ejecutar Enterprise
+2022-11-25 14:57:33,702 - root - INFO -  Cambia entre pestañas
+2022-11-25 14:57:47,466 - root - ERROR - No se pudo encontrar el menu indicado, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 14:57:47,469 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_57_47.png
+2022-11-25 14:57:58,282 - root - INFO -  Se abre el chrome
+2022-11-25 14:57:59,339 - root - INFO -  Entra a la URL
+2022-11-25 14:57:59,479 - root - INFO -  Maximiza la pantalla
+2022-11-25 14:58:02,527 - root - INFO -  Cambia al frame
+2022-11-25 14:58:05,601 - root - INFO -  Escribe el usuario
+2022-11-25 14:58:05,709 - root - INFO -  Escribe la contraseña
+2022-11-25 14:58:05,843 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 14:58:07,125 - root - INFO -  Ejecutar Enterprise
+2022-11-25 14:58:08,351 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 14:58:08,352 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_58_08.png
+2022-11-25 14:58:11,178 - root - INFO -  Cambia entre pestañas
+2022-11-25 14:58:27,859 - root - INFO -  Abre la pantalla de Arquitectura de CLiente
+2022-11-25 14:58:27,860 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_58_27.png
+2022-11-25 14:58:28,399 - root - INFO -  La pantalla ejecutada es Tipos de Cliente
+2022-11-25 14:58:28,466 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-25 14:58:28,935 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 14:58:28,937 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_58_28.png
+2022-11-25 14:58:31,510 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 14:58:31,549 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 14:58:31,590 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-11-25 14:58:31,632 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 14:58:31,675 - root - INFO -  El campo 'Unidad de Negocio' si se encuentra visible.
+2022-11-25 14:58:31,740 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 14:58:34,879 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-25 14:58:38,059 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 14:58:47,469 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_58_47.png
+2022-11-25 14:58:48,045 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 14:58:49,978 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 14:58:49,979 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_58_49.png
+2022-11-25 14:58:51,191 - root - INFO -  Se presiona el boton de segundo nivel 'Nuevo', para crear un nuevo registro.
+2022-11-25 14:58:54,233 - root - INFO -  El campo 'Codigo de segundo nivel' si se encuentra visible.
+2022-11-25 14:58:54,270 - root - INFO -  El campo 'Codigo Alternativo de segundo nivel' si se encuentra visible.
+2022-11-25 14:58:54,310 - root - INFO -  El campo 'Descrición de segundo nivel' si se encuentra visible.
+2022-11-25 14:58:56,375 - root - INFO -  Ingresa el codigo del nuevo registro en segundo nivel
+2022-11-25 14:58:59,479 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en segundo nivel 
+2022-11-25 14:59:02,702 - root - INFO -  Ingresa la descripción del nuevo registro del segundo nivel
+2022-11-25 14:59:07,720 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 14:59:08,112 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-25 14:59:08,113 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ARC\report\img  screen：20221125_14_59_08.png
+2022-11-25 14:59:10,807 - root - INFO -  Se presiona el boton 'Nuevo' de tercer nivel, para crear un nuevo registro.
+2022-11-25 14:59:13,916 - root - INFO -  El campo 'Codigo de tercer nivel' si se encuentra visible.
+2022-11-25 14:59:13,990 - root - INFO -  El campo 'Codigo Alternativo de tercer nivel' si se encuentra visible.
+2022-11-25 14:59:14,053 - root - INFO -  El campo 'Descrición de tercer nivel' si se encuentra visible.
+2022-11-25 14:59:14,062 - root - INFO -  Se cierra chrome
+2022-11-25 14:59:18,711 - root - INFO -  Ingresa el codigo del nuevo registro en tercer nivel
+2022-11-25 14:59:21,852 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en tercer nivel 
+2022-11-25 14:59:26,618 - root - INFO -  Ingresa la descripción del nuevo registro del tercer nivel
+2022-11-25 14:59:29,685 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-25 14:59:32,811 - root - INFO -  Se presiona el boton 'Nuevo' de cuarto nivel, para crear un nuevo registro.
+2022-11-25 14:59:35,881 - root - INFO -  El campo 'Codigo de cuarto nivel' si se encuentra visible.
+2022-11-25 14:59:35,921 - root - INFO -  El campo 'Codigo Alternativo de cuarto nivel' si se encuentra visible.
+2022-11-25 14:59:35,959 - root - INFO -  El campo 'Descrición de cuarto nivel' si se encuentra visible.
+2022-11-25 14:59:38,034 - root - INFO -  Ingresa el codigo del nuevo registro en cuarto nivel
+2022-11-25 14:59:41,165 - root - INFO -  Ingresa el codigo alternativo del nuevo registro en cuarto nivel 
+2022-11-25 14:59:44,386 - root - INFO -  Ingresa la descripción del nuevo registro del cuarto nivel
+2022-11-25 14:59:47,469 - root - INFO -  Se da clic en el boton Guardar de cuarto nivel; se debe crear un nuevo registro.
+2022-11-25 14:59:50,571 - root - INFO -  Se da clic en el boton Guardar de tercer nivel; se debe crear un nuevo registro.
+2022-11-25 14:59:53,660 - root - INFO -  Se da clic en el boton Guardar de segundo nivel; se debe crear un nuevo registro.
+2022-11-25 14:59:56,735 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 14:59:59,817 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
