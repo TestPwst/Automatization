@@ -1,0 +1,43 @@
+2023-03-03 15:05:07,986 - root - INFO -  Se abre el chrome
+2023-03-03 15:05:09,064 - root - INFO -  Entra a la URL
+2023-03-03 15:05:09,198 - root - INFO -  Maximiza la pantalla
+2023-03-03 15:05:12,316 - root - INFO -  Escribe el usuario
+2023-03-03 15:05:12,413 - root - INFO -  Escribe la contraseña
+2023-03-03 15:05:12,509 - root - INFO -  Se dio clic en el boton ingresar
+2023-03-03 15:05:14,222 - root - INFO -  Ejecutar Enterprise
+2023-03-03 15:05:18,267 - root - INFO -  Cambia entre pestañas
+2023-03-03 15:05:28,964 - root - INFO -  Abre la pantalla de categorias fiscales
+2023-03-03 15:05:29,520 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2023-03-03 15:05:29,521 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20230303_15_05_29.png
+2023-03-03 15:05:29,703 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-03-03 15:05:30,252 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-03-03 15:05:30,305 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-03-03 15:05:30,370 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-03-03 15:05:30,494 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-03-03 15:05:30,494 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20230303_15_05_30.png
+2023-03-03 15:05:30,645 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-03-03 15:05:30,903 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 15:05:32,945 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-03-03 15:05:33,474 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-03-03 15:05:33,524 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2023-03-03 15:05:33,584 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2023-03-03 15:05:33,704 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2023-03-03 15:05:33,750 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-03-03 15:05:34,323 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-03-03 15:05:36,324 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20230303_15_05_36.png
+2023-03-03 15:05:36,464 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-03-03 15:05:36,580 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-03-03 15:05:36,686 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 15:05:39,254 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-03-03 15:05:39,817 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2023-03-03 15:05:39,975 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-03-03 15:05:39,975 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20230303_15_05_39.png
+2023-03-03 15:05:40,145 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-03-03 15:05:40,330 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-03-03 15:05:42,890 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-03-03 15:05:42,942 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-03-03 15:05:44,944 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20230303_15_05_44.png
+2023-03-03 15:05:45,079 - root - INFO -  Se confirma el eliminado del registro
+2023-03-03 15:05:45,309 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-03-03 15:05:47,360 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2023-03-03 15:05:53,625 - root - INFO -  Se cierra chrome

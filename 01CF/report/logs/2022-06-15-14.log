@@ -1,0 +1,352 @@
+2022-06-15 14:03:03,585 - root - INFO -  Se abre el chrome
+2022-06-15 14:03:07,776 - root - INFO -  Entra a la URL
+2022-06-15 14:03:07,893 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:03:10,928 - root - INFO -  Cambia al frame
+2022-06-15 14:03:14,014 - root - INFO -  Escribe el usuario
+2022-06-15 14:03:14,083 - root - INFO -  Escribe la contraseña
+2022-06-15 14:03:14,179 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:03:18,179 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:03:22,237 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:04:55,615 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:04:55,619 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_04_55.png
+2022-06-15 14:05:01,004 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:05:01,005 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_05_01.png
+2022-06-15 14:05:06,339 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:05:06,341 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_05_06.png
+2022-06-15 14:05:11,676 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:05:11,677 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_05_11.png
+2022-06-15 14:05:11,822 - root - INFO -  Se cierra chrome
+2022-06-15 14:05:45,337 - root - INFO -  Se abre el chrome
+2022-06-15 14:07:34,843 - root - INFO -  Entra a la URL
+2022-06-15 14:07:34,969 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:07:38,033 - root - INFO -  Cambia al frame
+2022-06-15 14:07:41,107 - root - INFO -  Escribe el usuario
+2022-06-15 14:07:41,179 - root - INFO -  Escribe la contraseña
+2022-06-15 14:07:41,301 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:07:45,858 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:07:49,931 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:08:33,724 - root - INFO -  Abre el menu completo
+2022-06-15 14:08:46,889 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:08:46,932 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:08:47,000 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:08:48,600 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:08:48,647 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:08:48,694 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:08:48,735 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:08:50,819 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:08:53,907 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:08:57,052 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:09:00,133 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:09:03,226 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:09:03,672 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-15 14:09:04,238 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:09:04,276 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:09:04,315 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:09:04,351 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-06-15 14:09:06,420 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-06-15 14:09:09,520 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-06-15 14:09:12,655 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-06-15 14:09:15,733 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-06-15 14:09:17,818 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-15 14:09:19,900 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-15 14:09:23,971 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:09:27,034 - root - INFO -  Se cierra chrome
+2022-06-15 14:11:15,711 - root - INFO -  Se abre el chrome
+2022-06-15 14:11:21,831 - root - INFO -  Entra a la URL
+2022-06-15 14:11:21,957 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:11:25,007 - root - INFO -  Cambia al frame
+2022-06-15 14:11:28,085 - root - INFO -  Escribe el usuario
+2022-06-15 14:11:28,160 - root - INFO -  Escribe la contraseña
+2022-06-15 14:11:28,264 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:11:32,411 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:11:36,457 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:11:57,396 - root - INFO -  Abre el menu completo
+2022-06-15 14:12:10,577 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:12:10,627 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:12:10,692 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:12:11,238 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:12:11,278 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:12:11,318 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:12:11,361 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:12:13,440 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:12:16,532 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:12:19,679 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:12:22,769 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:12:26,792 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:12:27,243 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-15 14:12:27,813 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:12:27,850 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:12:27,877 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:12:27,918 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-06-15 14:12:29,996 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-06-15 14:12:33,095 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-06-15 14:12:36,233 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-06-15 14:12:39,317 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-06-15 14:12:41,412 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-15 14:12:43,502 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-15 14:12:47,569 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:12:55,194 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-06-15 14:12:55,246 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-06-15 14:12:58,414 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-06-15 14:13:01,492 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-06-15 14:13:04,537 - root - INFO -  Se cierra chrome
+2022-06-15 14:21:58,905 - root - INFO -  Se abre el chrome
+2022-06-15 14:22:03,247 - root - INFO -  Entra a la URL
+2022-06-15 14:22:03,365 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:22:06,419 - root - INFO -  Cambia al frame
+2022-06-15 14:22:09,501 - root - INFO -  Escribe el usuario
+2022-06-15 14:22:09,573 - root - INFO -  Escribe la contraseña
+2022-06-15 14:22:09,681 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:22:14,858 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_22_14.png
+2022-06-15 14:23:45,278 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:23:45,280 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_23_45.png
+2022-06-15 14:23:50,604 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:23:50,604 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_23_50.png
+2022-06-15 14:23:55,924 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:23:55,924 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_23_55.png
+2022-06-15 14:24:01,214 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:24:01,216 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_24_01.png
+2022-06-15 14:24:06,504 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:24:06,504 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_24_06.png
+2022-06-15 14:24:06,669 - root - INFO -  Se cierra chrome
+2022-06-15 14:24:13,195 - root - INFO -  Se abre el chrome
+2022-06-15 14:24:18,128 - root - INFO -  Entra a la URL
+2022-06-15 14:24:18,247 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:24:21,294 - root - INFO -  Cambia al frame
+2022-06-15 14:24:24,368 - root - INFO -  Escribe el usuario
+2022-06-15 14:24:24,437 - root - INFO -  Escribe la contraseña
+2022-06-15 14:24:24,536 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:24:29,084 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:24:33,136 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:26:24,133 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:26:24,135 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_26_24.png
+2022-06-15 14:26:29,515 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:26:29,516 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_26_29.png
+2022-06-15 14:26:34,864 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:26:34,864 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_26_34.png
+2022-06-15 14:26:40,121 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:26:40,121 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_26_40.png
+2022-06-15 14:26:45,411 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:26:45,414 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_26_45.png
+2022-06-15 14:26:45,529 - root - INFO -  Se cierra chrome
+2022-06-15 14:30:03,080 - root - INFO -  Se abre el chrome
+2022-06-15 14:30:08,580 - root - INFO -  Entra a la URL
+2022-06-15 14:30:08,704 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:30:11,743 - root - INFO -  Cambia al frame
+2022-06-15 14:30:14,817 - root - INFO -  Escribe el usuario
+2022-06-15 14:30:14,885 - root - INFO -  Escribe la contraseña
+2022-06-15 14:30:14,983 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:30:20,006 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:30:24,057 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:30:56,777 - root - INFO -  Abre el menu completo
+2022-06-15 14:31:09,950 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:31:09,995 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:31:10,054 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:31:10,611 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:31:10,640 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:31:10,670 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:31:10,711 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:31:12,795 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:31:15,875 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:31:18,999 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:31:22,069 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:31:25,138 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:31:25,563 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-15 14:31:26,131 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:31:26,160 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:31:26,200 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:31:26,230 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-06-15 14:31:28,313 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-06-15 14:31:31,421 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-06-15 14:31:34,558 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-06-15 14:31:37,626 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-06-15 14:31:39,699 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-15 14:31:41,776 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-15 14:31:45,831 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:31:53,421 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-06-15 14:31:53,473 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-06-15 14:31:56,627 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-06-15 14:31:59,702 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-06-15 14:32:02,764 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-06-15 14:32:05,829 - root - INFO -  Se cierra chrome
+2022-06-15 14:40:28,786 - root - INFO -  Se abre el chrome
+2022-06-15 14:40:32,218 - root - INFO -  Entra a la URL
+2022-06-15 14:40:32,343 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:40:35,375 - root - INFO -  Cambia al frame
+2022-06-15 14:40:38,469 - root - INFO -  Escribe el usuario
+2022-06-15 14:40:38,545 - root - INFO -  Escribe la contraseña
+2022-06-15 14:40:38,646 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:40:42,649 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:40:46,708 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:41:12,156 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:41:12,156 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_41_12.png
+2022-06-15 14:41:17,462 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:41:17,464 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_41_17.png
+2022-06-15 14:41:22,776 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:41:22,776 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_41_22.png
+2022-06-15 14:41:28,076 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:41:28,078 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_41_28.png
+2022-06-15 14:41:33,356 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:41:33,357 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_41_33.png
+2022-06-15 14:41:33,468 - root - INFO -  Se cierra chrome
+2022-06-15 14:41:47,313 - root - INFO -  Se abre el chrome
+2022-06-15 14:41:51,159 - root - INFO -  Entra a la URL
+2022-06-15 14:41:51,287 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:41:54,349 - root - INFO -  Cambia al frame
+2022-06-15 14:41:57,450 - root - INFO -  Escribe el usuario
+2022-06-15 14:41:57,527 - root - INFO -  Escribe la contraseña
+2022-06-15 14:41:57,641 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:42:02,858 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_42_02.png
+2022-06-15 14:43:33,097 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:43:33,097 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_43_33.png
+2022-06-15 14:43:38,406 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:43:38,407 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_43_38.png
+2022-06-15 14:43:43,737 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:43:43,737 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_43_43.png
+2022-06-15 14:43:55,193 - root - INFO -  Se abre el chrome
+2022-06-15 14:43:59,122 - root - INFO -  Entra a la URL
+2022-06-15 14:43:59,243 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:44:02,294 - root - INFO -  Cambia al frame
+2022-06-15 14:44:05,365 - root - INFO -  Escribe el usuario
+2022-06-15 14:44:05,438 - root - INFO -  Escribe la contraseña
+2022-06-15 14:44:05,538 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:44:10,614 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:44:14,668 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:44:40,274 - root - INFO -  Abre el menu completo
+2022-06-15 14:44:53,425 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:44:53,470 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:44:53,532 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:44:54,103 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:44:54,143 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:44:54,182 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:44:54,216 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:44:56,295 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:44:59,398 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:45:02,540 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:45:05,612 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:45:08,702 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:45:09,152 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-15 14:45:09,726 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:45:09,765 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:45:09,802 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:45:09,840 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-06-15 14:45:11,914 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-06-15 14:45:15,004 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-06-15 14:45:18,135 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-06-15 14:45:21,210 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-06-15 14:45:23,294 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-15 14:45:25,379 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-15 14:45:29,444 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:45:37,046 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-06-15 14:45:37,105 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-06-15 14:45:40,266 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-06-15 14:45:43,344 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-06-15 14:45:46,411 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-06-15 14:45:49,479 - root - INFO -  Se cierra chrome
+2022-06-15 14:49:09,548 - root - INFO -  Se abre el chrome
+2022-06-15 14:49:13,842 - root - INFO -  Entra a la URL
+2022-06-15 14:49:13,961 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:49:17,007 - root - INFO -  Cambia al frame
+2022-06-15 14:49:20,092 - root - INFO -  Escribe el usuario
+2022-06-15 14:49:20,164 - root - INFO -  Escribe la contraseña
+2022-06-15 14:49:20,277 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:49:24,311 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:49:28,364 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:50:06,301 - root - INFO -  Abre el menu completo
+2022-06-15 14:50:19,451 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:50:19,495 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:50:19,556 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:50:20,114 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:50:20,152 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:50:20,191 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:50:20,227 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:50:22,310 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:50:25,405 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:50:28,541 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:50:31,622 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:50:35,744 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:50:35,745 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_50_35.png
+2022-06-15 14:50:36,943 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:50:36,944 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_50_36.png
+2022-06-15 14:50:38,134 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:50:38,135 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_50_38.png
+2022-06-15 14:50:38,268 - root - INFO -  Se cierra chrome
+2022-06-15 14:51:37,626 - root - INFO -  Se abre el chrome
+2022-06-15 14:51:42,442 - root - INFO -  Entra a la URL
+2022-06-15 14:51:42,565 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:51:45,612 - root - INFO -  Cambia al frame
+2022-06-15 14:51:48,689 - root - INFO -  Escribe el usuario
+2022-06-15 14:51:48,756 - root - INFO -  Escribe la contraseña
+2022-06-15 14:51:48,851 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:51:52,822 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:51:56,872 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:52:21,440 - root - INFO -  Abre el menu completo
+2022-06-15 14:52:34,589 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-06-15 14:52:34,627 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-06-15 14:52:34,693 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-15 14:52:35,248 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:52:35,286 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:52:35,320 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:52:35,360 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-15 14:52:37,424 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-15 14:52:40,510 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-15 14:52:43,639 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-15 14:52:46,715 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-15 14:52:49,800 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:52:50,244 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-15 14:52:50,797 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-15 14:52:50,828 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-15 14:52:50,864 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-15 14:52:50,896 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-06-15 14:52:52,956 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-06-15 14:52:56,055 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-06-15 14:52:59,194 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-06-15 14:53:02,270 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-06-15 14:53:04,358 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-15 14:53:06,426 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-15 14:53:10,497 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-15 14:53:18,100 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-06-15 14:53:18,148 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-06-15 14:53:21,312 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-06-15 14:53:24,378 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-06-15 14:53:27,450 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-06-15 14:53:30,518 - root - INFO -  Se cierra chrome
+2022-06-15 14:55:07,624 - root - INFO -  Se abre el chrome
+2022-06-15 14:55:11,378 - root - INFO -  Entra a la URL
+2022-06-15 14:55:11,505 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:55:14,560 - root - INFO -  Cambia al frame
+2022-06-15 14:55:17,648 - root - INFO -  Escribe el usuario
+2022-06-15 14:55:17,719 - root - INFO -  Escribe la contraseña
+2022-06-15 14:55:17,830 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:55:23,065 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_55_23.png
+2022-06-15 14:56:53,337 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:56:53,338 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_56_53.png
+2022-06-15 14:56:58,652 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:56:58,653 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_56_58.png
+2022-06-15 14:57:03,978 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:57:03,979 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_57_03.png
+2022-06-15 14:57:09,287 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:57:09,287 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_57_09.png
+2022-06-15 14:57:14,629 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:57:14,630 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_57_14.png
+2022-06-15 14:57:14,795 - root - INFO -  Se cierra chrome
+2022-06-15 14:57:27,452 - root - INFO -  Se abre el chrome
+2022-06-15 14:57:30,845 - root - INFO -  Entra a la URL
+2022-06-15 14:57:30,974 - root - INFO -  Maximiza la pantalla
+2022-06-15 14:57:34,012 - root - INFO -  Cambia al frame
+2022-06-15 14:57:37,093 - root - INFO -  Escribe el usuario
+2022-06-15 14:57:37,167 - root - INFO -  Escribe la contraseña
+2022-06-15 14:57:37,263 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-15 14:57:41,323 - root - INFO -  Ejecutar Enterprise
+2022-06-15 14:57:45,376 - root - INFO -  Cambia entre pestañas
+2022-06-15 14:58:15,486 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:58:15,487 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_58_15.png
+2022-06-15 14:58:20,814 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:58:20,815 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_58_20.png
+2022-06-15 14:58:26,145 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:58:26,146 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_58_26.png
+2022-06-15 14:58:31,478 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:58:31,479 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_58_31.png
+2022-06-15 14:58:36,815 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-15 14:58:36,816 - root - INFO -  Captura: C:\Users\PWST\Desktop\AutoPWST-2.0\01CF\report\img  screen：20220615_14_58_36.png
+2022-06-15 14:58:36,920 - root - INFO -  Se cierra chrome

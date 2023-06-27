@@ -1,0 +1,183 @@
+2022-12-29 16:04:13,636 - root - INFO -  Se abre el chrome
+2022-12-29 16:04:18,171 - root - INFO -  Entra a la URL
+2022-12-29 16:04:18,291 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:04:21,380 - root - INFO -  Escribe el usuario
+2022-12-29 16:04:21,457 - root - INFO -  Escribe la contraseña
+2022-12-29 16:04:21,523 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:04:23,872 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:04:27,905 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:04:46,363 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:04:46,924 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:04:46,924 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_04_46.png
+2022-12-29 16:04:47,082 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:04:48,149 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:04:48,199 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:04:48,271 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:04:48,437 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:04:48,437 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_04_48.png
+2022-12-29 16:04:48,584 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:04:49,690 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:04:51,696 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_04_51.png
+2022-12-29 16:05:03,577 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-29 16:05:30,251 - root - INFO -  Se abre el chrome
+2022-12-29 16:05:36,069 - root - INFO -  Entra a la URL
+2022-12-29 16:05:36,199 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:05:39,275 - root - INFO -  Escribe el usuario
+2022-12-29 16:05:39,348 - root - INFO -  Escribe la contraseña
+2022-12-29 16:05:39,409 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:05:41,857 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:05:45,895 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:06:02,672 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:06:03,219 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:06:03,220 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_06_03.png
+2022-12-29 16:06:03,855 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-29 16:06:03,899 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-29 16:06:04,465 - root - INFO -  Se confirma el eliminado del registro
+2022-12-29 16:06:05,213 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:06:07,273 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:06:07,818 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:06:07,866 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:06:07,928 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:06:08,089 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:06:08,089 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_06_08.png
+2022-12-29 16:06:08,237 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:06:08,536 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:06:10,584 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 16:06:11,130 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:06:11,176 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-12-29 16:06:11,236 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-12-29 16:06:11,389 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-12-29 16:06:11,422 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-29 16:06:12,509 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2022-12-29 16:06:14,510 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_06_14.png
+2022-12-29 16:06:14,677 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 16:06:14,857 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-29 16:06:15,094 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:06:17,683 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-29 16:06:18,766 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-12-29 16:06:18,956 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-29 16:06:18,956 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_06_18.png
+2022-12-29 16:06:19,085 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-29 16:06:20,169 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:06:22,171 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_06_22.png
+2022-12-29 16:06:26,524 - root - INFO -  Se cierra chrome
+2022-12-29 16:06:35,437 - root - INFO -  Se abre el chrome
+2022-12-29 16:06:41,255 - root - INFO -  Entra a la URL
+2022-12-29 16:06:41,442 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:06:44,513 - root - INFO -  Escribe el usuario
+2022-12-29 16:06:44,581 - root - INFO -  Escribe la contraseña
+2022-12-29 16:06:44,651 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:06:46,944 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:06:50,980 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:07:06,402 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:07:07,453 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:07:07,454 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_07_07.png
+2022-12-29 16:07:08,125 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-29 16:07:08,169 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-29 16:07:08,733 - root - INFO -  Se confirma el eliminado del registro
+2022-12-29 16:07:08,902 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:07:10,959 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:07:12,537 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:07:12,586 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:07:12,648 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:07:12,807 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:07:12,807 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_07_12.png
+2022-12-29 16:07:12,960 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:07:14,061 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:07:16,062 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_07_16.png
+2022-12-29 16:07:21,784 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-29 16:11:04,581 - root - INFO -  Se abre el chrome
+2022-12-29 16:11:11,024 - root - INFO -  Entra a la URL
+2022-12-29 16:11:11,145 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:11:14,217 - root - INFO -  Escribe el usuario
+2022-12-29 16:11:14,289 - root - INFO -  Escribe la contraseña
+2022-12-29 16:11:14,345 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:11:15,589 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:11:19,631 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:11:23,237 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:11:24,809 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:11:24,809 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_11_24.png
+2022-12-29 16:11:24,940 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:11:26,511 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:11:26,559 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:11:26,632 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:11:26,795 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:11:26,795 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_11_26.png
+2022-12-29 16:11:26,952 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:11:27,346 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:11:29,397 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 16:11:29,933 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:11:29,990 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-12-29 16:11:30,072 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-12-29 16:11:30,277 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-12-29 16:11:30,314 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-29 16:11:30,894 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2022-12-29 16:11:32,896 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_11_32.png
+2022-12-29 16:11:33,061 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 16:11:33,234 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-29 16:11:33,408 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:11:35,989 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-29 16:11:37,067 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-12-29 16:11:37,267 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-29 16:11:37,268 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_11_37.png
+2022-12-29 16:11:37,409 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-29 16:11:38,502 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:11:40,504 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_11_40.png
+2022-12-29 16:11:44,813 - root - INFO -  Se cierra chrome
+2022-12-29 16:13:36,514 - root - INFO -  Se abre el chrome
+2022-12-29 16:13:38,155 - root - INFO -  Entra a la URL
+2022-12-29 16:13:38,328 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:13:41,432 - root - INFO -  Escribe el usuario
+2022-12-29 16:13:41,510 - root - INFO -  Escribe la contraseña
+2022-12-29 16:13:41,579 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:13:44,237 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:13:48,270 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:14:01,256 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:14:02,825 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:14:02,826 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_14_02.png
+2022-12-29 16:14:03,472 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-29 16:14:03,521 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-29 16:14:04,589 - root - INFO -  Se confirma el eliminado del registro
+2022-12-29 16:14:04,761 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:14:06,824 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:14:07,882 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:14:07,937 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:14:08,005 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:14:08,165 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:14:08,166 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_14_08.png
+2022-12-29 16:14:08,317 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:14:09,400 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:14:11,402 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_14_11.png
+2022-12-29 16:14:19,678 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-29 16:15:01,779 - root - INFO -  Se abre el chrome
+2022-12-29 16:15:06,913 - root - INFO -  Entra a la URL
+2022-12-29 16:15:07,032 - root - INFO -  Maximiza la pantalla
+2022-12-29 16:15:10,107 - root - INFO -  Escribe el usuario
+2022-12-29 16:15:10,177 - root - INFO -  Escribe la contraseña
+2022-12-29 16:15:10,234 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 16:15:12,480 - root - INFO -  Ejecutar Enterprise
+2022-12-29 16:15:16,518 - root - INFO -  Cambia entre pestañas
+2022-12-29 16:15:23,909 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-12-29 16:15:24,458 - root - INFO -  La pantalla ejecutada es Categorías Fiscales.
+2022-12-29 16:15:24,458 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_15_24.png
+2022-12-29 16:15:24,583 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 16:15:25,124 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:15:25,175 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-29 16:15:25,243 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-29 16:15:25,405 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-29 16:15:25,405 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_15_25.png
+2022-12-29 16:15:25,556 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 16:15:26,361 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 16:15:28,395 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 16:15:29,967 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 16:15:30,020 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-12-29 16:15:30,073 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-12-29 16:15:30,238 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-12-29 16:15:30,270 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-29 16:15:31,359 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2022-12-29 16:15:33,361 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_15_33.png
+2022-12-29 16:15:35,586 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 16:15:36,385 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-29 16:15:37,470 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 16:15:39,472 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CF\report\img  screen：20221229_16_15_39.png
+2022-12-29 16:15:52,902 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte

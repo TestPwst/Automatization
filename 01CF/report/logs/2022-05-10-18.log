@@ -1,0 +1,39 @@
+2022-05-10 18:01:34,318 - root - INFO -  Se abre el chrome
+2022-05-10 18:01:37,123 - root - INFO -  Entra a la URL
+2022-05-10 18:01:37,254 - root - INFO -  Maximiza la pantalla
+2022-05-10 18:01:40,327 - root - INFO -  Cambia al frame
+2022-05-10 18:01:43,437 - root - INFO -  Escribe el usuario
+2022-05-10 18:01:43,529 - root - INFO -  Escribe la contraseña
+2022-05-10 18:01:43,642 - root - INFO -  Se dio clic en el boton ingresar
+2022-05-10 18:01:46,635 - root - INFO -  Ejecutar Enterprise
+2022-05-10 18:01:50,699 - root - INFO -  Cambia entre pestañas
+2022-05-10 18:02:11,088 - root - INFO -  Abre el menu completo
+2022-05-10 18:02:24,224 - root - INFO -  Abre la pantalla de categorias fiscales
+2022-05-10 18:02:24,264 - root - INFO - La pantalla ejecutada es Categorías Fiscales.
+2022-05-10 18:02:24,321 - root - INFO - Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-05-10 18:02:25,394 - root - INFO - Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-05-10 18:02:25,434 - root - INFO - El campo 'Codigo' si se encuentra visible.
+2022-05-10 18:02:25,473 - root - INFO - El campo 'Codigo Alternativo' si se encuentra visible.
+2022-05-10 18:02:25,515 - root - INFO - El campo 'Descrición' si se encuentra visible.
+2022-05-10 18:02:27,593 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-05-10 18:02:30,697 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-05-10 18:02:33,830 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-05-10 18:02:36,909 - root - INFO - Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-05-10 18:02:37,537 - root - INFO - Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-05-10 18:02:38,347 - root - INFO - Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-05-10 18:02:38,886 - root - INFO - Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-05-10 18:02:38,916 - root - INFO - El campo 'Codigo' si se encuentra visible.
+2022-05-10 18:02:38,945 - root - INFO - El campo 'Codigo Alternativo' si se encuentra visible.
+2022-05-10 18:02:38,973 - root - INFO - El campo 'Descrición' si se encuentra visible.
+2022-05-10 18:02:41,040 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2022-05-10 18:02:44,121 - root - INFO -  Ingresa el codigo alternativo del nuevo registro igual al anterior
+2022-05-10 18:02:47,270 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2022-05-10 18:02:50,332 - root - INFO - Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-05-10 18:02:52,422 - root - INFO - Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-05-10 18:02:54,511 - root - INFO - Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-05-10 18:02:58,587 - root - INFO - Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-05-10 18:03:06,196 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2022-05-10 18:03:06,272 - root - INFO -  Se modifica el contenido del campo Código Alternativo
+2022-05-10 18:03:09,393 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-05-10 18:03:12,494 - root - INFO - Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-05-10 18:03:14,572 - root - INFO - Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
