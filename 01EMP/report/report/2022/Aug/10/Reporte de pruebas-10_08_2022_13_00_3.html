@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-08-10 13:00:33</p>
+<p class='attribute'><strong>Duracion : </strong> 0:07:05.494377</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Correctos 5 ，Errores 3 ，Taza de resultado 62.50%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 62.50% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 3 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 5 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>Depositos.Test: Escenario 1 de Depositos</td>
+    <td class="text-center">8</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">3</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-08-10 13:00:34,428 - root - INFO -  Se abre el chrome
+2022-08-10 13:00:37,473 - root - INFO -  Entra a la URL
+2022-08-10 13:00:37,608 - root - INFO -  Maximiza la pantalla
+2022-08-10 13:00:40,668 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-08-10 13:00:43,758 - root - INFO -  Escribe el usuario
+2022-08-10 13:00:43,870 - root - INFO -  Escribe la contraseña
+2022-08-10 13:00:44,006 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 13:00:47,024 - root - INFO -  Ejecutar Enterprise
+2022-08-10 13:00:47,026 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_00_47.png
+2022-08-10 13:00:51,272 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_00_47.png" target="_blank">
+            <img src="../../../../img/20220810_13_00_47.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-08-10 13:01:08,191 - root - INFO -  Abre el menu completo
+2022-08-10 13:01:21,177 - root - INFO -  Abre la pantalla de Depositos
+2022-08-10 13:01:21,270 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-10 13:01:24,272 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_01_24.png
+2022-08-10 13:01:24,504 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_01_24.png" target="_blank">
+            <img src="../../../../img/20220810_13_01_24.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-08-10 13:01:29,549 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:01:29,592 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:01:29,635 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:01:29,677 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:01:29,719 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:01:29,763 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:01:29,809 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:01:29,851 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:01:29,895 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:01:29,937 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:01:29,978 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:01:30,034 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:01:30,078 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:01:30,119 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:01:30,161 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:01:30,202 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:01:30,245 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:01:30,285 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:01:30,381 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:01:33,511 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:01:36,637 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:01:39,801 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:01:43,004 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:01:46,187 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:01:49,338 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:01:52,545 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:01:55,715 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:01:58,863 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:02:02,055 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:02:05,244 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:03:03,952 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_03_03.png
+2022-08-10 13:03:04,202 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:03:07,310 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:03:12,418 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-10 13:03:12,460 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-10 13:03:12,499 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-10 13:03:28,150 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:03:31,314 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:03:34,480 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:03:39,666 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:03:42,784 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:03:47,868 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 13:03:47,935 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 13:03:47,973 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 13:04:19,551 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:04:24,665 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_03_03.png" target="_blank">
+            <img src="../../../../img/20220810_13_03_03.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Repetir el registro creado anteriormente</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2022-08-10 13:04:29,812 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:04:34,916 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 13:04:39,993 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:04:40,031 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:04:40,072 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:04:40,113 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:04:40,153 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:04:40,194 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:04:40,232 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:04:40,273 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:04:40,329 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:04:40,367 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:04:40,406 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:04:40,445 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:04:40,483 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:04:40,523 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:04:40,562 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:04:40,600 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:04:40,640 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:04:40,679 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:04:40,762 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:04:43,993 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:04:47,121 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:04:50,273 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:04:53,535 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:04:56,830 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:05:00,020 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:05:03,211 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:05:06,345 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:05:09,492 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:05:12,768 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:05:16,042 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:06:15,033 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:06:20,045 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_06_20.png
+2022-08-10 13:06:20,329 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 13:06:23,502 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_06_20.png" target="_blank">
+            <img src="../../../../img/20220810_13_06_20.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_6' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_6: 2022-08-10 13:06:27,639 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:06:37,272 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:06:40,521 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:06:43,693 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:06:46,894 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:06:50,159 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:06:53,390 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:06:56,571 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:06:59,803 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:07:03,012 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:07:06,193 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:07:09,447 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:07:12,669 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:07:31,499 - root - ERROR - No se encontró el registro de Distribuidor, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:07:34,506 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_07_34.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\Depositos.py", line 52, in test_004
+    return modificarregistro.modificarregistro(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\modificarregistro.py", line 310, in modificarregistro
+    registro_distribuidor = self.driver.find_element(By.XPATH, "//div[text()='59']")
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 857, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='59']"}
+  (Session info: chrome=104.0.5112.81)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00826463+2188387]
+	Ordinal0 [0x007BE461+1762401]
+	Ordinal0 [0x006D3D78+802168]
+	Ordinal0 [0x00701880+989312]
+	Ordinal0 [0x00701B1B+989979]
+	Ordinal0 [0x0072E912+1173778]
+	Ordinal0 [0x0071C824+1099812]
+	Ordinal0 [0x0072CC22+1166370]
+	Ordinal0 [0x0071C5F6+1099254]
+	Ordinal0 [0x006F6BE0+945120]
+	Ordinal0 [0x006F7AD6+948950]
+	GetHandleVerifier [0x00AC71F2+2712546]
+	GetHandleVerifier [0x00AB886D+2652765]
+	GetHandleVerifier [0x008B002A+520730]
+	GetHandleVerifier [0x008AEE06+516086]
+	Ordinal0 [0x007C468B+1787531]
+	Ordinal0 [0x007C8E88+1805960]
+	Ordinal0 [0x007C8F75+1806197]
+	Ordinal0 [0x007D1DF1+1842673]
+	BaseThreadInitThunk [0x7781FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_07_34.png" target="_blank">
+            <img src="../../../../img/20220810_13_07_34.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_7' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_005: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_7: 2022-08-10 13:07:35,494 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:07:38,499 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_07_38.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\eliminarregistro.py", line 21, in eliminarregistro
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 857, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00826463+2188387]
+	Ordinal0 [0x007BE461+1762401]
+	Ordinal0 [0x006D3C40+801856]
+	Ordinal0 [0x006F68BD+944317]
+	Ordinal0 [0x006F7AD6+948950]
+	GetHandleVerifier [0x00AC71F2+2712546]
+	GetHandleVerifier [0x00AB886D+2652765]
+	GetHandleVerifier [0x008B002A+520730]
+	GetHandleVerifier [0x008AEE06+516086]
+	Ordinal0 [0x007C468B+1787531]
+	Ordinal0 [0x007C8E88+1805960]
+	Ordinal0 [0x007C8F75+1806197]
+	Ordinal0 [0x007D1DF1+1842673]
+	BaseThreadInitThunk [0x7781FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\Depositos.py", line 56, in test_005
+    return eliminarregistro.eliminarregistro(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\eliminarregistro.py", line 32, in eliminarregistro
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 928, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 964, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00826463+2188387]
+	Ordinal0 [0x007BE461+1762401]
+	Ordinal0 [0x006D3C40+801856]
+	Ordinal0 [0x006F6660+943712]
+	Ordinal0 [0x0071C6D0+1099472]
+	Ordinal0 [0x0071A523+1090851]
+	Ordinal0 [0x0071A0D8+1089752]
+	Ordinal0 [0x006B5447+676935]
+	Ordinal0 [0x006B59C3+678339]
+	Ordinal0 [0x006B5DFA+679418]
+	GetHandleVerifier [0x00AC71F2+2712546]
+	GetHandleVerifier [0x00AB886D+2652765]
+	GetHandleVerifier [0x008B002A+520730]
+	GetHandleVerifier [0x008AEE06+516086]
+	Ordinal0 [0x007C468B+1787531]
+	Ordinal0 [0x006B51D7+676311]
+	Ordinal0 [0x006B4C88+674952]
+	GetHandleVerifier [0x00AE95BC+2852780]
+	BaseThreadInitThunk [0x7781FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220810_13_07_38.png" target="_blank">
+            <img src="../../../../img/20220810_13_07_38.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_8' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_006: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_8: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\testCase\Depositos.py", line 60, in test_006
+    self.driver.close()
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 552, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00826463+2188387]
+	Ordinal0 [0x007BE461+1762401]
+	Ordinal0 [0x006D3C40+801856]
+	Ordinal0 [0x006F6660+943712]
+	Ordinal0 [0x0071C6D0+1099472]
+	Ordinal0 [0x0071A523+1090851]
+	Ordinal0 [0x0071A0D8+1089752]
+	Ordinal0 [0x006B5447+676935]
+	Ordinal0 [0x006B59C3+678339]
+	Ordinal0 [0x006B5DFA+679418]
+	GetHandleVerifier [0x00AC71F2+2712546]
+	GetHandleVerifier [0x00AB886D+2652765]
+	GetHandleVerifier [0x008B002A+520730]
+	GetHandleVerifier [0x008AEE06+516086]
+	Ordinal0 [0x007C468B+1787531]
+	Ordinal0 [0x006B51D7+676311]
+	Ordinal0 [0x006B4C88+674952]
+	GetHandleVerifier [0x00AE95BC+2852780]
+	BaseThreadInitThunk [0x7781FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>5</td>
+    <td>0</td>
+    <td>3</td>
+    <td>Taza de resultado：62.50%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

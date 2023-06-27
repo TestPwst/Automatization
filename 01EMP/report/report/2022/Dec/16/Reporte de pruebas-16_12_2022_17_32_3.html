@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-12-16 17:32:31</p>
+<p class='attribute'><strong>Duracion : </strong> 0:01:39.688621</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Correctos 7 ，Errores 1 ，Taza de resultado 87.50%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 87.50% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 1 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 7 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>Empresas.Test: Escenario 1 de Empresas</td>
+    <td class="text-center">8</td>
+    <td class="text-center">7</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_1: 2022-12-16 17:32:33,054 - root - INFO -  Se abre el chrome
+2022-12-16 17:32:33,933 - root - INFO -  Entra a la URL
+2022-12-16 17:32:34,066 - root - INFO -  Maximiza la pantalla
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 88, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="mainFrame"]"}
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00A1F243]
+	(No symbol) [0x009A7FD1]
+	(No symbol) [0x0089D04D]
+	(No symbol) [0x008CC0B0]
+	(No symbol) [0x008CC22B]
+	(No symbol) [0x008FE612]
+	(No symbol) [0x008E85D4]
+	(No symbol) [0x008FC9EB]
+	(No symbol) [0x008E8386]
+	(No symbol) [0x008C163C]
+	(No symbol) [0x008C269D]
+	GetHandleVerifier [0x00CB9A22+2655074]
+	GetHandleVerifier [0x00CACA24+2601828]
+	GetHandleVerifier [0x00AC8C0A+619850]
+	GetHandleVerifier [0x00AC7830+614768]
+	(No symbol) [0x009B05FC]
+	(No symbol) [0x009B5968]
+	(No symbol) [0x009B5A55]
+	(No symbol) [0x009C051B]
+	BaseThreadInitThunk [0x76347D69+25]
+	RtlInitializeExceptionChain [0x7731BB9B+107]
+	RtlClearBits [0x7731BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 91, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="mainFrame"]"}
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00A1F243]
+	(No symbol) [0x009A7FD1]
+	(No symbol) [0x0089D04D]
+	(No symbol) [0x008CC0B0]
+	(No symbol) [0x008CC22B]
+	(No symbol) [0x008FE612]
+	(No symbol) [0x008E85D4]
+	(No symbol) [0x008FC9EB]
+	(No symbol) [0x008E8386]
+	(No symbol) [0x008C163C]
+	(No symbol) [0x008C269D]
+	GetHandleVerifier [0x00CB9A22+2655074]
+	GetHandleVerifier [0x00CACA24+2601828]
+	GetHandleVerifier [0x00AC8C0A+619850]
+	GetHandleVerifier [0x00AC7830+614768]
+	(No symbol) [0x009B05FC]
+	(No symbol) [0x009B5968]
+	(No symbol) [0x009B5A55]
+	(No symbol) [0x009C051B]
+	BaseThreadInitThunk [0x76347D69+25]
+	RtlInitializeExceptionChain [0x7731BB9B+107]
+	RtlClearBits [0x7731BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\testCase\Empresas.py", line 30, in test
+    self.driver.switch_to.frame("mainFrame")
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 93, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: mainFrame
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-12-16 17:32:37,154 - root - INFO -  Escribe el usuario
+2022-12-16 17:32:37,235 - root - INFO -  Escribe la contraseña
+2022-12-16 17:32:37,294 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-16 17:32:38,490 - root - INFO -  Ejecutar Enterprise
+2022-12-16 17:32:42,533 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-12-16 17:32:53,421 - root - INFO -  Abre la pantalla de Empresas
+2022-12-16 17:32:53,980 - root - INFO -  La pantalla ejecutada es Empresas
+2022-12-16 17:32:53,981 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20221216_17_32_53.png
+2022-12-16 17:32:54,638 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:32:55,218 - root - INFO - Se hace el cambio a la pestaña Resoluciones Fiscales para continuar con la eliminación del registro
+2022-12-16 17:32:57,794 - root - INFO - Se da clic en el registro en el Registro de Resoluciones Fiscales, para proceder a modificarlo.
+2022-12-16 17:32:57,841 - root - INFO - Se presiona el boton 'Eliminar', para eliminar el registro de Resoluciones Fiscales.
+2022-12-16 17:32:58,157 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:32:58,745 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:32:59,327 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2022-12-16 17:33:00,422 - root - INFO -  Se da doble click en el registro de series, para proceder a eliminarlo.
+2022-12-16 17:33:00,985 - root - INFO - Se hace el cambio a la pestaña Coniguración Vias para continuar con la eliminación del registro
+2022-12-16 17:33:02,089 - root - INFO -  Se da clic en el registro de Configuración Vías, para proceder a modificarlo.
+2022-12-16 17:33:02,138 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Configuración Vías.
+2022-12-16 17:33:02,313 - root - INFO - Se da clic en el boton Guardar; se debe modificar la informacion del registro Series.
+2022-12-16 17:33:02,549 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:33:03,116 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:33:03,696 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2022-12-16 17:33:04,771 - root - INFO -  Se da clic en el registro series, para proceder a eliminarlo.
+2022-12-16 17:33:04,820 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Series.
+2022-12-16 17:33:04,995 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:33:05,559 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:33:05,613 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-16 17:33:06,179 - root - INFO -  Se confirma el eliminado del registro
+2022-12-16 17:33:06,484 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-16 17:33:08,541 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221216_17_32_53.png" target="_blank">
+            <img src="../../../../img/20221216_17_32_53.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-12-16 17:33:09,078 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-16 17:33:09,133 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-16 17:33:09,250 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-16 17:33:09,309 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-16 17:33:09,382 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-12-16 17:33:09,451 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-12-16 17:33:09,538 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-16 17:33:09,602 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-12-16 17:33:09,669 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-12-16 17:33:09,726 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-16 17:33:09,788 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-16 17:33:09,862 - root - INFO -  Ingresa el ruc del nuevo registro 
+2022-12-16 17:33:10,742 - root - INFO -  Se dió doble click en el registro de Estado.
+2022-12-16 17:33:11,876 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2022-12-16 17:33:12,988 - root - INFO -  Se dió doble click en el registro de Localidad.
+2022-12-16 17:33:16,068 - root - INFO -  Se dió doble click en el registro de Barrio.
+2022-12-16 17:33:16,196 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2022-12-16 17:33:16,246 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2022-12-16 17:33:16,247 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20221216_17_33_16.png
+2022-12-16 17:33:16,418 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-12-16 17:33:16,465 - root - INFO - Se hace el cambio a la pestaña Series para continuar con el registro nuevo
+2022-12-16 17:33:17,036 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Series.
+2022-12-16 17:33:17,606 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2022-12-16 17:33:17,731 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-16 17:33:17,798 - root - INFO -  Ingresa el Codigo alternativo del nuevo registro 
+2022-12-16 17:33:17,836 - root - INFO - Se hace el cambio a la pestaña Configuración Vias para continuar con el registro nuevo
+2022-12-16 17:33:18,413 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Configuración Vias.
+2022-12-16 17:33:18,993 - root - INFO -  Ingresa el Tipo Documento del nuevo registro 
+2022-12-16 17:33:19,068 - root - INFO -  Ingresa las Vias Backoffice del nuevo registro 
+2022-12-16 17:33:19,152 - root - INFO -  Ingresa las Vias Mobile del nuevo registro 
+2022-12-16 17:33:19,246 - root - INFO -  Ingresa la Descripción Vias del nuevo registro 
+2022-12-16 17:33:19,594 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Configuracion Vias .
+2022-12-16 17:33:19,806 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Serie.
+2022-12-16 17:33:20,070 - root - INFO - Se hace el cambio a la pestaña Calendario para continuar con el registro nuevo
+2022-12-16 17:33:20,652 - root - INFO -  Se dió click en el checkbox Lunes.
+2022-12-16 17:33:20,698 - root - INFO -  Se dió click en el checkbox Martes.
+2022-12-16 17:33:20,750 - root - INFO -  Se dió click en el checkbox Miercoles.
+2022-12-16 17:33:20,801 - root - INFO -  Se dió click en el checkbox Jueves.
+2022-12-16 17:33:20,851 - root - INFO -  Se dió click en el checkbox Viernes.
+2022-12-16 17:33:20,901 - root - INFO -  Se dió click en el checkbox Sabado.
+2022-12-16 17:33:20,946 - root - INFO - Se hace el cambio a la pestaña Contabilidad para continuar con el registro nuevo
+2022-12-16 17:33:21,580 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2022-12-16 17:33:21,698 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2022-12-16 17:33:21,751 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221216_17_33_16.png" target="_blank">
+            <img src="../../../../img/20221216_17_33_16.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Repetir el registro creado anteriormente</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2022-12-16 17:33:22,180 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-16 17:33:24,242 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-16 17:33:24,798 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-16 17:33:24,841 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-16 17:33:24,963 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-16 17:33:25,025 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-16 17:33:25,086 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-12-16 17:33:25,162 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-12-16 17:33:25,255 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-16 17:33:25,322 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-12-16 17:33:25,388 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-12-16 17:33:25,449 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-16 17:33:25,512 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-16 17:33:25,589 - root - INFO -  Ingresa el ruc del nuevo registro 
+2022-12-16 17:33:26,471 - root - INFO -  Se dió doble click en el registro de Estado.
+2022-12-16 17:33:27,615 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2022-12-16 17:33:28,857 - root - INFO -  Se dió doble click en el registro de Localidad.
+2022-12-16 17:33:29,916 - root - INFO -  Se dió doble click en el registro de Barrio.
+2022-12-16 17:33:30,095 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2022-12-16 17:33:30,145 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2022-12-16 17:33:30,208 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-12-16 17:33:30,249 - root - INFO - Se hace el cambio a la pestaña Contabilidad para continuar con el registro nuevo
+2022-12-16 17:33:30,854 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2022-12-16 17:33:30,951 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2022-12-16 17:33:31,000 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-16 17:33:33,001 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20221216_17_33_33.png
+2022-12-16 17:33:33,149 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-16 17:33:33,255 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221216_17_33_33.png" target="_blank">
+            <img src="../../../../img/20221216_17_33_33.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2022-12-16 17:33:33,368 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-16 17:33:35,948 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-16 17:33:36,625 - root - INFO -  Se modifica el contenido del campo Descripción 
+2022-12-16 17:33:36,710 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2022-12-16 17:33:36,791 - root - INFO -  Se modifica el contenido del campo Codigo GLN 
+2022-12-16 17:33:36,902 - root - INFO -  Se modifica el contenido del campo Razón Social 
+2022-12-16 17:33:36,999 - root - INFO -  Se modifica el contenido del campo Calle 
+2022-12-16 17:33:37,085 - root - INFO -  Se modifica el contenido del campo Esquina 1 
+2022-12-16 17:33:37,179 - root - INFO -  Se modifica el contenido del campo Esquina 2 
+2022-12-16 17:33:37,316 - root - INFO -  Se modifica el contenido del campo telefono 1 
+2022-12-16 17:33:37,414 - root - INFO -  Se modifica el contenido del campo telefono 2 
+2022-12-16 17:33:37,511 - root - INFO -  Se modifica el contenido del campo RUC 
+2022-12-16 17:33:38,381 - root - INFO -  Se dió doble click en el registro de Estado.
+2022-12-16 17:33:39,505 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2022-12-16 17:33:40,553 - root - INFO -  Se dió doble click en el registro de Localidad.
+2022-12-16 17:33:41,596 - root - INFO -  Se dió doble click en el registro de Barrio.
+2022-12-16 17:33:41,829 - root - INFO -  Se modifica el contenido del campo Observaciones 
+2022-12-16 17:33:41,869 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2022-12-16 17:33:41,870 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20221216_17_33_41.png
+2022-12-16 17:33:42,046 - root - INFO -  Se modifica el contenido del campo Num de Puerta
+2022-12-16 17:33:42,092 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la modificación del registro
+2022-12-16 17:33:43,185 - root - INFO -  Se da clic en el registro de Series, para proceder a modificarlo.
+2022-12-16 17:33:43,825 - root - INFO -  Se modifica el contenido del campo Descripción 
+2022-12-16 17:33:43,931 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2022-12-16 17:33:43,970 - root - INFO - Se hace el cambio a la pestaña Configuración de Vías para continuar con la modificación del registro
+2022-12-16 17:33:45,069 - root - INFO -  Se da clic en el registro de Configuración Vías, para proceder a modificarlo.
+2022-12-16 17:33:45,829 - root - INFO -  Se modifica el contenido del campo Tipo Documento 
+2022-12-16 17:33:45,954 - root - INFO -  Se modifica el contenido del campo Vías Backoffice 
+2022-12-16 17:33:46,059 - root - INFO -  Se modifica el contenido del campo Vías Mobile 
+2022-12-16 17:33:46,443 - root - INFO -  Se modifica el contenido del campo Descripción 
+2022-12-16 17:33:46,621 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Configuración Vías.
+2022-12-16 17:33:46,885 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro Series.
+2022-12-16 17:33:47,111 - root - INFO - Se hace el cambio a la pestaña Calendario para continuar con la modificación del registro
+2022-12-16 17:33:47,686 - root - INFO -  Se dió click en el checkbox Lunes.
+2022-12-16 17:33:47,735 - root - INFO -  Se dió click en el checkbox Miercoles.
+2022-12-16 17:33:47,781 - root - INFO -  Se dió click en el checkbox Sabado.
+2022-12-16 17:33:47,828 - root - INFO - Se hace el cambio a la pestaña Resoluciones Fiscales para continuar con la modificación del registro
+2022-12-16 17:33:48,399 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Resoluciones Fiscales.
+2022-12-16 17:33:49,819 - root - INFO -  Se dió doble click en el registro de Serie.
+2022-12-16 17:33:50,123 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-12-16 17:33:50,193 - root - INFO -  Ingresa el Rango Inicio del nuevo registro 
+2022-12-16 17:33:50,264 - root - INFO -  Ingresa el Rango Fin del nuevo registro 
+2022-12-16 17:33:50,301 - root - INFO -  Se da clic en el boton Guardar; se debe guardar el registro de Resolución Fiscal.
+2022-12-16 17:33:50,518 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221216_17_33_41.png" target="_blank">
+            <img src="../../../../img/20221216_17_33_41.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_005: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_7: 2022-12-16 17:33:50,888 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-16 17:33:53,448 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:33:54,024 - root - INFO - Se hace el cambio a la pestaña Resoluciones Fiscales para continuar con la eliminación del registro
+2022-12-16 17:33:55,102 - root - INFO -  Se da clic en el registro en el Registro de Resoluciones Fiscales, para proceder a modificarlo.
+2022-12-16 17:33:55,175 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Resoluciones Fiscales.
+2022-12-16 17:33:55,283 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:33:55,869 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:33:56,450 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2022-12-16 17:33:57,522 - root - INFO -  Se da doble click en el registro de series, para proceder a eliminarlo.
+2022-12-16 17:33:58,080 - root - INFO - Se hace el cambio a la pestaña Coniguración Vias para continuar con la eliminación del registro
+2022-12-16 17:33:59,169 - root - INFO -  Se da clic en el registro de Configuración Vías, para proceder a modificarlo.
+2022-12-16 17:33:59,223 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Configuración Vías.
+2022-12-16 17:33:59,372 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro Series.
+2022-12-16 17:33:59,601 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:34:00,182 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:34:00,759 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2022-12-16 17:34:01,818 - root - INFO -  Se da clic en el registro series, para proceder a eliminarlo.
+2022-12-16 17:34:01,870 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Series.
+2022-12-16 17:34:01,990 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-16 17:34:02,568 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-16 17:34:02,622 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-16 17:34:04,622 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20221216_17_34_04.png
+2022-12-16 17:34:04,762 - root - INFO -  Se confirma el eliminado del registro
+2022-12-16 17:34:04,924 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-16 17:34:06,983 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Empresas.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221216_17_34_04.png" target="_blank">
+            <img src="../../../../img/20221216_17_34_04.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_006: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_8: 2022-12-16 17:34:11,338 - root - INFO -  Se cierra chrome
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>7</td>
+    <td>0</td>
+    <td>1</td>
+    <td>Taza de resultado：87.50%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

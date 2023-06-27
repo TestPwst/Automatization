@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-08-26 09:09:45</p>
+<p class='attribute'><strong>Duracion : </strong> 0:11:06.155097</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Correctos 8 ，Taza de resultado 100.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 100.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 0 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 8 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>Empresas.Test: Escenario 1 de Empresas</td>
+    <td class="text-center">8</td>
+    <td class="text-center">8</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-08-26 09:09:46,876 - root - INFO -  Se abre el chrome
+2022-08-26 09:09:47,988 - root - INFO -  Entra a la URL
+2022-08-26 09:09:48,181 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:09:51,249 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-08-26 09:09:54,340 - root - INFO -  Escribe el usuario
+2022-08-26 09:09:54,443 - root - INFO -  Escribe la contraseña
+2022-08-26 09:09:54,598 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:09:55,889 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:09:55,891 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_09_55.png
+2022-08-26 09:10:00,120 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_09_55.png" target="_blank">
+            <img src="../../../../img/20220826_09_09_55.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-08-26 09:10:05,227 - root - INFO -  Abre el menu completo
+2022-08-26 09:10:18,214 - root - INFO -  Abre la pantalla de Empresas
+2022-08-26 09:10:18,278 - root - INFO -  La pantalla ejecutada es Empresas
+2022-08-26 09:10:21,293 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_10_21.png
+2022-08-26 09:10:21,498 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_10_21.png" target="_blank">
+            <img src="../../../../img/20220826_09_10_21.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-08-26 09:10:26,590 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:10:26,646 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:10:26,687 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:10:26,732 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-26 09:10:26,770 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-26 09:10:26,809 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-26 09:10:26,850 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-26 09:10:26,890 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-26 09:10:26,941 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-26 09:10:26,983 - root - INFO -  El campo 'R.U.C' si se encuentra visible.
+2022-08-26 09:10:27,022 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-26 09:10:27,060 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-26 09:10:27,098 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:10:27,139 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-26 09:10:27,183 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-08-26 09:10:27,221 - root - INFO -  El campo 'Resoluciones Fiscales' si se encuentra visible.
+2022-08-26 09:10:27,262 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-26 09:10:27,343 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:10:30,530 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:10:33,657 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:10:36,814 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-26 09:10:39,959 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-26 09:10:43,125 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-26 09:10:46,281 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-26 09:10:49,432 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-26 09:10:52,586 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-08-26 09:10:55,735 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-08-26 09:10:58,852 - root - INFO -  Ingresa el ruc del nuevo registro 
+2022-08-26 09:11:44,144 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2022-08-26 09:11:50,298 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_11_50.png
+2022-08-26 09:11:50,549 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-26 09:11:53,668 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:11:56,784 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:12:01,874 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-26 09:12:01,913 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-26 09:12:01,951 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2022-08-26 09:12:02,036 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2022-08-26 09:12:05,189 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-26 09:12:08,341 - root - INFO -  Ingresa el Codigo alternativo del nuevo registro 
+2022-08-26 09:12:11,484 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:12:14,616 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:12:19,696 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-26 09:12:19,735 - root - INFO -  El campo 'Vías en BackOffice' si se encuentra visible.
+2022-08-26 09:12:19,776 - root - INFO -  El campo 'Vías en Mobile' si se encuentra visible.
+2022-08-26 09:12:19,814 - root - INFO -  El campo 'Descrpción de vías' si se encuentra visible.
+2022-08-26 09:12:19,917 - root - INFO -  Ingresa el Tipo Documento del nuevo registro 
+2022-08-26 09:12:23,065 - root - INFO -  Ingresa las Vias Backoffice del nuevo registro 
+2022-08-26 09:12:26,199 - root - INFO -  Ingresa las Vias Mobile del nuevo registro 
+2022-08-26 09:12:29,357 - root - INFO -  Ingresa la Descripción Vias del nuevo registro 
+2022-08-26 09:12:32,486 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-26 09:12:37,598 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-26 09:12:42,727 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:12:45,814 - root - INFO -  El campo 'Lunes' si se encuentra visible.
+2022-08-26 09:12:45,851 - root - INFO -  El campo 'Martes' si se encuentra visible.
+2022-08-26 09:12:45,891 - root - INFO -  El campo 'Miércoles' si se encuentra visible.
+2022-08-26 09:12:45,930 - root - INFO -  El campo 'Jueves' si se encuentra visible.
+2022-08-26 09:12:45,968 - root - INFO -  El campo 'Viernes' si se encuentra visible.
+2022-08-26 09:12:46,008 - root - INFO -  El campo 'Sábado' si se encuentra visible.
+2022-08-26 09:12:46,047 - root - INFO -  El campo 'Domingo' si se encuentra visible.
+2022-08-26 09:13:04,817 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:13:07,898 - root - INFO -  El campo 'Período Contable' si se encuentra visible.
+2022-08-26 09:13:07,937 - root - INFO -  El campo 'Desde' si se encuentra visible.
+2022-08-26 09:13:07,977 - root - INFO -  El campo 'Hasta' si se encuentra visible.
+2022-08-26 09:13:08,157 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2022-08-26 09:13:11,342 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2022-08-26 09:13:14,504 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_11_50.png" target="_blank">
+            <img src="../../../../img/20220826_09_11_50.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Repetir el registro creado anteriormente</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2022-08-26 09:13:19,621 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:13:24,750 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:13:29,803 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:13:29,845 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:13:29,901 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:13:29,946 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-26 09:13:29,985 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-26 09:13:30,027 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-26 09:13:30,069 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-26 09:13:30,112 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-26 09:13:30,151 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-26 09:13:30,193 - root - INFO -  El campo 'R.U.C' si se encuentra visible.
+2022-08-26 09:13:30,234 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-26 09:13:30,273 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-26 09:13:30,311 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:13:30,348 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-26 09:13:30,386 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-08-26 09:13:30,442 - root - INFO -  El campo 'Resoluciones Fiscales' si se encuentra visible.
+2022-08-26 09:13:30,479 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-26 09:13:30,559 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:13:33,781 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:13:36,938 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:13:40,076 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-26 09:13:43,231 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-26 09:13:46,393 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-26 09:13:49,549 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-26 09:13:52,705 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-26 09:13:55,819 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-08-26 09:13:58,985 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-08-26 09:14:02,151 - root - INFO -  Ingresa el ruc del nuevo registro 
+2022-08-26 09:14:47,311 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2022-08-26 09:14:53,552 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-26 09:14:56,672 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:14:59,783 - root - INFO -  El campo 'Período Contable' si se encuentra visible.
+2022-08-26 09:14:59,823 - root - INFO -  El campo 'Desde' si se encuentra visible.
+2022-08-26 09:14:59,862 - root - INFO -  El campo 'Hasta' si se encuentra visible.
+2022-08-26 09:15:00,034 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2022-08-26 09:15:03,203 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2022-08-26 09:15:06,313 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:15:11,330 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_15_11.png
+2022-08-26 09:15:11,565 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-26 09:15:14,696 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_15_11.png" target="_blank">
+            <img src="../../../../img/20220826_09_15_11.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2022-08-26 09:15:18,789 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:15:28,436 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:15:31,690 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:15:34,877 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:15:38,056 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-26 09:15:41,246 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-26 09:15:44,428 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-26 09:15:47,623 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-26 09:15:50,806 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-26 09:15:53,961 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-08-26 09:15:57,127 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-08-26 09:16:00,325 - root - INFO -  Ingresa el ruc del nuevo registro 
+2022-08-26 09:16:45,516 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2022-08-26 09:16:51,636 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_16_51.png
+2022-08-26 09:16:51,932 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-26 09:16:55,048 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:17:02,705 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:17:05,959 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-26 09:17:09,127 - root - INFO -  Ingresa el Codigo alternativo del nuevo registro 
+2022-08-26 09:17:12,252 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:17:19,907 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:17:23,150 - root - INFO -  Ingresa el Tipo Documento del nuevo registro 
+2022-08-26 09:17:26,340 - root - INFO -  Ingresa las Vias Backoffice del nuevo registro 
+2022-08-26 09:17:29,488 - root - INFO -  Ingresa las Vias Mobile del nuevo registro 
+2022-08-26 09:17:32,673 - root - INFO -  Ingresa la Descripción Vias del nuevo registro 
+2022-08-26 09:17:35,786 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-26 09:17:40,914 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-26 09:17:46,041 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:17:58,557 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:18:01,668 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:18:06,766 - root - INFO -  El campo 'Fecha Autorización' si se encuentra visible.
+2022-08-26 09:18:06,802 - root - INFO -  El campo 'Serie' si se encuentra visible.
+2022-08-26 09:18:06,840 - root - INFO -  El campo 'Nro. Resolución' si se encuentra visible.
+2022-08-26 09:18:06,878 - root - INFO -  El campo 'Rango Correlativo' si se encuentra visible.
+2022-08-26 09:18:17,548 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-26 09:18:20,731 - root - INFO -  Ingresa el Rango Inicio del nuevo registro 
+2022-08-26 09:18:23,858 - root - INFO -  Ingresa el Rango Fin del nuevo registro 
+2022-08-26 09:18:26,976 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-26 09:18:32,098 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_16_51.png" target="_blank">
+            <img src="../../../../img/20220826_09_16_51.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_005: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_7: 2022-08-26 09:18:37,172 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-26 09:18:46,806 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-26 09:18:49,925 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:18:57,536 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:19:05,657 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-26 09:19:05,759 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-26 09:19:15,374 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-26 09:19:18,483 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:19:26,123 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:19:29,233 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:19:36,861 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:19:44,983 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-26 09:19:45,118 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-26 09:19:50,229 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-26 09:19:59,854 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-26 09:20:02,978 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:20:10,602 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:20:18,725 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-26 09:20:18,856 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-26 09:20:28,475 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-26 09:20:36,579 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-26 09:20:36,581 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20220826_09_20_36.png
+2022-08-26 09:20:36,784 - root - INFO -  Se confirma el eliminado del registro
+2022-08-26 09:20:41,879 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:20:46,990 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20220826_09_20_36.png" target="_blank">
+            <img src="../../../../img/20220826_09_20_36.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_006: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_8: 2022-08-26 09:20:51,245 - root - INFO -  Se cierra chrome
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>8</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Taza de resultado：100.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

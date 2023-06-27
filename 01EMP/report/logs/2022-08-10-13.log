@@ -1,0 +1,432 @@
+2022-08-10 13:00:34,428 - root - INFO -  Se abre el chrome
+2022-08-10 13:00:37,473 - root - INFO -  Entra a la URL
+2022-08-10 13:00:37,608 - root - INFO -  Maximiza la pantalla
+2022-08-10 13:00:40,668 - root - INFO -  Cambia al frame
+2022-08-10 13:00:43,758 - root - INFO -  Escribe el usuario
+2022-08-10 13:00:43,870 - root - INFO -  Escribe la contraseña
+2022-08-10 13:00:44,006 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 13:00:47,024 - root - INFO -  Ejecutar Enterprise
+2022-08-10 13:00:47,026 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_00_47.png
+2022-08-10 13:00:51,272 - root - INFO -  Cambia entre pestañas
+2022-08-10 13:01:08,191 - root - INFO -  Abre el menu completo
+2022-08-10 13:01:21,177 - root - INFO -  Abre la pantalla de Depositos
+2022-08-10 13:01:21,270 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-10 13:01:24,272 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_01_24.png
+2022-08-10 13:01:24,504 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:01:29,549 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:01:29,592 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:01:29,635 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:01:29,677 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:01:29,719 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:01:29,763 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:01:29,809 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:01:29,851 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:01:29,895 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:01:29,937 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:01:29,978 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:01:30,034 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:01:30,078 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:01:30,119 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:01:30,161 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:01:30,202 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:01:30,245 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:01:30,285 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:01:30,381 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:01:33,511 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:01:36,637 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:01:39,801 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:01:43,004 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:01:46,187 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:01:49,338 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:01:52,545 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:01:55,715 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:01:58,863 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:02:02,055 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:02:05,244 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:03:03,952 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_03_03.png
+2022-08-10 13:03:04,202 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:03:07,310 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:03:12,418 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-10 13:03:12,460 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-10 13:03:12,499 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-10 13:03:28,150 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:03:31,314 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:03:34,480 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:03:39,666 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:03:42,784 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:03:47,868 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 13:03:47,935 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 13:03:47,973 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 13:04:19,551 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:04:24,665 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:04:29,812 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:04:34,916 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 13:04:39,993 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:04:40,031 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:04:40,072 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:04:40,113 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:04:40,153 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:04:40,194 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:04:40,232 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:04:40,273 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:04:40,329 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:04:40,367 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:04:40,406 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:04:40,445 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:04:40,483 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:04:40,523 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:04:40,562 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:04:40,600 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:04:40,640 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:04:40,679 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:04:40,762 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:04:43,993 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:04:47,121 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:04:50,273 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:04:53,535 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:04:56,830 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:05:00,020 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:05:03,211 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:05:06,345 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:05:09,492 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:05:12,768 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:05:16,042 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:06:15,033 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:06:20,045 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_06_20.png
+2022-08-10 13:06:20,329 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 13:06:23,502 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-10 13:06:27,639 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:06:37,272 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:06:40,521 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:06:43,693 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:06:46,894 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:06:50,159 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:06:53,390 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:06:56,571 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:06:59,803 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:07:03,012 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:07:06,193 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:07:09,447 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:07:12,669 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:07:31,499 - root - ERROR - No se encontró el registro de Distribuidor, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:07:34,506 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_07_34.png
+2022-08-10 13:07:35,494 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:07:38,499 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_07_38.png
+2022-08-10 13:09:06,517 - root - INFO -  Se abre el chrome
+2022-08-10 13:09:09,695 - root - INFO -  Entra a la URL
+2022-08-10 13:09:09,828 - root - INFO -  Maximiza la pantalla
+2022-08-10 13:09:12,882 - root - INFO -  Cambia al frame
+2022-08-10 13:09:15,971 - root - INFO -  Escribe el usuario
+2022-08-10 13:09:16,083 - root - INFO -  Escribe la contraseña
+2022-08-10 13:09:16,222 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 13:09:19,377 - root - INFO -  Ejecutar Enterprise
+2022-08-10 13:09:19,378 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_09_19.png
+2022-08-10 13:09:23,613 - root - INFO -  Cambia entre pestañas
+2022-08-10 13:09:48,604 - root - INFO -  Abre el menu completo
+2022-08-10 13:10:01,570 - root - INFO -  Abre la pantalla de Depositos
+2022-08-10 13:10:01,659 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-10 13:10:04,663 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_10_04.png
+2022-08-10 13:10:04,881 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:10:09,954 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:10:09,996 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:10:10,040 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:10:10,080 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:10:10,121 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:10:10,162 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:10:10,201 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:10:10,246 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:10:10,288 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:10:10,337 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:10:10,389 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:10:10,432 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:10:10,471 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:10:10,525 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:10:10,581 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:10:10,622 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:10:10,660 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:10:10,700 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:10:10,785 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:10:13,989 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:10:17,177 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:10:20,380 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:10:23,549 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:10:26,788 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:10:29,946 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:10:33,134 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:10:36,304 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:10:39,453 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:10:42,624 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:10:45,852 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:11:44,584 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_11_44.png
+2022-08-10 13:11:44,844 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:11:48,050 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:11:53,184 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-10 13:11:53,260 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-10 13:11:53,312 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-10 13:12:08,940 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:12:12,139 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:12:15,273 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:12:20,406 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:12:23,539 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:12:28,641 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 13:12:28,707 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 13:12:28,768 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 13:13:00,386 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:13:05,576 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:13:10,744 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:13:15,878 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 13:13:20,989 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:13:21,034 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:13:21,077 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:13:21,117 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:13:21,158 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:13:21,197 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:13:21,242 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:13:21,290 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:13:21,331 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:13:21,370 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:13:21,410 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:13:21,450 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:13:21,488 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:13:21,529 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:13:21,568 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:13:21,608 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:13:21,650 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:13:21,690 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:13:21,779 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:13:24,939 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:13:28,102 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:13:31,278 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:13:34,496 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:13:37,673 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:13:40,855 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:13:44,084 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:13:47,289 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:13:50,490 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:13:53,662 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:13:56,873 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:14:55,932 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:15:00,943 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_15_00.png
+2022-08-10 13:15:01,198 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 13:15:04,316 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-10 13:15:08,471 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:15:18,127 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:15:21,336 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:15:24,519 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:15:27,746 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:15:31,040 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:15:34,280 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:15:37,522 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:15:40,737 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:15:44,005 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:15:47,181 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:15:50,469 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:15:53,718 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:16:52,509 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_16_52.png
+2022-08-10 13:16:52,756 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:17:00,421 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:17:13,621 - root - ERROR - No se encontró el registro de articulo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:17:16,624 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_17_16.png
+2022-08-10 13:17:17,191 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:17:20,195 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_17_20.png
+2022-08-10 13:21:18,040 - root - INFO -  Se abre el chrome
+2022-08-10 13:21:21,389 - root - INFO -  Entra a la URL
+2022-08-10 13:21:21,519 - root - INFO -  Maximiza la pantalla
+2022-08-10 13:21:24,578 - root - INFO -  Cambia al frame
+2022-08-10 13:21:27,677 - root - INFO -  Escribe el usuario
+2022-08-10 13:21:27,787 - root - INFO -  Escribe la contraseña
+2022-08-10 13:21:27,931 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 13:21:30,991 - root - INFO -  Ejecutar Enterprise
+2022-08-10 13:21:30,992 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_21_30.png
+2022-08-10 13:21:35,267 - root - INFO -  Cambia entre pestañas
+2022-08-10 13:22:04,353 - root - INFO -  Abre el menu completo
+2022-08-10 13:22:17,355 - root - INFO -  Abre la pantalla de Depositos
+2022-08-10 13:22:17,427 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-10 13:22:20,441 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_22_20.png
+2022-08-10 13:22:20,678 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:22:25,815 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:22:25,894 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:22:25,942 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:22:25,983 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:22:26,022 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:22:26,062 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:22:26,100 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:22:26,140 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:22:26,180 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:22:26,221 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:22:26,264 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:22:26,303 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:22:26,343 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:22:26,393 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:22:26,437 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:22:26,480 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:22:26,520 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:22:26,560 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:22:26,647 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:22:29,808 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:22:33,027 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:22:36,231 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:22:39,451 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:22:42,627 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:22:45,771 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:22:48,972 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:22:52,180 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:22:55,342 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:22:58,544 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:23:01,694 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:24:00,408 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_24_00.png
+2022-08-10 13:24:00,647 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:24:03,798 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:24:08,943 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-10 13:24:09,006 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-10 13:24:09,045 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-10 13:24:24,702 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:24:27,851 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:24:30,986 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:24:36,120 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:24:39,249 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:24:44,341 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 13:24:44,382 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 13:24:44,424 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 13:25:16,107 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:25:22,294 - root - ERROR - No se encontró el botón Guardar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:25:25,298 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_25_25.png
+2022-08-10 13:25:25,818 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:25:28,820 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_25_28.png
+2022-08-10 13:25:28,828 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:25:31,835 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_25_31.png
+2022-08-10 13:25:31,850 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 13:25:34,852 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_25_34.png
+2022-08-10 13:26:20,915 - root - INFO -  Se abre el chrome
+2022-08-10 13:26:24,280 - root - INFO -  Entra a la URL
+2022-08-10 13:26:24,421 - root - INFO -  Maximiza la pantalla
+2022-08-10 13:26:27,483 - root - INFO -  Cambia al frame
+2022-08-10 13:26:30,577 - root - INFO -  Escribe el usuario
+2022-08-10 13:26:30,685 - root - INFO -  Escribe la contraseña
+2022-08-10 13:26:30,821 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 13:26:33,915 - root - INFO -  Ejecutar Enterprise
+2022-08-10 13:26:33,916 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_26_33.png
+2022-08-10 13:26:38,143 - root - INFO -  Cambia entre pestañas
+2022-08-10 13:27:09,192 - root - INFO -  Abre el menu completo
+2022-08-10 13:27:22,180 - root - INFO -  Abre la pantalla de Depositos
+2022-08-10 13:27:22,257 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-10 13:27:25,269 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_27_25.png
+2022-08-10 13:27:25,465 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:27:30,542 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:27:30,583 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:27:30,623 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:27:30,663 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:27:30,706 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:27:30,745 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:27:30,788 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:27:30,828 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:27:30,869 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:27:30,908 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:27:30,947 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:27:30,988 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:27:31,029 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:27:31,068 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:27:31,121 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:27:31,161 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:27:31,199 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:27:31,238 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:27:31,328 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:27:34,515 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:27:37,674 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:27:40,851 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:27:44,071 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:27:47,250 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:27:50,396 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:27:53,640 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:27:56,835 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:28:00,033 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:28:03,277 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:28:06,485 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:29:05,258 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_29_05.png
+2022-08-10 13:29:05,539 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:29:08,712 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:29:13,793 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-10 13:29:13,833 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-10 13:29:13,871 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-10 13:29:29,520 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:29:32,677 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:29:35,861 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:29:40,984 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:29:44,119 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 13:29:49,197 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 13:29:49,242 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 13:29:49,281 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 13:30:20,950 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:30:26,097 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:30:31,204 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:30:36,340 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 13:30:41,414 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 13:30:41,453 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 13:30:41,492 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-10 13:30:41,532 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-10 13:30:41,571 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-10 13:30:41,612 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 13:30:41,651 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-10 13:30:41,705 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-10 13:30:41,744 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-10 13:30:41,783 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-10 13:30:41,821 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-10 13:30:41,859 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-10 13:30:41,898 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-10 13:30:41,939 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-10 13:30:41,978 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-10 13:30:42,017 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-10 13:30:42,056 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-10 13:30:42,095 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-10 13:30:42,181 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 13:30:45,364 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:30:48,553 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:30:51,713 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:30:54,920 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:30:58,116 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:31:01,261 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:31:04,426 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:31:07,657 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:31:10,836 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:31:14,031 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:31:17,256 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:32:16,102 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 13:32:21,108 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_32_21.png
+2022-08-10 13:32:21,376 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 13:32:24,509 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-10 13:32:28,622 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:32:38,282 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:32:41,571 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-10 13:32:44,790 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-10 13:32:47,981 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-10 13:32:51,261 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 13:32:54,537 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-10 13:32:57,707 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-10 13:33:00,932 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-10 13:33:04,158 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-10 13:33:07,355 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-10 13:33:10,625 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-10 13:33:13,921 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-10 13:34:12,547 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_34_12.png
+2022-08-10 13:34:12,794 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:34:20,457 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:34:39,218 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-10 13:34:42,414 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-10 13:34:45,568 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-10 13:34:50,695 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:35:00,358 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:35:35,099 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 13:35:40,260 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-10 13:35:45,464 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-10 13:35:55,126 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-10 13:35:58,259 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 13:36:05,909 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 13:36:14,057 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-10 13:36:14,168 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-10 13:36:23,768 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-10 13:36:31,889 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-10 13:36:31,891 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220810_13_36_31.png
+2022-08-10 13:36:32,135 - root - INFO -  Se confirma el eliminado del registro
+2022-08-10 13:36:37,239 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 13:36:42,364 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-10 13:36:46,666 - root - INFO -  Se cierra chrome

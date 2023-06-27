@@ -1,0 +1,155 @@
+2023-05-04 17:39:27,927 - root - INFO -  Se abre el chrome
+2023-05-04 17:39:29,747 - root - INFO -  Entra a la URL
+2023-05-04 17:39:29,889 - root - INFO -  Maximiza la pantalla
+2023-05-04 17:39:33,158 - root - INFO -  Escribe el usuario
+2023-05-04 17:39:33,298 - root - INFO -  Escribe la contraseña
+2023-05-04 17:39:33,424 - root - INFO -  Se dio clic en el boton ingresar
+2023-05-04 17:39:34,821 - root - INFO -  Ejecutar Enterprise
+2023-05-04 17:39:38,889 - root - INFO -  Cambia entre pestañas
+2023-05-04 17:39:53,978 - root - INFO -  Abre la pantalla de Empresas
+2023-05-04 17:39:54,542 - root - INFO -  La pantalla ejecutada es Empresas
+2023-05-04 17:39:54,543 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20230504_17_39_54.png
+2023-05-04 17:39:54,721 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-05-04 17:39:55,274 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-04 17:39:55,340 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-04 17:39:55,524 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-04 17:39:55,693 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-04 17:39:55,822 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2023-05-04 17:39:56,003 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2023-05-04 17:39:56,189 - root - INFO -  Ingresa la calle del nuevo registro 
+2023-05-04 17:39:56,342 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2023-05-04 17:39:56,473 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2023-05-04 17:39:56,593 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2023-05-04 17:39:56,717 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2023-05-04 17:39:56,844 - root - INFO -  Ingresa el ruc del nuevo registro 
+2023-05-04 17:39:57,797 - root - INFO -  Se dió doble click en el registro de Estado.
+2023-05-04 17:39:58,849 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2023-05-04 17:39:59,932 - root - INFO -  Se dió doble click en el registro de Localidad.
+2023-05-04 17:40:02,994 - root - INFO -  Se dió doble click en el registro de Barrio.
+2023-05-04 17:40:03,170 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2023-05-04 17:40:03,275 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2023-05-04 17:40:03,276 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20230504_17_40_03.png
+2023-05-04 17:40:03,500 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2023-05-04 17:40:03,589 - root - INFO - Se hace el cambio a la pestaña Series para continuar con el registro nuevo
+2023-05-04 17:40:04,194 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Series.
+2023-05-04 17:40:04,779 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-05-04 17:40:05,058 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-05-04 17:40:05,214 - root - INFO -  Ingresa el Codigo alternativo del nuevo registro 
+2023-05-04 17:40:05,315 - root - INFO - Se hace el cambio a la pestaña Configuración Vias para continuar con el registro nuevo
+2023-05-04 17:40:05,927 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Configuración Vias.
+2023-05-04 17:40:06,533 - root - INFO -  Ingresa el Tipo Documento del nuevo registro 
+2023-05-04 17:40:06,678 - root - INFO -  Ingresa las Vias Backoffice del nuevo registro 
+2023-05-04 17:40:06,817 - root - INFO -  Ingresa las Vias Mobile del nuevo registro 
+2023-05-04 17:40:07,059 - root - INFO -  Ingresa la Descripción Vias del nuevo registro 
+2023-05-04 17:40:07,248 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Configuracion Vias .
+2023-05-04 17:40:09,333 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Serie.
+2023-05-04 17:40:11,430 - root - INFO - Se hace el cambio a la pestaña Calendario para continuar con el registro nuevo
+2023-05-04 17:40:12,037 - root - INFO -  Se dió click en el checkbox Lunes.
+2023-05-04 17:40:12,141 - root - INFO -  Se dió click en el checkbox Martes.
+2023-05-04 17:40:12,237 - root - INFO -  Se dió click en el checkbox Miercoles.
+2023-05-04 17:40:12,334 - root - INFO -  Se dió click en el checkbox Jueves.
+2023-05-04 17:40:12,426 - root - INFO -  Se dió click en el checkbox Viernes.
+2023-05-04 17:40:12,519 - root - INFO -  Se dió click en el checkbox Sabado.
+2023-05-04 17:40:12,605 - root - INFO - Se hace el cambio a la pestaña Contabilidad para continuar con el registro nuevo
+2023-05-04 17:40:13,287 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2023-05-04 17:40:13,457 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2023-05-04 17:40:13,553 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-05-04 17:40:15,648 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-05-04 17:40:17,723 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-05-04 17:40:18,279 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-04 17:40:18,375 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-04 17:40:18,623 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-04 17:40:18,761 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-04 17:40:18,898 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2023-05-04 17:40:19,050 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2023-05-04 17:40:19,215 - root - INFO -  Ingresa la calle del nuevo registro 
+2023-05-04 17:40:19,353 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2023-05-04 17:40:19,529 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2023-05-04 17:40:19,705 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2023-05-04 17:40:19,882 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2023-05-04 17:40:20,050 - root - INFO -  Ingresa el ruc del nuevo registro 
+2023-05-04 17:40:21,060 - root - INFO -  Se dió doble click en el registro de Estado.
+2023-05-04 17:40:22,400 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2023-05-04 17:40:23,486 - root - INFO -  Se dió doble click en el registro de Localidad.
+2023-05-04 17:40:24,537 - root - INFO -  Se dió doble click en el registro de Barrio.
+2023-05-04 17:40:24,799 - root - INFO -  Ingresa las Observaciones del nuevo registro 
+2023-05-04 17:40:24,885 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2023-05-04 17:40:24,989 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2023-05-04 17:40:25,071 - root - INFO - Se hace el cambio a la pestaña Contabilidad para continuar con el registro nuevo
+2023-05-04 17:40:25,733 - root - INFO -  Ingresa la fecha Desde del nuevo registro 
+2023-05-04 17:40:25,880 - root - INFO -  Ingresa la fecha Hasta del nuevo registro 
+2023-05-04 17:40:25,963 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-05-04 17:40:26,564 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-05-04 17:40:28,565 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20230504_17_40_28.png
+2023-05-04 17:40:28,799 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-05-04 17:40:28,949 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-05-04 17:40:29,063 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-05-04 17:40:31,651 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-05-04 17:40:32,456 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-05-04 17:40:32,618 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-05-04 17:40:32,769 - root - INFO -  Se modifica el contenido del campo Codigo GLN 
+2023-05-04 17:40:32,976 - root - INFO -  Se modifica el contenido del campo Razón Social 
+2023-05-04 17:40:33,159 - root - INFO -  Se modifica el contenido del campo Calle 
+2023-05-04 17:40:33,353 - root - INFO -  Se modifica el contenido del campo Esquina 1 
+2023-05-04 17:40:33,520 - root - INFO -  Se modifica el contenido del campo Esquina 2 
+2023-05-04 17:40:33,683 - root - INFO -  Se modifica el contenido del campo telefono 1 
+2023-05-04 17:40:33,895 - root - INFO -  Se modifica el contenido del campo telefono 2 
+2023-05-04 17:40:34,105 - root - INFO -  Se modifica el contenido del campo RUC 
+2023-05-04 17:40:35,118 - root - INFO -  Se dió doble click en el registro de Estado.
+2023-05-04 17:40:36,173 - root - INFO -  Se dió doble click en el registro de Depto/Provincia.
+2023-05-04 17:40:37,269 - root - INFO -  Se dió doble click en el registro de Localidad.
+2023-05-04 17:40:38,330 - root - INFO -  Se dió doble click en el registro de Barrio.
+2023-05-04 17:40:38,657 - root - INFO -  Se modifica el contenido del campo Observaciones 
+2023-05-04 17:40:38,752 - root - INFO -  Se dió click en el checkbox Resoluciones Fiscales.
+2023-05-04 17:40:38,754 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20230504_17_40_38.png
+2023-05-04 17:40:39,006 - root - INFO -  Se modifica el contenido del campo Num de Puerta
+2023-05-04 17:40:39,100 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la modificación del registro
+2023-05-04 17:40:40,209 - root - INFO -  Se da clic en el registro de Series, para proceder a modificarlo.
+2023-05-04 17:40:40,977 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-05-04 17:40:41,216 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-05-04 17:40:41,307 - root - INFO - Se hace el cambio a la pestaña Configuración de Vías para continuar con la modificación del registro
+2023-05-04 17:40:42,400 - root - INFO -  Se da clic en el registro de Configuración Vías, para proceder a modificarlo.
+2023-05-04 17:40:43,414 - root - INFO -  Se modifica el contenido del campo Tipo Documento 
+2023-05-04 17:40:43,589 - root - INFO -  Se modifica el contenido del campo Vías Backoffice 
+2023-05-04 17:40:43,797 - root - INFO -  Se modifica el contenido del campo Vías Mobile 
+2023-05-04 17:40:44,244 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-05-04 17:40:44,344 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Configuración Vías.
+2023-05-04 17:40:46,441 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro Series.
+2023-05-04 17:40:48,524 - root - INFO - Se hace el cambio a la pestaña Calendario para continuar con la modificación del registro
+2023-05-04 17:40:49,126 - root - INFO -  Se dió click en el checkbox Lunes.
+2023-05-04 17:40:49,215 - root - INFO -  Se dió click en el checkbox Miercoles.
+2023-05-04 17:40:49,304 - root - INFO -  Se dió click en el checkbox Sabado.
+2023-05-04 17:40:49,392 - root - INFO - Se hace el cambio a la pestaña Resoluciones Fiscales para continuar con la modificación del registro
+2023-05-04 17:40:50,009 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Resoluciones Fiscales.
+2023-05-04 17:40:51,529 - root - INFO -  Se dió doble click en el registro de Serie.
+2023-05-04 17:40:52,003 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2023-05-04 17:40:52,151 - root - INFO -  Ingresa el Rango Inicio del nuevo registro 
+2023-05-04 17:40:52,302 - root - INFO -  Ingresa el Rango Fin del nuevo registro 
+2023-05-04 17:40:52,395 - root - INFO -  Se da clic en el boton Guardar; se debe guardar el registro de Resolución Fiscal.
+2023-05-04 17:40:54,492 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-05-04 17:40:56,580 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-05-04 17:40:59,164 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-05-04 17:40:59,772 - root - INFO - Se hace el cambio a la pestaña Resoluciones Fiscales para continuar con la eliminación del registro
+2023-05-04 17:41:00,854 - root - INFO -  Se da clic en el registro en el Registro de Resoluciones Fiscales, para proceder a modificarlo.
+2023-05-04 17:41:00,931 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Resoluciones Fiscales.
+2023-05-04 17:41:01,080 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-05-04 17:41:03,670 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-05-04 17:41:04,255 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2023-05-04 17:41:05,327 - root - INFO -  Se da doble click en el registro de series, para proceder a eliminarlo.
+2023-05-04 17:41:05,919 - root - INFO - Se hace el cambio a la pestaña Coniguración Vias para continuar con la eliminación del registro
+2023-05-04 17:41:07,005 - root - INFO -  Se da clic en el registro de Configuración Vías, para proceder a modificarlo.
+2023-05-04 17:41:07,094 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Configuración Vías.
+2023-05-04 17:41:07,249 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro Series.
+2023-05-04 17:41:09,321 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-05-04 17:41:11,882 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-05-04 17:41:12,475 - root - INFO - Se hace el cambio a la pestaña Series para continuar con la eliminación del registro
+2023-05-04 17:41:13,545 - root - INFO -  Se da clic en el registro series, para proceder a eliminarlo.
+2023-05-04 17:41:13,639 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Series.
+2023-05-04 17:41:13,754 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-05-04 17:41:16,301 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-05-04 17:41:16,376 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-05-04 17:41:18,377 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01EMP\report\img  screen：20230504_17_41_18.png
+2023-05-04 17:41:18,536 - root - INFO -  Se confirma el eliminado del registro
+2023-05-04 17:41:18,710 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-05-04 17:41:20,795 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Empresas.
+2023-05-04 17:41:27,283 - root - INFO -  Se cierra chrome
