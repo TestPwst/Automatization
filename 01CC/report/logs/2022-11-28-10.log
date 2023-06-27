@@ -1,0 +1,55 @@
+2022-11-28 10:55:13,098 - root - INFO -  Se abre el chrome
+2022-11-28 10:55:14,190 - root - INFO -  Entra a la URL
+2022-11-28 10:55:14,339 - root - INFO -  Maximiza la pantalla
+2022-11-28 10:55:17,385 - root - INFO -  Cambia al frame
+2022-11-28 10:55:20,503 - root - INFO -  Escribe el usuario
+2022-11-28 10:55:20,593 - root - INFO -  Escribe la contraseña
+2022-11-28 10:55:20,703 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-28 10:55:24,860 - root - INFO -  Ejecutar Enterprise
+2022-11-28 10:55:28,911 - root - INFO -  Cambia entre pestañas
+2022-11-28 10:55:50,060 - root - INFO -  Abre la pantalla de Centros Costo
+2022-11-28 10:55:50,140 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-11-28 10:55:53,150 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20221128_10_55_53.png
+2022-11-28 10:55:58,393 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-28 10:56:03,435 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-28 10:56:03,472 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-28 10:56:03,502 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-28 10:56:03,569 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-28 10:56:06,787 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-28 10:56:09,792 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20221128_10_56_09.png
+2022-11-28 10:56:14,726 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-28 10:56:17,767 - root - INFO -  El campo 'Observación 1' si se encuentra visible.
+2022-11-28 10:56:17,827 - root - INFO -  El campo 'Observación 2' si se encuentra visible.
+2022-11-28 10:56:17,857 - root - INFO -  El campo 'Observación 3' si se encuentra visible.
+2022-11-28 10:56:17,987 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-11-28 10:56:21,159 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-11-28 10:56:24,340 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-11-28 10:56:27,429 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-28 10:56:32,580 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-28 10:56:37,707 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-11-28 10:56:42,813 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-28 10:56:42,843 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-28 10:56:42,873 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-28 10:56:42,933 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-28 10:56:46,113 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-28 10:56:49,247 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-11-28 10:56:54,249 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20221128_10_56_54.png
+2022-11-28 10:56:58,208 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-11-28 10:57:01,339 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-11-28 10:57:05,431 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-11-28 10:57:15,881 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-28 10:57:19,071 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-28 10:57:22,080 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20221128_10_57_22.png
+2022-11-28 10:57:25,821 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2022-11-28 10:57:29,086 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2022-11-28 10:57:32,243 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2022-11-28 10:57:35,472 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2022-11-28 10:57:38,655 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-11-28 10:57:43,729 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-28 10:57:53,374 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-28 10:57:56,492 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-28 10:58:01,499 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20221128_10_58_01.png
+2022-11-28 10:58:04,117 - root - INFO -  Se confirma el eliminado del registro
+2022-11-28 10:58:09,266 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2022-11-28 10:58:14,383 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2022-11-28 10:58:22,398 - root - INFO -  Se cierra chrome

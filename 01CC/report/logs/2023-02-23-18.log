@@ -1,0 +1,58 @@
+2023-02-23 18:12:23,312 - root - INFO -  Se abre el chrome
+2023-02-23 18:12:24,385 - root - INFO -  Entra a la URL
+2023-02-23 18:12:24,521 - root - INFO -  Maximiza la pantalla
+2023-02-23 18:12:27,538 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-02-23 18:12:27,538 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_12_27.png
+2023-02-23 18:12:27,554 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-02-23 18:12:27,558 - root - ERROR - No se pudo ingresar por medio del buscador, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-02-23 18:12:27,558 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_12_27.png
+2023-02-23 18:12:27,569 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2023-02-23 18:12:59,622 - root - INFO -  Se abre el chrome
+2023-02-23 18:13:00,528 - root - INFO -  Entra a la URL
+2023-02-23 18:13:00,656 - root - INFO -  Maximiza la pantalla
+2023-02-23 18:13:03,775 - root - INFO -  Escribe el usuario
+2023-02-23 18:13:03,865 - root - INFO -  Escribe la contraseña
+2023-02-23 18:13:03,967 - root - INFO -  Se dio clic en el boton ingresar
+2023-02-23 18:13:05,218 - root - INFO -  Ejecutar Enterprise
+2023-02-23 18:13:09,277 - root - INFO -  Cambia entre pestañas
+2023-02-23 18:14:20,917 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-02-23 18:14:21,989 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-02-23 18:14:23,082 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2023-02-23 18:14:23,082 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_14_23.png
+2023-02-23 18:14:23,323 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-02-23 18:14:23,907 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-02-23 18:14:23,988 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-02-23 18:14:24,206 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-02-23 18:14:24,206 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_14_24.png
+2023-02-23 18:14:24,448 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-02-23 18:14:25,165 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2023-02-23 18:14:25,350 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2023-02-23 18:14:25,555 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2023-02-23 18:14:25,636 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-02-23 18:14:25,921 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-02-23 18:14:27,980 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-02-23 18:14:28,537 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-02-23 18:14:28,594 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-02-23 18:14:28,779 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-02-23 18:14:28,852 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-02-23 18:14:29,505 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-02-23 18:14:31,507 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_14_31.png
+2023-02-23 18:14:31,740 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-02-23 18:14:31,908 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-02-23 18:14:32,052 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-02-23 18:14:34,661 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-02-23 18:14:35,378 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-02-23 18:14:35,378 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_14_35.png
+2023-02-23 18:14:35,606 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2023-02-23 18:14:36,334 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2023-02-23 18:14:36,570 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2023-02-23 18:14:36,785 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2023-02-23 18:14:36,890 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-02-23 18:14:37,179 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-02-23 18:14:39,756 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-02-23 18:14:39,852 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-02-23 18:14:41,855 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230223_18_14_41.png
+2023-02-23 18:14:42,042 - root - INFO -  Se confirma el eliminado del registro
+2023-02-23 18:14:42,443 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2023-02-23 18:14:44,543 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2023-02-23 18:14:50,971 - root - INFO -  Se cierra chrome

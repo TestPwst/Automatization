@@ -1,0 +1,182 @@
+2023-01-25 13:30:47,380 - root - INFO -  Se abre el chrome
+2023-01-25 13:30:48,199 - root - INFO -  Entra a la URL
+2023-01-25 13:30:48,336 - root - INFO -  Maximiza la pantalla
+2023-01-25 13:30:51,429 - root - INFO -  Escribe el usuario
+2023-01-25 13:30:51,507 - root - INFO -  Escribe la contraseña
+2023-01-25 13:30:51,566 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 13:30:52,244 - root - INFO -  Ejecutar Enterprise
+2023-01-25 13:30:56,281 - root - INFO -  Cambia entre pestañas
+2023-01-25 13:31:06,629 - root - INFO -  Abre la pantalla de Centros Costo
+2023-01-25 13:31:07,185 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2023-01-25 13:31:07,185 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_31_07.png
+2023-01-25 13:31:07,341 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 13:31:07,881 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:31:07,930 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:31:08,057 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:31:08,058 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_31_08.png
+2023-01-25 13:31:08,207 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 13:31:08,848 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2023-01-25 13:31:08,966 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2023-01-25 13:31:09,086 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2023-01-25 13:31:09,136 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 13:31:09,387 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 13:31:11,437 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 13:31:11,981 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:31:12,018 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:31:12,141 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:31:12,180 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-25 13:31:12,754 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-25 13:31:14,755 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_31_14.png
+2023-01-25 13:31:14,930 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 13:31:15,052 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 13:31:15,161 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-25 13:31:17,763 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 13:31:18,306 - root - ERROR - No se pudo encontrar el campo para modificar la descripcion, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-25 13:31:21,308 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_31_21.png
+2023-01-25 13:31:21,450 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2023-01-25 13:31:21,551 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-25 13:31:24,113 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-25 13:31:24,174 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 13:31:26,175 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_31_26.png
+2023-01-25 13:31:26,304 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 13:31:26,875 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2023-01-25 13:31:28,934 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2023-01-25 13:31:33,201 - root - INFO -  Se cierra chrome
+2023-01-25 13:33:27,303 - root - INFO -  Se abre el chrome
+2023-01-25 13:33:28,181 - root - INFO -  Entra a la URL
+2023-01-25 13:33:28,312 - root - INFO -  Maximiza la pantalla
+2023-01-25 13:33:31,474 - root - INFO -  Escribe el usuario
+2023-01-25 13:33:31,579 - root - INFO -  Escribe la contraseña
+2023-01-25 13:33:31,701 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 13:33:32,429 - root - INFO -  Ejecutar Enterprise
+2023-01-25 13:33:36,457 - root - INFO -  Cambia entre pestañas
+2023-01-25 13:33:46,953 - root - INFO -  Abre la pantalla de Centros Costo
+2023-01-25 13:33:48,035 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2023-01-25 13:33:48,036 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_33_48.png
+2023-01-25 13:33:48,195 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 13:33:48,740 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:33:48,787 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:33:48,910 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:33:48,913 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_33_48.png
+2023-01-25 13:33:49,065 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 13:33:49,709 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2023-01-25 13:33:49,826 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2023-01-25 13:33:49,953 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2023-01-25 13:33:50,001 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 13:33:50,243 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 13:33:52,294 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 13:33:52,831 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:33:52,873 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:33:52,994 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:33:53,045 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-25 13:33:53,627 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-25 13:33:55,628 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_33_55.png
+2023-01-25 13:33:55,798 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 13:33:55,908 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 13:33:56,021 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-25 13:33:58,605 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 13:33:59,151 - root - ERROR - No se pudo encontrar el campo para modificar la descripcion, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-25 13:34:03,227 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-25 13:34:06,229 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_34_06.png
+2023-01-25 13:34:10,537 - root - INFO -  Se cierra chrome
+2023-01-25 13:35:13,146 - root - INFO -  Se abre el chrome
+2023-01-25 13:35:16,618 - root - INFO -  Entra a la URL
+2023-01-25 13:35:16,729 - root - INFO -  Maximiza la pantalla
+2023-01-25 13:35:19,820 - root - INFO -  Escribe el usuario
+2023-01-25 13:35:19,890 - root - INFO -  Escribe la contraseña
+2023-01-25 13:35:19,951 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 13:35:21,637 - root - INFO -  Ejecutar Enterprise
+2023-01-25 13:35:25,679 - root - INFO -  Cambia entre pestañas
+2023-01-25 13:35:29,293 - root - INFO -  Abre la pantalla de Centros Costo
+2023-01-25 13:35:30,352 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2023-01-25 13:35:30,352 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_35_30.png
+2023-01-25 13:35:31,050 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-25 13:35:31,098 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 13:35:31,675 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 13:35:32,694 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 13:35:34,754 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 13:35:35,297 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:35:35,338 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:35:35,467 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:35:35,467 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_35_35.png
+2023-01-25 13:35:35,623 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 13:35:36,273 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2023-01-25 13:35:36,391 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2023-01-25 13:35:36,530 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2023-01-25 13:35:36,568 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 13:35:36,876 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 13:35:38,925 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 13:35:39,470 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:35:39,510 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:35:39,634 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:35:39,671 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-25 13:35:40,250 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-25 13:35:42,252 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_35_42.png
+2023-01-25 13:35:42,405 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 13:35:42,520 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 13:35:42,634 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-25 13:35:45,217 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 13:35:45,898 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-25 13:35:45,898 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_35_45.png
+2023-01-25 13:35:46,032 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2023-01-25 13:35:46,699 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2023-01-25 13:35:46,833 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2023-01-25 13:35:46,964 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2023-01-25 13:35:47,038 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-25 13:35:47,268 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-25 13:35:49,832 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-25 13:35:49,889 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 13:35:51,891 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_35_51.png
+2023-01-25 13:35:52,027 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 13:35:52,459 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2023-01-25 13:35:54,517 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2023-01-25 13:35:58,728 - root - INFO -  Se cierra chrome
+2023-01-25 13:37:48,292 - root - INFO -  Se abre el chrome
+2023-01-25 13:37:49,066 - root - INFO -  Entra a la URL
+2023-01-25 13:37:49,188 - root - INFO -  Maximiza la pantalla
+2023-01-25 13:37:52,293 - root - INFO -  Escribe el usuario
+2023-01-25 13:37:52,366 - root - INFO -  Escribe la contraseña
+2023-01-25 13:37:52,434 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 13:37:53,278 - root - INFO -  Ejecutar Enterprise
+2023-01-25 13:37:57,315 - root - INFO -  Cambia entre pestañas
+2023-01-25 13:38:07,684 - root - INFO -  Abre la pantalla de Centros Costo
+2023-01-25 13:38:08,220 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2023-01-25 13:38:08,221 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_38_08.png
+2023-01-25 13:38:08,372 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 13:38:08,909 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:38:08,963 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:38:09,090 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:38:09,090 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_38_09.png
+2023-01-25 13:38:09,228 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 13:38:09,866 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2023-01-25 13:38:09,985 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2023-01-25 13:38:10,107 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2023-01-25 13:38:10,159 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 13:38:10,400 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 13:38:12,443 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 13:38:12,990 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 13:38:13,026 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 13:38:13,148 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-25 13:38:13,184 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-25 13:38:13,766 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-25 13:38:15,767 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_38_15.png
+2023-01-25 13:38:15,945 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 13:38:16,060 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 13:38:16,165 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-25 13:38:18,768 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 13:38:19,304 - root - INFO - 
+2023-01-25 13:38:19,446 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-25 13:38:19,446 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_38_19.png
+2023-01-25 13:38:19,589 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2023-01-25 13:38:20,250 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2023-01-25 13:38:20,392 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2023-01-25 13:38:20,539 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2023-01-25 13:38:20,590 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-25 13:38:20,809 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-25 13:38:23,381 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-25 13:38:23,428 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 13:38:25,430 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20230125_13_38_25.png
+2023-01-25 13:38:25,559 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 13:38:26,018 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2023-01-25 13:38:28,076 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2023-01-25 13:38:32,379 - root - INFO -  Se cierra chrome

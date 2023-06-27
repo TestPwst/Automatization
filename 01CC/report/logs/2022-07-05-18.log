@@ -1,0 +1,65 @@
+2022-07-05 18:23:20,260 - root - INFO -  Se abre el chrome
+2022-07-05 18:23:24,932 - root - INFO -  Entra a la URL
+2022-07-05 18:23:25,059 - root - INFO -  Maximiza la pantalla
+2022-07-05 18:23:28,113 - root - INFO -  Cambia al frame
+2022-07-05 18:23:31,209 - root - INFO -  Escribe el usuario
+2022-07-05 18:23:31,313 - root - INFO -  Escribe la contraseña
+2022-07-05 18:23:31,443 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-05 18:23:35,072 - root - INFO -  Ejecutar Enterprise
+2022-07-05 18:23:35,074 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_23_35.png
+2022-07-05 18:23:39,302 - root - INFO -  Cambia entre pestañas
+2022-07-05 18:24:36,237 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-05 18:24:39,356 - root - INFO -  Abre el menu completo
+2022-07-05 18:24:51,003 - root - INFO -  Abre la pantalla de Centros Costo
+2022-07-05 18:24:52,829 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-07-05 18:24:52,830 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_24_52.png
+2022-07-05 18:24:53,028 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-05 18:24:54,647 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-05 18:24:54,687 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-05 18:24:54,726 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-05 18:24:56,857 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-05 18:25:00,079 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-05 18:25:03,084 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_25_03.png
+2022-07-05 18:25:03,339 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-05 18:25:06,411 - root - INFO -  El campo 'Observación 1' si se encuentra visible.
+2022-07-05 18:25:06,447 - root - INFO -  El campo 'Observación 2' si se encuentra visible.
+2022-07-05 18:25:08,540 - root - INFO -  El campo 'Observación 3' si se encuentra visible.
+2022-07-05 18:25:10,763 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-07-05 18:25:13,977 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-07-05 18:25:17,211 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-07-05 18:25:20,347 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-05 18:25:23,430 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-05 18:25:26,546 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-05 18:25:28,171 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-05 18:25:28,237 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-05 18:25:28,284 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-05 18:25:30,378 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-05 18:25:33,568 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-05 18:25:36,685 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-05 18:25:39,748 - root - INFO -  El campo 'Observación 1' si se encuentra visible.
+2022-07-05 18:25:39,784 - root - INFO -  El campo 'Observación 2' si se encuentra visible.
+2022-07-05 18:25:41,850 - root - INFO -  El campo 'Observación 3' si se encuentra visible.
+2022-07-05 18:25:44,064 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-07-05 18:25:47,280 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-07-05 18:25:50,484 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-07-05 18:25:53,599 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-05 18:25:56,613 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_25_56.png
+2022-07-05 18:25:56,837 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-05 18:25:58,942 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-05 18:26:03,083 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-05 18:26:10,715 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-05 18:26:10,954 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-07-05 18:26:13,956 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_26_13.png
+2022-07-05 18:26:14,149 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-05 18:26:17,419 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-07-05 18:26:20,677 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-07-05 18:26:23,920 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-07-05 18:26:27,046 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-05 18:26:30,139 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-05 18:26:37,772 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-05 18:26:37,903 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-05 18:26:47,916 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220705_18_26_47.png
+2022-07-05 18:26:48,153 - root - INFO -  Se confirma el eliminado del registro
+2022-07-05 18:26:58,272 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-05 18:27:00,382 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-05 18:27:04,681 - root - INFO -  Se cierra chrome

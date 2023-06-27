@@ -1,0 +1,234 @@
+2022-09-12 15:20:07,463 - root - INFO -  Se abre el chrome
+2022-09-12 15:20:09,103 - root - INFO -  Entra a la URL
+2022-09-12 15:20:09,241 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:20:12,298 - root - INFO -  Cambia al frame
+2022-09-12 15:20:15,483 - root - INFO -  Escribe el usuario
+2022-09-12 15:20:15,596 - root - INFO -  Escribe la contraseña
+2022-09-12 15:20:15,742 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:20:17,080 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:20:21,169 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:20:35,314 - root - INFO -  Abre el menu completo
+2022-09-12 15:20:46,008 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:20:46,084 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:20:49,095 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_20_49.png
+2022-09-12 15:20:49,315 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:20:54,390 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:20:54,433 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:20:54,472 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:20:54,536 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:20:57,739 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-12 15:21:00,749 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_21_00.png
+2022-09-12 15:21:00,965 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-12 15:21:04,067 - root - INFO -  El campo 'Observación 1' si se encuentra visible.
+2022-09-12 15:21:04,123 - root - INFO -  El campo 'Observación 2' si se encuentra visible.
+2022-09-12 15:21:04,160 - root - INFO -  El campo 'Observación 3' si se encuentra visible.
+2022-09-12 15:21:04,309 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-09-12 15:21:07,572 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-09-12 15:21:10,873 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-09-12 15:21:14,001 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-12 15:21:19,125 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-12 15:21:24,226 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-12 15:21:29,303 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:21:29,337 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:21:29,369 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:21:29,429 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:21:32,632 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-12 15:21:35,777 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-12 15:21:40,788 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_21_40.png
+2022-09-12 15:21:41,002 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-12 15:21:44,108 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-12 15:21:48,207 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-12 15:21:57,870 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-12 15:22:01,133 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-12 15:22:04,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_22_04.png
+2022-09-12 15:22:04,351 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2022-09-12 15:22:07,596 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2022-09-12 15:22:10,851 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2022-09-12 15:22:14,075 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2022-09-12 15:22:17,217 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-12 15:22:22,310 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-12 15:22:31,935 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-12 15:22:35,086 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-12 15:22:40,094 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_22_40.png
+2022-09-12 15:22:40,302 - root - INFO -  Se confirma el eliminado del registro
+2022-09-12 15:22:45,413 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2022-09-12 15:22:50,502 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2022-09-12 15:22:56,960 - root - INFO -  Se cierra chrome
+2022-09-12 15:23:34,601 - root - INFO -  Se abre el chrome
+2022-09-12 15:23:58,560 - root - INFO -  Entra a la URL
+2022-09-12 15:23:58,695 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:24:01,784 - root - INFO -  Cambia al frame
+2022-09-12 15:24:04,904 - root - INFO -  Escribe el usuario
+2022-09-12 15:24:05,003 - root - INFO -  Escribe la contraseña
+2022-09-12 15:24:05,131 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:24:07,065 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:24:11,141 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:24:32,871 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-09-12 15:24:53,749 - root - INFO -  Se abre el chrome
+2022-09-12 15:24:55,022 - root - INFO -  Entra a la URL
+2022-09-12 15:24:55,154 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:24:58,216 - root - INFO -  Cambia al frame
+2022-09-12 15:25:01,303 - root - INFO -  Escribe el usuario
+2022-09-12 15:25:01,406 - root - INFO -  Escribe la contraseña
+2022-09-12 15:25:01,544 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:25:02,900 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:25:06,964 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:25:17,566 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:25:17,650 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:25:20,664 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_25_20.png
+2022-09-12 15:25:20,883 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:25:25,990 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:25:26,042 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:25:26,082 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:25:26,148 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:25:29,400 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-12 15:26:25,946 - root - INFO -  Se abre el chrome
+2022-09-12 15:26:46,022 - root - INFO -  Se abre el chrome
+2022-09-12 15:27:08,353 - root - INFO -  Entra a la URL
+2022-09-12 15:27:08,478 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:27:11,590 - root - INFO -  Cambia al frame
+2022-09-12 15:27:14,717 - root - INFO -  Escribe el usuario
+2022-09-12 15:27:14,811 - root - INFO -  Escribe la contraseña
+2022-09-12 15:27:14,937 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:27:16,387 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:27:20,466 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:28:39,426 - root - INFO -  Se abre el chrome
+2022-09-12 15:28:40,893 - root - INFO -  Entra a la URL
+2022-09-12 15:28:41,036 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:28:44,113 - root - INFO -  Cambia al frame
+2022-09-12 15:28:47,223 - root - INFO -  Escribe el usuario
+2022-09-12 15:28:47,354 - root - INFO -  Escribe la contraseña
+2022-09-12 15:28:47,508 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:28:48,835 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:28:52,881 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:29:03,510 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:29:03,552 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:29:06,565 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_29_06.png
+2022-09-12 15:29:06,801 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:29:19,817 - root - INFO -  Se abre el chrome
+2022-09-12 15:29:21,158 - root - INFO -  Entra a la URL
+2022-09-12 15:29:21,295 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:29:24,359 - root - INFO -  Cambia al frame
+2022-09-12 15:29:27,444 - root - INFO -  Escribe el usuario
+2022-09-12 15:29:27,540 - root - INFO -  Escribe la contraseña
+2022-09-12 15:29:27,679 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:29:29,006 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:29:33,071 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:29:43,703 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:29:43,805 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:29:46,806 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_29_46.png
+2022-09-12 15:29:46,977 - root - ERROR - No se dió click a el botón Nuevo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-12 15:30:04,275 - root - INFO -  Se abre el chrome
+2022-09-12 15:30:05,567 - root - INFO -  Entra a la URL
+2022-09-12 15:30:05,695 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:30:08,744 - root - INFO -  Cambia al frame
+2022-09-12 15:30:11,830 - root - INFO -  Escribe el usuario
+2022-09-12 15:30:11,944 - root - INFO -  Escribe la contraseña
+2022-09-12 15:30:12,084 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:30:13,473 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:30:17,542 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:30:36,177 - root - INFO -  Abre el menu completo
+2022-09-12 15:30:46,828 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:30:51,614 - root - INFO -  Se abre el chrome
+2022-09-12 15:30:53,103 - root - INFO -  Entra a la URL
+2022-09-12 15:30:53,246 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:30:56,305 - root - INFO -  Cambia al frame
+2022-09-12 15:30:59,400 - root - INFO -  Escribe el usuario
+2022-09-12 15:30:59,502 - root - INFO -  Escribe la contraseña
+2022-09-12 15:30:59,643 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:31:00,958 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:31:05,033 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:31:15,669 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:31:26,172 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre la pantalla sea el correcto o que la página no presente lentitud
+2022-09-12 15:31:29,187 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_31_29.png
+2022-09-12 15:31:50,127 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-09-12 15:31:53,137 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_31_53.png
+2022-09-12 15:32:14,064 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-12 15:32:17,068 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_32_17.png
+2022-09-12 15:33:08,837 - root - INFO -  Se abre el chrome
+2022-09-12 15:33:10,249 - root - INFO -  Entra a la URL
+2022-09-12 15:33:10,388 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:33:13,437 - root - INFO -  Cambia al frame
+2022-09-12 15:33:16,520 - root - INFO -  Escribe el usuario
+2022-09-12 15:33:16,625 - root - INFO -  Escribe la contraseña
+2022-09-12 15:33:16,772 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:33:18,165 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:33:22,231 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:33:27,389 - root - INFO -  Abre el menu completo
+2022-09-12 15:33:38,057 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:33:38,123 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:33:41,127 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_33_41.png
+2022-09-12 15:33:41,335 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:33:46,434 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:33:46,478 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:33:46,524 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:33:46,598 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:34:10,210 - root - INFO -  Se abre el chrome
+2022-09-12 15:34:11,662 - root - INFO -  Entra a la URL
+2022-09-12 15:34:11,808 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:34:14,862 - root - INFO -  Cambia al frame
+2022-09-12 15:34:17,954 - root - INFO -  Escribe el usuario
+2022-09-12 15:34:18,070 - root - INFO -  Escribe la contraseña
+2022-09-12 15:34:18,210 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:34:19,025 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:34:23,107 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:34:26,258 - root - INFO -  Abre el menu completo
+2022-09-12 15:34:36,954 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:34:37,096 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:34:40,100 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_34_40.png
+2022-09-12 15:34:40,333 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:52:15,943 - root - INFO -  Se abre el chrome
+2022-09-12 15:52:17,071 - root - INFO -  Entra a la URL
+2022-09-12 15:52:17,210 - root - INFO -  Maximiza la pantalla
+2022-09-12 15:52:20,260 - root - INFO -  Cambia al frame
+2022-09-12 15:52:23,370 - root - INFO -  Escribe el usuario
+2022-09-12 15:52:23,492 - root - INFO -  Escribe la contraseña
+2022-09-12 15:52:23,640 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-12 15:52:24,510 - root - INFO -  Ejecutar Enterprise
+2022-09-12 15:52:28,564 - root - INFO -  Cambia entre pestañas
+2022-09-12 15:52:39,199 - root - INFO -  Abre la pantalla de Centros Costo
+2022-09-12 15:52:39,249 - root - INFO -  La pantalla ejecutada es Centros Costo.
+2022-09-12 15:52:42,253 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_52_42.png
+2022-09-12 15:52:42,478 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-12 15:52:47,523 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:52:47,563 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:52:47,601 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:52:47,675 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:52:50,848 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-12 15:52:53,861 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_52_53.png
+2022-09-12 15:52:54,044 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-12 15:52:57,104 - root - INFO -  El campo 'Observación 1' si se encuentra visible.
+2022-09-12 15:52:57,171 - root - INFO -  El campo 'Observación 2' si se encuentra visible.
+2022-09-12 15:52:57,218 - root - INFO -  El campo 'Observación 3' si se encuentra visible.
+2022-09-12 15:52:57,378 - root - INFO -  Ingresa la Observación 1 del nuevo registro 
+2022-09-12 15:53:00,583 - root - INFO -  Ingresa la Observación 2 del nuevo registro 
+2022-09-12 15:53:03,798 - root - INFO -  Ingresa la Observación 3 del nuevo registro 
+2022-09-12 15:53:06,888 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-12 15:53:11,984 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-12 15:53:17,044 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-12 15:53:22,087 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-12 15:53:22,123 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-12 15:53:22,159 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-12 15:53:22,220 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-12 15:53:25,423 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-12 15:53:28,500 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-12 15:53:33,513 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_53_33.png
+2022-09-12 15:53:33,720 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-12 15:53:36,804 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-12 15:53:40,879 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-12 15:53:50,478 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-12 15:53:53,716 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-12 15:53:56,733 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_53_56.png
+2022-09-12 15:53:56,927 - root - INFO - Se hace el cambio de pestaña Obsrvaciones para continuar con la modificación del registro
+2022-09-12 15:54:00,143 - root - INFO -  Se modifica el contenido del campo Observación 1 
+2022-09-12 15:54:03,363 - root - INFO -  Se modifica el contenido del campo Observación 2 
+2022-09-12 15:54:06,579 - root - INFO -  Se modifica el contenido del campo Observación 3 
+2022-09-12 15:54:09,662 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-12 15:54:14,733 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-12 15:54:24,309 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-12 15:54:27,379 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-12 15:54:32,388 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CC\report\img  screen：20220912_15_54_32.png
+2022-09-12 15:54:32,574 - root - INFO -  Se confirma el eliminado del registro
+2022-09-12 15:54:37,665 - root - INFO -  Se presiona el boton 'Refrescar', para validar que el registro ha sido eliminado
+2022-09-12 15:54:42,743 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Centro Costos.
+2022-09-12 15:54:49,116 - root - INFO -  Se cierra chrome
