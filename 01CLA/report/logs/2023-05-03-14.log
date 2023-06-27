@@ -1,0 +1,48 @@
+2023-05-03 14:17:02,862 - root - INFO -  Se abre el chrome
+2023-05-03 14:17:05,193 - root - INFO -  Entra a la URL
+2023-05-03 14:17:05,316 - root - INFO -  Maximiza la pantalla
+2023-05-03 14:17:08,479 - root - INFO -  Escribe el usuario
+2023-05-03 14:17:08,584 - root - INFO -  Escribe la contraseña
+2023-05-03 14:17:08,671 - root - INFO -  Se dio clic en el boton ingresar
+2023-05-03 14:17:11,446 - root - INFO -  Ejecutar Enterprise
+2023-05-03 14:17:15,489 - root - INFO -  Cambia entre pestañas
+2023-05-03 14:17:30,614 - root - INFO -  Abre la pantalla de clasificación de artículos
+2023-05-03 14:17:31,685 - root - INFO -  La pantalla ejecutada es Clasificación de Artículo.
+2023-05-03 14:17:31,685 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLA\report\img  screen：20230503_14_17_31.png
+2023-05-03 14:17:31,844 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-05-03 14:17:32,396 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-03 14:17:32,452 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-03 14:17:32,536 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-03 14:17:32,639 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLA\report\img  screen：20230503_14_17_32.png
+2023-05-03 14:17:32,722 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-03 14:17:32,795 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-05-03 14:17:33,384 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-05-03 14:17:38,164 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-05-03 14:17:38,420 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-05-03 14:17:40,706 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-05-03 14:17:40,751 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-05-03 14:17:41,301 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-03 14:17:41,354 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-03 14:17:41,431 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-03 14:17:41,537 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-03 14:17:41,597 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-05-03 14:17:42,205 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-05-03 14:17:44,207 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLA\report\img  screen：20230503_14_17_44.png
+2023-05-03 14:17:44,377 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-05-03 14:17:44,506 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-05-03 14:17:44,682 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-05-03 14:17:47,268 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-05-03 14:17:48,406 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-05-03 14:17:48,548 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-05-03 14:17:48,548 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLA\report\img  screen：20230503_14_17_48.png
+2023-05-03 14:17:48,705 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-05-03 14:17:53,923 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-05-03 14:17:54,148 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-05-03 14:17:54,464 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-05-03 14:17:57,061 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-05-03 14:17:57,146 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-05-03 14:17:59,147 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLA\report\img  screen：20230503_14_17_59.png
+2023-05-03 14:17:59,298 - root - INFO -  Se confirma el eliminado del registro
+2023-05-03 14:17:59,528 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-05-03 14:18:01,618 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Clasificación Articulo.
+2023-05-03 14:18:08,012 - root - INFO -  Se cierra chrome
