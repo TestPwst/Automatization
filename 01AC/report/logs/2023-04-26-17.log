@@ -1,0 +1,39 @@
+2023-04-26 17:32:06,489 - root - INFO -  Se abre el chrome
+2023-04-26 17:32:09,100 - root - INFO -  Entra a la URL
+2023-04-26 17:32:09,364 - root - INFO -  Maximiza la pantalla
+2023-04-26 17:32:12,936 - root - INFO -  Escribe el usuario
+2023-04-26 17:32:13,201 - root - INFO -  Escribe la contraseña
+2023-04-26 17:32:13,480 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-26 17:32:16,000 - root - INFO -  Ejecutar Enterprise
+2023-04-26 17:32:20,103 - root - INFO -  Cambia entre pestañas
+2023-04-26 17:32:23,812 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2023-04-26 17:32:24,491 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2023-04-26 17:32:24,492 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230426_17_32_24.png
+2023-04-26 17:32:24,923 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-26 17:32:25,502 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-26 17:32:30,560 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-26 17:32:30,826 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-26 17:32:30,827 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230426_17_32_30.png
+2023-04-26 17:32:31,125 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-26 17:32:31,443 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-26 17:32:33,499 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-26 17:32:38,204 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-26 17:32:38,342 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-26 17:32:38,513 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-26 17:32:39,223 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-26 17:32:41,226 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230426_17_32_41.png
+2023-04-26 17:32:41,532 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-26 17:32:41,658 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-26 17:32:41,790 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-26 17:32:44,353 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-26 17:32:45,012 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-26 17:32:45,013 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230426_17_32_45.png
+2023-04-26 17:32:45,194 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-26 17:32:45,452 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-26 17:32:48,004 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-26 17:32:50,091 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-26 17:32:50,093 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230426_17_32_50.png
+2023-04-26 17:32:50,266 - root - INFO -  Se confirma el eliminado del registro
+2023-04-26 17:32:50,433 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-26 17:32:50,568 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Autorizaciones de Credito.
+2023-04-26 17:33:02,616 - root - INFO -  Se cierra chrome

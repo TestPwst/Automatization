@@ -1,0 +1,62 @@
+2022-10-17 10:33:02,915 - root - INFO -  Se abre el chrome
+2022-10-17 10:33:09,398 - root - INFO -  Entra a la URL
+2022-10-17 10:33:09,856 - root - INFO -  Maximiza la pantalla
+2022-10-17 10:33:13,120 - root - INFO -  Cambia al frame
+2022-10-17 10:33:16,259 - root - INFO -  Escribe el usuario
+2022-10-17 10:33:16,419 - root - INFO -  Escribe la contraseña
+2022-10-17 10:33:16,587 - root - INFO -  Se dio clic en el boton ingresar
+2022-10-17 10:33:18,059 - root - INFO -  Ejecutar Enterprise
+2022-10-17 10:33:22,185 - root - INFO -  Cambia entre pestañas
+2022-10-17 10:33:48,133 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-10-17 10:33:48,135 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_33_48.png
+2022-10-17 10:33:52,816 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-10-17 10:33:52,817 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_33_52.png
+2022-10-17 10:33:52,823 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-10-17 10:33:52,824 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_33_52.png
+2022-10-17 10:33:52,828 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-10-17 10:33:52,828 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_33_52.png
+2022-10-17 10:35:38,654 - root - INFO -  Se abre el chrome
+2022-10-17 10:35:41,757 - root - INFO -  Entra a la URL
+2022-10-17 10:35:41,935 - root - INFO -  Maximiza la pantalla
+2022-10-17 10:35:44,997 - root - INFO -  Cambia al frame
+2022-10-17 10:35:48,083 - root - INFO -  Escribe el usuario
+2022-10-17 10:35:48,200 - root - INFO -  Escribe la contraseña
+2022-10-17 10:35:48,416 - root - INFO -  Se dio clic en el boton ingresar
+2022-10-17 10:35:49,843 - root - INFO -  Ejecutar Enterprise
+2022-10-17 10:35:54,004 - root - INFO -  Cambia entre pestañas
+2022-10-17 10:36:10,076 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-10-17 10:36:10,120 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-10-17 10:36:10,120 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_36_10.png
+2022-10-17 10:36:12,511 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-10-17 10:36:12,558 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-10-17 10:36:12,594 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-10-17 10:36:12,629 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-10-17 10:36:12,670 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-10-17 10:36:12,711 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-10-17 10:36:12,749 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-10-17 10:36:12,796 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-10-17 10:36:48,893 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-10-17 10:36:52,021 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-10-17 10:36:52,022 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_36_52.png
+2022-10-17 10:36:55,234 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-10-17 10:36:58,320 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-10-17 10:37:03,393 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-10-17 10:37:39,438 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-10-17 10:37:42,603 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-10-17 10:37:45,706 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-10-17 10:37:48,707 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_37_48.png
+2022-10-17 10:37:48,948 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-10-17 10:37:51,045 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-10-17 10:37:55,104 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-10-17 10:38:02,713 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2022-10-17 10:38:02,924 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-10-17 10:38:02,925 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_38_02.png
+2022-10-17 10:38:06,123 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-10-17 10:38:09,194 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-10-17 10:38:16,771 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-10-17 10:38:18,855 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-10-17 10:38:18,856 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221017_10_38_18.png
+2022-10-17 10:38:19,057 - root - INFO -  Se confirma el eliminado del registro
+2022-10-17 10:38:21,117 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-10-17 10:38:23,192 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-10-17 10:38:29,928 - root - INFO -  Se cierra chrome

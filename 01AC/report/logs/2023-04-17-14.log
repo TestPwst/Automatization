@@ -1,0 +1,106 @@
+2023-04-17 14:40:25,724 - root - INFO -  Se abre el chrome
+2023-04-17 14:40:27,481 - root - INFO -  Entra a la URL
+2023-04-17 14:40:27,624 - root - INFO -  Maximiza la pantalla
+2023-04-17 14:40:30,760 - root - INFO -  Escribe el usuario
+2023-04-17 14:40:30,872 - root - INFO -  Escribe la contraseña
+2023-04-17 14:40:30,985 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-17 14:40:32,731 - root - INFO -  Ejecutar Enterprise
+2023-04-17 14:40:36,787 - root - INFO -  Cambia entre pestañas
+2023-04-17 14:40:46,835 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-04-17 14:40:48,870 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_40_48.png
+2023-04-17 14:40:48,877 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-04-17 14:40:55,744 - root - INFO -  Se abre el chrome
+2023-04-17 14:40:57,880 - root - INFO -  Entra a la URL
+2023-04-17 14:40:58,022 - root - INFO -  Maximiza la pantalla
+2023-04-17 14:41:01,138 - root - INFO -  Escribe el usuario
+2023-04-17 14:41:01,253 - root - INFO -  Escribe la contraseña
+2023-04-17 14:41:01,360 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-17 14:41:03,109 - root - INFO -  Ejecutar Enterprise
+2023-04-17 14:41:07,177 - root - INFO -  Cambia entre pestañas
+2023-04-17 14:41:19,452 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2023-04-17 14:41:20,008 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2023-04-17 14:41:20,009 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_41_20.png
+2023-04-17 14:41:20,176 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-17 14:41:20,741 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-17 14:41:24,597 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:41:24,694 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-17 14:41:24,694 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_41_24.png
+2023-04-17 14:41:24,872 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-17 14:41:25,081 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:41:27,120 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-17 14:41:31,553 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:41:31,658 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-17 14:41:31,719 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-17 14:41:32,320 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-17 14:41:34,321 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_41_34.png
+2023-04-17 14:41:34,487 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-17 14:41:34,573 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-17 14:41:34,684 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:41:41,287 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-17 14:41:41,433 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:41:41,434 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_41_41.png
+2023-04-17 14:41:41,574 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-17 14:41:41,941 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-17 14:41:44,503 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-17 14:41:46,578 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-17 14:41:46,579 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_41_46.png
+2023-04-17 14:41:46,730 - root - INFO -  Se confirma el eliminado del registro
+2023-04-17 14:41:46,923 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:41:47,086 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Autorizaciones de Credito.
+2023-04-17 14:41:54,021 - root - INFO -  Se cierra chrome
+2023-04-17 14:42:46,607 - root - INFO -  Se abre el chrome
+2023-04-17 14:42:47,753 - root - INFO -  Entra a la URL
+2023-04-17 14:42:47,975 - root - INFO -  Maximiza la pantalla
+2023-04-17 14:42:51,091 - root - INFO -  Escribe el usuario
+2023-04-17 14:42:51,196 - root - INFO -  Escribe la contraseña
+2023-04-17 14:42:51,280 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-17 14:42:53,040 - root - INFO -  Ejecutar Enterprise
+2023-04-17 14:42:57,092 - root - INFO -  Cambia entre pestañas
+2023-04-17 14:44:09,229 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-17 14:44:09,230 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-17 14:44:11,835 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2023-04-17 14:44:11,836 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_44_11.png
+2023-04-17 14:44:11,996 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-17 14:44:12,552 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-17 14:44:16,519 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:44:16,606 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-17 14:44:16,607 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_44_16.png
+2023-04-17 14:44:16,770 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-17 14:44:17,026 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:44:19,069 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-17 14:44:23,857 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:44:23,948 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-04-17 14:44:24,018 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-17 14:44:24,648 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-17 14:44:26,650 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_44_26.png
+2023-04-17 14:44:26,813 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-17 14:44:26,901 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-17 14:44:27,019 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:44:35,399 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-17 14:44:35,608 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-04-17 14:44:35,609 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_44_35.png
+2023-04-17 14:44:35,840 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-17 14:44:36,072 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-17 14:44:38,633 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-17 14:44:40,723 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-17 14:44:40,724 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_44_40.png
+2023-04-17 14:44:40,991 - root - INFO -  Se confirma el eliminado del registro
+2023-04-17 14:44:41,415 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-17 14:44:41,571 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Autorizaciones de Credito.
+2023-04-17 14:44:48,159 - root - INFO -  Se cierra chrome
+2023-04-17 14:46:37,637 - root - INFO -  Se abre el chrome
+2023-04-17 14:46:38,709 - root - INFO -  Entra a la URL
+2023-04-17 14:46:39,039 - root - INFO -  Maximiza la pantalla
+2023-04-17 14:46:42,163 - root - INFO -  Escribe el usuario
+2023-04-17 14:46:42,271 - root - INFO -  Escribe la contraseña
+2023-04-17 14:46:42,367 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-17 14:46:43,590 - root - INFO -  Ejecutar Enterprise
+2023-04-17 14:46:47,654 - root - INFO -  Cambia entre pestañas
+2023-04-17 14:46:58,575 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2023-04-17 14:46:59,145 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-04-17 14:47:01,147 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230417_14_47_01.png
+2023-04-17 14:47:07,540 - root - INFO -  Se cierra chrome
+2023-04-17 14:47:07,541 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-17 14:47:07,541 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-17 14:47:07,542 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-17 14:47:07,542 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte

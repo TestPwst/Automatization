@@ -1,0 +1,54 @@
+2023-02-22 14:32:04,965 - root - INFO -  Se abre el chrome
+2023-02-22 14:32:07,305 - root - INFO -  Entra a la URL
+2023-02-22 14:32:07,426 - root - INFO -  Maximiza la pantalla
+2023-02-22 14:32:10,443 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-02-22 14:32:10,444 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_32_10.png
+2023-02-22 14:32:10,452 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-02-22 14:32:12,454 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_32_12.png
+2023-02-22 14:32:12,459 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-02-22 14:32:17,874 - root - INFO -  Se abre el chrome
+2023-02-22 14:32:20,096 - root - INFO -  Entra a la URL
+2023-02-22 14:32:20,213 - root - INFO -  Maximiza la pantalla
+2023-02-22 14:32:23,294 - root - INFO -  Escribe el usuario
+2023-02-22 14:32:23,367 - root - INFO -  Escribe la contraseña
+2023-02-22 14:32:23,438 - root - INFO -  Se dio clic en el boton ingresar
+2023-02-22 14:32:26,228 - root - INFO -  Ejecutar Enterprise
+2023-02-22 14:32:30,267 - root - INFO -  Cambia entre pestañas
+2023-02-22 14:33:44,422 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-02-22 14:33:44,423 - root - INFO -  La función buscador funciona de manera correcta.
+2023-02-22 14:33:45,990 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2023-02-22 14:33:45,990 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_33_45.png
+2023-02-22 14:33:46,151 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-02-22 14:33:46,691 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-02-22 14:33:51,601 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-02-22 14:33:51,682 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-02-22 14:33:51,682 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_33_51.png
+2023-02-22 14:33:51,841 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-02-22 14:33:52,417 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-02-22 14:33:54,460 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-02-22 14:33:59,862 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-02-22 14:33:59,970 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2023-02-22 14:34:00,278 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-02-22 14:34:00,872 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-02-22 14:34:02,874 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_34_02.png
+2023-02-22 14:34:03,039 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-02-22 14:34:03,360 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-02-22 14:34:03,551 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-02-22 14:34:10,133 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2023-02-22 14:34:10,239 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2023-02-22 14:34:10,240 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_34_10.png
+2023-02-22 14:34:10,383 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-02-22 14:34:11,472 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-02-22 14:34:13,474 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_34_13.png
+2023-02-22 14:34:17,847 - root - INFO -  Se cierra chrome
+2023-02-22 14:34:55,511 - root - INFO -  Se abre el chrome
+2023-02-22 14:34:57,678 - root - INFO -  Entra a la URL
+2023-02-22 14:34:57,794 - root - INFO -  Maximiza la pantalla
+2023-02-22 14:35:00,897 - root - INFO -  Escribe el usuario
+2023-02-22 14:35:00,970 - root - INFO -  Escribe la contraseña
+2023-02-22 14:35:01,047 - root - INFO -  Se dio clic en el boton ingresar
+2023-02-22 14:35:04,395 - root - INFO -  Ejecutar Enterprise
+2023-02-22 14:35:08,434 - root - INFO -  Cambia entre pestañas
+2023-02-22 14:36:02,311 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-02-22 14:36:04,318 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20230222_14_36_04.png
+2023-02-22 14:36:04,320 - root - ERROR - No se dio click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud

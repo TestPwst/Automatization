@@ -1,0 +1,65 @@
+2022-12-27 15:11:56,564 - root - INFO -  Se abre el chrome
+2022-12-27 15:12:09,510 - root - INFO -  Entra a la URL
+2022-12-27 15:12:09,627 - root - INFO -  Maximiza la pantalla
+2022-12-27 15:12:12,785 - root - INFO -  Escribe el usuario
+2022-12-27 15:12:12,857 - root - INFO -  Escribe la contraseña
+2022-12-27 15:12:12,919 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 15:12:22,416 - root - INFO -  Ejecutar Enterprise
+2022-12-27 15:12:26,454 - root - INFO -  Cambia entre pestañas
+2022-12-27 15:22:46,977 - root - INFO -  Se abre el chrome
+2022-12-27 15:22:58,548 - root - INFO -  Entra a la URL
+2022-12-27 15:22:58,671 - root - INFO -  Maximiza la pantalla
+2022-12-27 15:23:01,782 - root - INFO -  Escribe el usuario
+2022-12-27 15:23:01,845 - root - INFO -  Escribe la contraseña
+2022-12-27 15:23:01,904 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 15:23:07,723 - root - INFO -  Ejecutar Enterprise
+2022-12-27 15:23:11,757 - root - INFO -  Cambia entre pestañas
+2022-12-27 15:24:04,623 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 15:24:06,631 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_24_06.png
+2022-12-27 15:24:06,695 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 15:38:48,425 - root - INFO -  Se abre el chrome
+2022-12-27 15:39:03,057 - root - INFO -  Entra a la URL
+2022-12-27 15:39:03,117 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-27 15:39:03,118 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_39_03.png
+2022-12-27 15:39:03,136 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 15:39:05,136 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_39_05.png
+2022-12-27 15:39:05,146 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 15:40:23,202 - root - INFO -  Se abre el chrome
+2022-12-27 15:40:28,013 - root - INFO -  Entra a la URL
+2022-12-27 15:40:28,130 - root - INFO -  Maximiza la pantalla
+2022-12-27 15:40:31,213 - root - INFO -  Escribe el usuario
+2022-12-27 15:40:31,290 - root - INFO -  Escribe la contraseña
+2022-12-27 15:40:31,347 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 15:40:32,806 - root - INFO -  Ejecutar Enterprise
+2022-12-27 15:40:36,842 - root - INFO -  Cambia entre pestañas
+2022-12-27 15:40:40,438 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-12-27 15:40:41,011 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-12-27 15:40:41,012 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_40_41.png
+2022-12-27 15:40:41,186 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 15:40:41,727 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 15:40:46,147 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-12-27 15:40:46,236 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-12-27 15:40:46,238 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_40_46.png
+2022-12-27 15:40:46,396 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 15:40:46,749 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 15:40:48,787 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-27 15:40:53,956 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-12-27 15:40:54,037 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-12-27 15:40:54,611 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 15:40:55,184 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2022-12-27 15:40:58,186 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_40_58.png
+2022-12-27 15:40:58,363 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 15:40:58,536 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-27 15:40:58,701 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 15:41:05,278 - root - INFO - Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 15:41:05,363 - root - INFO -  Ingresa la cantidad del nuevo registro 
+2022-12-27 15:41:05,363 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_41_05.png
+2022-12-27 15:41:05,491 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 15:41:05,779 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-27 15:41:08,337 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 15:41:10,383 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 15:41:10,385 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01AC\report\img  screen：20221227_15_41_10.png
+2022-12-27 15:41:10,490 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 15:41:10,702 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 15:41:10,873 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-12-27 15:41:15,129 - root - INFO -  Se cierra chrome
