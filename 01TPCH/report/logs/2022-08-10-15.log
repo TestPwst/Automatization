@@ -1,0 +1,233 @@
+2022-08-10 15:26:22,980 - root - INFO -  Se abre el chrome
+2022-08-10 15:26:27,275 - root - INFO -  Entra a la URL
+2022-08-10 15:26:27,412 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:26:30,475 - root - INFO -  Cambia al frame
+2022-08-10 15:26:33,571 - root - INFO -  Escribe el usuario
+2022-08-10 15:26:33,690 - root - INFO -  Escribe la contraseña
+2022-08-10 15:26:33,841 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:26:37,431 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:26:37,433 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_26_37.png
+2022-08-10 15:26:41,649 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:26:59,116 - root - INFO -  Abre el menu completo
+2022-08-10 15:27:12,057 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:27:15,768 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:27:18,782 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_27_18.png
+2022-08-10 15:27:18,981 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:27:24,056 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:27:24,101 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:27:24,151 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:27:24,194 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:27:24,234 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:27:24,279 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:27:24,328 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:27:24,372 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:27:24,413 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:27:24,451 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:27:24,524 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:27:27,748 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:28:18,094 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_28_18.png
+2022-08-10 15:28:18,305 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 15:28:21,394 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:28:26,474 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 15:28:26,522 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 15:28:26,566 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 15:28:57,961 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 15:29:03,071 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:29:08,169 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 15:29:14,297 - root - ERROR - No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:29:17,299 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_29_17.png
+2022-08-10 15:29:17,775 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:29:20,777 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_29_20.png
+2022-08-10 15:29:20,794 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:29:23,807 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_29_23.png
+2022-08-10 15:30:46,567 - root - INFO -  Se abre el chrome
+2022-08-10 15:30:50,187 - root - INFO -  Entra a la URL
+2022-08-10 15:30:50,320 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:30:53,382 - root - INFO -  Cambia al frame
+2022-08-10 15:30:56,470 - root - INFO -  Escribe el usuario
+2022-08-10 15:30:56,591 - root - INFO -  Escribe la contraseña
+2022-08-10 15:30:56,740 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:31:00,224 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:31:00,225 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_31_00.png
+2022-08-10 15:31:04,480 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:31:24,147 - root - INFO -  Abre el menu completo
+2022-08-10 15:31:37,075 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:31:40,288 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:31:43,301 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_31_43.png
+2022-08-10 15:31:43,510 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:32:21,088 - root - INFO -  Se abre el chrome
+2022-08-10 15:32:25,370 - root - INFO -  Entra a la URL
+2022-08-10 15:32:25,503 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:32:28,561 - root - INFO -  Cambia al frame
+2022-08-10 15:32:31,648 - root - INFO -  Escribe el usuario
+2022-08-10 15:32:31,759 - root - INFO -  Escribe la contraseña
+2022-08-10 15:32:31,905 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:32:34,922 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:32:34,924 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_32_34.png
+2022-08-10 15:32:39,155 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:32:57,514 - root - INFO -  Abre el menu completo
+2022-08-10 15:33:10,481 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:33:12,647 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:33:15,663 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_33_15.png
+2022-08-10 15:33:15,878 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:33:20,944 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:33:20,985 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:33:21,035 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:33:21,087 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:33:21,140 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:33:21,189 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:33:21,236 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:33:21,276 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:33:21,322 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:33:21,368 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:33:21,441 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:33:24,681 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:34:15,057 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_34_15.png
+2022-08-10 15:34:15,274 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 15:34:18,379 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:34:23,427 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 15:34:23,471 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 15:34:23,512 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 15:34:54,894 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 15:34:59,982 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:38:18,109 - root - INFO -  Se abre el chrome
+2022-08-10 15:38:22,323 - root - INFO -  Entra a la URL
+2022-08-10 15:38:22,460 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:38:25,523 - root - INFO -  Cambia al frame
+2022-08-10 15:38:28,618 - root - INFO -  Escribe el usuario
+2022-08-10 15:38:28,733 - root - INFO -  Escribe la contraseña
+2022-08-10 15:38:28,878 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:38:31,956 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:38:31,958 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_38_31.png
+2022-08-10 15:38:36,189 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:38:59,552 - root - INFO -  Abre el menu completo
+2022-08-10 15:39:12,486 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:39:15,203 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:39:18,216 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_39_18.png
+2022-08-10 15:39:18,499 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:39:23,572 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:39:23,621 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:39:23,673 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:39:23,713 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:39:23,756 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:39:23,799 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:39:23,839 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:39:23,881 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:39:23,922 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:39:23,960 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:39:24,030 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:39:27,243 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:40:17,611 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_40_17.png
+2022-08-10 15:40:17,800 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 15:40:20,887 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:40:25,950 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 15:40:25,998 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 15:40:26,044 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 15:40:57,446 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 15:41:02,561 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:41:08,681 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:41:11,692 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_41_11.png
+2022-08-10 15:41:12,281 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:41:15,287 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_41_15.png
+2022-08-10 15:41:15,295 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:41:18,297 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_41_18.png
+2022-08-10 15:43:05,951 - root - INFO -  Se abre el chrome
+2022-08-10 15:43:09,313 - root - INFO -  Entra a la URL
+2022-08-10 15:43:09,440 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:43:12,500 - root - INFO -  Cambia al frame
+2022-08-10 15:43:15,604 - root - INFO -  Escribe el usuario
+2022-08-10 15:43:15,726 - root - INFO -  Escribe la contraseña
+2022-08-10 15:43:15,868 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:43:18,880 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:43:18,881 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_43_18.png
+2022-08-10 15:43:23,154 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:43:41,492 - root - INFO -  Abre el menu completo
+2022-08-10 15:43:54,437 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:43:56,099 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:43:59,107 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_43_59.png
+2022-08-10 15:43:59,309 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:44:04,387 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:44:04,434 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:44:04,483 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:44:04,530 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:44:04,570 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:44:04,611 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:44:04,652 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:44:04,691 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:44:04,731 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:44:04,772 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:44:04,844 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:44:08,065 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:44:58,381 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_44_58.png
+2022-08-10 15:44:58,602 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 15:45:01,684 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:45:06,751 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 15:45:06,793 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 15:45:06,835 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 15:45:38,220 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 15:45:43,311 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:45:48,411 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 15:45:53,497 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 15:45:58,546 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:45:58,593 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:45:58,639 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:45:58,686 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:45:58,728 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:45:58,768 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:45:58,808 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:45:58,864 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:45:58,905 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:45:58,946 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:45:59,014 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:46:02,227 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:46:52,700 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:46:57,714 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_46_57.png
+2022-08-10 15:46:57,932 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 15:47:01,032 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-10 15:47:05,147 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 15:47:12,458 - root - ERROR - No se encontró el registro, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:47:15,476 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_47_15.png
+2022-08-10 15:47:16,430 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:47:19,432 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_47_19.png
+2022-08-10 15:48:52,900 - root - INFO -  Se abre el chrome
+2022-08-10 15:48:56,588 - root - INFO -  Entra a la URL
+2022-08-10 15:48:56,718 - root - INFO -  Maximiza la pantalla
+2022-08-10 15:48:59,777 - root - INFO -  Cambia al frame
+2022-08-10 15:49:02,873 - root - INFO -  Escribe el usuario
+2022-08-10 15:49:02,992 - root - INFO -  Escribe la contraseña
+2022-08-10 15:49:03,139 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 15:49:07,217 - root - INFO -  Ejecutar Enterprise
+2022-08-10 15:49:07,218 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_49_07.png
+2022-08-10 15:49:11,445 - root - INFO -  Cambia entre pestañas
+2022-08-10 15:49:32,975 - root - INFO -  Abre el menu completo
+2022-08-10 15:49:45,910 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 15:49:48,082 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 15:49:51,085 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_49_51.png
+2022-08-10 15:49:51,271 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:49:56,345 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 15:49:56,395 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 15:49:56,438 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 15:49:56,487 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 15:49:56,530 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 15:49:56,571 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 15:49:56,612 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 15:49:56,653 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 15:49:56,693 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 15:49:56,736 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 15:49:56,807 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 15:50:00,015 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 15:50:50,345 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_50_50.png
+2022-08-10 15:50:50,554 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 15:50:53,642 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 15:50:58,687 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 15:50:58,730 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 15:50:58,771 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 15:51:30,181 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 15:51:35,282 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 15:51:40,379 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 15:51:46,535 - root - ERROR - No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:51:49,548 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_51_49.png
+2022-08-10 15:51:50,056 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:51:53,068 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_51_53.png
+2022-08-10 15:51:53,076 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 15:51:56,087 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_15_51_56.png

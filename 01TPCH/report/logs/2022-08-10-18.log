@@ -1,0 +1,42 @@
+2022-08-10 18:30:59,083 - root - INFO -  Se abre el chrome
+2022-08-10 18:31:03,479 - root - INFO -  Entra a la URL
+2022-08-10 18:31:03,606 - root - INFO -  Maximiza la pantalla
+2022-08-10 18:31:06,667 - root - INFO -  Cambia al frame
+2022-08-10 18:31:09,756 - root - INFO -  Escribe el usuario
+2022-08-10 18:31:09,870 - root - INFO -  Escribe la contraseña
+2022-08-10 18:31:10,018 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 18:31:13,541 - root - INFO -  Ejecutar Enterprise
+2022-08-10 18:31:13,542 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_31_13.png
+2022-08-10 18:31:17,789 - root - INFO -  Cambia entre pestañas
+2022-08-10 18:31:44,243 - root - INFO -  Abre el menu completo
+2022-08-10 18:31:57,156 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-10 18:32:00,954 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-10 18:32:03,969 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_32_03.png
+2022-08-10 18:32:04,149 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 18:32:09,197 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 18:32:09,248 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-10 18:32:09,293 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-10 18:32:09,333 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-10 18:32:09,376 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-10 18:32:09,416 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-10 18:32:09,455 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-10 18:32:09,496 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-10 18:32:09,537 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-10 18:32:09,575 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-10 18:32:09,643 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-10 18:32:12,872 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-10 18:33:03,287 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_33_03.png
+2022-08-10 18:33:03,501 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-10 18:33:06,604 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 18:33:11,669 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-10 18:33:11,730 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-10 18:33:11,794 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-10 18:33:43,255 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-10 18:33:48,357 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 18:33:53,443 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 18:33:59,587 - root - ERROR - No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 18:34:02,600 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_34_02.png
+2022-08-10 18:34:03,072 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 18:34:06,088 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_34_06.png
+2022-08-10 18:34:06,094 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-10 18:34:09,096 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220810_18_34_09.png

@@ -1,0 +1,95 @@
+2022-12-23 12:42:37,173 - root - INFO -  Se abre el chrome
+2022-12-23 12:42:38,302 - root - INFO -  Entra a la URL
+2022-12-23 12:42:38,430 - root - INFO -  Maximiza la pantalla
+2022-12-23 12:42:41,533 - root - INFO -  Escribe el usuario
+2022-12-23 12:42:41,603 - root - INFO -  Escribe la contraseña
+2022-12-23 12:42:41,670 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 12:42:42,324 - root - INFO -  Ejecutar Enterprise
+2022-12-23 12:42:46,378 - root - INFO -  Cambia entre pestañas
+2022-12-23 12:42:56,832 - root - INFO - Abre la pantalla de Tipos de PopUp
+2022-12-23 12:42:57,413 - root - INFO -  La pantalla ejecutada es Tipos de PopUp.
+2022-12-23 12:42:58,426 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_42_58.png
+2022-12-23 12:42:58,632 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 12:42:59,218 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 12:42:59,248 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 12:42:59,280 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 12:42:59,310 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 12:42:59,396 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 12:42:59,502 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 12:42:59,734 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 12:43:00,750 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_43_00.png
+2022-12-23 12:43:00,968 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 12:43:01,160 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 12:43:01,275 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 12:43:01,852 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 12:43:01,880 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 12:43:01,906 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 12:43:01,933 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 12:43:02,006 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 12:43:02,090 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 12:43:02,332 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 12:43:02,374 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-23 12:43:03,375 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_43_03.png
+2022-12-23 12:43:03,655 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 12:43:03,774 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 12:43:03,905 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 12:43:04,219 - root - ERROR - No se encontró el registro, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 12:43:04,221 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_43_04.png
+2022-12-23 12:43:04,342 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-23 12:43:06,348 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_43_06.png
+2022-12-23 12:43:06,526 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 12:43:06,826 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 12:43:09,842 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_43_09.png
+2022-12-23 12:43:14,206 - root - INFO -  Se cierra chrome
+2022-12-23 12:43:51,499 - root - INFO -  Se abre el chrome
+2022-12-23 12:43:52,720 - root - INFO -  Entra a la URL
+2022-12-23 12:43:52,836 - root - INFO -  Maximiza la pantalla
+2022-12-23 12:43:55,964 - root - INFO -  Escribe el usuario
+2022-12-23 12:43:56,067 - root - INFO -  Escribe la contraseña
+2022-12-23 12:43:56,159 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 12:43:56,839 - root - INFO -  Ejecutar Enterprise
+2022-12-23 12:44:00,897 - root - INFO -  Cambia entre pestañas
+2022-12-23 12:44:11,764 - root - INFO - Abre la pantalla de Tipos de PopUp
+2022-12-23 12:44:12,322 - root - INFO -  La pantalla ejecutada es Tipos de PopUp.
+2022-12-23 12:44:13,336 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_44_13.png
+2022-12-23 12:44:14,049 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 12:44:14,106 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 12:44:14,664 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 12:44:14,789 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 12:44:14,909 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 12:44:15,485 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 12:44:15,514 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 12:44:15,543 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 12:44:15,578 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 12:44:15,657 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 12:44:15,741 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 12:44:15,980 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 12:44:16,986 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_44_16.png
+2022-12-23 12:44:17,210 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 12:44:17,397 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 12:44:17,522 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 12:44:18,106 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 12:44:18,155 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 12:44:18,184 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 12:44:18,210 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 12:44:18,291 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 12:44:18,367 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 12:44:18,565 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 12:44:18,606 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-23 12:44:19,620 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_44_19.png
+2022-12-23 12:44:19,882 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 12:44:20,026 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 12:44:20,147 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 12:44:21,790 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 12:44:22,471 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-12-23 12:44:22,679 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-23 12:44:23,682 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_44_23.png
+2022-12-23 12:44:23,884 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 12:44:24,066 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 12:44:25,710 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 12:44:25,761 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 12:44:26,765 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20221223_12_44_26.png
+2022-12-23 12:44:26,930 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 12:44:27,043 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro se elimino.
+2022-12-23 12:44:27,160 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos PopUp.
+2022-12-23 12:44:31,473 - root - INFO -  Se cierra chrome

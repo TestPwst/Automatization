@@ -1,0 +1,51 @@
+2023-04-21 17:22:09,668 - root - INFO -  Se abre el chrome
+2023-04-21 17:22:10,573 - root - INFO -  Entra a la URL
+2023-04-21 17:22:10,752 - root - INFO -  Maximiza la pantalla
+2023-04-21 17:22:13,966 - root - INFO -  Escribe el usuario
+2023-04-21 17:22:14,035 - root - INFO -  Escribe la contraseña
+2023-04-21 17:22:14,105 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 17:22:15,998 - root - INFO -  Ejecutar Enterprise
+2023-04-21 17:22:20,059 - root - INFO -  Cambia entre pestañas
+2023-04-21 17:23:33,038 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 17:23:33,039 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 17:23:34,598 - root - INFO -  La pantalla ejecutada es Tipos de PopUp.
+2023-04-21 17:23:35,599 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_23_35.png
+2023-04-21 17:23:45,966 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 17:23:46,515 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:23:46,546 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:23:46,586 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-04-21 17:23:46,619 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 17:23:46,677 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 17:23:46,735 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-21 17:23:46,855 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 17:23:47,856 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_23_47.png
+2023-04-21 17:23:48,016 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 17:23:48,268 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 17:23:48,390 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 17:23:48,951 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:23:48,978 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:23:49,002 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-04-21 17:23:49,026 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 17:23:49,084 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 17:23:49,155 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-21 17:23:49,284 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 17:23:49,322 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-04-21 17:23:50,325 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_23_50.png
+2023-04-21 17:23:55,646 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 17:23:56,647 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_23_56.png
+2023-04-21 17:23:56,826 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 17:23:56,940 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-21 17:23:57,048 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-21 17:23:58,644 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 17:23:59,270 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-04-21 17:23:59,424 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-21 17:24:00,426 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_24_00.png
+2023-04-21 17:24:00,575 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 17:24:00,804 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-21 17:24:02,374 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-21 17:24:02,422 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-21 17:24:04,423 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20230421_17_24_04.png
+2023-04-21 17:24:04,567 - root - INFO -  Se confirma el eliminado del registro
+2023-04-21 17:24:04,728 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro se elimino.
+2023-04-21 17:24:06,855 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos PopUp.
+2023-04-21 17:24:13,176 - root - INFO -  Se cierra chrome

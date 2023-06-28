@@ -1,0 +1,45 @@
+2022-11-25 14:01:48,193 - root - INFO -  Se abre el chrome
+2022-11-25 14:01:49,255 - root - INFO -  Entra a la URL
+2022-11-25 14:01:53,602 - root - INFO -  Maximiza la pantalla
+2022-11-25 14:01:56,653 - root - INFO -  Cambia al frame
+2022-11-25 14:01:59,765 - root - INFO -  Escribe el usuario
+2022-11-25 14:01:59,855 - root - INFO -  Escribe la contraseña
+2022-11-25 14:02:02,766 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 14:02:03,016 - root - INFO -  Ejecutar Enterprise
+2022-11-25 14:02:07,058 - root - INFO -  Cambia entre pestañas
+2022-11-25 14:02:20,439 - root - INFO -  Abre el menu completo
+2022-11-25 14:02:38,007 - root - INFO -  Abre la pantalla de tipos de compañia
+2022-11-25 14:02:38,049 - root - INFO -  La pantalla ejecutada es TIPO DE DISTRIBUIDOR
+2022-11-25 14:02:38,050 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_02_38.png
+2022-11-25 14:02:45,585 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-25 14:02:50,328 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 14:02:50,385 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 14:02:50,425 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-11-25 14:02:50,461 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 14:02:52,546 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-11-25 14:02:52,604 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 14:02:55,716 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-25 14:02:58,849 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-25 14:03:01,952 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_01.png
+2022-11-25 14:03:05,244 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 14:03:08,314 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 14:03:15,130 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-25 14:03:18,207 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-11-25 14:03:23,245 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 14:03:23,281 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 14:03:23,327 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-11-25 14:03:23,360 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 14:03:25,399 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-11-25 14:03:25,457 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 14:03:28,550 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-25 14:03:31,656 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-25 14:03:34,768 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_34.png
+2022-11-25 14:03:35,470 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 14:03:38,558 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 14:03:45,560 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_45.png
+2022-11-25 14:03:45,563 - root - ERROR - No se dió click al botón Cerrar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud o si ya xiste un registrp ya creado igual
+2022-11-25 14:03:45,564 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_45.png
+2022-11-25 14:03:49,492 - root - ERROR - No se dió click al botón Refrescar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-11-25 14:03:49,494 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_49.png
+2022-11-25 14:03:49,513 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 14:03:49,516 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPD\report\img  screen：20221125_14_03_49.png

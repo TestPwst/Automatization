@@ -1,0 +1,118 @@
+2022-08-31 16:02:50,921 - root - INFO -  Se abre el chrome
+2022-08-31 16:02:55,399 - root - INFO -  Entra a la URL
+2022-08-31 16:02:55,525 - root - INFO -  Maximiza la pantalla
+2022-08-31 16:02:58,577 - root - INFO -  Cambia al frame
+2022-08-31 16:03:01,656 - root - INFO -  Escribe el usuario
+2022-08-31 16:03:01,762 - root - INFO -  Escribe la contraseña
+2022-08-31 16:03:01,906 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 16:03:03,207 - root - INFO -  Ejecutar Enterprise
+2022-08-31 16:03:03,208 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_03_03.png
+2022-08-31 16:03:07,438 - root - INFO -  Cambia entre pestañas
+2022-08-31 16:03:12,539 - root - INFO -  Abre el menu completo
+2022-08-31 16:03:25,476 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-31 16:03:25,548 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-31 16:03:28,556 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_03_28.png
+2022-08-31 16:03:28,807 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-31 16:03:33,934 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 16:03:33,991 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 16:03:34,030 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 16:03:34,072 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 16:03:34,114 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 16:03:34,153 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 16:03:34,205 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 16:03:34,245 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 16:03:34,285 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 16:03:34,323 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 16:03:34,384 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 16:03:37,626 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:03:40,763 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-31 16:03:45,893 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:03:51,017 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-31 16:03:56,123 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 16:03:56,167 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 16:03:56,202 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 16:03:56,239 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 16:03:56,274 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 16:03:56,311 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 16:03:56,347 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 16:03:56,382 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 16:03:56,417 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 16:03:56,454 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 16:03:56,513 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 16:03:59,731 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:04:02,859 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-31 16:04:07,872 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_04_07.png
+2022-08-31 16:04:08,099 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-31 16:04:11,246 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-31 16:04:15,363 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:04:25,014 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-31 16:04:28,268 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:04:31,397 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-31 16:04:36,521 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-31 16:04:46,138 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-31 16:04:54,257 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-31 16:04:54,259 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_04_54.png
+2022-08-31 16:04:54,477 - root - INFO -  Se confirma el eliminado del registro
+2022-08-31 16:04:59,585 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:05:04,695 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-31 16:05:38,884 - root - ERROR - No se pudo cerrar sesion
+2022-08-31 16:05:41,899 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_05_41.png
+2022-08-31 16:14:05,416 - root - INFO -  Se abre el chrome
+2022-08-31 16:14:06,350 - root - INFO -  Entra a la URL
+2022-08-31 16:14:06,488 - root - INFO -  Maximiza la pantalla
+2022-08-31 16:14:09,555 - root - INFO -  Cambia al frame
+2022-08-31 16:14:12,647 - root - INFO -  Escribe el usuario
+2022-08-31 16:14:12,756 - root - INFO -  Escribe la contraseña
+2022-08-31 16:14:12,897 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 16:14:14,700 - root - INFO -  Ejecutar Enterprise
+2022-08-31 16:14:14,702 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_14_14.png
+2022-08-31 16:14:18,936 - root - INFO -  Cambia entre pestañas
+2022-08-31 16:14:24,035 - root - INFO -  Abre el menu completo
+2022-08-31 16:14:36,990 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-31 16:14:37,084 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-31 16:14:40,089 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_14_40.png
+2022-08-31 16:14:40,314 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-31 16:14:45,410 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 16:14:45,453 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 16:14:45,493 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 16:14:45,542 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 16:14:45,582 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 16:14:45,621 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 16:14:45,662 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 16:14:45,700 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 16:14:45,739 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 16:14:45,779 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 16:14:45,867 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 16:14:49,109 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:14:52,228 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-31 16:14:57,355 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:15:02,466 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-31 16:15:07,546 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 16:15:07,583 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 16:15:07,620 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 16:15:07,656 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 16:15:07,692 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 16:15:07,728 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 16:15:07,765 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 16:15:07,802 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 16:15:07,839 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 16:15:07,875 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 16:15:07,930 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 16:15:11,171 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:15:14,305 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-31 16:15:19,317 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_15_19.png
+2022-08-31 16:15:19,562 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-31 16:15:22,676 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-31 16:15:26,772 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:15:36,370 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-31 16:15:39,664 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 16:15:42,780 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-31 16:15:47,884 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-31 16:15:57,480 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-31 16:16:05,598 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-31 16:16:05,600 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_16_05.png
+2022-08-31 16:16:05,822 - root - INFO -  Se confirma el eliminado del registro
+2022-08-31 16:16:10,915 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-31 16:16:16,035 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-31 16:16:30,172 - root - ERROR - No se pudo cerrar sesion
+2022-08-31 16:16:33,178 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_16_16_33.png

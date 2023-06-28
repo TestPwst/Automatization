@@ -1,0 +1,57 @@
+2023-04-21 15:44:38,427 - root - INFO -  Se abre el chrome
+2023-04-21 15:44:39,218 - root - INFO -  Entra a la URL
+2023-04-21 15:44:39,364 - root - INFO -  Maximiza la pantalla
+2023-04-21 15:44:42,465 - root - INFO -  Escribe el usuario
+2023-04-21 15:44:42,563 - root - INFO -  Escribe la contraseña
+2023-04-21 15:44:42,648 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 15:44:43,363 - root - INFO -  Ejecutar Enterprise
+2023-04-21 15:44:47,410 - root - INFO -  Cambia entre pestañas
+2023-04-21 15:45:59,522 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 15:45:59,522 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 15:46:00,087 - root - INFO -  La pantalla ejecutada es TIPO DE COMPAÑIA
+2023-04-21 15:46:00,087 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_00.png
+2023-04-21 15:46:10,529 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 15:46:11,607 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 15:46:11,654 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 15:46:11,699 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2023-04-21 15:46:11,737 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 15:46:11,762 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2023-04-21 15:46:11,826 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 15:46:11,938 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2023-04-21 15:46:12,039 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-21 15:46:13,155 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_13.png
+2023-04-21 15:46:13,332 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 15:46:13,448 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 15:46:14,259 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 15:46:14,512 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 15:46:15,068 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 15:46:15,104 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 15:46:15,130 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2023-04-21 15:46:15,162 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 15:46:15,193 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2023-04-21 15:46:15,254 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 15:46:15,344 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2023-04-21 15:46:15,420 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-21 15:46:16,526 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_16.png
+2023-04-21 15:46:16,615 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 15:46:16,674 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 15:46:17,675 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_17.png
+2023-04-21 15:46:22,983 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 15:46:23,984 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_23.png
+2023-04-21 15:46:24,165 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 15:46:24,761 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-21 15:46:24,886 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 15:46:26,493 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 15:46:27,137 - root - INFO -  Se modifica el contenido del campo Codigo Usuario
+2023-04-21 15:46:27,237 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-21 15:46:28,396 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_28.png
+2023-04-21 15:46:28,477 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-21 15:46:28,538 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 15:46:28,778 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-21 15:46:30,358 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-21 15:46:30,429 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-21 15:46:32,431 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPC\report\img  screen：20230421_15_46_32.png
+2023-04-21 15:46:32,571 - root - INFO -  Se confirma el eliminado del registro
+2023-04-21 15:46:32,740 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 15:46:34,828 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Compañia.
+2023-04-21 15:46:41,341 - root - INFO -  Se cierra chrome

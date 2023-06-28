@@ -1,0 +1,31 @@
+2022-08-23 10:28:20,003 - root - INFO -  Se abre el chrome
+2022-08-23 10:28:22,793 - root - INFO -  Entra a la URL
+2022-08-23 10:28:22,948 - root - INFO -  Maximiza la pantalla
+2022-08-23 10:28:26,000 - root - INFO -  Cambia al frame
+2022-08-23 10:28:29,118 - root - INFO -  Escribe el usuario
+2022-08-23 10:28:29,242 - root - INFO -  Escribe la contraseña
+2022-08-23 10:28:29,458 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 10:28:31,920 - root - INFO -  Ejecutar Enterprise
+2022-08-23 10:28:35,989 - root - INFO -  Cambia entre pestañas
+2022-08-23 10:29:07,038 - root - INFO -  Abre el menu completo
+2022-08-23 10:29:23,019 - root - INFO -  Abre la pantalla de tipos de compañia
+2022-08-23 10:29:23,094 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2022-08-23 10:29:23,095 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20220823_10_29_23.png
+2022-08-23 10:29:23,251 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 10:29:26,299 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 10:29:26,341 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-23 10:29:26,382 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-23 10:29:28,439 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2022-08-23 10:29:30,503 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 10:29:44,219 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-23 10:29:47,334 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 10:29:52,407 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-23 10:29:52,454 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2022-08-23 10:30:05,081 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-23 10:30:12,329 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-23 10:30:16,472 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 10:30:16,473 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20220823_10_30_16.png
+2022-08-23 10:30:19,007 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 10:30:19,008 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20220823_10_30_19.png
+2022-08-23 10:30:19,014 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 10:30:19,014 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20220823_10_30_19.png

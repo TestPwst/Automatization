@@ -1,0 +1,376 @@
+2022-09-01 11:00:49,770 - root - INFO -  Se abre el chrome
+2022-09-01 11:00:50,991 - root - INFO -  Entra a la URL
+2022-09-01 11:00:51,123 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:00:54,181 - root - INFO -  Cambia al frame
+2022-09-01 11:00:57,259 - root - INFO -  Escribe el usuario
+2022-09-01 11:00:57,363 - root - INFO -  Escribe la contraseña
+2022-09-01 11:00:57,505 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:00:58,321 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:00:58,322 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_00_58.png
+2022-09-01 11:01:02,572 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:01:07,666 - root - INFO -  Abre el menu completo
+2022-09-01 11:01:20,553 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:01:20,613 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:01:23,630 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_01_23.png
+2022-09-01 11:01:23,812 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:01:28,900 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:01:28,943 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:01:28,985 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:01:29,027 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:01:29,066 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:01:29,106 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:01:29,144 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:01:29,182 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:01:29,221 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:01:29,260 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:01:29,334 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:01:32,582 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:01:35,684 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:01:40,826 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:01:50,448 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:01:58,555 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:01:58,556 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_01_58.png
+2022-09-01 11:01:58,755 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:02:03,862 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:02:08,987 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:02:15,068 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:02:35,297 - root - ERROR - No se pudo cerrar sesion
+2022-09-01 11:02:38,306 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_02_38.png
+2022-09-01 11:05:10,658 - root - INFO -  Se abre el chrome
+2022-09-01 11:05:11,847 - root - INFO -  Entra a la URL
+2022-09-01 11:05:11,975 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:05:15,037 - root - INFO -  Cambia al frame
+2022-09-01 11:05:18,121 - root - INFO -  Escribe el usuario
+2022-09-01 11:05:18,228 - root - INFO -  Escribe la contraseña
+2022-09-01 11:05:18,360 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:05:19,147 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:05:19,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_05_19.png
+2022-09-01 11:05:23,383 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:05:28,494 - root - INFO -  Abre el menu completo
+2022-09-01 11:05:41,460 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:05:41,553 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:05:44,554 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_05_44.png
+2022-09-01 11:05:44,777 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:05:49,865 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:05:49,922 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:05:49,961 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:05:49,999 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:05:50,037 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:05:50,076 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:05:50,115 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:05:50,154 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:05:50,205 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:05:50,243 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:05:50,301 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:05:53,537 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:05:56,669 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:06:01,788 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:06:11,405 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:06:19,549 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:06:19,551 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_06_19.png
+2022-09-01 11:06:19,763 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:06:24,886 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:06:30,000 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:06:36,098 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:06:56,455 - root - ERROR - No se pudo cerrar sesion
+2022-09-01 11:06:59,469 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_06_59.png
+2022-09-01 11:08:36,615 - root - INFO -  Se abre el chrome
+2022-09-01 11:08:37,730 - root - INFO -  Entra a la URL
+2022-09-01 11:08:37,853 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:08:40,914 - root - INFO -  Cambia al frame
+2022-09-01 11:08:44,016 - root - INFO -  Escribe el usuario
+2022-09-01 11:08:44,136 - root - INFO -  Escribe la contraseña
+2022-09-01 11:08:44,290 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:08:45,096 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:08:45,097 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_08_45.png
+2022-09-01 11:08:49,367 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:08:54,473 - root - INFO -  Abre el menu completo
+2022-09-01 11:09:07,429 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:09:07,526 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:09:10,531 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_09_10.png
+2022-09-01 11:09:10,735 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:09:15,823 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:09:15,869 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:09:15,910 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:09:15,951 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:09:15,990 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:09:16,030 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:09:16,067 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:09:16,104 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:09:16,141 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:09:16,181 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:09:16,254 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:09:19,433 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:09:22,547 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:09:27,627 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:09:37,214 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:09:45,341 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:09:45,342 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_09_45.png
+2022-09-01 11:09:45,552 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:09:50,662 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:09:55,785 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:10:01,914 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:10:22,194 - root - ERROR - No se pudo cerrar sesion
+2022-09-01 11:10:25,198 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_10_25.png
+2022-09-01 11:11:04,446 - root - INFO -  Se abre el chrome
+2022-09-01 11:11:04,994 - root - INFO -  Entra a la URL
+2022-09-01 11:11:05,023 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-09-01 11:11:05,024 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_11_05.png
+2022-09-01 11:11:05,053 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-09-01 11:11:27,959 - root - INFO -  Se abre el chrome
+2022-09-01 11:11:29,458 - root - INFO -  Entra a la URL
+2022-09-01 11:11:29,582 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:11:32,639 - root - INFO -  Cambia al frame
+2022-09-01 11:11:35,748 - root - INFO -  Escribe el usuario
+2022-09-01 11:11:35,858 - root - INFO -  Escribe la contraseña
+2022-09-01 11:11:36,006 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:11:36,790 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:11:36,791 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_11_36.png
+2022-09-01 11:11:41,048 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:11:46,149 - root - INFO -  Abre el menu completo
+2022-09-01 11:11:59,079 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:11:59,181 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:12:02,184 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_12_02.png
+2022-09-01 11:12:02,434 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:12:07,515 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:12:07,556 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:12:07,594 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:12:07,633 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:12:07,673 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:12:07,714 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:12:07,754 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:12:07,795 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:12:07,832 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:12:07,869 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:12:07,937 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:12:11,176 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:12:14,295 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:12:19,453 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:12:29,089 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:12:37,224 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:12:37,226 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_12_37.png
+2022-09-01 11:12:37,410 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:12:42,529 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:12:47,663 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:12:53,770 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:12:59,087 - root - INFO -  Cerro Cesion 
+2022-09-01 11:13:02,250 - root - INFO -  Se cierra chrome
+2022-09-01 11:19:28,382 - root - INFO -  Se abre el chrome
+2022-09-01 11:19:29,626 - root - INFO -  Entra a la URL
+2022-09-01 11:19:29,746 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:19:32,810 - root - INFO -  Cambia al frame
+2022-09-01 11:19:35,901 - root - INFO -  Escribe el usuario
+2022-09-01 11:19:36,022 - root - INFO -  Escribe la contraseña
+2022-09-01 11:19:36,188 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:19:37,506 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:19:37,507 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_19_37.png
+2022-09-01 11:19:41,747 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:19:46,900 - root - INFO -  Abre el menu completo
+2022-09-01 11:19:59,808 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:19:59,866 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:20:02,881 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_20_02.png
+2022-09-01 11:20:03,065 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:20:08,105 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:20:08,151 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:20:08,191 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:20:08,233 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:20:08,278 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:20:08,316 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:20:08,361 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:20:08,402 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:20:08,441 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:20:08,480 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:20:08,543 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:20:11,764 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:20:14,867 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:20:19,955 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:20:29,541 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:20:37,644 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:20:37,646 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_20_37.png
+2022-09-01 11:20:37,837 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:20:42,934 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:20:48,030 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:20:54,117 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:20:59,553 - root - INFO -  Cerro Cesion 
+2022-09-01 11:21:02,741 - root - INFO -  Se cierra chrome
+2022-09-01 11:21:10,668 - root - INFO -  Se abre el chrome
+2022-09-01 11:21:11,712 - root - INFO -  Entra a la URL
+2022-09-01 11:21:11,835 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:21:14,898 - root - INFO -  Cambia al frame
+2022-09-01 11:21:17,993 - root - INFO -  Escribe el usuario
+2022-09-01 11:21:18,109 - root - INFO -  Escribe la contraseña
+2022-09-01 11:21:18,264 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:21:19,589 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:21:19,590 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_21_19.png
+2022-09-01 11:21:23,802 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:25:21,261 - root - INFO -  Se abre el chrome
+2022-09-01 11:25:22,516 - root - INFO -  Entra a la URL
+2022-09-01 11:25:22,686 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:25:25,755 - root - INFO -  Cambia al frame
+2022-09-01 11:25:28,838 - root - INFO -  Escribe el usuario
+2022-09-01 11:25:28,962 - root - INFO -  Escribe la contraseña
+2022-09-01 11:25:29,138 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:25:29,975 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:25:29,977 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_25_29.png
+2022-09-01 11:25:34,237 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:25:39,346 - root - INFO -  Abre el menu completo
+2022-09-01 11:25:52,260 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:25:52,324 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:25:55,340 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_25_55.png
+2022-09-01 11:25:55,521 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:26:00,586 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:26:00,626 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:26:00,669 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:26:00,711 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:26:00,752 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:26:00,794 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:26:00,833 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:26:00,878 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:26:00,918 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:26:00,959 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:26:01,022 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:26:04,269 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:26:07,365 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:26:12,444 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:26:22,031 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:26:30,154 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:26:30,155 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_26_30.png
+2022-09-01 11:26:30,390 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:26:35,459 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:26:40,546 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:26:46,619 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:26:51,914 - root - INFO -  Cerro Cesion 
+2022-09-01 11:26:55,096 - root - INFO -  Se cierra chrome
+2022-09-01 11:35:52,246 - root - INFO -  Se abre el chrome
+2022-09-01 11:35:53,537 - root - INFO -  Entra a la URL
+2022-09-01 11:35:53,673 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:35:56,732 - root - INFO -  Cambia al frame
+2022-09-01 11:35:59,830 - root - INFO -  Escribe el usuario
+2022-09-01 11:35:59,954 - root - INFO -  Escribe la contraseña
+2022-09-01 11:36:00,128 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:36:00,948 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:36:00,949 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_36_00.png
+2022-09-01 11:36:05,188 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:36:10,287 - root - INFO -  Abre el menu completo
+2022-09-01 11:36:23,232 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:36:23,297 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:36:26,308 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_36_26.png
+2022-09-01 11:36:26,479 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:36:31,525 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:36:31,568 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:36:31,614 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:36:31,655 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:36:31,692 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:36:31,732 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:36:31,770 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:36:31,811 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:36:31,850 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:36:31,887 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:36:31,960 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:36:35,191 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:36:38,269 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:36:43,350 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:36:52,922 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:37:01,046 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:37:01,047 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_37_01.png
+2022-09-01 11:37:01,230 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:37:06,305 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:37:11,394 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:37:17,479 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:37:22,774 - root - INFO -  Cerro Cesion 
+2022-09-01 11:37:28,088 - root - INFO -  Se cierra chrome
+2022-09-01 11:39:46,393 - root - INFO -  Se abre el chrome
+2022-09-01 11:39:47,553 - root - INFO -  Entra a la URL
+2022-09-01 11:39:47,675 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:39:50,731 - root - INFO -  Cambia al frame
+2022-09-01 11:39:53,818 - root - INFO -  Escribe el usuario
+2022-09-01 11:39:53,929 - root - INFO -  Escribe la contraseña
+2022-09-01 11:39:54,087 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:39:54,919 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:39:54,919 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_39_54.png
+2022-09-01 11:39:59,185 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:40:04,291 - root - INFO -  Abre el menu completo
+2022-09-01 11:40:17,207 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:40:17,250 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:40:20,259 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_40_20.png
+2022-09-01 11:40:20,432 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:40:27,721 - root - INFO -  Se cierra chrome
+2022-09-01 11:42:07,738 - root - INFO -  Se abre el chrome
+2022-09-01 11:42:08,888 - root - INFO -  Entra a la URL
+2022-09-01 11:42:09,019 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:42:12,082 - root - INFO -  Cambia al frame
+2022-09-01 11:42:15,187 - root - INFO -  Escribe el usuario
+2022-09-01 11:42:15,302 - root - INFO -  Escribe la contraseña
+2022-09-01 11:42:15,452 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:42:16,797 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:42:16,798 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_42_16.png
+2022-09-01 11:42:21,065 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:42:26,201 - root - INFO -  Abre el menu completo
+2022-09-01 11:42:31,559 - root - ERROR - No se pudo encontrar el menu indicado, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-09-01 11:42:34,564 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_42_34.png
+2022-09-01 11:42:37,089 - root - INFO -  Se cierra chrome
+2022-09-01 11:43:16,262 - root - INFO -  Se abre el chrome
+2022-09-01 11:43:17,355 - root - INFO -  Entra a la URL
+2022-09-01 11:43:17,479 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:43:20,541 - root - INFO -  Cambia al frame
+2022-09-01 11:43:23,638 - root - INFO -  Escribe el usuario
+2022-09-01 11:43:23,766 - root - INFO -  Escribe la contraseña
+2022-09-01 11:43:23,943 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:43:24,752 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:43:24,754 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_43_24.png
+2022-09-01 11:43:29,023 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:43:34,123 - root - INFO -  Abre el menu completo
+2022-09-01 11:43:47,025 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:43:47,068 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:43:50,083 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_43_50.png
+2022-09-01 11:43:50,275 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:43:57,518 - root - INFO -  Se cierra chrome
+2022-09-01 11:47:06,463 - root - INFO -  Se abre el chrome
+2022-09-01 11:47:08,962 - root - INFO -  Entra a la URL
+2022-09-01 11:47:09,091 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:47:12,156 - root - INFO -  Cambia al frame
+2022-09-01 11:47:15,244 - root - INFO -  Escribe el usuario
+2022-09-01 11:47:15,368 - root - INFO -  Escribe la contraseña
+2022-09-01 11:47:15,522 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:47:16,851 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:47:16,852 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_47_16.png
+2022-09-01 11:47:21,053 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:47:26,200 - root - INFO -  Abre el menu completo
+2022-09-01 11:47:39,149 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-09-01 11:47:39,221 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-09-01 11:47:42,236 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_47_42.png
+2022-09-01 11:47:42,432 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 11:47:47,520 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 11:47:47,574 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 11:47:47,615 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 11:47:47,658 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-09-01 11:47:47,707 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-09-01 11:47:47,750 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-09-01 11:47:47,790 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-09-01 11:47:47,830 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-09-01 11:47:47,872 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-09-01 11:47:47,913 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-09-01 11:47:47,975 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 11:47:51,183 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 11:47:54,286 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 11:47:59,375 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 11:48:08,982 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 11:48:17,097 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 11:48:17,099 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_48_17.png
+2022-09-01 11:48:17,306 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 11:48:22,365 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 11:48:27,454 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-01 11:48:33,538 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:48:36,855 - root - INFO -  Cerro Cesion 
+2022-09-01 11:48:42,195 - root - INFO -  Se cierra chrome
+2022-09-01 11:48:50,861 - root - INFO -  Se abre el chrome
+2022-09-01 11:48:52,100 - root - INFO -  Entra a la URL
+2022-09-01 11:48:52,235 - root - INFO -  Maximiza la pantalla
+2022-09-01 11:48:55,304 - root - INFO -  Cambia al frame
+2022-09-01 11:48:58,396 - root - INFO -  Escribe el usuario
+2022-09-01 11:48:58,514 - root - INFO -  Escribe la contraseña
+2022-09-01 11:48:58,672 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 11:48:59,492 - root - INFO -  Ejecutar Enterprise
+2022-09-01 11:48:59,493 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220901_11_48_59.png
+2022-09-01 11:49:03,741 - root - INFO -  Cambia entre pestañas
+2022-09-01 11:49:08,831 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte

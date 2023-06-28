@@ -1,0 +1,54 @@
+2023-01-11 10:57:44,237 - root - INFO -  Se abre el chrome
+2023-01-11 10:57:45,150 - root - INFO -  Entra a la URL
+2023-01-11 10:57:45,283 - root - INFO -  Maximiza la pantalla
+2023-01-11 10:57:48,405 - root - INFO -  Escribe el usuario
+2023-01-11 10:57:48,515 - root - INFO -  Escribe la contraseña
+2023-01-11 10:57:48,633 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-11 10:57:49,413 - root - INFO -  Ejecutar Enterprise
+2023-01-11 10:57:53,472 - root - INFO -  Cambia entre pestañas
+2023-01-11 10:58:05,422 - root - INFO -  Abre la pantalla de tipos de compañia
+2023-01-11 10:58:05,986 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-01-11 10:58:05,987 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_05.png
+2023-01-11 10:58:16,976 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 10:58:17,580 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:58:17,618 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:58:17,674 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:58:17,717 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-01-11 10:58:17,786 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:58:18,393 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-11 10:58:19,014 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 10:58:19,628 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-01-11 10:58:19,671 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2023-01-11 10:58:21,068 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2023-01-11 10:58:22,070 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_22.png
+2023-01-11 10:58:22,632 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 10:58:26,766 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:58:26,903 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-11 10:58:27,500 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:58:27,536 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:58:27,575 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:58:27,616 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-01-11 10:58:27,685 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:58:28,279 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 10:58:29,281 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_29.png
+2023-01-11 10:58:35,253 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:58:36,255 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_36.png
+2023-01-11 10:58:37,008 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:58:37,653 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-11 10:58:37,793 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:58:39,458 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 10:58:41,154 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_41.png
+2023-01-11 10:58:41,718 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-11 10:58:41,796 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 10:58:44,906 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-11 10:58:46,553 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 10:58:47,165 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-11 10:58:48,272 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 10:58:48,357 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 10:58:48,467 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 10:58:49,063 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 10:58:50,065 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230111_10_58_50.png
+2023-01-11 10:58:50,700 - root - INFO -  Se confirma el eliminado del registro
+2023-01-11 10:58:50,839 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:58:51,000 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de presupuestos.
+2023-01-11 10:58:55,342 - root - INFO -  Se cierra chrome

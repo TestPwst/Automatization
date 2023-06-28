@@ -1,0 +1,228 @@
+2023-06-09 16:08:53,518 - root - INFO -  Se abre el chrome
+2023-06-09 16:08:55,882 - root - INFO -  Entra a la URL
+2023-06-09 16:08:56,156 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:08:59,297 - root - INFO -  Escribe el usuario
+2023-06-09 16:08:59,417 - root - INFO -  Escribe la contraseña
+2023-06-09 16:08:59,532 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:09:00,921 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:09:04,982 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:09:17,013 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:09:18,080 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:09:18,081 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_09_18.png
+2023-06-09 16:09:28,501 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:09:29,045 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:09:29,074 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:09:29,101 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:09:29,123 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:09:29,176 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:09:29,702 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:09:30,283 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:09:30,840 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-09 16:09:30,875 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2023-06-09 16:09:32,582 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2023-06-09 16:09:33,583 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_09_33.png
+2023-06-09 16:09:33,763 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:09:34,879 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:09:34,880 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_09_34.png
+2023-06-09 16:09:39,388 - root - INFO -  Se cierra chrome
+2023-06-09 16:09:39,389 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:09:39,390 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:09:59,580 - root - INFO -  Se abre el chrome
+2023-06-09 16:10:00,341 - root - INFO -  Entra a la URL
+2023-06-09 16:10:00,462 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:10:03,544 - root - INFO -  Escribe el usuario
+2023-06-09 16:10:03,652 - root - INFO -  Escribe la contraseña
+2023-06-09 16:10:03,734 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:10:04,438 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:10:08,481 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:10:19,408 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:10:19,987 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:10:19,988 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_19.png
+2023-06-09 16:10:20,680 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:10:21,272 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:10:22,356 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:10:23,488 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-09 16:10:23,586 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-09 16:10:24,752 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-09 16:10:25,754 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_25.png
+2023-06-09 16:10:25,929 - root - INFO -  Se confirma el eliminado del registro
+2023-06-09 16:10:26,102 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:10:26,331 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:10:26,884 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:10:26,918 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:10:26,959 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:10:27,002 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:10:27,069 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:10:27,618 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:10:28,216 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:10:28,766 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-09 16:10:28,799 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2023-06-09 16:10:30,493 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2023-06-09 16:10:31,494 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_31.png
+2023-06-09 16:10:31,699 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:10:33,309 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:10:35,373 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-09 16:10:35,917 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:10:35,940 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:10:35,958 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:10:35,982 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:10:36,019 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:10:36,536 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:10:37,536 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_37.png
+2023-06-09 16:10:42,911 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-09 16:10:43,911 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_43.png
+2023-06-09 16:10:44,138 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-09 16:10:44,737 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-09 16:10:44,819 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:10:48,424 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:10:50,138 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_50.png
+2023-06-09 16:10:50,248 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-09 16:10:50,293 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-09 16:10:51,406 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:10:51,407 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_10_51.png
+2023-06-09 16:10:55,799 - root - INFO -  Se cierra chrome
+2023-06-09 16:11:55,561 - root - INFO -  Se abre el chrome
+2023-06-09 16:11:56,229 - root - INFO -  Entra a la URL
+2023-06-09 16:11:56,379 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:11:59,465 - root - INFO -  Escribe el usuario
+2023-06-09 16:11:59,568 - root - INFO -  Escribe la contraseña
+2023-06-09 16:11:59,652 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:12:01,408 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:12:05,462 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:12:17,642 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:12:18,718 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:12:18,719 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_12_18.png
+2023-06-09 16:12:19,400 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:12:19,969 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:12:21,049 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:12:22,164 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-09 16:12:22,355 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-09 16:12:24,491 - root - ERROR - No se dió click al botón Eliminar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:12:24,492 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_12_24.png
+2023-06-09 16:12:29,137 - root - INFO -  Se cierra chrome
+2023-06-09 16:12:29,140 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:12:29,141 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:12:29,142 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:12:29,142 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:14:40,801 - root - INFO -  Se abre el chrome
+2023-06-09 16:14:41,542 - root - INFO -  Entra a la URL
+2023-06-09 16:14:41,656 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:14:44,766 - root - INFO -  Escribe el usuario
+2023-06-09 16:14:44,862 - root - INFO -  Escribe la contraseña
+2023-06-09 16:14:44,947 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:14:46,230 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:14:50,279 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:15:01,405 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:15:01,982 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:15:01,982 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_01.png
+2023-06-09 16:15:02,687 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:15:03,273 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:15:15,087 - root - ERROR - No se dió click al botón Eliminar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:15:15,088 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_15.png
+2023-06-09 16:15:15,097 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:15:15,097 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_15.png
+2023-06-09 16:15:15,103 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:15:15,103 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_15.png
+2023-06-09 16:15:15,111 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:15:15,111 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_15.png
+2023-06-09 16:15:15,116 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:15:15,117 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_15_15.png
+2023-06-09 16:15:23,926 - root - INFO -  Se abre el chrome
+2023-06-09 16:15:24,636 - root - INFO -  Entra a la URL
+2023-06-09 16:15:24,793 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:15:27,899 - root - INFO -  Escribe el usuario
+2023-06-09 16:15:28,030 - root - INFO -  Escribe la contraseña
+2023-06-09 16:15:28,116 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:15:29,831 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:15:33,879 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:16:18,731 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:16:18,731 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_16_18.png
+2023-06-09 16:16:18,745 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:16:18,745 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_16_18.png
+2023-06-09 16:16:18,756 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:16:18,756 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_16_18.png
+2023-06-09 16:16:18,766 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:16:18,767 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_16_18.png
+2023-06-09 16:16:27,431 - root - INFO -  Se abre el chrome
+2023-06-09 16:16:28,180 - root - INFO -  Entra a la URL
+2023-06-09 16:16:28,293 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:16:31,406 - root - INFO -  Escribe el usuario
+2023-06-09 16:16:31,512 - root - INFO -  Escribe la contraseña
+2023-06-09 16:16:31,594 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:16:32,295 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:16:36,343 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:16:47,327 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:16:47,888 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:16:47,889 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_16_47.png
+2023-06-09 16:16:58,314 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:16:58,876 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:16:58,915 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:16:58,950 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:16:58,982 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:16:59,053 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:16:59,576 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:17:00,175 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:17:00,732 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-09 16:17:00,769 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2023-06-09 16:17:02,165 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2023-06-09 16:17:03,166 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_17_03.png
+2023-06-09 16:17:03,330 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:17:04,451 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:17:04,453 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_17_04.png
+2023-06-09 16:17:08,970 - root - INFO -  Se cierra chrome
+2023-06-09 16:17:08,973 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:17:08,974 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-06-09 16:17:35,264 - root - INFO -  Se abre el chrome
+2023-06-09 16:17:36,909 - root - INFO -  Entra a la URL
+2023-06-09 16:17:37,026 - root - INFO -  Maximiza la pantalla
+2023-06-09 16:17:40,115 - root - INFO -  Escribe el usuario
+2023-06-09 16:17:40,223 - root - INFO -  Escribe la contraseña
+2023-06-09 16:17:40,303 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-09 16:17:42,018 - root - INFO -  Ejecutar Enterprise
+2023-06-09 16:17:46,070 - root - INFO -  Cambia entre pestañas
+2023-06-09 16:17:57,500 - root - INFO -  Abre la pantalla de tipos de Presupuesto
+2023-06-09 16:17:58,061 - root - INFO -  La pantalla ejecutada es TIPOS DE PRESUPUESTOS
+2023-06-09 16:17:58,061 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_17_58.png
+2023-06-09 16:17:58,750 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:17:59,331 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:18:00,431 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:18:00,524 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-09 16:18:02,602 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-09 16:18:05,184 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-09 16:18:05,260 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-09 16:18:06,341 - root - INFO -  Se confirma el eliminado del registro
+2023-06-09 16:18:06,548 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:18:06,696 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:18:07,272 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:18:07,308 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:18:07,341 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:18:07,370 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:18:07,433 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:18:07,962 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-09 16:18:08,559 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-09 16:18:09,106 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-09 16:18:09,134 - root - INFO -  El campo 'Categoría' si se encuentra visible.
+2023-06-09 16:18:10,611 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2023-06-09 16:18:11,612 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_18_11.png
+2023-06-09 16:18:11,791 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:18:13,109 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:18:15,168 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-09 16:18:15,721 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-09 16:18:15,755 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-09 16:18:15,790 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-09 16:18:15,832 - root - INFO -  El campo 'Modo presupuesto' si se encuentra visible.
+2023-06-09 16:18:15,898 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-09 16:18:16,450 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-09 16:18:17,452 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_18_17.png
+2023-06-09 16:18:22,901 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-09 16:18:23,901 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_18_23.png
+2023-06-09 16:18:24,138 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-09 16:18:24,743 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-09 16:18:24,836 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-09 16:18:28,433 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-09 16:18:30,128 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_18_30.png
+2023-06-09 16:18:30,236 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-09 16:18:30,291 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-09 16:18:31,401 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-06-09 16:18:31,402 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPP\report\img  screen：20230609_16_18_31.png
+2023-06-09 16:18:36,023 - root - INFO -  Se cierra chrome

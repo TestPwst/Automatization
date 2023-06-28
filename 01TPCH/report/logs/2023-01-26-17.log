@@ -1,0 +1,172 @@
+2023-01-26 17:31:28,106 - root - INFO -  Se abre el chrome
+2023-01-26 17:31:29,268 - root - INFO -  Entra a la URL
+2023-01-26 17:31:29,398 - root - INFO -  Maximiza la pantalla
+2023-01-26 17:31:32,502 - root - INFO -  Escribe el usuario
+2023-01-26 17:31:32,599 - root - INFO -  Escribe la contraseña
+2023-01-26 17:31:32,676 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-26 17:31:33,439 - root - INFO -  Ejecutar Enterprise
+2023-01-26 17:31:37,493 - root - INFO -  Cambia entre pestañas
+2023-01-26 17:31:48,800 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2023-01-26 17:31:49,409 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2023-01-26 17:31:50,422 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_31_50.png
+2023-01-26 17:32:01,191 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-26 17:32:01,808 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 17:32:01,858 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-26 17:32:01,888 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-26 17:32:01,928 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2023-01-26 17:32:01,973 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2023-01-26 17:32:02,011 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2023-01-26 17:32:02,041 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2023-01-26 17:32:02,081 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2023-01-26 17:32:02,111 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2023-01-26 17:32:02,151 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2023-01-26 17:32:02,210 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 17:32:02,374 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 17:32:02,749 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2023-01-26 17:32:03,168 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2023-01-26 17:32:03,523 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:32:03,611 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:32:04,891 - root - INFO -  Se dió doble click en el registro de Tipo de Documento Cheque.
+2023-01-26 17:32:05,478 - root - INFO -  Se dió click en la opción Verificar según fecha del documento.
+2023-01-26 17:32:05,824 - root - INFO -  Se dió click en el checkbox Liberar Credito.
+2023-01-26 17:32:06,830 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_32_06.png
+2023-01-26 17:32:07,854 - root - INFO - Se hace el cambio a la pestaña Cuentas Contables para continuar con el registro nuevo
+2023-01-26 17:32:08,477 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Cuentas Contables.
+2023-01-26 17:32:08,517 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-01-26 17:32:08,559 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2023-01-26 17:32:08,596 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-01-26 17:32:10,246 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-26 17:32:11,424 - root - INFO -  Se dió doble click en el registro de Cuentas Contables.
+2023-01-26 17:32:12,594 - root - INFO -  Se dió doble click en el registro de Centro Costo.
+2023-01-26 17:32:12,929 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro de Cuentas Contables.
+2023-01-26 17:32:13,262 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-26 17:32:13,587 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-26 17:32:13,946 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-26 17:32:14,555 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 17:32:14,615 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 17:32:14,767 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 17:32:15,138 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2023-01-26 17:32:15,894 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2023-01-26 17:32:15,989 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:32:16,040 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:32:16,725 - root - INFO -  Se dió doble click en el registro de Tipo de Documento Cheque.
+2023-01-26 17:32:17,369 - root - INFO -  Se dió click en la opción Verificar según fecha del documento.
+2023-01-26 17:32:17,745 - root - INFO -  Se dió click en el checkbox Liberar Credito.
+2023-01-26 17:32:17,854 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-26 17:32:18,856 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_32_18.png
+2023-01-26 17:32:24,790 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 17:32:25,791 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_32_25.png
+2023-01-26 17:32:26,475 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 17:32:26,608 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-26 17:32:26,749 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-26 17:32:28,464 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-26 17:32:29,233 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-01-26 17:32:29,584 - root - INFO -  Se dió click en la opción Vencimiento del documento.
+2023-01-26 17:32:30,300 - root - INFO -  Se dió click en la opción Cheques Vencidos.
+2023-01-26 17:32:30,399 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:32:30,455 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:32:31,790 - root - INFO -  Se dió doble click en el registro de Tipo Documento Cheque.
+2023-01-26 17:32:32,473 - root - INFO -  Se dió click en la opción de Vencimiento Limite.
+2023-01-26 17:32:32,557 - root - INFO -  Se dió click en el checkbox liberar credito.
+2023-01-26 17:32:33,557 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_32_33.png
+2023-01-26 17:32:34,148 - root - INFO - Se hace el cambio de pestaña para continuar con la modifcación del regisro
+2023-01-26 17:32:35,333 - root - INFO -  Se da clic en el registro de Cuentas Contables, para proceder a modificarlo.
+2023-01-26 17:32:37,234 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-26 17:32:38,445 - root - INFO -  Se dió doble click en el registro de Cuentas Contables.
+2023-01-26 17:32:39,808 - root - INFO -  Se dió doble click en el registro de Centro Costo.
+2023-01-26 17:32:40,086 - root - INFO -  Se presiona el boton 'Aceptar', para guardar la modificación del registro de Cuentas Contables.
+2023-01-26 17:32:40,464 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-26 17:32:40,817 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-26 17:32:42,529 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-26 17:32:43,621 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-26 17:32:43,621 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_32_43.png
+2023-01-26 17:32:44,174 - root - INFO -  Se confirma el eliminado del registro
+2023-01-26 17:32:44,564 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-01-26 17:32:44,957 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Cheques.
+2023-01-26 17:32:47,171 - root - INFO -  Se cierra chrome
+2023-01-26 17:33:03,351 - root - INFO -  Se abre el chrome
+2023-01-26 17:33:04,549 - root - INFO -  Entra a la URL
+2023-01-26 17:33:04,679 - root - INFO -  Maximiza la pantalla
+2023-01-26 17:33:07,778 - root - INFO -  Escribe el usuario
+2023-01-26 17:33:07,889 - root - INFO -  Escribe la contraseña
+2023-01-26 17:33:07,974 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-26 17:33:08,734 - root - INFO -  Ejecutar Enterprise
+2023-01-26 17:33:12,789 - root - INFO -  Cambia entre pestañas
+2023-01-26 17:33:24,131 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2023-01-26 17:33:24,774 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2023-01-26 17:33:25,783 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_33_25.png
+2023-01-26 17:33:36,499 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-26 17:33:37,091 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 17:33:37,132 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-26 17:33:37,162 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-26 17:33:37,202 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2023-01-26 17:33:37,232 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2023-01-26 17:33:37,272 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2023-01-26 17:33:37,308 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2023-01-26 17:33:37,345 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2023-01-26 17:33:37,381 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2023-01-26 17:33:37,421 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2023-01-26 17:33:37,478 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 17:33:37,628 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 17:33:38,030 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2023-01-26 17:33:38,420 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2023-01-26 17:33:38,825 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:33:38,931 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:33:40,193 - root - INFO -  Se dió doble click en el registro de Tipo de Documento Cheque.
+2023-01-26 17:33:40,802 - root - INFO -  Se dió click en la opción Verificar según fecha del documento.
+2023-01-26 17:33:40,895 - root - INFO -  Se dió click en el checkbox Liberar Credito.
+2023-01-26 17:33:41,905 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_33_41.png
+2023-01-26 17:33:42,544 - root - INFO - Se hace el cambio a la pestaña Cuentas Contables para continuar con el registro nuevo
+2023-01-26 17:33:43,209 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Cuentas Contables.
+2023-01-26 17:33:43,272 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-01-26 17:33:43,308 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2023-01-26 17:33:43,338 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-01-26 17:33:44,925 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-26 17:33:46,205 - root - INFO -  Se dió doble click en el registro de Cuentas Contables.
+2023-01-26 17:33:47,437 - root - INFO -  Se dió doble click en el registro de Centro Costo.
+2023-01-26 17:33:47,750 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro de Cuentas Contables.
+2023-01-26 17:33:48,018 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-26 17:33:48,392 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-26 17:33:48,765 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-26 17:33:49,411 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 17:33:49,451 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 17:33:49,600 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 17:33:49,954 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2023-01-26 17:33:50,679 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2023-01-26 17:33:50,781 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:33:50,836 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:33:51,579 - root - INFO -  Se dió doble click en el registro de Tipo de Documento Cheque.
+2023-01-26 17:33:52,173 - root - INFO -  Se dió click en la opción Verificar según fecha del documento.
+2023-01-26 17:33:52,252 - root - INFO -  Se dió click en el checkbox Liberar Credito.
+2023-01-26 17:33:52,316 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-26 17:33:53,317 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_33_53.png
+2023-01-26 17:33:59,386 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 17:34:00,388 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_34_00.png
+2023-01-26 17:34:01,195 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 17:34:01,349 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-26 17:34:01,489 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-26 17:34:03,263 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-26 17:34:04,031 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-01-26 17:34:04,398 - root - INFO -  Se dió click en la opción Vencimiento del documento.
+2023-01-26 17:34:05,169 - root - INFO -  Se dió click en la opción Cheques Vencidos.
+2023-01-26 17:34:05,281 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2023-01-26 17:34:05,341 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2023-01-26 17:34:06,579 - root - INFO -  Se dió doble click en el registro de Tipo Documento Cheque.
+2023-01-26 17:34:07,247 - root - INFO -  Se dió click en la opción de Vencimiento Limite.
+2023-01-26 17:34:07,352 - root - INFO -  Se dió click en el checkbox liberar credito.
+2023-01-26 17:34:08,358 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_34_08.png
+2023-01-26 17:34:08,894 - root - INFO - Se hace el cambio de pestaña para continuar con la modifcación del regisro
+2023-01-26 17:34:10,066 - root - INFO -  Se da clic en el registro de Cuentas Contables, para proceder a modificarlo.
+2023-01-26 17:34:12,496 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-26 17:34:13,716 - root - INFO -  Se dió doble click en el registro de Cuentas Contables.
+2023-01-26 17:34:14,911 - root - INFO -  Se dió doble click en el registro de Centro Costo.
+2023-01-26 17:34:15,282 - root - INFO -  Se presiona el boton 'Aceptar', para guardar la modificación del registro de Cuentas Contables.
+2023-01-26 17:34:15,559 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-26 17:34:15,891 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-26 17:34:17,557 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-26 17:34:18,688 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-26 17:34:18,688 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20230126_17_34_18.png
+2023-01-26 17:34:19,259 - root - INFO -  Se confirma el eliminado del registro
+2023-01-26 17:34:19,588 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-01-26 17:34:19,890 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Cheques.
+2023-01-26 17:34:22,156 - root - INFO -  Se cierra chrome

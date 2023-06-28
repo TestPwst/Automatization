@@ -1,0 +1,124 @@
+2022-07-04 14:16:58,477 - root - INFO -  Se abre el chrome
+2022-07-04 14:17:02,907 - root - INFO -  Entra a la URL
+2022-07-04 14:17:03,032 - root - INFO -  Maximiza la pantalla
+2022-07-04 14:17:06,105 - root - INFO -  Cambia al frame
+2022-07-04 14:17:09,163 - root - INFO -  Escribe el usuario
+2022-07-04 14:17:09,237 - root - INFO -  Escribe la contraseña
+2022-07-04 14:17:09,337 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-04 14:17:12,383 - root - INFO -  Ejecutar Enterprise
+2022-07-04 14:17:16,434 - root - INFO -  Cambia entre pestañas
+2022-07-04 14:17:33,619 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-04 14:17:36,713 - root - INFO -  Abre el menu completo
+2022-07-04 14:17:49,617 - root - INFO -  Abre la pantalla de Tipos de PopUp
+2022-07-04 14:17:49,664 - root - INFO -  La pantalla ejecutada es Tipos de PopUp.
+2022-07-04 14:17:49,721 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-04 14:17:50,266 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-04 14:17:50,299 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-04 14:17:50,339 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-07-04 14:17:50,370 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-04 14:17:52,472 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-04 14:17:55,590 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-04 14:17:58,782 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-04 14:18:01,866 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-04 14:18:04,938 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-04 14:18:07,990 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-04 14:18:08,535 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-04 14:18:08,564 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-04 14:18:08,593 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-07-04 14:18:08,623 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-04 14:18:10,717 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-04 14:18:13,829 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-04 14:18:17,018 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-04 14:18:20,091 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-04 14:18:23,154 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-04 14:18:25,217 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-04 14:18:29,278 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-04 14:18:36,904 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-04 14:18:37,036 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-07-04 14:18:40,235 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-07-04 14:18:43,312 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-04 14:18:46,378 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-04 14:18:53,973 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-04 14:18:54,035 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-04 14:18:54,634 - root - INFO -  Se confirma el eliminado del registro
+2022-07-04 14:18:56,691 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-04 14:18:58,775 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-04 14:19:02,963 - root - INFO -  Se cierra chrome
+2022-07-04 14:24:55,755 - root - INFO -  Se abre el chrome
+2022-07-04 14:25:00,221 - root - INFO -  Entra a la URL
+2022-07-04 14:25:00,343 - root - INFO -  Maximiza la pantalla
+2022-07-04 14:25:03,381 - root - INFO -  Cambia al frame
+2022-07-04 14:25:06,392 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:25:06,393 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_25_06.png
+2022-07-04 14:26:26,915 - root - ERROR - No se encontró el botón Cerrar Error, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:26:26,917 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_26_26.png
+2022-07-04 14:27:49,725 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:27:49,726 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_27_49.png
+2022-07-04 14:28:13,967 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:28:13,969 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_28_13.png
+2022-07-04 14:28:38,141 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:28:38,142 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_28_38.png
+2022-07-04 14:29:02,422 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:29:02,423 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_29_02.png
+2022-07-04 14:29:26,610 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:29:26,613 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_29_26.png
+2022-07-04 14:29:57,440 - root - INFO -  Se abre el chrome
+2022-07-04 14:30:02,213 - root - INFO -  Entra a la URL
+2022-07-04 14:30:02,333 - root - INFO -  Maximiza la pantalla
+2022-07-04 14:30:05,377 - root - INFO -  Cambia al frame
+2022-07-04 14:30:08,474 - root - INFO -  Escribe el usuario
+2022-07-04 14:30:08,551 - root - INFO -  Escribe la contraseña
+2022-07-04 14:30:08,651 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-04 14:30:23,770 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_30_23.png
+2022-07-04 14:31:15,847 - root - ERROR - No se encontró el botón Cerrar Error, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:31:15,848 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_31_15.png
+2022-07-04 14:31:25,985 - root - INFO -  Se abre el chrome
+2022-07-04 14:31:29,574 - root - INFO -  Entra a la URL
+2022-07-04 14:31:29,693 - root - INFO -  Maximiza la pantalla
+2022-07-04 14:31:32,737 - root - INFO -  Cambia al frame
+2022-07-04 14:31:35,801 - root - INFO -  Escribe el usuario
+2022-07-04 14:31:35,876 - root - INFO -  Escribe la contraseña
+2022-07-04 14:31:35,962 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-04 14:31:40,135 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:31:40,136 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_31_40.png
+2022-07-04 14:31:51,155 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_31_51.png
+2022-07-04 14:32:04,472 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:32:04,473 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_32_04.png
+2022-07-04 14:32:28,843 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:32:28,844 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_32_28.png
+2022-07-04 14:32:45,445 - root - ERROR - No se encontró el botón Cerrar Error, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:32:45,447 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_32_45.png
+2022-07-04 14:32:52,869 - root - INFO -  Se abre el chrome
+2022-07-04 14:32:53,054 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:32:53,057 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_32_53.png
+2022-07-04 14:32:57,190 - root - INFO -  Entra a la URL
+2022-07-04 14:32:57,316 - root - INFO -  Maximiza la pantalla
+2022-07-04 14:33:00,363 - root - INFO -  Cambia al frame
+2022-07-04 14:33:03,455 - root - INFO -  Escribe el usuario
+2022-07-04 14:33:03,526 - root - INFO -  Escribe la contraseña
+2022-07-04 14:33:03,617 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-04 14:33:09,763 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:33:09,765 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_33_09.png
+2022-07-04 14:33:17,375 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:33:17,377 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_33_17.png
+2022-07-04 14:33:18,779 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_33_18.png
+2022-07-04 14:33:34,104 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:33:34,106 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_33_34.png
+2022-07-04 14:33:58,473 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:33:58,474 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_33_58.png
+2022-07-04 14:34:22,839 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:34:22,841 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_34_22.png
+2022-07-04 14:34:39,391 - root - ERROR - No se encontró el botón Cerrar Error, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:34:39,393 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_34_39.png
+2022-07-04 14:34:47,187 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:34:47,188 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_34_47.png
+2022-07-04 14:35:59,562 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:35:59,563 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_35_59.png
+2022-07-04 14:36:10,069 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:36:10,070 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_36_10.png
+2022-07-04 14:36:20,642 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:36:20,644 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_36_20.png
+2022-07-04 14:36:25,964 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:36:25,965 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_36_25.png
+2022-07-04 14:36:31,388 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-04 14:36:31,390 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPU\report\img  screen：20220704_14_36_31.png

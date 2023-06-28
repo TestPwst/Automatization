@@ -1,0 +1,75 @@
+2022-11-25 18:12:39,065 - root - INFO -  Se abre el chrome
+2022-11-25 18:12:40,288 - root - INFO -  Entra a la URL
+2022-11-25 18:12:40,410 - root - INFO -  Maximiza la pantalla
+2022-11-25 18:12:45,050 - root - INFO -  Cambia al frame
+2022-11-25 18:12:48,124 - root - INFO -  Escribe el usuario
+2022-11-25 18:12:48,219 - root - INFO -  Escribe la contraseña
+2022-11-25 18:12:48,353 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 18:12:49,875 - root - INFO -  Ejecutar Enterprise
+2022-11-25 18:12:53,918 - root - INFO -  Cambia entre pestañas
+2022-11-25 18:13:18,518 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-11-25 18:13:19,719 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-11-25 18:13:20,402 - root - INFO -  Se abre el chrome
+2022-11-25 18:13:21,555 - root - INFO -  Entra a la URL
+2022-11-25 18:13:21,673 - root - INFO -  Maximiza la pantalla
+2022-11-25 18:13:22,721 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_13_22.png
+2022-11-25 18:13:26,555 - root - INFO -  Cambia al frame
+2022-11-25 18:13:27,150 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-25 18:13:29,630 - root - INFO -  Escribe el usuario
+2022-11-25 18:13:29,724 - root - INFO -  Escribe la contraseña
+2022-11-25 18:13:29,852 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 18:13:32,197 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 18:13:32,237 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 18:13:32,324 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 18:13:32,334 - root - INFO -  Ejecutar Enterprise
+2022-11-25 18:13:32,391 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-11-25 18:13:32,453 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-11-25 18:13:32,521 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-11-25 18:13:32,576 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-11-25 18:13:32,627 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-11-25 18:13:32,682 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-11-25 18:13:32,731 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-11-25 18:13:32,806 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 18:13:37,521 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 18:13:39,297 - root - INFO -  Cambia entre pestañas
+2022-11-25 18:13:45,908 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2022-11-25 18:13:54,981 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2022-11-25 18:13:58,075 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2022-11-25 18:14:00,965 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-11-25 18:14:01,008 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-11-25 18:14:01,155 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2022-11-25 18:14:04,010 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_14_04.png
+2022-11-25 18:14:08,374 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-25 18:14:09,279 - root - ERROR - No se encontró el registro de tipo de documento cheque, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:14:12,282 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_14_12.png
+2022-11-25 18:14:13,450 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 18:14:13,487 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-25 18:14:13,524 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-25 18:14:13,561 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-11-25 18:14:13,598 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-11-25 18:14:13,641 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-11-25 18:14:13,680 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-11-25 18:14:13,717 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-11-25 18:14:13,752 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-11-25 18:14:13,790 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-11-25 18:14:13,845 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-25 18:14:14,710 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:14:17,036 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-25 18:14:17,711 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_14_17.png
+2022-11-25 18:14:17,718 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:14:20,720 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_14_20.png
+2022-11-25 18:14:20,745 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:14:23,749 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_14_23.png
+2022-11-25 18:14:25,415 - root - INFO -  Se dió click en la opción Vencimiento del día.
+2022-11-25 18:14:34,757 - root - INFO -  Se dió click en la opción Todos los Cheques.
+2022-11-25 18:14:41,162 - root - INFO -  Se dió click en el checkbox Unico Medio Pago.
+2022-11-25 18:14:44,277 - root - INFO -  Se dió click en el checkbox Genera Documento.
+2022-11-25 18:14:56,977 - root - INFO -  Se dió doble click en el registro de Tipo de Documento Cheque.
+2022-11-25 18:14:59,989 - root - ERROR - No se dió click en la opción Verificar según fecha del documento, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:15:02,992 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_15_02.png
+2022-11-25 18:15:09,959 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:15:12,961 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_15_12.png
+2022-11-25 18:15:12,967 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:15:15,969 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_15_15.png
+2022-11-25 18:15:15,981 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 18:15:18,983 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20221125_18_15_18.png

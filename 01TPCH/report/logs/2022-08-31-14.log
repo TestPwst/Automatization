@@ -1,0 +1,108 @@
+2022-08-31 14:06:40,323 - root - INFO -  Se abre el chrome
+2022-08-31 14:06:41,446 - root - INFO -  Entra a la URL
+2022-08-31 14:06:41,600 - root - INFO -  Maximiza la pantalla
+2022-08-31 14:06:44,661 - root - INFO -  Cambia al frame
+2022-08-31 14:06:47,844 - root - INFO -  Escribe el usuario
+2022-08-31 14:06:47,958 - root - INFO -  Escribe la contraseña
+2022-08-31 14:06:48,105 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 14:06:57,068 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_06_57.png
+2022-08-31 14:06:57,261 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:07:39,370 - root - INFO -  Se abre el chrome
+2022-08-31 14:07:40,221 - root - INFO -  Entra a la URL
+2022-08-31 14:07:40,358 - root - INFO -  Maximiza la pantalla
+2022-08-31 14:07:43,413 - root - INFO -  Cambia al frame
+2022-08-31 14:07:46,505 - root - INFO -  Escribe el usuario
+2022-08-31 14:07:46,607 - root - INFO -  Escribe la contraseña
+2022-08-31 14:07:46,746 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 14:07:48,022 - root - INFO -  Ejecutar Enterprise
+2022-08-31 14:07:48,023 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_07_48.png
+2022-08-31 14:07:52,285 - root - INFO -  Cambia entre pestañas
+2022-08-31 14:08:13,699 - root - INFO -  Se abre el chrome
+2022-08-31 14:08:14,929 - root - INFO -  Entra a la URL
+2022-08-31 14:08:15,057 - root - INFO -  Maximiza la pantalla
+2022-08-31 14:08:18,120 - root - INFO -  Cambia al frame
+2022-08-31 14:08:21,215 - root - INFO -  Escribe el usuario
+2022-08-31 14:08:21,335 - root - INFO -  Escribe la contraseña
+2022-08-31 14:08:21,484 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 14:08:23,294 - root - INFO -  Ejecutar Enterprise
+2022-08-31 14:08:23,295 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_08_23.png
+2022-08-31 14:08:27,544 - root - INFO -  Cambia entre pestañas
+2022-08-31 14:08:32,644 - root - INFO -  Abre el menu completo
+2022-08-31 14:08:45,670 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-31 14:08:45,783 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-31 14:08:48,798 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_08_48.png
+2022-08-31 14:08:49,037 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-31 14:08:54,137 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 14:08:54,185 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 14:08:54,225 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 14:08:54,265 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 14:08:54,304 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 14:08:54,342 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 14:08:54,382 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 14:08:54,420 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 14:08:54,460 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 14:08:54,499 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 14:08:54,560 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 14:08:57,804 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 14:09:48,598 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_09_48.png
+2022-08-31 14:09:48,851 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-31 14:09:51,941 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-31 14:09:57,060 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-31 14:09:57,102 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-31 14:09:57,141 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-31 14:10:12,684 - root - ERROR - No se encontró el registro de cuenta contable, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:10:15,690 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_10_15.png
+2022-08-31 14:10:16,240 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:10:19,248 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_10_19.png
+2022-08-31 14:10:19,341 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:10:22,352 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_10_22.png
+2022-08-31 14:10:22,399 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:10:25,403 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_10_25.png
+2022-08-31 14:20:09,303 - root - INFO -  Se abre el chrome
+2022-08-31 14:20:10,247 - root - INFO -  Entra a la URL
+2022-08-31 14:20:10,373 - root - INFO -  Maximiza la pantalla
+2022-08-31 14:20:13,449 - root - INFO -  Cambia al frame
+2022-08-31 14:20:16,534 - root - INFO -  Escribe el usuario
+2022-08-31 14:20:16,643 - root - INFO -  Escribe la contraseña
+2022-08-31 14:20:16,785 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 14:20:17,546 - root - INFO -  Ejecutar Enterprise
+2022-08-31 14:20:17,546 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_20_17.png
+2022-08-31 14:20:21,788 - root - INFO -  Cambia entre pestañas
+2022-08-31 14:20:26,893 - root - INFO -  Abre el menu completo
+2022-08-31 14:20:39,839 - root - INFO -  Abre la pantalla de Tipos de Cheques
+2022-08-31 14:20:39,904 - root - INFO -  La pantalla ejecutada es Tipos de Cheques
+2022-08-31 14:20:42,918 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_20_42.png
+2022-08-31 14:20:43,338 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-31 14:20:48,392 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-31 14:20:48,436 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-31 14:20:48,477 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-31 14:20:48,521 - root - INFO -  El campo 'Modo control vencimiento' si se encuentra visible.
+2022-08-31 14:20:48,564 - root - INFO -  El campo 'Modo control cheques adeudados' si se encuentra visible.
+2022-08-31 14:20:48,606 - root - INFO -  El campo 'Único medio de pago en el documento' si se encuentra visible.
+2022-08-31 14:20:48,648 - root - INFO -  El campo 'Genera documento' si se encuentra visible.
+2022-08-31 14:20:48,690 - root - INFO -  El campo 'Tipo documento cheque' si se encuentra visible.
+2022-08-31 14:20:48,732 - root - INFO -  El campo 'Verificar vencimiento por límite de crédito' si se encuentra visible.
+2022-08-31 14:20:48,774 - root - INFO -  El campo 'Liberar crédito' si se encuentra visible.
+2022-08-31 14:20:48,871 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-31 14:20:52,111 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-31 14:21:06,774 - root - ERROR - No se encontró el registro de Modo Control Cheques, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:21:09,785 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_21_09.png
+2022-08-31 14:21:10,221 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:21:13,230 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_21_13.png
+2022-08-31 14:21:13,251 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:21:16,257 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_21_16.png
+2022-08-31 14:21:16,263 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:21:19,264 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_21_19.png
+2022-08-31 14:59:31,322 - root - INFO -  Se abre el chrome
+2022-08-31 14:59:32,299 - root - INFO -  Entra a la URL
+2022-08-31 14:59:32,432 - root - INFO -  Maximiza la pantalla
+2022-08-31 14:59:35,498 - root - INFO -  Cambia al frame
+2022-08-31 14:59:38,584 - root - INFO -  Escribe el usuario
+2022-08-31 14:59:38,695 - root - INFO -  Escribe la contraseña
+2022-08-31 14:59:38,857 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-31 14:59:39,615 - root - INFO -  Ejecutar Enterprise
+2022-08-31 14:59:39,616 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_59_39.png
+2022-08-31 14:59:43,847 - root - INFO -  Cambia entre pestañas
+2022-08-31 14:59:50,227 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-31 14:59:53,238 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TPCH\report\img  screen：20220831_14_59_53.png
+2022-08-31 14:59:53,250 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
