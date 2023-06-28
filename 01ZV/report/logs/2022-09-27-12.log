@@ -1,0 +1,37 @@
+2022-09-27 12:14:06,617 - root - INFO -  Se abre el chrome
+2022-09-27 12:14:08,058 - root - INFO -  Entra a la URL
+2022-09-27 12:14:08,203 - root - INFO -  Maximiza la pantalla
+2022-09-27 12:14:11,245 - root - INFO -  Cambia al frame
+2022-09-27 12:14:14,336 - root - INFO -  Escribe el usuario
+2022-09-27 12:14:14,460 - root - INFO -  Escribe la contraseña
+2022-09-27 12:14:14,578 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-27 12:14:15,356 - root - INFO -  Ejecutar Enterprise
+2022-09-27 12:14:19,401 - root - INFO -  Cambia entre pestañas
+2022-09-27 12:14:32,446 - root - INFO -  Abre la pantalla de Zonas de Venta
+2022-09-27 12:14:32,516 - root - INFO -  La pantalla ejecutada es Zonas de Ventas.
+2022-09-27 12:14:32,516 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZV\report\img  screen：20220927_12_14_32.png
+2022-09-27 12:14:32,681 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 12:14:35,735 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-27 12:14:35,775 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-27 12:14:35,805 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-09-27 12:14:35,835 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-27 12:14:35,875 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-09-27 12:14:35,927 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-27 12:14:39,072 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-27 12:14:42,380 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-27 12:14:55,117 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZV\report\img  screen：20220927_12_14_55.png
+2022-09-27 12:14:55,337 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-27 12:15:03,461 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 12:15:03,521 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-09-27 12:15:03,551 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-09-27 12:15:03,581 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-09-27 12:15:31,040 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-09-27 12:15:31,149 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-27 12:15:34,258 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-27 12:15:41,839 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-27 12:15:42,946 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-27 12:15:42,946 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZV\report\img  screen：20220927_12_15_42.png
+2022-09-27 12:15:43,167 - root - INFO -  Se confirma el eliminado del registro
+2022-09-27 12:15:45,260 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-27 12:15:47,366 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-27 12:15:51,919 - root - INFO -  Se cierra chrome

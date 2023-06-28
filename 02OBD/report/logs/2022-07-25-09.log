@@ -1,0 +1,59 @@
+2022-07-25 09:47:54,783 - root - INFO -  Se abre el chrome
+2022-07-25 09:47:58,544 - root - INFO -  Entra a la URL
+2022-07-25 09:47:58,672 - root - INFO -  Maximiza la pantalla
+2022-07-25 09:48:01,729 - root - INFO -  Cambia al frame
+2022-07-25 09:48:04,888 - root - INFO -  Escribe el usuario
+2022-07-25 09:48:05,020 - root - INFO -  Escribe la contraseña
+2022-07-25 09:48:05,182 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-25 09:48:10,872 - root - INFO -  Ejecutar Enterprise
+2022-07-25 09:48:10,873 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_48_10.png
+2022-07-25 09:48:15,327 - root - INFO -  Cambia entre pestañas
+2022-07-25 09:48:41,915 - root - INFO -  Abre el menu completo
+2022-07-25 09:48:55,900 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-07-25 09:48:55,969 - root - INFO -  La pantalla ejecutada es Lista de precios.
+2022-07-25 09:48:55,969 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_48_55.png
+2022-07-25 09:48:56,141 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-25 09:48:56,716 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-25 09:48:56,765 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-07-25 09:48:56,812 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-07-25 09:48:56,843 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-07-25 09:49:16,325 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-07-25 09:49:19,340 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_49_19.png
+2022-07-25 09:49:19,579 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-25 09:49:22,685 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-25 09:49:23,796 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-07-25 09:49:23,834 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-07-25 09:49:23,881 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-07-25 09:49:23,912 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-07-25 09:49:47,191 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-07-25 09:49:50,406 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-25 09:49:53,544 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-25 09:49:56,636 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-25 09:49:59,768 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-25 09:50:00,883 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-25 09:50:00,923 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-07-25 09:50:00,957 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-07-25 09:50:00,988 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-07-25 09:50:12,771 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_50_12.png
+2022-07-25 09:50:20,495 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-07-25 09:50:23,632 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-25 09:50:26,634 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_50_26.png
+2022-07-25 09:50:26,864 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-25 09:50:29,005 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-25 09:50:33,136 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-25 09:50:40,803 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-25 09:50:40,977 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-07-25 09:50:43,980 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_50_43.png
+2022-07-25 09:50:44,199 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-25 09:50:51,817 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-25 09:51:18,318 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-07-25 09:51:21,417 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-25 09:51:24,543 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-25 09:51:27,671 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-25 09:51:35,311 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-25 09:51:35,421 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-25 09:51:45,423 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220725_09_51_45.png
+2022-07-25 09:51:45,650 - root - INFO -  Se confirma el eliminado del registro
+2022-07-25 09:51:55,798 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-25 09:51:57,916 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-25 09:52:05,778 - root - INFO -  Se cierra chrome

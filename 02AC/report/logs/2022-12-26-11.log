@@ -1,0 +1,53 @@
+2022-12-26 11:49:55,892 - root - INFO -  Se abre el chrome
+2022-12-26 11:49:57,144 - root - INFO -  Entra a la URL
+2022-12-26 11:49:57,275 - root - INFO -  Maximiza la pantalla
+2022-12-26 11:50:00,470 - root - INFO -  Escribe el usuario
+2022-12-26 11:50:00,574 - root - INFO -  Escribe la contraseña
+2022-12-26 11:50:00,664 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-26 11:50:01,933 - root - INFO -  Ejecutar Enterprise
+2022-12-26 11:50:05,980 - root - INFO -  Cambia entre pestañas
+2022-12-26 11:50:09,643 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-12-26 11:50:10,225 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-12-26 11:50:10,226 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_10.png
+2022-12-26 11:50:10,428 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-26 11:50:11,491 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-26 11:50:11,532 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-12-26 11:50:11,580 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-26 11:50:11,621 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-12-26 11:50:11,664 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-12-26 11:50:11,706 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-12-26 11:50:11,748 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-12-26 11:50:12,692 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-12-26 11:50:14,241 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-12-26 11:50:14,876 - root - INFO -  Se dió click en la opción Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-12-26 11:50:16,371 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-12-26 11:50:16,373 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_16.png
+2022-12-26 11:50:16,682 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-12-26 11:50:16,787 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-12-26 11:50:16,892 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-26 11:50:17,223 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-26 11:50:19,312 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-26 11:50:20,848 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-12-26 11:50:22,063 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-12-26 11:50:22,716 - root - INFO -  Se dió click en la opción de Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-12-26 11:50:24,280 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-12-26 11:50:24,419 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-12-26 11:50:24,512 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-12-26 11:50:24,586 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-26 11:50:26,588 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_26.png
+2022-12-26 11:50:26,849 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-26 11:50:26,989 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-26 11:50:27,175 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-26 11:50:29,826 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-26 11:50:30,497 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-12-26 11:50:30,498 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_30.png
+2022-12-26 11:50:30,687 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-26 11:50:31,022 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-26 11:50:33,636 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-26 11:50:33,753 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-26 11:50:33,754 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_33.png
+2022-12-26 11:50:36,886 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20221226_11_50_36.png
+2022-12-26 11:50:37,105 - root - INFO -  Se confirma el eliminado del registro
+2022-12-26 11:50:37,402 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-26 11:50:37,608 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Autorizaciones de Credito.
+2022-12-26 11:50:42,022 - root - INFO -  Se cierra chrome

@@ -1,0 +1,44 @@
+2022-09-27 18:57:25,883 - root - INFO -  Se abre el chrome
+2022-09-27 18:57:27,157 - root - INFO -  Entra a la URL
+2022-09-27 18:57:27,293 - root - INFO -  Maximiza la pantalla
+2022-09-27 18:57:30,341 - root - INFO -  Cambia al frame
+2022-09-27 18:57:33,435 - root - INFO -  Escribe el usuario
+2022-09-27 18:57:33,535 - root - INFO -  Escribe la contraseña
+2022-09-27 18:57:33,648 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-27 18:57:34,360 - root - INFO -  Ejecutar Enterprise
+2022-09-27 18:57:38,458 - root - INFO -  Cambia entre pestañas
+2022-09-27 18:57:58,829 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-09-27 18:57:58,919 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-09-27 18:58:01,919 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220927_18_58_01.png
+2022-09-27 18:58:02,135 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 18:58:07,196 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-27 18:58:07,226 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-27 18:58:07,266 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-27 18:58:07,296 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-27 18:58:14,746 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-09-27 18:58:25,219 - root - INFO -  Se dió click en el Botón hoy para seleccionar la fecha actual.
+2022-09-27 18:58:28,354 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-27 18:58:31,356 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220927_18_58_31.png
+2022-09-27 18:58:31,586 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-09-27 18:58:34,677 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-09-27 18:58:39,740 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-09-27 18:58:39,770 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-09-27 18:58:39,810 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-09-27 18:58:39,840 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-09-27 18:58:47,276 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-09-27 18:58:55,727 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-09-27 18:59:04,146 - root - INFO -  Se dió click en la opción Unidad.
+2022-09-27 18:59:07,280 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-09-27 18:59:10,398 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-09-27 18:59:15,508 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-27 18:59:20,603 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-27 18:59:25,699 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-27 18:59:30,764 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-27 18:59:30,794 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-27 18:59:30,834 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-27 18:59:30,864 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-27 18:59:38,271 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-09-27 18:59:48,693 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha actual.
+2022-09-27 18:59:51,819 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-27 18:59:54,944 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-27 18:59:59,951 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20220927_18_59_59.png

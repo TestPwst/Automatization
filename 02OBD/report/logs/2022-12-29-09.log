@@ -1,0 +1,292 @@
+2022-12-29 09:38:37,843 - root - INFO -  Se abre el chrome
+2022-12-29 09:38:39,150 - root - INFO -  Entra a la URL
+2022-12-29 09:38:39,290 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:38:42,396 - root - INFO -  Escribe el usuario
+2022-12-29 09:38:42,471 - root - INFO -  Escribe la contraseña
+2022-12-29 09:38:42,538 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:38:43,234 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:38:47,276 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:38:58,176 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:38:58,769 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:38:58,774 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_38_58.png
+2022-12-29 09:39:59,374 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-12-29 09:39:59,375 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_39_59.png
+2022-12-29 09:40:03,722 - root - INFO -  Se cierra chrome
+2022-12-29 09:40:03,723 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-29 09:40:03,724 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-29 09:40:03,725 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-29 09:41:26,337 - root - INFO -  Se abre el chrome
+2022-12-29 09:41:27,649 - root - INFO -  Entra a la URL
+2022-12-29 09:41:27,769 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:41:30,864 - root - INFO -  Escribe el usuario
+2022-12-29 09:41:30,936 - root - INFO -  Escribe la contraseña
+2022-12-29 09:41:30,998 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:41:31,681 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:41:35,735 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:41:46,607 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:41:47,193 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:41:47,193 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_41_47.png
+2022-12-29 09:41:57,462 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 09:41:58,034 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:41:58,068 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:41:58,103 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:41:58,136 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:41:59,055 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-12-29 09:41:59,163 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:41:59,164 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_41_59.png
+2022-12-29 09:41:59,378 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-12-29 09:41:59,978 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-12-29 09:42:00,530 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-29 09:42:00,560 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-29 09:42:00,590 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-29 09:42:00,620 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-29 09:42:01,541 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-12-29 09:42:02,120 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:42:02,586 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:42:02,694 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-29 09:42:02,753 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-12-29 09:42:03,000 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 09:42:03,325 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 09:42:03,576 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 09:42:04,168 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:42:04,195 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:42:04,221 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:42:04,249 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:42:05,177 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-12-29 09:42:05,254 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:42:05,423 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-29 09:42:06,428 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_42_06.png
+2022-12-29 09:42:13,007 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:42:13,008 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_42_13.png
+2022-12-29 09:42:13,250 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-29 09:42:13,442 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-29 09:42:13,745 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:42:13,746 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_42_13.png
+2022-12-29 09:42:18,133 - root - INFO -  Se cierra chrome
+2022-12-29 09:43:05,584 - root - INFO -  Se abre el chrome
+2022-12-29 09:43:06,904 - root - INFO -  Entra a la URL
+2022-12-29 09:43:07,031 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:43:10,125 - root - INFO -  Escribe el usuario
+2022-12-29 09:43:10,197 - root - INFO -  Escribe la contraseña
+2022-12-29 09:43:10,261 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:43:10,971 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:43:15,036 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:43:27,058 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:43:27,620 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:43:27,620 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_43_27.png
+2022-12-29 09:43:37,857 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 09:43:38,405 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:43:38,433 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:43:38,462 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:43:38,492 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:43:39,428 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-12-29 09:43:39,542 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:43:39,543 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_43_39.png
+2022-12-29 09:43:39,814 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-12-29 09:43:40,423 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-12-29 09:43:40,980 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-29 09:43:41,012 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-29 09:43:41,042 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-29 09:43:41,072 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-29 09:43:42,025 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-12-29 09:43:42,608 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:43:43,080 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:43:43,168 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-29 09:43:43,226 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-12-29 09:43:43,485 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 09:43:44,570 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:43:44,571 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_43_44.png
+2022-12-29 09:43:44,767 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-29 09:43:44,884 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-29 09:43:47,044 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-12-29 09:43:47,661 - root - INFO -  Se modifica el contenido del campo efectividad 
+2022-12-29 09:43:47,662 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_43_47.png
+2022-12-29 09:43:47,869 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con la Modificación del registro
+2022-12-29 09:43:49,019 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2022-12-29 09:43:50,530 - root - INFO -  Se dió doble click en el registro de Grupos Politica.
+2022-12-29 09:43:51,159 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:43:51,559 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:43:51,693 - root - INFO -  Se modifica el contenido del campo Objetivo Cantidad 
+2022-12-29 09:43:51,758 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2022-12-29 09:43:52,030 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-29 09:43:52,321 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-29 09:43:52,631 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:43:52,632 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_43_52.png
+2022-12-29 09:43:57,176 - root - INFO -  Se cierra chrome
+2022-12-29 09:45:35,941 - root - INFO -  Se abre el chrome
+2022-12-29 09:45:37,298 - root - INFO -  Entra a la URL
+2022-12-29 09:45:37,420 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:45:40,521 - root - INFO -  Escribe el usuario
+2022-12-29 09:45:40,592 - root - INFO -  Escribe la contraseña
+2022-12-29 09:45:40,669 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:45:41,386 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:45:45,496 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:45:56,447 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:45:57,025 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:45:57,026 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_45_57.png
+2022-12-29 09:46:07,696 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 09:46:08,275 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:46:08,306 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:46:08,337 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:46:08,366 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:46:09,277 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-12-29 09:46:09,356 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:46:09,357 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_46_09.png
+2022-12-29 09:46:09,555 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-12-29 09:46:10,142 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-12-29 09:46:10,705 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-29 09:46:10,734 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-29 09:46:10,764 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-29 09:46:10,830 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-29 09:46:11,738 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-12-29 09:46:12,283 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:46:12,720 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:46:12,808 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-29 09:46:12,866 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-12-29 09:46:13,131 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 09:46:13,428 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 09:46:13,602 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 09:46:14,183 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:46:14,209 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:46:14,235 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:46:14,262 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:46:15,207 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-12-29 09:46:15,286 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:46:15,412 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-29 09:46:16,429 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_46_16.png
+2022-12-29 09:46:21,943 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 09:46:22,952 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_46_22.png
+2022-12-29 09:46:23,206 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 09:46:23,321 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-29 09:46:23,438 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-29 09:46:25,086 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-12-29 09:46:25,706 - root - INFO -  Se modifica el contenido del campo efectividad 
+2022-12-29 09:46:25,706 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_46_25.png
+2022-12-29 09:46:25,888 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con la Modificación del registro
+2022-12-29 09:46:27,035 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2022-12-29 09:46:28,490 - root - INFO -  Se dió doble click en el registro de Grupos Politica.
+2022-12-29 09:46:29,070 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:46:29,430 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:46:29,552 - root - INFO -  Se modifica el contenido del campo Objetivo Cantidad 
+2022-12-29 09:46:29,607 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2022-12-29 09:46:29,869 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-29 09:46:30,133 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-29 09:46:30,432 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:46:30,434 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_46_30.png
+2022-12-29 09:46:34,838 - root - INFO -  Se cierra chrome
+2022-12-29 09:47:08,425 - root - INFO -  Se abre el chrome
+2022-12-29 09:47:09,820 - root - INFO -  Entra a la URL
+2022-12-29 09:47:09,937 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:47:13,090 - root - INFO -  Escribe el usuario
+2022-12-29 09:47:13,196 - root - INFO -  Escribe la contraseña
+2022-12-29 09:47:13,292 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:47:14,032 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:47:18,089 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:47:29,008 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:47:29,589 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:47:29,590 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_47_29.png
+2022-12-29 09:47:40,287 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 09:47:40,868 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:47:40,899 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:47:40,928 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:47:40,957 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:47:41,868 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-12-29 09:47:41,944 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:47:41,945 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_47_41.png
+2022-12-29 09:47:42,154 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-12-29 09:47:42,769 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-12-29 09:47:43,327 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-29 09:47:43,359 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-29 09:47:43,389 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-29 09:47:43,448 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-29 09:47:44,354 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-12-29 09:47:44,888 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:47:45,350 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:47:45,464 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-29 09:47:45,525 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-12-29 09:47:45,787 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 09:47:46,902 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:47:46,904 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_47_46.png
+2022-12-29 09:47:47,129 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-29 09:47:47,242 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-29 09:47:49,371 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-12-29 09:47:49,989 - root - INFO -  Se modifica el contenido del campo efectividad 
+2022-12-29 09:47:49,990 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_47_49.png
+2022-12-29 09:47:50,194 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con la Modificación del registro
+2022-12-29 09:48:50,386 - root - ERROR - No se encontró el registro de Grupos, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-29 09:48:50,388 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_48_50.png
+2022-12-29 09:48:50,695 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-29 09:48:50,808 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-29 09:48:52,436 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-29 09:48:52,490 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-29 09:48:53,502 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_48_53.png
+2022-12-29 09:48:53,824 - root - INFO -  Se confirma el eliminado del registro
+2022-12-29 09:48:54,015 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro ha sido eliminado.
+2022-12-29 09:48:54,206 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2022-12-29 09:48:58,479 - root - INFO -  Se cierra chrome
+2022-12-29 09:49:57,910 - root - INFO -  Se abre el chrome
+2022-12-29 09:49:59,459 - root - INFO -  Entra a la URL
+2022-12-29 09:49:59,581 - root - INFO -  Maximiza la pantalla
+2022-12-29 09:50:02,689 - root - INFO -  Escribe el usuario
+2022-12-29 09:50:02,774 - root - INFO -  Escribe la contraseña
+2022-12-29 09:50:02,854 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-29 09:50:03,581 - root - INFO -  Ejecutar Enterprise
+2022-12-29 09:50:07,640 - root - INFO -  Cambia entre pestañas
+2022-12-29 09:50:18,960 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-29 09:50:19,546 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-12-29 09:50:19,547 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_19.png
+2022-12-29 09:50:19,746 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-29 09:50:30,294 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-29 09:50:30,847 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:50:30,878 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:50:30,908 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:50:30,938 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:50:31,872 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2022-12-29 09:50:31,958 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:50:31,958 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_31.png
+2022-12-29 09:50:32,170 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-12-29 09:50:32,771 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-12-29 09:50:33,346 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-29 09:50:33,381 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-29 09:50:33,412 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-29 09:50:33,448 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-29 09:50:34,387 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2022-12-29 09:50:34,946 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:50:35,596 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:50:35,677 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-29 09:50:35,759 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-12-29 09:50:36,010 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-29 09:50:36,284 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-29 09:50:36,448 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-29 09:50:37,001 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-29 09:50:37,033 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-29 09:50:37,059 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-29 09:50:37,087 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-29 09:50:37,998 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-12-29 09:50:38,080 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-29 09:50:38,283 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-29 09:50:39,294 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_39.png
+2022-12-29 09:50:44,794 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 09:50:45,797 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_45.png
+2022-12-29 09:50:46,042 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-29 09:50:46,162 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-29 09:50:46,278 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-29 09:50:47,922 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-12-29 09:50:48,535 - root - INFO -  Se modifica el contenido del campo efectividad 
+2022-12-29 09:50:48,536 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_48.png
+2022-12-29 09:50:48,735 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con la Modificación del registro
+2022-12-29 09:50:49,880 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2022-12-29 09:50:51,310 - root - INFO -  Se dió doble click en el registro de Grupos Politica.
+2022-12-29 09:50:51,879 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2022-12-29 09:50:52,244 - root - INFO -  Se dió click en la opción Unidad.
+2022-12-29 09:50:52,362 - root - INFO -  Se modifica el contenido del campo Objetivo Cantidad 
+2022-12-29 09:50:52,421 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2022-12-29 09:50:52,677 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-29 09:50:52,952 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-29 09:50:54,564 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-29 09:50:54,625 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-29 09:50:55,628 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20221229_09_50_55.png
+2022-12-29 09:50:55,838 - root - INFO -  Se confirma el eliminado del registro
+2022-12-29 09:50:56,024 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro ha sido eliminado.
+2022-12-29 09:50:56,208 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2022-12-29 09:51:00,439 - root - INFO -  Se cierra chrome

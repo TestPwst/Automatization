@@ -1,0 +1,85 @@
+2023-01-11 09:51:35,315 - root - INFO -  Se abre el chrome
+2023-01-11 09:51:36,462 - root - INFO -  Entra a la URL
+2023-01-11 09:51:36,676 - root - INFO -  Maximiza la pantalla
+2023-01-11 09:51:39,896 - root - INFO -  Escribe el usuario
+2023-01-11 09:51:40,062 - root - INFO -  Escribe la contraseña
+2023-01-11 09:51:40,234 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-11 09:51:42,136 - root - INFO -  Ejecutar Enterprise
+2023-01-11 09:51:46,316 - root - INFO -  Cambia entre pestañas
+2023-01-11 09:52:02,679 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-11 09:52:03,262 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-11 09:52:03,263 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02PV\report\img  screen：20230111_09_52_03.png
+2023-01-11 09:52:14,128 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 09:52:14,695 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 09:52:14,844 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 09:52:14,890 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-11 09:52:14,935 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 09:52:14,981 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-11 09:52:15,039 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-11 09:52:15,085 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-11 09:52:15,141 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-11 09:52:15,224 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 09:52:15,336 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-11 09:52:15,538 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 09:52:16,617 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-01-11 09:52:17,324 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-11 09:52:17,412 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-11 09:52:17,536 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-11 09:52:17,645 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-01-11 09:52:18,289 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-01-11 09:52:18,919 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-01-11 09:52:18,960 - root - INFO -  El campo 'Grupo Política a Bonificar' si se encuentra visible.
+2023-01-11 09:52:19,005 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2023-01-11 09:52:19,051 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2023-01-11 09:52:19,109 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-01-11 09:52:19,171 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-01-11 09:52:19,331 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-11 09:52:19,499 - root - INFO -  Ingresa el Grupo a bonificar del nuevo registro 
+2023-01-11 09:52:19,909 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2023-01-11 09:52:20,437 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2023-01-11 09:52:20,640 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-11 09:52:20,821 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-11 09:52:20,989 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2023-01-11 09:52:21,288 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 09:52:21,721 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 09:52:21,946 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-11 09:52:22,563 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 09:52:22,677 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 09:52:22,823 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-11 09:52:23,006 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 09:52:24,006 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-01-11 09:52:24,638 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-11 09:52:24,734 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-11 09:52:24,826 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-11 09:52:24,935 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-11 09:52:25,936 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02PV\report\img  screen：20230111_09_52_25.png
+2023-01-11 09:52:31,930 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 09:52:32,931 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02PV\report\img  screen：20230111_09_52_32.png
+2023-01-11 09:52:34,069 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 09:52:34,234 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-11 09:52:34,358 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-11 09:52:35,994 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 09:52:36,779 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-01-11 09:52:37,059 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-11 09:52:37,154 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-11 09:52:37,271 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la modificación del registro
+2023-01-11 09:52:38,406 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a modificarlo.
+2023-01-11 09:52:39,423 - root - INFO -  Se modifica el contenido del campo Articulo 
+2023-01-11 09:52:40,829 - root - INFO -  Se modifica el contenido del campo Grupo a Bonificar 
+2023-01-11 09:52:41,488 - root - INFO -  Se modifica el contenido del campo Cantidad a Bonificar 
+2023-01-11 09:52:41,862 - root - INFO -  Se modifica el contenido del campo Cantidad en Bonificación 
+2023-01-11 09:52:42,036 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Por Articulo.
+2023-01-11 09:52:42,420 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 09:52:42,812 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-11 09:52:44,494 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-11 09:52:45,170 - root - INFO - Se hace el cambio a la pestaña para continuar con la eliminación del registro
+2023-01-11 09:52:46,284 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a eliminarlo.
+2023-01-11 09:52:46,389 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Por articulo.
+2023-01-11 09:52:46,519 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 09:52:47,125 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-11 09:52:47,216 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 09:52:48,217 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02PV\report\img  screen：20230111_09_52_48.png
+2023-01-11 09:52:48,899 - root - INFO -  Se confirma el eliminado del registro
+2023-01-11 09:52:49,212 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-01-11 09:52:49,483 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2023-01-11 09:52:53,948 - root - INFO -  Se cierra chrome

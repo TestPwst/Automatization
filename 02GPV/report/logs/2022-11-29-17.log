@@ -1,0 +1,31 @@
+2022-11-29 17:57:22,961 - root - INFO -  Se abre el chrome
+2022-11-29 17:57:23,884 - root - INFO -  Entra a la URL
+2022-11-29 17:57:24,044 - root - INFO -  Maximiza la pantalla
+2022-11-29 17:57:27,145 - root - INFO -  Escribe el usuario
+2022-11-29 17:57:27,260 - root - INFO -  Escribe la contraseña
+2022-11-29 17:57:27,354 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-29 17:57:28,084 - root - INFO -  Ejecutar Enterprise
+2022-11-29 17:57:32,133 - root - INFO -  Cambia entre pestañas
+2022-11-29 17:57:42,346 - root - INFO -  Abre el menu completo
+2022-11-29 17:57:56,339 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-11-29 17:57:56,388 - root - INFO -  La pantalla ejecutada es chequeras
+2022-11-29 17:57:56,388 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02GPV\report\img  screen：20221129_17_57_56.png
+2022-11-29 17:57:56,916 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-29 17:58:02,012 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-29 17:58:02,049 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-29 17:58:02,085 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-11-29 17:58:03,186 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-11-29 17:58:04,288 - root - INFO -  El campo 'Tipo de grupo' si se encuentra visible.
+2022-11-29 17:58:16,213 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02GPV\report\img  screen：20221129_17_58_16.png
+2022-11-29 17:58:16,842 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-29 17:58:19,985 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-29 17:58:20,538 - root - INFO -  El campo 'Artículo base' si se encuentra visible.
+2022-11-29 17:58:21,633 - root - INFO -  El campo 'Equivalencia producto base' si se encuentra visible.
+2022-11-29 17:58:32,437 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-11-29 17:58:37,531 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-29 17:58:53,699 - root - ERROR - No se dió click al botón Refrescar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion o si ya existe el registro ya creado
+2022-11-29 17:58:53,702 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02GPV\report\img  screen：20221129_17_58_53.png
+2022-11-29 17:58:56,875 - root - ERROR - No se dió click al botón Refrescar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-11-29 17:58:56,876 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02GPV\report\img  screen：20221129_17_58_56.png
+2022-11-29 17:58:56,881 - root - ERROR - No se dió click al botón Refrescar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-11-29 17:58:56,882 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02GPV\report\img  screen：20221129_17_58_56.png

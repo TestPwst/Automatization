@@ -1,0 +1,67 @@
+2023-04-24 13:52:29,878 - root - INFO -  Se abre el chrome
+2023-04-24 13:52:31,389 - root - INFO -  Entra a la URL
+2023-04-24 13:52:31,546 - root - INFO -  Maximiza la pantalla
+2023-04-24 13:52:34,677 - root - INFO -  Escribe el usuario
+2023-04-24 13:52:34,785 - root - INFO -  Escribe la contraseña
+2023-04-24 13:52:34,866 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 13:52:36,122 - root - INFO -  Ejecutar Enterprise
+2023-04-24 13:52:40,262 - root - INFO -  Cambia entre pestañas
+2023-04-24 13:53:53,901 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 13:53:53,902 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 13:53:54,585 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2023-04-24 13:53:54,586 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_53_54.png
+2023-04-24 13:53:54,912 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-24 13:54:05,490 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 13:54:06,073 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 13:54:06,157 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2023-04-24 13:54:06,280 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2023-04-24 13:54:06,349 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2023-04-24 13:54:07,772 - root - INFO -  Se dió doble click en el regitro de Vendedor.
+2023-04-24 13:54:07,949 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2023-04-24 13:54:07,950 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_54_07.png
+2023-04-24 13:54:08,272 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2023-04-24 13:54:09,052 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2023-04-24 13:54:09,672 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2023-04-24 13:54:09,744 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2023-04-24 13:54:09,806 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2023-04-24 13:54:09,870 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2023-04-24 13:54:10,894 - root - INFO -  Se dió doble click en el regitro de Grupos Politica.
+2023-04-24 13:54:11,505 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2023-04-24 13:54:12,057 - root - INFO -  Se dió click en la opción Unidad.
+2023-04-24 13:54:12,193 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2023-04-24 13:54:12,310 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2023-04-24 13:54:12,514 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 13:54:12,771 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 13:54:12,985 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 13:54:13,548 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 13:54:13,597 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2023-04-24 13:54:13,649 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2023-04-24 13:54:13,697 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2023-04-24 13:54:14,662 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2023-04-24 13:54:14,846 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2023-04-24 13:54:14,985 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-04-24 13:54:16,001 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_54_16.png
+2023-04-24 13:54:22,293 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 13:54:23,293 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_54_23.png
+2023-04-24 13:54:23,593 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 13:54:23,767 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 13:54:23,972 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-24 13:54:26,355 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2023-04-24 13:54:27,068 - root - INFO -  Se modifica el contenido del campo efectividad 
+2023-04-24 13:54:27,069 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_54_27.png
+2023-04-24 13:54:27,347 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con la Modificación del registro
+2023-04-24 13:54:28,502 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2023-04-24 13:54:30,149 - root - INFO -  Se dió doble click en el registro de Grupos Politica.
+2023-04-24 13:54:30,713 - root - INFO -  Se dió click en la opción Volumen Mensual.
+2023-04-24 13:54:31,170 - root - INFO -  Se dió click en la opción Unidad.
+2023-04-24 13:54:31,473 - root - INFO -  Se modifica el contenido del campo Objetivo Cantidad 
+2023-04-24 13:54:31,614 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2023-04-24 13:54:31,932 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 13:54:32,216 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 13:54:33,846 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 13:54:34,117 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 13:54:36,119 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02OBD\report\img  screen：20230424_13_54_36.png
+2023-04-24 13:54:36,547 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 13:54:36,872 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro ha sido eliminado.
+2023-04-24 13:54:38,962 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2023-04-24 13:54:46,603 - root - INFO -  Se cierra chrome

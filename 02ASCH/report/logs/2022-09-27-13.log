@@ -1,0 +1,65 @@
+2022-09-27 13:04:29,923 - root - INFO -  Se abre el chrome
+2022-09-27 13:04:31,326 - root - INFO -  Entra a la URL
+2022-09-27 13:04:31,472 - root - INFO -  Maximiza la pantalla
+2022-09-27 13:04:34,517 - root - INFO -  Cambia al frame
+2022-09-27 13:04:37,602 - root - INFO -  Escribe el usuario
+2022-09-27 13:04:37,708 - root - INFO -  Escribe la contraseña
+2022-09-27 13:04:37,844 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-27 13:04:38,595 - root - INFO -  Ejecutar Enterprise
+2022-09-27 13:04:42,692 - root - INFO -  Cambia entre pestañas
+2022-09-27 13:05:13,522 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2022-09-27 13:05:13,592 - root - INFO -  La pantalla ejecutada es Acciones.
+2022-09-27 13:05:13,592 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_05_13.png
+2022-09-27 13:05:13,769 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 13:05:16,833 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-27 13:05:16,863 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-27 13:05:16,893 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-27 13:05:16,933 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2022-09-27 13:05:16,973 - root - INFO -  El campo 'Lista Distribución' si se encuentra visible.
+2022-09-27 13:05:17,013 - root - INFO -  El campo 'Contacto' si se encuentra visible.
+2022-09-27 13:05:17,083 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-27 13:05:20,248 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-27 13:05:54,610 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_05_54.png
+2022-09-27 13:05:54,821 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-27 13:05:57,933 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 13:05:58,479 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2022-09-27 13:06:06,028 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-27 13:06:09,152 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-27 13:06:12,247 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-27 13:06:15,347 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-27 13:06:15,892 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-27 13:06:15,922 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-27 13:06:15,962 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-27 13:06:15,992 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2022-09-27 13:06:16,022 - root - INFO -  El campo 'Lista Distribución' si se encuentra visible.
+2022-09-27 13:06:16,052 - root - INFO -  El campo 'Contacto' si se encuentra visible.
+2022-09-27 13:06:16,139 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-27 13:06:19,267 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-27 13:06:50,510 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-09-27 13:06:52,512 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_06_52.png
+2022-09-27 13:06:52,697 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-27 13:06:54,763 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-27 13:06:58,820 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-27 13:07:06,441 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-27 13:07:06,634 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-27 13:07:19,988 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_07_19.png
+2022-09-27 13:07:40,922 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_07_40.png
+2022-09-27 13:07:41,104 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-27 13:07:48,650 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-27 13:07:51,723 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-27 13:07:51,791 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-27 13:07:59,765 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-27 13:08:02,834 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-27 13:08:05,885 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-27 13:08:13,461 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-27 13:08:13,525 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-09-27 13:08:21,088 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-27 13:08:24,159 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-27 13:08:24,224 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-27 13:08:31,775 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-27 13:08:34,850 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-27 13:08:34,850 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\02ASCH\report\img  screen：20220927_13_08_34.png
+2022-09-27 13:08:35,036 - root - INFO -  Se confirma el eliminado del registro
+2022-09-27 13:08:37,086 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-27 13:08:39,156 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-27 13:08:43,344 - root - INFO -  Se cierra chrome

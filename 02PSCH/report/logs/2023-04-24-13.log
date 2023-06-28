@@ -1,0 +1,33 @@
+2023-04-24 13:57:05,159 - root - INFO -  Se abre el chrome
+2023-04-24 13:57:06,513 - root - INFO -  Entra a la URL
+2023-04-24 13:57:06,661 - root - INFO -  Maximiza la pantalla
+2023-04-24 13:57:09,804 - root - INFO -  Escribe el usuario
+2023-04-24 13:57:09,911 - root - INFO -  Escribe la contraseña
+2023-04-24 13:57:10,005 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 13:57:11,775 - root - INFO -  Ejecutar Enterprise
+2023-04-24 13:57:15,826 - root - INFO -  Cambia entre pestañas
+2023-04-24 13:58:29,983 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 13:58:29,983 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 13:58:31,599 - root - INFO -  La pantalla ejecutada es Programas.
+2023-04-24 13:58:31,600 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02PSCH\report\img  screen：20230424_13_58_31.png
+2023-04-24 13:58:42,021 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 13:58:43,082 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 13:58:43,121 - root - INFO -  El campo 'Código' si se encuentra visible.
+2023-04-24 13:58:43,158 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-04-24 13:58:43,196 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2023-04-24 13:58:43,233 - root - INFO -  El campo 'Comprimir' si se encuentra visible.
+2023-04-24 13:58:43,280 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2023-04-24 13:58:43,328 - root - INFO -  El campo 'Password' si se encuentra visible.
+2023-04-24 13:58:43,365 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-04-24 13:58:43,403 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2023-04-24 13:58:43,471 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 13:58:43,588 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 13:58:43,697 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2023-04-24 13:58:52,459 - root - ERROR - No se encontró el registro de Usuario, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 13:58:52,459 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02PSCH\report\img  screen：20230424_13_58_52.png
+2023-04-24 13:58:52,491 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 13:58:52,492 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02PSCH\report\img  screen：20230424_13_58_52.png
+2023-04-24 13:58:52,505 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 13:58:52,506 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02PSCH\report\img  screen：20230424_13_58_52.png
+2023-04-24 13:58:52,530 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 13:58:52,530 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02PSCH\report\img  screen：20230424_13_58_52.png

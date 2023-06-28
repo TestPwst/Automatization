@@ -1,0 +1,136 @@
+2022-09-02 16:00:02,811 - root - INFO -  Abre el menu completo
+2022-09-02 16:00:11,472 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-09-02 16:00:11,543 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-09-02 16:00:14,554 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_00_14.png
+2022-09-02 16:00:14,777 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-02 16:00:19,859 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 16:00:19,899 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-09-02 16:00:19,937 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-02 16:00:19,974 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-09-02 16:00:20,013 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-09-02 16:00:20,052 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-09-02 16:00:20,089 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-09-02 16:00:29,542 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-09-02 16:00:40,045 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-09-02 16:00:50,517 - root - INFO -  Se dió click en la opción Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-09-02 16:01:05,305 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-09-02 16:01:08,321 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_01_08.png
+2022-09-02 16:01:08,570 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:01:11,698 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-09-02 16:01:14,795 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-02 16:01:19,867 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-02 16:01:24,964 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-02 16:01:30,031 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 16:01:30,069 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-09-02 16:01:30,103 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-02 16:01:30,145 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-09-02 16:01:30,185 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-09-02 16:01:30,218 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-09-02 16:01:30,251 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-09-02 16:01:37,675 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-09-02 16:01:48,112 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-09-02 16:01:58,638 - root - INFO -  Se dió click en la opción de Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-09-02 16:02:13,421 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-09-02 16:02:16,601 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:02:19,756 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-09-02 16:02:22,867 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-09-02 16:02:27,876 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_02_27.png
+2022-09-02 16:02:48,071 - root - ERROR - No se dió click en el botón Cerrar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:02:51,087 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_02_51.png
+2022-09-02 16:03:09,919 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:03:12,929 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_03_12.png
+2022-09-02 16:03:45,751 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:03:48,759 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_03_48.png
+2022-09-02 16:07:50,328 - root - INFO -  Se abre el chrome
+2022-09-02 16:07:51,328 - root - INFO -  Entra a la URL
+2022-09-02 16:07:51,459 - root - INFO -  Maximiza la pantalla
+2022-09-02 16:07:54,506 - root - INFO -  Cambia al frame
+2022-09-02 16:07:57,584 - root - INFO -  Escribe el usuario
+2022-09-02 16:07:57,686 - root - INFO -  Escribe la contraseña
+2022-09-02 16:07:57,829 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-02 16:07:58,575 - root - INFO -  Ejecutar Enterprise
+2022-09-02 16:07:58,577 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_07_58.png
+2022-09-02 16:08:02,832 - root - INFO -  Cambia entre pestañas
+2022-09-02 16:08:14,798 - root - INFO -  Abre el menu completo
+2022-09-02 16:08:23,469 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-09-02 16:08:23,552 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-09-02 16:08:26,567 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_08_26.png
+2022-09-02 16:08:26,766 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-02 16:08:31,840 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 16:08:31,878 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-09-02 16:08:31,916 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-02 16:08:31,953 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-09-02 16:08:31,994 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-09-02 16:08:32,033 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-09-02 16:08:32,070 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-09-02 16:08:41,539 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-09-02 16:08:52,029 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-09-02 16:09:02,481 - root - INFO -  Se dió click en la opción Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-09-02 16:09:17,325 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-09-02 16:09:20,341 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_09_20.png
+2022-09-02 16:09:20,586 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:09:23,750 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-09-02 16:09:26,869 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-02 16:09:31,977 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-02 16:09:37,119 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-02 16:09:42,238 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 16:09:42,273 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-09-02 16:09:42,307 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-02 16:09:42,358 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-09-02 16:09:42,392 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-09-02 16:09:42,426 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-09-02 16:09:42,459 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-09-02 16:09:49,873 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-09-02 16:10:00,399 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-09-02 16:10:10,846 - root - INFO -  Se dió click en la opción de Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-09-02 16:10:25,572 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-09-02 16:10:28,730 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:10:31,877 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-09-02 16:10:34,997 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-09-02 16:10:40,009 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_10_40.png
+2022-09-02 16:10:40,248 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-02 16:10:43,368 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-02 16:10:48,477 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-02 16:10:58,092 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-02 16:11:04,243 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:11:04,245 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_11_04.png
+2022-09-02 16:11:04,463 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-02 16:11:09,551 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-02 16:11:18,957 - root - INFO -  Se cierra chrome
+2022-09-02 16:12:27,378 - root - INFO -  Se abre el chrome
+2022-09-02 16:12:28,837 - root - INFO -  Entra a la URL
+2022-09-02 16:12:28,972 - root - INFO -  Maximiza la pantalla
+2022-09-02 16:12:32,029 - root - INFO -  Cambia al frame
+2022-09-02 16:12:35,115 - root - INFO -  Escribe el usuario
+2022-09-02 16:12:35,217 - root - INFO -  Escribe la contraseña
+2022-09-02 16:12:35,346 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-02 16:12:36,193 - root - INFO -  Ejecutar Enterprise
+2022-09-02 16:12:36,195 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_12_36.png
+2022-09-02 16:12:40,407 - root - INFO -  Cambia entre pestañas
+2022-09-02 16:12:51,275 - root - INFO -  Abre el menu completo
+2022-09-02 16:12:59,917 - root - INFO -  Abre la pantalla de Autorizaciones de Credito
+2022-09-02 16:12:59,987 - root - INFO -  La pantalla ejecutada es Autorizaciones de crédito.
+2022-09-02 16:13:02,998 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_13_02.png
+2022-09-02 16:13:03,221 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-02 16:13:08,303 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 16:13:08,349 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-09-02 16:13:08,389 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-02 16:13:08,427 - root - INFO -  El campo 'Modo' si se encuentra visible.
+2022-09-02 16:13:08,467 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-09-02 16:13:08,511 - root - INFO -  El campo 'Cantidad' si se encuentra visible.
+2022-09-02 16:13:08,548 - root - INFO -  El campo 'Contraseña' si se encuentra visible.
+2022-09-02 16:13:18,009 - root - INFO -  Se dió doble click en el regitro de Empresa.
+2022-09-02 16:13:28,466 - root - INFO -  Se dió doble click en el regitro de Moneda.
+2022-09-02 16:13:38,886 - root - INFO -  Se dió click en la opción Limite personalizado (evento Documento_OnValidarAutorizacionCreditoGeneral).
+2022-09-02 16:13:53,646 - root - INFO -  Se dió doble click en el regitro de Usuario.
+2022-09-02 16:13:56,662 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_13_56.png
+2022-09-02 16:13:56,871 - root - INFO -  Ingresa de autorización del nuevo registro 
+2022-09-02 16:14:00,030 - root - INFO -  Ingresa la contraseña del nuevo registro 
+2022-09-02 16:14:04,166 - root - ERROR - No se dió click en el botón Guardar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:14:07,175 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_14_07.png
+2022-09-02 16:14:26,068 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:14:29,085 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_14_29.png
+2022-09-02 16:15:01,915 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:15:04,921 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_15_04.png
+2022-09-02 16:15:37,739 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-02 16:15:40,744 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02AC\report\img  screen：20220902_16_15_40.png

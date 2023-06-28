@@ -1,0 +1,75 @@
+2023-04-24 14:42:33,583 - root - INFO -  Se abre el chrome
+2023-04-24 14:42:35,457 - root - INFO -  Entra a la URL
+2023-04-24 14:42:35,574 - root - INFO -  Maximiza la pantalla
+2023-04-24 14:42:38,716 - root - INFO -  Escribe el usuario
+2023-04-24 14:42:38,820 - root - INFO -  Escribe la contraseña
+2023-04-24 14:42:38,968 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 14:42:39,791 - root - INFO -  Ejecutar Enterprise
+2023-04-24 14:42:43,855 - root - INFO -  Cambia entre pestañas
+2023-04-24 14:44:56,127 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2023-04-24 14:44:59,139 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_44_59.png
+2023-04-24 14:45:03,691 - root - INFO -  Se cierra chrome
+2023-04-24 14:45:03,692 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 14:45:03,694 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 14:45:03,695 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 14:45:11,948 - root - INFO -  Se abre el chrome
+2023-04-24 14:45:12,782 - root - INFO -  Entra a la URL
+2023-04-24 14:45:12,903 - root - INFO -  Maximiza la pantalla
+2023-04-24 14:45:16,017 - root - INFO -  Escribe el usuario
+2023-04-24 14:45:16,129 - root - INFO -  Escribe la contraseña
+2023-04-24 14:45:16,232 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 14:45:16,973 - root - INFO -  Ejecutar Enterprise
+2023-04-24 14:45:21,014 - root - INFO -  Cambia entre pestañas
+2023-04-24 14:46:31,152 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2023-04-24 14:46:53,506 - root - INFO -  Se abre el chrome
+2023-04-24 14:46:54,467 - root - INFO -  Entra a la URL
+2023-04-24 14:46:54,601 - root - INFO -  Maximiza la pantalla
+2023-04-24 14:46:57,711 - root - INFO -  Escribe el usuario
+2023-04-24 14:46:57,822 - root - INFO -  Escribe la contraseña
+2023-04-24 14:46:57,912 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 14:46:59,659 - root - INFO -  Ejecutar Enterprise
+2023-04-24 14:47:03,792 - root - INFO -  Cambia entre pestañas
+2023-04-24 14:48:15,763 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 14:48:15,764 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 14:48:16,840 - root - INFO -  La pantalla ejecutada es Tipo Encuestas.
+2023-04-24 14:48:16,841 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_48_16.png
+2023-04-24 14:48:17,016 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 14:48:17,570 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 14:48:17,636 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 14:48:17,740 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 14:48:17,916 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 14:48:18,814 - root - INFO -  Se dió click en la opción Valor Númerico.
+2023-04-24 14:48:18,815 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_48_18.png
+2023-04-24 14:48:19,087 - root - INFO -  Se hace el cambio a la pestaña Validación; para continuar con el nuevo registro.
+2023-04-24 14:48:19,683 - root - INFO -  Ingresa el Desde Valor del nuevo registro 
+2023-04-24 14:48:19,767 - root - INFO -  Ingresa el Hasta Valor del nuevo registro 
+2023-04-24 14:48:19,837 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 14:48:20,089 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 14:48:22,130 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 14:48:22,682 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 14:48:22,749 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 14:48:22,856 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 14:48:23,074 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 14:48:23,983 - root - INFO -  Se dió click en la opción Valor Númerico.
+2023-04-24 14:48:24,066 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-24 14:48:24,656 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-24 14:48:26,657 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_48_26.png
+2023-04-24 14:48:26,843 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 14:48:26,992 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 14:48:27,112 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-24 14:48:29,692 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:48:30,350 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-04-24 14:48:30,539 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-04-24 14:48:30,539 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_48_30.png
+2023-04-24 14:48:30,717 - root - INFO -  Se hace el cambio a la pestaña Validación; para continuar con la modificación del registro.
+2023-04-24 14:48:31,306 - root - INFO -  Ingresa el Desde Valor del nuevo registro 
+2023-04-24 14:48:31,388 - root - INFO -  Ingresa el Hasta Valor del nuevo registro 
+2023-04-24 14:48:31,453 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 14:48:31,679 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 14:48:34,247 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 14:48:34,332 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 14:48:36,333 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230424_14_48_36.png
+2023-04-24 14:48:36,498 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 14:48:36,748 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-04-24 14:48:38,828 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Encuestas.
+2023-04-24 14:48:45,337 - root - INFO -  Se cierra chrome

@@ -1,0 +1,51 @@
+2023-06-20 13:25:22,802 - root - INFO -  Se abre el chrome
+2023-06-20 13:25:24,632 - root - INFO -  Entra a la URL
+2023-06-20 13:25:24,880 - root - INFO -  Maximiza la pantalla
+2023-06-20 13:25:28,002 - root - INFO -  Escribe el usuario
+2023-06-20 13:25:28,121 - root - INFO -  Escribe la contraseña
+2023-06-20 13:25:28,225 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-20 13:25:29,451 - root - INFO -  Ejecutar Enterprise
+2023-06-20 13:25:33,489 - root - INFO -  Cambia entre pestañas
+2023-06-20 13:25:44,570 - root - INFO -  Abre la pantalla de Tipo Encuestas
+2023-06-20 13:25:45,132 - root - INFO -  La pantalla ejecutada es Tipo Encuestas.
+2023-06-20 13:25:45,134 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230620_13_25_45.png
+2023-06-20 13:25:45,321 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-20 13:25:45,864 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 13:25:45,941 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-06-20 13:25:46,043 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-06-20 13:25:46,215 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-06-20 13:25:47,107 - root - INFO -  Se dió click en la opción Valor Númerico.
+2023-06-20 13:25:47,107 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230620_13_25_47.png
+2023-06-20 13:25:47,290 - root - INFO -  Se hace el cambio a la pestaña Validación; para continuar con el nuevo registro.
+2023-06-20 13:25:47,874 - root - INFO -  Ingresa el Desde Valor del nuevo registro 
+2023-06-20 13:25:47,955 - root - INFO -  Ingresa el Hasta Valor del nuevo registro 
+2023-06-20 13:25:48,012 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-20 13:25:48,218 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 13:25:50,273 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-20 13:25:50,817 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 13:25:50,878 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-06-20 13:25:50,966 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-06-20 13:25:51,110 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-06-20 13:25:51,972 - root - INFO -  Se dió click en la opción Valor Númerico.
+2023-06-20 13:25:52,101 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-20 13:25:52,707 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-06-20 13:25:54,708 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230620_13_25_54.png
+2023-06-20 13:25:54,896 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 13:25:54,984 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-20 13:25:55,077 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-06-20 13:25:57,652 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-20 13:25:58,279 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-06-20 13:25:58,512 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-06-20 13:25:58,512 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230620_13_25_58.png
+2023-06-20 13:25:58,662 - root - INFO -  Se hace el cambio a la pestaña Validación; para continuar con la modificación del registro.
+2023-06-20 13:25:59,242 - root - INFO -  Ingresa el Desde Valor del nuevo registro 
+2023-06-20 13:25:59,316 - root - INFO -  Ingresa el Hasta Valor del nuevo registro 
+2023-06-20 13:25:59,378 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-20 13:25:59,579 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-20 13:26:02,151 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-20 13:26:02,222 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-20 13:26:04,222 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\02TDE\report\img  screen：20230620_13_26_04.png
+2023-06-20 13:26:04,364 - root - INFO -  Se confirma el eliminado del registro
+2023-06-20 13:26:04,632 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-06-20 13:26:06,692 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Encuestas.
+2023-06-20 13:26:14,141 - root - INFO -  Se cierra chrome
