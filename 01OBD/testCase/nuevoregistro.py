@@ -1,0 +1,340 @@
+from selenium.webdriver import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from common.log import Log
+from common.globalparam import img_path
+import os
+import time
+
+class nuevoregistro:
+
+    def nuevoregistro(self, conditions, Configuracion):
+        """Abre la ventana para crear un nuevo registro"""
+        self.wait = WebDriverWait(self.driver, 60)
+
+        # Valida que la pantalla ejecutada para crear un nuevo registro sea correcta
+        try:
+            Crea = self.wait.until(conditions.visibility((By.XPATH, Configuracion.titulo_nuevo))).text
+            self.assertEqual("OBJETIVOS DIARIOS POR VENDEDOR : PROPIEDADES", Crea, "La pantalla ejecutada es correcta")
+            Log().info(" Se abrio la pantalla para el ingreso de un registro nuevo.")
+
+        except Exception as e:
+            Log().error(
+                "La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        # Valida existencia de las etiquetas
+        try:
+            Vendedor = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_vendedor))).text
+            self.assertEqual("Vendedor", Vendedor, "Campo visible")
+            Log().info(" El campo 'Vendedor' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Vendedor' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Fecha = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_fecha))).text
+            self.assertEqual("Fecha", Fecha, "Campo visible")
+            Log().info(" El campo 'Fecha' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo Fecha' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Efectividad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_efectividad))).text
+            self.assertEqual("Efectividad %", Efectividad, "Campo visible")
+            Log().info(" El campo 'Efectividad %' si se encuentra visible.")
+            
+        except Exception as e:
+            Log().error(
+                "El campo 'Efectividad %' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        #Se realiza el ingreso de datos en los campos.
+
+        try:
+            Cvendedor = self.wait.until(conditions.visibility((By.XPATH, Configuracion.ayuda_vendedor)))
+            Cvendedor.click()
+            
+            registro_vendedor = self.wait.until(conditions.visibility((By.XPATH, "//span[text()='ZI01']")))
+
+            action = ActionChains(self.driver)
+            action \
+                .double_click(registro_vendedor) \
+                .pause(0) \
+                .release()
+            action.perform()
+            
+        except Exception as e:
+            Log().error(
+                "No se encontró el registro de Vendedor, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Cefectividad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_efectividad)))
+            Cefectividad.send_keys(Configuracion.Iefectividad)
+            Log().info(" Ingresa la efectividad del nuevo registro ")
+            time.sleep(2)
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+
+        except Exception as e:
+            Log().error(
+                "No se pudo encontrar el campo para ingresar la efectividad, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        # Cambio de pestaña y agregar nuevo
+
+        try:
+            Bgrupos = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_grupos)))
+            Bgrupos.click()
+            Log().info("Se hace el cambio de pestaña para continuar con el registro nuevo")
+
+        except Exception as e:
+            Log().error(
+                "No se encontró el botón grupos, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Nuevogrupo = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Nuevo_grupo)))
+            Nuevogrupo.click()
+            Log().info(" Se presiona el boton 'Nuevo', para crear un nuevo registro.")
+
+        except Exception as e:
+            Log().error(
+                "No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+            # Valida existencia de las etiquetas
+
+        try:
+            Grupopolitica = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_grupopolitica))).text
+            self.assertEqual("Grupo Política", Grupopolitica, "Campo visible")
+            Log().info(" El campo 'Grupo Política' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Grupo Política' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            TipoObjetivo = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_tipoobjetivo))).text
+            self.assertEqual("Tipo Objetivo", TipoObjetivo, "Campo visible")
+            Log().info(" El campo 'Tipo Objetivo' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Tipo Objetivo' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Tipounidad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_tipounidad))).text
+            self.assertEqual("Tipo Unidad", Tipounidad, "Campo visible")
+            Log().info(" El campo 'Tipo Unidad' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Tipo Unidad' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Objetivocantidad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_objetivocantidad))).text
+            self.assertEqual("Objetivo Cantidad", Objetivocantidad, "Campo visible")
+            Log().info(" El campo 'Objetivo Cantidad' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Objetivo Cantidad' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Objetivocobertura = self.wait.until(conditions.visibility((By.XPATH, Configuracion.etiqueta_objetivocobertura))).text
+            self.assertEqual("Objetivo Cobertura", Objetivocobertura, "Campo visible")
+            Log().info(" El campo 'Objetivo Cobertura' si se encuentra visible.")
+
+        except Exception as e:
+            Log().error(
+                "El campo 'Objetivo Cobertura' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        #ingreso de los valores en los campos
+
+        try:
+            Cgrupopolitica = self.wait.until(conditions.visibility((By.XPATH, Configuracion.ayuda_grupopolitica)))
+            Cgrupopolitica.click()
+
+            registro_grupopolitica = self.wait.until(conditions.visibility((By.XPATH, "//span[text()='CPM01']")))
+
+            action = ActionChains(self.driver)
+            action \
+                .double_click(registro_grupopolitica) \
+                .pause(0) \
+                .release()
+            action.perform()
+
+        except Exception as e:
+            Log().error(
+                "No se encontró el registro de Grupo Politica, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Ctipoobjetivo = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_tipoobjetivo)))
+            Ctipoobjetivo.click()
+            
+            registro_tipoobjetivo = self.wait.until(conditions.visibility((By.XPATH, "//li[text()='Volumen y cobertura diaria']")))
+
+            action = ActionChains(self.driver)
+            action \
+                .click(registro_tipoobjetivo) \
+                .pause(0) \
+                .release()
+            action.perform()
+
+        except Exception as e:
+            Log().error(
+                "No se encontró el registro de tipo Objetivo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Ctipounidad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_tipounidad)))
+            Ctipounidad.click()
+            
+            registro_tipounidad = self.wait.until(conditions.visibility((By.XPATH, "//li[text()='Unidad']")))
+
+            action = ActionChains(self.driver)
+            action \
+                .click(registro_tipounidad) \
+                .pause(0) \
+                .release()
+            action.perform()
+
+        except Exception as e:
+            Log().error(
+                "No se encontró el registro de tipo unidad, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Cobjetivocantidad = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_objetivocantidad)))
+            Cobjetivocantidad.send_keys(Configuracion.Iobjetivocantidad)
+            Log().info(" Ingresa el Objetivo Cantidad del nuevo registro ")
+            
+        except Exception as e:
+            Log().error(
+                "No se pudo encontrar el campo para ingresar el Objetivo Cantidad, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Cobjetivocobertura = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_objetivocobertura)))
+            Cobjetivocobertura.send_keys(Configuracion.Iobjetivocobertura)
+            Log().info(" Ingresa el Objetivo Cobertura del nuevo registro ")
+            
+        except Exception as e:
+            Log().error(
+                "No se pudo encontrar el campo para ingresar el objetivo cobertura      , revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Guardagrupos = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Guarda_grupos)))
+            Guardagrupos.click()
+            Log().info(" Se da clic en el boton Guardar; se debe crear un nuevo registro.")
+            
+        except Exception as e:
+            Log().error(
+                "No se encontró el botón Guardar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
+
+        try:
+            Guarda = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Guarda)))
+            Guarda.click()
+            Log().info(" Se da clic en el boton Guardar; se debe crear un nuevo registro.")
+            
+        except Exception as e:
+            Log().error(
+                "No se encontró el botón Guardar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte")
+            timeStrmap = time.strftime('%Y%m%d_%H_%M_%S')
+            img_name = os.path.join(img_path, "%s.png" % str(timeStrmap))
+            Log().info(message=" Captura: %s  screen：%s" % (img_path, os.path.split(img_name)[1]))
+            self.driver.get_screenshot_as_file(img_name)
+            return False
