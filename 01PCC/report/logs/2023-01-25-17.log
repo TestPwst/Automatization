@@ -1,0 +1,112 @@
+2023-01-25 17:34:12,152 - root - INFO -  Se abre el chrome
+2023-01-25 17:34:13,603 - root - INFO -  Entra a la URL
+2023-01-25 17:34:13,883 - root - INFO -  Maximiza la pantalla
+2023-01-25 17:34:17,025 - root - INFO -  Escribe el usuario
+2023-01-25 17:34:17,164 - root - INFO -  Escribe la contraseña
+2023-01-25 17:34:17,284 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 17:34:18,079 - root - INFO -  Ejecutar Enterprise
+2023-01-25 17:34:22,162 - root - INFO -  Cambia entre pestañas
+2023-01-25 17:34:32,820 - root - INFO -  Abre la pantalla de tipos de compañia
+2023-01-25 17:34:33,386 - root - INFO -  La pantalla ejecutada es RUBROS DE CAJA
+2023-01-25 17:34:33,387 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_33.png
+2023-01-25 17:34:34,074 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:34:34,638 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 17:34:34,694 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-25 17:34:34,737 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-25 17:34:34,820 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 17:34:35,965 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_35.png
+2023-01-25 17:34:36,633 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:34:37,231 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:34:37,794 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-01-25 17:34:37,839 - root - INFO -  El campo 'Porcentaje' si se encuentra visible.
+2023-01-25 17:34:39,397 - root - INFO -  Se presiona el boton 'guardar', para guardar el registro.
+2023-01-25 17:34:39,652 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:34:39,923 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:34:40,169 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 17:34:40,764 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 17:34:41,900 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_41.png
+2023-01-25 17:34:42,520 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:34:43,521 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_43.png
+2023-01-25 17:34:49,518 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 17:34:50,519 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_50.png
+2023-01-25 17:34:51,315 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 17:34:51,979 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 17:34:52,157 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:34:53,784 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:34:55,476 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_34_55.png
+2023-01-25 17:34:56,002 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-25 17:34:56,069 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:34:57,159 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:34:57,249 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:34:57,363 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:34:59,373 - root - INFO -  Se modifica el contenido del campo porcentaje
+2023-01-25 17:34:59,557 - root - INFO -  Se presiona el boton 'guardar', para guardar el registro.
+2023-01-25 17:34:59,815 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-25 17:35:00,176 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-25 17:35:01,790 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:35:02,383 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:35:03,456 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:35:03,538 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:35:03,686 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:35:03,950 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:35:05,952 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_35_05.png
+2023-01-25 17:35:06,567 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 17:35:06,768 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:35:06,958 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de presupuestos.
+2023-01-25 17:35:11,548 - root - INFO -  Se cierra chrome
+2023-01-25 17:35:29,602 - root - INFO -  Se abre el chrome
+2023-01-25 17:35:30,628 - root - INFO -  Entra a la URL
+2023-01-25 17:35:30,990 - root - INFO -  Maximiza la pantalla
+2023-01-25 17:35:34,144 - root - INFO -  Escribe el usuario
+2023-01-25 17:35:34,266 - root - INFO -  Escribe la contraseña
+2023-01-25 17:35:34,390 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-25 17:35:35,185 - root - INFO -  Ejecutar Enterprise
+2023-01-25 17:35:39,315 - root - INFO -  Cambia entre pestañas
+2023-01-25 17:35:51,162 - root - INFO -  Abre la pantalla de tipos de compañia
+2023-01-25 17:35:51,718 - root - INFO -  La pantalla ejecutada es RUBROS DE CAJA
+2023-01-25 17:35:51,719 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_35_51.png
+2023-01-25 17:35:52,330 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:35:52,914 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-25 17:35:52,969 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-25 17:35:53,013 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-25 17:35:53,090 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 17:35:54,232 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_35_54.png
+2023-01-25 17:35:54,887 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:35:55,494 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:35:56,063 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-01-25 17:35:56,112 - root - INFO -  El campo 'Porcentaje' si se encuentra visible.
+2023-01-25 17:35:57,720 - root - INFO -  Se presiona el boton 'guardar', para guardar el registro.
+2023-01-25 17:35:58,072 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:35:58,389 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:35:58,661 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-25 17:35:59,246 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-25 17:36:00,383 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_36_00.png
+2023-01-25 17:36:01,020 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:36:02,021 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_36_02.png
+2023-01-25 17:36:07,963 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 17:36:08,964 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_36_08.png
+2023-01-25 17:36:09,740 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-25 17:36:10,383 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-25 17:36:10,510 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:36:12,143 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:36:13,845 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_36_13.png
+2023-01-25 17:36:14,483 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-25 17:36:14,554 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:36:15,646 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:36:15,733 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:36:15,861 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-25 17:36:17,803 - root - INFO -  Se modifica el contenido del campo porcentaje
+2023-01-25 17:36:18,001 - root - INFO -  Se presiona el boton 'guardar', para guardar el registro.
+2023-01-25 17:36:18,166 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-25 17:36:18,437 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-25 17:36:20,061 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:36:20,669 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-25 17:36:21,751 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-25 17:36:21,846 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:36:22,028 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-25 17:36:22,263 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-25 17:36:24,263 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01PCC\report\img  screen：20230125_17_36_24.png
+2023-01-25 17:36:24,895 - root - INFO -  Se confirma el eliminado del registro
+2023-01-25 17:36:25,056 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-25 17:36:25,184 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de presupuestos.
+2023-01-25 17:36:29,761 - root - INFO -  Se cierra chrome
