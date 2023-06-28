@@ -1,0 +1,93 @@
+2022-12-21 10:00:35,981 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-21 10:00:35,982 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_00_35.png
+2022-12-21 10:00:36,107 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-12-21 10:00:36,108 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_00_36.png
+2022-12-21 10:00:36,151 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-21 10:00:36,152 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_00_36.png
+2022-12-21 10:00:36,180 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-21 10:00:36,182 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_00_36.png
+2022-12-21 10:00:36,205 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-21 10:00:36,206 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_00_36.png
+2022-12-21 10:02:14,411 - root - INFO -  Se abre el chrome
+2022-12-21 10:02:15,617 - root - INFO -  Entra a la URL
+2022-12-21 10:02:15,764 - root - INFO -  Maximiza la pantalla
+2022-12-21 10:02:18,915 - root - INFO -  Escribe el usuario
+2022-12-21 10:02:19,072 - root - INFO -  Escribe la contraseña
+2022-12-21 10:02:19,209 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-21 10:02:20,011 - root - INFO -  Ejecutar Enterprise
+2022-12-21 10:02:24,075 - root - INFO -  Cambia entre pestañas
+2022-12-21 10:02:28,204 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-21 10:02:29,311 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-21 10:02:29,312 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_02_29.png
+2022-12-21 10:02:29,581 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-21 10:02:30,299 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-21 10:02:30,514 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-21 10:02:30,594 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-21 10:02:30,667 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-21 10:02:30,739 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2022-12-21 10:02:30,797 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-21 10:02:30,851 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-21 10:02:30,904 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-21 10:02:30,961 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-21 10:02:31,066 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-21 10:02:31,218 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-21 10:02:31,527 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-21 10:02:31,714 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-21 10:02:32,876 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-21 10:02:33,558 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-21 10:02:33,759 - root - INFO -  Se dió click en el checkbox Activa
+2022-12-21 10:02:34,026 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-21 10:02:34,247 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-12-21 10:02:34,950 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-12-21 10:02:35,630 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-12-21 10:02:35,695 - root - INFO -  El campo 'Porcentaje de Descuento' si se encuentra visible.
+2022-12-21 10:02:35,751 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-12-21 10:02:35,808 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-12-21 10:02:35,989 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-21 10:02:36,144 - root - INFO -  Ingresa el Porcentaje de Descuento del nuevo registro 
+2022-12-21 10:02:36,343 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-12-21 10:02:36,717 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-12-21 10:02:36,859 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-12-21 10:02:37,230 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-21 10:02:37,735 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-21 10:02:39,884 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-21 10:02:40,444 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-21 10:02:40,605 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-21 10:02:40,731 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-21 10:02:40,954 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-21 10:02:41,083 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-21 10:02:42,148 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-21 10:02:42,781 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-21 10:02:42,890 - root - INFO -  Se dió click en el checkbox Activa
+2022-12-21 10:02:42,984 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-21 10:02:43,090 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-21 10:02:46,091 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_02_46.png
+2022-12-21 10:02:46,399 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-21 10:02:46,573 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-21 10:02:46,750 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-21 10:02:49,388 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-21 10:02:50,174 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-12-21 10:02:50,492 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-21 10:02:50,727 - root - INFO -  Se modifica el contenido del campo Tipo Documento 
+2022-12-21 10:02:50,728 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_02_50.png
+2022-12-21 10:02:51,010 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-21 10:02:51,319 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la modificación del registro
+2022-12-21 10:02:52,466 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a modificarlo.
+2022-12-21 10:02:53,382 - root - INFO -  Se modifica el contenido del campo Articulo 
+2022-12-21 10:02:53,603 - root - INFO -  Se modifica el contenido del campo Porcentaje de Descuento 
+2022-12-21 10:02:53,606 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_02_53.png
+2022-12-21 10:02:54,109 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Por Articulo.
+2022-12-21 10:02:54,430 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-21 10:02:54,822 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-21 10:02:57,519 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-21 10:02:58,140 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2022-12-21 10:02:59,316 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a eliminarlo.
+2022-12-21 10:02:59,446 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Por Articulo.
+2022-12-21 10:02:59,632 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-21 10:03:00,215 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-21 10:03:00,364 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-21 10:03:03,368 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\10PV\report\img  screen：20221221_10_03_03.png
+2022-12-21 10:03:03,654 - root - INFO -  Se confirma el eliminado del registro
+2022-12-21 10:03:03,912 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-21 10:03:06,091 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2022-12-21 10:03:10,571 - root - INFO -  Se cierra chrome

@@ -1,0 +1,102 @@
+2022-09-08 10:36:16,869 - root - INFO -  Se abre el chrome
+2022-09-08 10:36:18,725 - root - INFO -  Entra a la URL
+2022-09-08 10:36:18,867 - root - INFO -  Maximiza la pantalla
+2022-09-08 10:36:21,928 - root - INFO -  Cambia al frame
+2022-09-08 10:36:25,111 - root - INFO -  Escribe el usuario
+2022-09-08 10:36:25,220 - root - INFO -  Escribe la contraseña
+2022-09-08 10:36:25,360 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-08 10:36:26,663 - root - INFO -  Ejecutar Enterprise
+2022-09-08 10:36:26,664 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_36_26.png
+2022-09-08 10:36:30,910 - root - INFO -  Cambia entre pestañas
+2022-09-08 10:36:40,210 - root - INFO -  Abre el menu completo
+2022-09-08 10:36:55,214 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-09-08 10:36:55,295 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-09-08 10:36:58,314 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_36_58.png
+2022-09-08 10:36:58,541 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-08 10:37:03,634 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-08 10:37:03,676 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-08 10:37:03,723 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-09-08 10:37:03,760 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-08 10:37:03,801 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-09-08 10:37:03,838 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-09-08 10:37:03,860 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-08 10:37:03,913 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-09-08 10:37:03,945 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-09-08 10:37:03,976 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-09-08 10:37:04,056 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-08 10:37:07,214 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-08 10:37:10,449 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-08 10:37:18,959 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha Actual.
+2022-09-08 10:37:22,162 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-09-08 10:37:32,689 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-09-08 10:37:43,155 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-09-08 10:37:46,271 - root - INFO -  Se dió click en el checkbox Activa.
+2022-09-08 10:37:49,454 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-09-08 10:37:52,612 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-09-08 10:37:55,745 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-09-08 10:38:00,801 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-09-08 10:38:00,839 - root - INFO -  El campo 'Porcentaje de Descuento' si se encuentra visible.
+2022-09-08 10:38:00,880 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-09-08 10:38:00,903 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-09-08 10:38:01,024 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-09-08 10:38:08,186 - root - INFO -  Ingresa el Porcentaje de Descuento del nuevo registro 
+2022-09-08 10:38:11,323 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-09-08 10:38:14,452 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-09-08 10:38:17,468 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_38_17.png
+2022-09-08 10:38:17,717 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-09-08 10:38:22,848 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-08 10:38:27,992 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-08 10:38:33,111 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-08 10:38:38,165 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-08 10:38:38,241 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-08 10:38:41,421 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-08 10:38:44,664 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-08 10:38:53,218 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha Actual.
+2022-09-08 10:38:56,434 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-09-08 10:39:06,977 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-09-08 10:39:17,452 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-09-08 10:39:20,561 - root - INFO -  Se dió click en el checkbox Activa.
+2022-09-08 10:39:23,652 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-09-08 10:39:26,849 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-09-08 10:39:31,854 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_39_31.png
+2022-09-08 10:39:32,108 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-08 10:39:35,224 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-08 10:39:39,359 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-08 10:39:49,049 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-08 10:39:54,229 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-09-08 10:39:57,500 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-08 10:40:06,039 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha Actual.
+2022-09-08 10:40:09,243 - root - INFO -  Se modifica el contenido del campo Fecha Hasta 
+2022-09-08 10:40:12,448 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-09-08 10:40:15,612 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la modificación del registro
+2022-09-08 10:40:23,234 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a modificarlo.
+2022-09-08 10:40:26,455 - root - INFO -  Se modifica el contenido del campo Articulo 
+2022-09-08 10:40:33,703 - root - INFO -  Se modifica el contenido del campo Porcentaje de Descuento 
+2022-09-08 10:40:36,714 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_40_36.png
+2022-09-08 10:40:36,984 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Por Articulo.
+2022-09-08 10:40:42,140 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-08 10:40:47,218 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-08 10:40:56,817 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-08 10:41:01,917 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la eliminación del registro
+2022-09-08 10:41:09,504 - root - INFO -  Se da clic en el registro de Por articulo, para proceder a eliminarlo.
+2022-09-08 10:41:17,660 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Por Articulo.
+2022-09-08 10:41:17,775 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-08 10:41:27,393 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-08 10:41:35,532 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-08 10:41:35,534 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_41_35.png
+2022-09-08 10:41:35,787 - root - INFO -  Se confirma el eliminado del registro
+2022-09-08 10:41:40,926 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-09-08 10:41:46,057 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2022-09-08 10:41:52,789 - root - INFO -  Se cierra chrome
+2022-09-08 10:42:37,113 - root - INFO -  Se abre el chrome
+2022-09-08 10:42:39,027 - root - INFO -  Entra a la URL
+2022-09-08 10:42:39,157 - root - INFO -  Maximiza la pantalla
+2022-09-08 10:42:42,233 - root - INFO -  Cambia al frame
+2022-09-08 10:42:45,317 - root - INFO -  Escribe el usuario
+2022-09-08 10:42:45,417 - root - INFO -  Escribe la contraseña
+2022-09-08 10:42:45,562 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-08 10:42:46,892 - root - INFO -  Ejecutar Enterprise
+2022-09-08 10:42:46,893 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20220908_10_42_46.png
+2022-09-08 10:42:51,137 - root - INFO -  Cambia entre pestañas
+2022-09-08 10:42:56,237 - root - INFO -  Abre el menu completo
+2022-09-08 10:43:11,174 - root - INFO -  Abre la pantalla de Politicas de Venta

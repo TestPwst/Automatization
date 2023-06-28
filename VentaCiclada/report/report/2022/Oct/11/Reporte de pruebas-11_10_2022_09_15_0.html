@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-10-11 09:15:09</p>
+<p class='attribute'><strong>Duracion : </strong> 0:31:13.628165</p>
+<p class='attribute'><strong>Resultado : </strong> Total 4，Correctos 2 ，Errores 2 ，Taza de resultado 50.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 50.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 2 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 2 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 4 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>VentaCiclada.Test: Venta Automatizada</td>
+    <td class="text-center">4</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">2</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',4)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-10-11 09:15:10,527 - root - INFO -  Se abre el chrome
+2022-10-11 09:15:13,623 - root - INFO -  Entra a la URL
+2022-10-11 09:15:13,747 - root - INFO -  Maximiza la pantalla
+2022-10-11 09:15:16,790 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-10-11 09:15:19,874 - root - INFO -  Escribe el usuario
+2022-10-11 09:15:19,952 - root - INFO -  Escribe la contraseña
+2022-10-11 09:15:20,059 - root - INFO -  Se dio clic en el boton ingresar
+2022-10-11 09:15:21,344 - root - INFO -  Ejecutar Enterprise
+2022-10-11 09:15:25,400 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_3' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_001: Realiza las n ventas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_3: 2022-10-11 09:15:48,654 - root - INFO - Se abre el documento de venta a realizar
+2022-10-11 09:16:29,605 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:16:57,021 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_16_57.png
+2022-10-11 09:16:57,209 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:17:40,151 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:18:07,577 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_18_07.png
+2022-10-11 09:18:07,776 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:18:50,703 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:19:18,118 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_19_18.png
+2022-10-11 09:19:18,278 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:20:01,185 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:20:28,615 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_20_28.png
+2022-10-11 09:20:28,763 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:21:11,644 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:21:39,097 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_21_39.png
+2022-10-11 09:21:39,261 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:22:22,118 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:22:49,462 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_22_49.png
+2022-10-11 09:22:49,626 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:23:32,434 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:23:59,852 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_23_59.png
+2022-10-11 09:23:59,998 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:24:42,935 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:25:10,310 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_25_10.png
+2022-10-11 09:25:10,453 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:25:53,411 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:26:20,771 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_26_20.png
+2022-10-11 09:26:20,937 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:27:03,890 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:27:31,309 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_27_31.png
+2022-10-11 09:27:31,471 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:28:14,377 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:28:41,752 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_28_41.png
+2022-10-11 09:28:41,910 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:29:24,858 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:29:52,250 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_29_52.png
+2022-10-11 09:29:52,399 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:30:35,141 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:31:02,414 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_31_02.png
+2022-10-11 09:31:02,565 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:31:45,452 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:32:12,864 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_32_12.png
+2022-10-11 09:32:13,030 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:32:55,942 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:33:23,350 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_33_23.png
+2022-10-11 09:33:23,506 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:34:06,394 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:34:33,824 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_34_33.png
+2022-10-11 09:34:33,978 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:35:16,878 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:35:44,268 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_35_44.png
+2022-10-11 09:35:44,422 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:36:27,298 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:36:54,703 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_36_54.png
+2022-10-11 09:36:54,887 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:37:37,804 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:38:05,225 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_38_05.png
+2022-10-11 09:38:05,398 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:38:48,309 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:39:15,754 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_39_15.png
+2022-10-11 09:39:15,924 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:39:58,852 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:40:26,303 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_40_26.png
+2022-10-11 09:40:26,456 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:41:09,365 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:41:36,775 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_41_36.png
+2022-10-11 09:41:36,926 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:42:19,766 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:42:47,157 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_42_47.png
+2022-10-11 09:42:47,318 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:43:30,146 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:43:57,589 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_43_57.png
+2022-10-11 09:43:57,744 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:44:40,610 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:45:08,004 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_45_08.png
+2022-10-11 09:45:08,165 - root - INFO - Se guarda la venta realizaada
+2022-10-11 09:45:51,107 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-10-11 09:46:02,307 - root - ERROR - No se pudo ingresar el campo numero de serie, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-10-11 09:46:02,309 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20221011_09_46_02.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 36, in test_001
+    return ventaciclada.ventaciclada(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\realizaventa.py", line 281, in ventaciclada
+    Cnumserie.click()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 89, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 773, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="text" autocomplete="off" tabindex="584" id="_8593C054092E4CEBAEC1AC9258B65D6C_numeroSerie_element" name="_8593C054092E4CEBAEC1AC9258B65D6C_numeroSerie_element"&gt; is not clickable at point (522, 285). Other element would receive the click: &lt;div id="pglocker" class="lockerui" title="trabajando..." style="display: block;"&gt;...&lt;/div&gt;
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01201ED3+2236115]
+	Ordinal0 [0x011992F1+1807089]
+	Ordinal0 [0x010A66FD+812797]
+	Ordinal0 [0x010DBEC7+1031879]
+	Ordinal0 [0x010D9E6C+1023596]
+	Ordinal0 [0x010D7A5B+1014363]
+	Ordinal0 [0x010D66E7+1009383]
+	Ordinal0 [0x010CC416+967702]
+	Ordinal0 [0x010F1A8C+1120908]
+	Ordinal0 [0x010CBD84+966020]
+	Ordinal0 [0x010F1CA4+1121444]
+	Ordinal0 [0x011059E2+1202658]
+	Ordinal0 [0x010F18A6+1120422]
+	Ordinal0 [0x010CA73D+960317]
+	Ordinal0 [0x010CB71F+964383]
+	GetHandleVerifier [0x014AE7E2+2743074]
+	GetHandleVerifier [0x014A08D4+2685972]
+	GetHandleVerifier [0x01292BAA+532202]
+	GetHandleVerifier [0x01291990+527568]
+	Ordinal0 [0x011A080C+1837068]
+	Ordinal0 [0x011A4CD8+1854680]
+	Ordinal0 [0x011A4DC5+1854917]
+	Ordinal0 [0x011AED64+1895780]
+	BaseThreadInitThunk [0x76687BA9+25]
+	RtlInitializeExceptionChain [0x77B4BB3B+107]
+	RtlClearBits [0x77B4BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221011_09_46_02.png" target="_blank">
+            <img src="../../../../img/20221011_09_46_02.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_002: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_4: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 40, in test_002
+    self.driver.close()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01201ED3+2236115]
+	Ordinal0 [0x011992F1+1807089]
+	Ordinal0 [0x010A65C0+812480]
+	Ordinal0 [0x010CA1CB+958923]
+	Ordinal0 [0x010F1980+1120640]
+	Ordinal0 [0x010EE9A6+1108390]
+	Ordinal0 [0x010EE518+1107224]
+	Ordinal0 [0x01085517+677143]
+	Ordinal0 [0x01085B83+678787]
+	Ordinal0 [0x01085FBA+679866]
+	GetHandleVerifier [0x014AE7E2+2743074]
+	GetHandleVerifier [0x014A08D4+2685972]
+	GetHandleVerifier [0x01292BAA+532202]
+	GetHandleVerifier [0x01291990+527568]
+	Ordinal0 [0x011A080C+1837068]
+	Ordinal0 [0x01085387+676743]
+	Ordinal0 [0x01084D79+675193]
+	GetHandleVerifier [0x014CBEBC+2863612]
+	BaseThreadInitThunk [0x76687BA9+25]
+	RtlInitializeExceptionChain [0x77B4BB3B+107]
+	RtlClearBits [0x77B4BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>4</td>
+    <td>2</td>
+    <td>0</td>
+    <td>2</td>
+    <td>Taza de resultado：50.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

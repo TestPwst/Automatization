@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-11-28 09:14:09</p>
+<p class='attribute'><strong>Duracion : </strong> 0:00:51.073057</p>
+<p class='attribute'><strong>Resultado : </strong> Total 11，Correctos 3 ，Errores 8 ，Taza de resultado 27.27%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 27.27% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 8 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 3 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 11 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>ScriptAmarillo.Test: Script Amarillo</td>
+    <td class="text-center">11</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
+    <td class="text-center">8</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',11)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-11-28 09:14:10,491 - root - INFO -  Se abre el chrome
+2022-11-28 09:14:11,387 - root - INFO -  Entra a la URL
+2022-11-28 09:14:11,506 - root - INFO -  Maximiza la pantalla
+2022-11-28 09:14:14,551 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-11-28 09:14:17,650 - root - INFO -  Escribe el usuario
+2022-11-28 09:14:17,720 - root - INFO -  Escribe la contraseña
+2022-11-28 09:14:17,804 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-28 09:14:18,494 - root - INFO -  Ejecutar Enterprise
+2022-11-28 09:14:22,539 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Ingresa a pantalla Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-11-28 09:14:44,336 - root - INFO -  Abre la pantalla de Clasificación Vendedor
+2022-11-28 09:14:44,366 - root - INFO -  La pantalla ejecutada es Clasificación Vendedor.
+2022-11-28 09:14:44,366 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_14_44.png
+2022-11-28 09:14:44,528 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_14_44.png" target="_blank">
+            <img src="../../../../img/20221128_09_14_44.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_002: Agregar Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_4: 2022-11-28 09:14:45,084 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-28 09:14:45,085 - root - ERROR - No se pudo encontrar el campo para ingresar el codigo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-28 09:14:48,086 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_14_48.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 113, in test_002
+    return ClasificacionVendedorAgregar.AgregarCLV.AgregarCLV(self, conditions, ClasificacionVendedorConfig.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor/testCase/AgregarCLV.py", line 37, in AgregarCLV
+    Ccodigo = self.wait.until(conditions.visibility((By.XPATH, Configuracion.campo_codigoCLV)))
+AttributeError: type object 'Configuracion' has no attribute 'campo_codigoCLV'
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_14_48.png" target="_blank">
+            <img src="../../../../img/20221128_09_14_48.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_003: Modifica Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_5: 2022-11-28 09:14:48,409 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-28 09:14:51,420 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_14_51.png
+Traceback (most recent call last):
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor/testCase/ModificarCLV.py", line 20, in ModificarCLV
+    Refresca2 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA3FD+959485]
+	Ordinal0 [0x007DB71F+964383]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x008B4CD8+1854680]
+	Ordinal0 [0x008B4DC5+1854917]
+	Ordinal0 [0x008BED64+1895780]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 117, in test_003
+    return ClasificacionVendedorModificar.ModificarCLV.ModificarCLV(self, conditions, ClasificacionVendedorConfig.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor/testCase/ModificarCLV.py", line 31, in ModificarCLV
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 927, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 963, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 975, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_14_51.png" target="_blank">
+            <img src="../../../../img/20221128_09_14_51.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_6' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_004: Elimina Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_6: 2022-11-28 09:14:51,447 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-28 09:14:54,447 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_14_54.png
+Traceback (most recent call last):
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor/testCase/EliminarCLV.py", line 18, in EliminarCLV
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 121, in test_004
+    return ClasificacionVendedorEliminar.EliminarCLV.EliminarCLV(self, conditions, ClasificacionVendedorConfig.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor/testCase/EliminarCLV.py", line 29, in EliminarCLV
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 927, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 963, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 975, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_14_54.png" target="_blank">
+            <img src="../../../../img/20221128_09_14_54.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_7' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_005</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_7: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 125, in test_005
+    return ClasificacionVendedor2Pantalla.PantallaCLV2.PantallaCLV2(self, conditions, ClasificacionVendedor2Config.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor2/testCase/PantallaCLV2.py", line 18, in PantallaCLV2
+    Tablas = self.driver.find_element(By.XPATH, "//*[@id='_tablas']")
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_8' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_006</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_8: 2022-11-28 09:14:54,455 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-28 09:14:57,464 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_14_57.png
+Traceback (most recent call last):
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor2/testCase/AgregarCLV2.py", line 17, in AgregarCLV2
+    Crea = self.wait.until(conditions.visibility((By.XPATH, Configuracion.titulo_nuevo))).text
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 129, in test_006
+    return ClasificacionVendedor2Agregar.AgregarCLV2.AgregarCLV2(self, conditions, ClasificacionVendedor2Config.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor2/testCase/AgregarCLV2.py", line 27, in AgregarCLV2
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 927, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 963, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 975, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_14_57.png" target="_blank">
+            <img src="../../../../img/20221128_09_14_57.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_9' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_007</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_9' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_9'>Error</button>
+    <div id='div_ft1_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_9' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_9'>Error</button>
+    <div id='div_ft1_9' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_9: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 133, in test_007
+    return ClasificacionVendedor2Pantalla.ModificarCLV2.ModificarCLV2(self, conditions, ClasificacionVendedor2Config.Configuracion)
+AttributeError: module 'PantallaCLV2' has no attribute 'ModificarCLV2'
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_10' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_008</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_10' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_10'>Error</button>
+    <div id='div_ft1_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_10' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_10'>Error</button>
+    <div id='div_ft1_10' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_10: 2022-11-28 09:14:57,470 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-28 09:15:00,482 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221128_09_15_00.png
+Traceback (most recent call last):
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor2/testCase/EliminarCLV2.py", line 17, in EliminarCLV2
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 137, in test_008
+    return ClasificacionVendedor2Eliminar.EliminarCLV2.EliminarCLV2(self, conditions, ClasificacionVendedor2Config.Configuracion)
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ClasificacionVendedor2/testCase/EliminarCLV2.py", line 28, in EliminarCLV2
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 927, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 963, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 975, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221128_09_15_00.png" target="_blank">
+            <img src="../../../../img/20221128_09_15_00.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_11' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_009: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_11' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_11'>Error</button>
+    <div id='div_ft1_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_11' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_11'>Error</button>
+    <div id='div_ft1_11' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_11: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 223, in test_009
+    self.driver.close()
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 551, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00911ED3+2236115]
+	Ordinal0 [0x008A92F1+1807089]
+	Ordinal0 [0x007B65C0+812480]
+	Ordinal0 [0x007DA1CB+958923]
+	Ordinal0 [0x00801980+1120640]
+	Ordinal0 [0x007FE9A6+1108390]
+	Ordinal0 [0x007FE518+1107224]
+	Ordinal0 [0x00795517+677143]
+	Ordinal0 [0x00795B83+678787]
+	Ordinal0 [0x00795FBA+679866]
+	GetHandleVerifier [0x00BBE7E2+2743074]
+	GetHandleVerifier [0x00BB08D4+2685972]
+	GetHandleVerifier [0x009A2BAA+532202]
+	GetHandleVerifier [0x009A1990+527568]
+	Ordinal0 [0x008B080C+1837068]
+	Ordinal0 [0x00795387+676743]
+	Ordinal0 [0x00794D79+675193]
+	GetHandleVerifier [0x00BDBEBC+2863612]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>11</td>
+    <td>3</td>
+    <td>0</td>
+    <td>8</td>
+    <td>Taza de resultado：27.27%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

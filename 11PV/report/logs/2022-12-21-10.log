@@ -1,0 +1,80 @@
+2022-12-21 10:03:50,177 - root - INFO -  Se abre el chrome
+2022-12-21 10:03:51,548 - root - INFO -  Entra a la URL
+2022-12-21 10:03:51,698 - root - INFO -  Maximiza la pantalla
+2022-12-21 10:03:54,854 - root - INFO -  Escribe el usuario
+2022-12-21 10:03:55,031 - root - INFO -  Escribe la contraseña
+2022-12-21 10:03:55,156 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-21 10:03:55,960 - root - INFO -  Ejecutar Enterprise
+2022-12-21 10:04:00,034 - root - INFO -  Cambia entre pestañas
+2022-12-21 10:04:08,551 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-21 10:04:09,247 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-21 10:04:09,248 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_09.png
+2022-12-21 10:04:09,509 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-21 10:04:10,321 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-21 10:04:10,394 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-21 10:04:10,455 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-21 10:04:10,513 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-21 10:04:10,573 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2022-12-21 10:04:10,633 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-21 10:04:10,690 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-21 10:04:10,748 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-21 10:04:10,812 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-21 10:04:10,945 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-21 10:04:11,108 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-21 10:04:11,360 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-21 10:04:11,519 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-21 10:04:11,520 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_11.png
+2022-12-21 10:04:12,691 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-21 10:04:13,321 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-21 10:04:13,444 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-21 10:04:13,548 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-21 10:04:13,653 - root - INFO - Se hace el cambio a la pestaña Restricción de Producto para continuar con el registro nuevo
+2022-12-21 10:04:14,358 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Restricción de Producto.
+2022-12-21 10:04:14,948 - root - INFO -  El campo 'Tipo Restricción' si se encuentra visible.
+2022-12-21 10:04:14,997 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-12-21 10:04:15,438 - root - INFO -  Se dió click en la opción Prohibido.
+2022-12-21 10:04:17,680 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-21 10:04:17,681 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_17.png
+2022-12-21 10:04:20,157 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Restriccción por Producto.
+2022-12-21 10:04:20,437 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-21 10:04:20,868 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-21 10:04:23,042 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-21 10:04:23,596 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-21 10:04:23,759 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-21 10:04:23,910 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-21 10:04:24,129 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-21 10:04:24,264 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-21 10:04:25,294 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-21 10:04:25,946 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-21 10:04:26,047 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-21 10:04:26,151 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-21 10:04:26,259 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-21 10:04:29,261 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_29.png
+2022-12-21 10:04:29,590 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-21 10:04:29,742 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-21 10:04:29,915 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-21 10:04:32,633 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-21 10:04:33,394 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-12-21 10:04:33,694 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-21 10:04:33,915 - root - INFO -  Se modifica el contenido del campo Tipo Documento 
+2022-12-21 10:04:33,916 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_33.png
+2022-12-21 10:04:34,183 - root - INFO -  Se dió click en el checkbox Ignorar Ajuste.
+2022-12-21 10:04:34,488 - root - INFO - Se hace el cambio a la pestaña Restricción de Documento para continuar con la modificación del registro
+2022-12-21 10:04:35,626 - root - INFO -  Se da clic en el registro de Restricción por Producto, para proceder a modificarlo.
+2022-12-21 10:04:38,506 - root - INFO -  Se modifica el contenido del campo Articulo 
+2022-12-21 10:04:38,509 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_38.png
+2022-12-21 10:04:40,984 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del regsitro de Restricción por Producto.
+2022-12-21 10:04:41,265 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-21 10:04:41,688 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-21 10:04:45,328 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-21 10:04:45,951 - root - INFO - Se hace el cambio a la pestaña Restricción por Producto para continuar con la eliminación del registro
+2022-12-21 10:04:47,103 - root - INFO -  Se da clic en el registro de Restricción por Producto, para proceder a eliminarlo.
+2022-12-21 10:04:47,239 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Restricción por Producto.
+2022-12-21 10:04:50,339 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-21 10:04:53,966 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-21 10:04:54,130 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-21 10:04:57,132 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221221_10_04_57.png
+2022-12-21 10:04:57,399 - root - INFO -  Se confirma el eliminado del registro
+2022-12-21 10:04:57,685 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-21 10:05:00,858 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2022-12-21 10:05:05,374 - root - INFO -  Se cierra chrome

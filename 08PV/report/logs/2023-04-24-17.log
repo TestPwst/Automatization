@@ -1,0 +1,159 @@
+2023-04-24 17:34:22,417 - root - INFO -  Se abre el chrome
+2023-04-24 17:34:23,595 - root - INFO -  Entra a la URL
+2023-04-24 17:34:23,737 - root - INFO -  Maximiza la pantalla
+2023-04-24 17:34:27,038 - root - INFO -  Escribe el usuario
+2023-04-24 17:34:27,180 - root - INFO -  Escribe la contraseña
+2023-04-24 17:34:27,309 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 17:34:28,598 - root - INFO -  Ejecutar Enterprise
+2023-04-24 17:34:32,707 - root - INFO -  Cambia entre pestañas
+2023-04-24 17:35:45,002 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 17:35:45,013 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 17:35:45,580 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-04-24 17:35:45,581 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_35_45.png
+2023-04-24 17:35:55,960 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 17:35:56,551 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 17:35:56,586 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 17:35:56,626 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-04-24 17:35:56,664 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 17:35:56,701 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-04-24 17:35:56,739 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-04-24 17:35:56,777 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-04-24 17:35:56,816 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-04-24 17:35:56,889 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 17:35:56,986 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-24 17:35:57,134 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 17:35:58,040 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-04-24 17:35:58,532 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-04-24 17:35:58,612 - root - INFO -  Se dió click en el checkbox Activa.
+2023-04-24 17:35:58,686 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-04-24 17:35:58,759 - root - INFO - Se hace el cambio a la pestaña Restricción por producto para continuar con el registro nuevo
+2023-04-24 17:35:59,347 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Restricción por Producto.
+2023-04-24 17:35:59,971 - root - INFO -  El campo 'Tipo Restricción' si se encuentra visible.
+2023-04-24 17:36:00,016 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-04-24 17:36:00,453 - root - INFO -  Se dió click en la opción Prohibido.
+2023-04-24 17:36:02,602 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-04-24 17:36:02,603 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_36_02.png
+2023-04-24 17:36:04,875 - root - ERROR - No se dió click en el botón Guardar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 17:36:04,876 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_36_04.png
+2023-04-24 17:36:09,414 - root - INFO -  Se cierra chrome
+2023-04-24 17:36:09,416 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:36:09,418 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:36:09,421 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:36:19,525 - root - INFO -  Se abre el chrome
+2023-04-24 17:36:21,405 - root - INFO -  Entra a la URL
+2023-04-24 17:36:21,535 - root - INFO -  Maximiza la pantalla
+2023-04-24 17:36:24,647 - root - INFO -  Escribe el usuario
+2023-04-24 17:36:24,744 - root - INFO -  Escribe la contraseña
+2023-04-24 17:36:24,832 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 17:36:25,532 - root - INFO -  Ejecutar Enterprise
+2023-04-24 17:36:29,582 - root - INFO -  Cambia entre pestañas
+2023-04-24 17:37:41,652 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 17:37:41,653 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 17:37:42,724 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-04-24 17:37:42,724 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_37_42.png
+2023-04-24 17:37:53,134 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 17:37:54,749 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 17:37:54,791 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 17:37:54,828 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-04-24 17:37:54,865 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 17:37:54,899 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-04-24 17:37:54,936 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-04-24 17:37:54,972 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-04-24 17:37:55,010 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-04-24 17:37:55,080 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 17:37:55,181 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-24 17:37:55,335 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 17:37:56,261 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-04-24 17:37:56,818 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-04-24 17:37:56,888 - root - INFO -  Se dió click en el checkbox Activa.
+2023-04-24 17:37:56,965 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-04-24 17:37:57,036 - root - INFO - Se hace el cambio a la pestaña Restricción por producto para continuar con el registro nuevo
+2023-04-24 17:37:57,627 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Restricción por Producto.
+2023-04-24 17:37:58,193 - root - INFO -  El campo 'Tipo Restricción' si se encuentra visible.
+2023-04-24 17:37:58,266 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-04-24 17:37:58,660 - root - INFO -  Se dió click en la opción Prohibido.
+2023-04-24 17:38:00,818 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-04-24 17:38:00,819 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_38_00.png
+2023-04-24 17:38:03,086 - root - ERROR - No se dió click en el botón Guardar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-24 17:38:03,087 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_38_03.png
+2023-04-24 17:38:07,606 - root - INFO -  Se cierra chrome
+2023-04-24 17:38:07,608 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:38:07,609 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:38:07,611 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-24 17:39:12,562 - root - INFO -  Se abre el chrome
+2023-04-24 17:39:14,164 - root - INFO -  Entra a la URL
+2023-04-24 17:39:14,294 - root - INFO -  Maximiza la pantalla
+2023-04-24 17:39:17,408 - root - INFO -  Escribe el usuario
+2023-04-24 17:39:17,505 - root - INFO -  Escribe la contraseña
+2023-04-24 17:39:17,592 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 17:39:18,814 - root - INFO -  Ejecutar Enterprise
+2023-04-24 17:39:22,871 - root - INFO -  Cambia entre pestañas
+2023-04-24 17:40:35,346 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 17:40:35,358 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 17:40:35,925 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-04-24 17:40:35,925 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_40_35.png
+2023-04-24 17:40:46,317 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 17:40:46,901 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 17:40:46,940 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 17:40:46,975 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-04-24 17:40:47,013 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 17:40:47,049 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-04-24 17:40:47,086 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-04-24 17:40:47,123 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-04-24 17:40:47,159 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-04-24 17:40:47,232 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 17:40:47,331 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-24 17:40:47,484 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 17:40:48,411 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-04-24 17:40:48,902 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-04-24 17:40:49,041 - root - INFO -  Se dió click en el checkbox Activa.
+2023-04-24 17:40:49,113 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-04-24 17:40:49,180 - root - INFO - Se hace el cambio a la pestaña Restricción por producto para continuar con el registro nuevo
+2023-04-24 17:40:49,769 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Restricción por Producto.
+2023-04-24 17:40:50,318 - root - INFO -  El campo 'Tipo Restricción' si se encuentra visible.
+2023-04-24 17:40:50,358 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-04-24 17:40:50,721 - root - INFO -  Se dió click en la opción Prohibido.
+2023-04-24 17:40:52,878 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-04-24 17:40:52,879 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_40_52.png
+2023-04-24 17:40:53,156 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Restricción por producto.
+2023-04-24 17:40:53,353 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 17:40:53,690 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 17:40:53,834 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 17:40:54,431 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 17:40:54,485 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 17:40:54,578 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-04-24 17:40:54,734 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 17:40:55,632 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-04-24 17:40:56,168 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-04-24 17:40:56,243 - root - INFO -  Se dió click en el checkbox Activa.
+2023-04-24 17:40:56,310 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-04-24 17:40:56,389 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-24 17:40:57,391 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_40_57.png
+2023-04-24 17:41:02,722 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 17:41:03,723 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_41_03.png
+2023-04-24 17:41:03,926 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 17:41:04,014 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 17:41:04,127 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-24 17:41:05,757 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 17:41:06,435 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-04-24 17:41:06,655 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-24 17:41:06,720 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-04-24 17:41:06,781 - root - INFO - Se hace el cambio a la pestaña Restricción de Producto para continuar con la modificación del registro
+2023-04-24 17:41:07,870 - root - INFO -  Se da clic en el registro de Restricción por Producto, para proceder a modificarlo.
+2023-04-24 17:41:09,591 - root - INFO -  Se modifica el contenido del campo Articulo 
+2023-04-24 17:41:09,591 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_41_09.png
+2023-04-24 17:41:09,906 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación de Restricción por Producto.
+2023-04-24 17:41:10,094 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 17:41:10,399 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 17:41:12,003 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 17:41:12,570 - root - INFO - Se hace el cambio a la pestaña Restricción por Producto para continuar con la eliminación del registro
+2023-04-24 17:41:13,658 - root - INFO -  Se da clic en el registro de Restricción por producto, para proceder a eliminarlo.
+2023-04-24 17:41:13,740 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Restricción por Producto.
+2023-04-24 17:41:13,871 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 17:41:14,435 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 17:41:14,516 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 17:41:16,518 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20230424_17_41_16.png
+2023-04-24 17:41:16,672 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 17:41:16,885 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el regsitro ha sido eliminado.
+2023-04-24 17:41:18,956 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2023-04-24 17:41:25,400 - root - INFO -  Se cierra chrome

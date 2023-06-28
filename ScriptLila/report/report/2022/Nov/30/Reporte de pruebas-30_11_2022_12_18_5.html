@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-11-30 12:18:56</p>
+<p class='attribute'><strong>Duracion : </strong> 0:03:06.265727</p>
+<p class='attribute'><strong>Resultado : </strong> Total 11，Correctos 8 ，Errores 3 ，Taza de resultado 72.73%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 72.73% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 3 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 8 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 11 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>ScriptAmarillo.Test: Script Amarillo</td>
+    <td class="text-center">11</td>
+    <td class="text-center">8</td>
+    <td class="text-center">0</td>
+    <td class="text-center">3</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',11)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_1: 2022-11-30 12:18:57,659 - root - INFO -  Se abre el chrome
+2022-11-30 12:18:58,952 - root - INFO -  Entra a la URL
+2022-11-30 12:18:59,078 - root - INFO -  Maximiza la pantalla
+Traceback (most recent call last):
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\switch_to.py", line 87, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="mainFrame"]"}
+  (Session info: chrome=107.0.5304.122)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00271ED3+2236115]
+	Ordinal0 [0x002092F1+1807089]
+	Ordinal0 [0x001166FD+812797]
+	Ordinal0 [0x001455DF+1005023]
+	Ordinal0 [0x001457CB+1005515]
+	Ordinal0 [0x00177632+1209906]
+	Ordinal0 [0x00161AD4+1120980]
+	Ordinal0 [0x001759E2+1202658]
+	Ordinal0 [0x001618A6+1120422]
+	Ordinal0 [0x0013A73D+960317]
+	Ordinal0 [0x0013B71F+964383]
+	GetHandleVerifier [0x0051E7E2+2743074]
+	GetHandleVerifier [0x005108D4+2685972]
+	GetHandleVerifier [0x00302BAA+532202]
+	GetHandleVerifier [0x00301990+527568]
+	Ordinal0 [0x0021080C+1837068]
+	Ordinal0 [0x00214CD8+1854680]
+	Ordinal0 [0x00214DC5+1854917]
+	Ordinal0 [0x0021ED64+1895780]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+	(No symbol) [0x00000000]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\switch_to.py", line 90, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\webdriver.py", line 434, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="mainFrame"]"}
+  (Session info: chrome=107.0.5304.122)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00271ED3+2236115]
+	Ordinal0 [0x002092F1+1807089]
+	Ordinal0 [0x001166FD+812797]
+	Ordinal0 [0x001455DF+1005023]
+	Ordinal0 [0x001457CB+1005515]
+	Ordinal0 [0x00177632+1209906]
+	Ordinal0 [0x00161AD4+1120980]
+	Ordinal0 [0x001759E2+1202658]
+	Ordinal0 [0x001618A6+1120422]
+	Ordinal0 [0x0013A73D+960317]
+	Ordinal0 [0x0013B71F+964383]
+	GetHandleVerifier [0x0051E7E2+2743074]
+	GetHandleVerifier [0x005108D4+2685972]
+	GetHandleVerifier [0x00302BAA+532202]
+	GetHandleVerifier [0x00301990+527568]
+	Ordinal0 [0x0021080C+1837068]
+	Ordinal0 [0x00214CD8+1854680]
+	Ordinal0 [0x00214DC5+1854917]
+	Ordinal0 [0x0021ED64+1895780]
+	BaseThreadInitThunk [0x76696939+25]
+	RtlGetFullPathName_UEx [0x77438FD2+1218]
+	RtlGetFullPathName_UEx [0x77438F9D+1165]
+	(No symbol) [0x00000000]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 53, in test
+    self.driver.switch_to.frame("mainFrame")
+  File "C:\Users\jsand\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium-4.4.0-py3.10.egg\selenium\webdriver\remote\switch_to.py", line 92, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: mainFrame
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-11-30 12:19:02,293 - root - INFO -  Escribe el usuario
+2022-11-30 12:19:02,440 - root - INFO -  Escribe la contraseña
+2022-11-30 12:19:02,597 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-30 12:19:03,387 - root - INFO -  Ejecutar Enterprise
+2022-11-30 12:19:07,469 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Ingresa a pantalla Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-11-30 12:19:29,254 - root - INFO -  Abre la pantalla de Clasificación Vendedor
+2022-11-30 12:19:29,319 - root - INFO -  La pantalla ejecutada es Clasificación Vendedor.
+2022-11-30 12:19:29,319 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_19_29.png
+2022-11-30 12:19:29,491 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_19_29.png" target="_blank">
+            <img src="../../../../img/20221130_12_19_29.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Agregar Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-11-30 12:19:30,070 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-30 12:19:30,117 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-30 12:19:33,192 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-30 12:19:36,199 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_19_36.png
+2022-11-30 12:19:36,407 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_19_36.png" target="_blank">
+            <img src="../../../../img/20221130_12_19_36.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_003: Modifica Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_5: 2022-11-30 12:19:41,484 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-30 12:19:51,106 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-30 12:19:54,114 - root - ERROR - No se pudo encontrar el campo para modificar la descripcion, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-30 12:19:57,127 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_19_57.png
+2022-11-30 12:19:57,332 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana modal.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 203, in test_003
+    raise Exception()
+Exception
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_19_57.png" target="_blank">
+            <img src="../../../../img/20221130_12_19_57.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Elimina Clasificación de Vendedor</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2022-11-30 12:19:57,433 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-30 12:20:11,045 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-30 12:20:14,109 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-30 12:20:19,112 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_20_19.png
+2022-11-30 12:20:19,319 - root - INFO -  Se confirma el eliminado del registro
+2022-11-30 12:20:24,380 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-30 12:20:29,437 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_20_19.png" target="_blank">
+            <img src="../../../../img/20221130_12_20_19.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_005</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_7: 2022-11-30 12:20:51,738 - root - INFO -  Abre la pantalla de Clasificaciones 2
+2022-11-30 12:20:51,767 - root - INFO -  La pantalla ejecutada es Clasifiaciones 2
+2022-11-30 12:20:54,768 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_20_54.png
+2022-11-30 12:20:55,002 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_20_54.png" target="_blank">
+            <img src="../../../../img/20221130_12_20_54.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_006</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_8: 2022-11-30 12:21:00,051 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-30 12:21:00,107 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-30 12:21:03,210 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-30 12:21:06,305 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-30 12:21:09,404 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-30 12:21:12,409 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_21_12.png
+2022-11-30 12:21:12,582 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_21_12.png" target="_blank">
+            <img src="../../../../img/20221130_12_21_12.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_9' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_007</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_9' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_9'>Error</button>
+    <div id='div_ft1_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_9' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_9'>Error</button>
+    <div id='div_ft1_9' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_9: 2022-11-30 12:21:17,649 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-30 12:21:27,232 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-30 12:21:30,357 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-11-30 12:21:33,487 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-30 12:21:36,498 - root - ERROR - No se pudo encontrar el campo para modificar la descripcion, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-30 12:21:39,505 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_21_39.png
+2022-11-30 12:21:39,725 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana modal.
+2022-11-30 12:21:39,840 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\testCase\ScriptAmarillo.py", line 350, in test_007
+    raise Exception()
+Exception
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_21_39.png" target="_blank">
+            <img src="../../../../img/20221130_12_21_39.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_10' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_008</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_10' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_10'>Correcto</button>
+    <div id='div_pt1_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_10' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_10'>Correcto</button>
+    <div id='div_pt1_10' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_10: 2022-11-30 12:21:55,321 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-30 12:21:58,328 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221130_12_21_58.png
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221130_12_21_58.png" target="_blank">
+            <img src="../../../../img/20221130_12_21_58.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_11' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_009: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_11' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_11'>Correcto</button>
+    <div id='div_pt1_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_11' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_11'>Correcto</button>
+    <div id='div_pt1_11' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_11: 2022-11-30 12:22:02,786 - root - INFO -  Se cierra chrome
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>11</td>
+    <td>8</td>
+    <td>0</td>
+    <td>3</td>
+    <td>Taza de resultado：72.73%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

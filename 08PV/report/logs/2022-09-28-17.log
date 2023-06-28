@@ -1,0 +1,34 @@
+2022-09-28 17:58:20,467 - root - INFO -  Se abre el chrome
+2022-09-28 17:58:21,939 - root - INFO -  Entra a la URL
+2022-09-28 17:58:22,086 - root - INFO -  Maximiza la pantalla
+2022-09-28 17:58:25,120 - root - INFO -  Cambia al frame
+2022-09-28 17:58:28,198 - root - INFO -  Escribe el usuario
+2022-09-28 17:58:28,306 - root - INFO -  Escribe la contraseña
+2022-09-28 17:58:28,464 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-28 17:58:29,284 - root - INFO -  Ejecutar Enterprise
+2022-09-28 17:58:33,368 - root - INFO -  Cambia entre pestañas
+2022-09-28 17:58:56,512 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-09-28 17:58:56,572 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-09-28 17:58:59,573 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20220928_17_58_59.png
+2022-09-28 17:58:59,794 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-28 17:59:04,859 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-28 17:59:04,889 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-28 17:59:04,927 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-09-28 17:59:04,957 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-28 17:59:04,987 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-09-28 17:59:05,027 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-09-28 17:59:05,057 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-09-28 17:59:05,097 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-09-28 17:59:05,137 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-09-28 17:59:05,167 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-09-28 17:59:05,233 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-28 17:59:08,363 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-28 17:59:11,583 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-28 17:59:17,725 - root - ERROR - No se encontró el registro de Fecha Desde, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-28 17:59:20,725 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20220928_17_59_20.png
+2022-09-28 17:59:21,134 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-28 17:59:24,134 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20220928_17_59_24.png
+2022-09-28 17:59:24,144 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-28 17:59:27,144 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20220928_17_59_27.png
+2022-09-28 17:59:27,154 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-28 17:59:30,154 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\08PV\report\img  screen：20220928_17_59_30.png

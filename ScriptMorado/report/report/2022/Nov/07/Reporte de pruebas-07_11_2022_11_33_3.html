@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-11-07 11:33:32</p>
+<p class='attribute'><strong>Duracion : </strong> 0:15:47.238090</p>
+<p class='attribute'><strong>Resultado : </strong> Total 23，Correctos 15 ，Errores 8 ，Taza de resultado 65.22%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 65.22% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 8 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 15 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 23 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>ScriptMorado.Test: Script Amarillo</td>
+    <td class="text-center">23</td>
+    <td class="text-center">15</td>
+    <td class="text-center">0</td>
+    <td class="text-center">8</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',23)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-11-07 11:33:33,234 - root - INFO -  Se abre el chrome
+2022-11-07 11:33:34,353 - root - INFO -  Entra a la URL
+2022-11-07 11:33:34,476 - root - INFO -  Maximiza la pantalla
+2022-11-07 11:33:37,528 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-11-07 11:33:40,606 - root - INFO -  Escribe el usuario
+2022-11-07 11:33:40,673 - root - INFO -  Escribe la contraseña
+2022-11-07 11:33:40,765 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-07 11:33:41,518 - root - INFO -  Ejecutar Enterprise
+2022-11-07 11:33:45,582 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Ingresa a pantalla Ubicaciones Geográficas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-11-07 11:34:13,547 - root - INFO -  Abre la pantalla de Paises
+2022-11-07 11:34:13,594 - root - INFO -  La pantalla ejecutada es Paises.
+2022-11-07 11:34:13,594 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_34_13.png
+2022-11-07 11:34:13,763 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_34_13.png" target="_blank">
+            <img src="../../../../img/20221107_11_34_13.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Agregar Ubicaciones Geográficas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-11-07 11:34:16,814 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-07 11:34:16,883 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:34:19,993 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:34:23,100 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:34:26,198 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:34:29,291 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:34:32,389 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:34:35,479 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:34:38,567 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:34:41,673 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-11-07 11:34:44,681 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_34_44.png
+2022-11-07 11:34:54,900 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:34:54,980 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-07 11:34:58,062 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:35:01,170 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:35:04,288 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:35:17,817 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:35:20,928 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:35:24,016 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:35:27,103 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:35:30,207 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:35:33,309 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:35:36,409 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-07 11:35:39,497 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:35:42,614 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:35:45,731 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:35:48,832 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:35:51,947 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:35:55,031 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:35:58,124 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:36:01,226 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:36:04,320 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:36:07,413 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-07 11:36:10,493 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:36:13,602 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:36:16,723 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:36:19,813 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:36:22,929 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:36:26,036 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:36:29,139 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:36:32,232 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:36:35,336 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:36:40,439 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:36:45,538 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:36:48,623 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-07 11:37:16,556 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:37:21,654 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:37:26,758 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_34_44.png" target="_blank">
+            <img src="../../../../img/20221107_11_34_44.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Modifica Ubicaciones Geográficas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2022-11-07 11:37:31,848 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:37:48,026 - root - INFO -  Se presiona el boton 'Codigo', para buscar  un nuevo registro y poder modificarlo.
+2022-11-07 11:37:52,599 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:37:52,713 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:37:55,833 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:37:58,955 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:38:02,058 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:38:05,182 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:38:08,289 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:38:11,416 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:38:14,538 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-11-07 11:38:17,541 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_38_17.png
+2022-11-07 11:38:27,749 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:38:32,353 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:38:32,496 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:38:35,616 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:38:51,151 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:38:54,247 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:38:57,376 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:39:00,523 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:39:03,655 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:39:06,750 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:39:14,353 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:39:17,488 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:39:20,624 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:39:23,756 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:39:26,889 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:39:30,022 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:39:33,155 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:39:36,289 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:39:39,396 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:39:46,985 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:39:50,160 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:39:53,298 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:39:56,422 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-11-07 11:39:59,546 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-11-07 11:40:02,670 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-11-07 11:40:05,798 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-11-07 11:40:08,926 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-11-07 11:40:12,029 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:40:15,113 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:40:20,202 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:40:27,816 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:41:02,761 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:41:05,856 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:41:08,952 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_38_17.png" target="_blank">
+            <img src="../../../../img/20221107_11_38_17.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Elimina Ubicaciones Geográficas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2022-11-07 11:41:12,048 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-07 11:41:29,670 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:41:35,782 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:41:40,378 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:41:43,474 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:41:51,073 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:41:54,176 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:42:01,769 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:42:04,867 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:42:07,976 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:42:13,073 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:42:16,157 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-11-07 11:42:23,739 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:42:29,827 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:42:34,423 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:42:37,517 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:42:45,096 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:42:48,187 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:42:53,278 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:43:00,880 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:43:03,981 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:43:09,075 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-07 11:43:12,171 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-11-07 11:43:19,770 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:43:25,856 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:43:30,427 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:43:33,517 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:43:38,615 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-11-07 11:43:46,207 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:43:49,295 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:43:54,298 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_43_54.png
+2022-11-07 11:43:54,442 - root - INFO -  Se confirma el eliminado del registro
+2022-11-07 11:43:59,530 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:44:04,616 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_43_54.png" target="_blank">
+            <img src="../../../../img/20221107_11_43_54.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_005: Ingresa a pantalla Zona Geográfica</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_7: 2022-11-07 11:44:16,502 - root - INFO -  Abre la pantalla de Zonas Geográficas
+2022-11-07 11:44:16,533 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_44_16.png
+2022-11-07 11:44:16,625 - root - INFO -  La pantalla ejecutada es Zonas Geográficas.
+2022-11-07 11:44:16,683 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_44_16.png" target="_blank">
+            <img src="../../../../img/20221107_11_44_16.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_006: Agregar Zona Geográfica</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_8: 2022-11-07 11:44:19,717 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-07 11:44:19,789 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:44:22,886 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:44:25,981 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:44:38,652 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_44_38.png
+2022-11-07 11:44:38,827 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:44:46,901 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-07 11:45:14,152 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-11-07 11:45:14,231 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_44_38.png" target="_blank">
+            <img src="../../../../img/20221107_11_44_38.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_9' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_007: Modifica Zona Geográfica</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_9' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_9'>Correcto</button>
+    <div id='div_pt1_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_9' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_9'>Correcto</button>
+    <div id='div_pt1_9' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_9: 2022-11-07 11:45:17,317 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:45:24,917 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:45:25,022 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-07 11:45:28,136 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-07 11:45:40,786 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_45_40.png
+2022-11-07 11:45:40,962 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-11-07 11:45:48,548 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:46:15,832 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-11-07 11:46:15,907 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_45_40.png" target="_blank">
+            <img src="../../../../img/20221107_11_45_40.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_10' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_008: Elimina Zona Geográfica</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_10' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_10'>Correcto</button>
+    <div id='div_pt1_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_10' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_10'>Correcto</button>
+    <div id='div_pt1_10' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_10: 2022-11-07 11:46:18,984 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-07 11:46:26,571 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:46:26,647 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:46:29,647 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_46_29.png
+2022-11-07 11:46:29,788 - root - INFO -  Se confirma el eliminado del registro
+2022-11-07 11:46:31,850 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:46:33,914 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_46_29.png" target="_blank">
+            <img src="../../../../img/20221107_11_46_29.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_11' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_009: Ingresa a pantalla Zona Reparto</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_11' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_11'>Correcto</button>
+    <div id='div_pt1_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_11' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_11'>Correcto</button>
+    <div id='div_pt1_11' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_11: 2022-11-07 11:46:48,094 - root - INFO -  Abre la pantalla de unidades
+2022-11-07 11:46:48,141 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_46_48.png
+2022-11-07 11:46:48,219 - root - INFO -  La pantalla ejecutada es Zonas Bancarias.
+2022-11-07 11:46:48,283 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_46_48.png" target="_blank">
+            <img src="../../../../img/20221107_11_46_48.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_12' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_010: Agregar Zona Reparto</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_12' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_12'>Correcto</button>
+    <div id='div_pt1_12' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_12' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_12'>Correcto</button>
+    <div id='div_pt1_12' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_12: 2022-11-07 11:46:51,328 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-07 11:46:51,391 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:46:54,483 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:46:57,569 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:47:00,664 - root - INFO -  Ingresa el repartidor del nuevo registro 
+2022-11-07 11:47:13,332 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_47_13.png
+2022-11-07 11:47:13,498 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_47_13.png" target="_blank">
+            <img src="../../../../img/20221107_11_47_13.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_13' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_011: Modifica Zona Reparto</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_13' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_13'>Correcto</button>
+    <div id='div_pt1_13' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_13' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_13'>Correcto</button>
+    <div id='div_pt1_13' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_13: 2022-11-07 11:47:16,573 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:47:39,186 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-07 11:47:39,315 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-07 11:47:42,428 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-07 11:47:45,498 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_47_45.png
+2022-11-07 11:47:45,642 - root - INFO -  Se modifica el contenido del campo repartidor
+2022-11-07 11:47:48,722 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_47_45.png" target="_blank">
+            <img src="../../../../img/20221107_11_47_45.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_14' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_012: Elimina Zona Reparto</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_14' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_14'>Correcto</button>
+    <div id='div_pt1_14' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_14' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_14'>Correcto</button>
+    <div id='div_pt1_14' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_14: 2022-11-07 11:47:51,785 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-07 11:48:14,366 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-07 11:48:14,439 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-07 11:48:17,442 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_48_17.png
+2022-11-07 11:48:17,614 - root - INFO -  Se confirma el eliminado del registro
+2022-11-07 11:48:19,694 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-07 11:48:21,776 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_48_17.png" target="_blank">
+            <img src="../../../../img/20221107_11_48_17.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_15' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_013: Ingresa a pantalla Zona Venta</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_15' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_15'>Correcto</button>
+    <div id='div_pt1_15' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_15' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_15'>Correcto</button>
+    <div id='div_pt1_15' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_15: 2022-11-07 11:48:33,674 - root - INFO -  Abre la pantalla de Zonas de Venta
+2022-11-07 11:48:42,047 - root - INFO -  La pantalla ejecutada es Zonas de Ventas.
+2022-11-07 11:48:42,048 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_48_42.png
+2022-11-07 11:48:42,199 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_48_42.png" target="_blank">
+            <img src="../../../../img/20221107_11_48_42.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_16' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_014: Agregar Zona Venta</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_16' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_16'>Error</button>
+    <div id='div_ft1_16' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_16' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_16'>Error</button>
+    <div id='div_ft1_16' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_16: 2022-11-07 11:48:53,539 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-07 11:48:53,610 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-07 11:48:56,697 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-07 11:48:59,786 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-07 11:49:07,892 - root - ERROR - No se encontró el registro de unidad de negocio, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-07 11:49:07,892 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_07.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 91, in test_014
+    return AgregarZV.AgregarZV.AgregarZV(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ZonasVenta\AgregarZV.py", line 97, in AgregarZV
+    registro_unidadnegocio = self.driver.find_element(By.XPATH, "//span[text()='PM02']")
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PM02']"}
+  (Session info: chrome=107.0.5304.88)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010266FD+812797]
+	Ordinal0 [0x010555DF+1005023]
+	Ordinal0 [0x010557CB+1005515]
+	Ordinal0 [0x01087632+1209906]
+	Ordinal0 [0x01071AD4+1120980]
+	Ordinal0 [0x010859E2+1202658]
+	Ordinal0 [0x010718A6+1120422]
+	Ordinal0 [0x0104A73D+960317]
+	Ordinal0 [0x0104B71F+964383]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01124CD8+1854680]
+	Ordinal0 [0x01124DC5+1854917]
+	Ordinal0 [0x0112ED64+1895780]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_07.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_07.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_17' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_015: Modifica Zona Venta</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_17' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_17'>Error</button>
+    <div id='div_ft1_17' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_17' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_17'>Error</button>
+    <div id='div_ft1_17' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_17: 2022-11-07 11:49:10,290 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-07 11:49:10,290 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_10.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ZonasVenta\ModificarZV.py", line 21, in ModificarZV
+    Refresca2 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A3FD+959485]
+	Ordinal0 [0x0104B71F+964383]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01124CD8+1854680]
+	Ordinal0 [0x01124DC5+1854917]
+	Ordinal0 [0x0112ED64+1895780]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 95, in test_015
+    return ModificarZV.ModificarZV.ModificarZV(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ZonasVenta\ModificarZV.py", line 31, in ModificarZV
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1322, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1358, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1370, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_10.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_10.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_18' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_016: Elimina Zona Venta</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_18' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_18'>Error</button>
+    <div id='div_ft1_18' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_18' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_18'>Error</button>
+    <div id='div_ft1_18' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_18: 2022-11-07 11:49:10,306 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-07 11:49:10,306 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_10.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ZonasVenta\EliminarZV.py", line 20, in EliminarZV
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 99, in test_016
+    return EliminarZV.EliminarZV.EliminarZV(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ZonasVenta\EliminarZV.py", line 30, in EliminarZV
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1322, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1358, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1370, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_10.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_10.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_19' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_017: Ingresa a pantalla Empresas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_19' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_19'>Error</button>
+    <div id='div_ft1_19' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_19' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_19'>Error</button>
+    <div id='div_ft1_19' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_19: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 103, in test_017
+    return PantallaEMP.PantallaEMP.PantallaEMP(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\PantallaEMP.py", line 19, in PantallaEMP
+    Tablas = self.driver.find_element(By.XPATH, "//*[@id='_tablas']")
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_20' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_018: Agregar Empresas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_20' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_20'>Error</button>
+    <div id='div_ft1_20' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_20' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_20'>Error</button>
+    <div id='div_ft1_20' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_20: 2022-11-07 11:49:10,306 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-11-07 11:49:13,308 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_13.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\AgregarEMP.py", line 20, in AgregarEMP
+    Crea = self.wait.until(conditions.visibility((By.XPATH, Configuracion.titulo_nuevo))).text
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 107, in test_018
+    return AgregarEMP.AgregarEMP.AgregarEMP(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\AgregarEMP.py", line 30, in AgregarEMP
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1322, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1358, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1370, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_13.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_13.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_21' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_019: Modifica Empresas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_21' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_21'>Error</button>
+    <div id='div_ft1_21' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_21' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_21'>Error</button>
+    <div id='div_ft1_21' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_21: 2022-11-07 11:49:13,308 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-07 11:49:16,311 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_16.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\ModificarEMP.py", line 21, in ModificarEMP
+    Refresca2 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 111, in test_019
+    return ModificarEMP.ModificarEMP.ModificarEMP(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\ModificarEMP.py", line 32, in ModificarEMP
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1322, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1358, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1370, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_16.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_16.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_22' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_020: Elimina Empresas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_22' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_22'>Error</button>
+    <div id='div_ft1_22' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_22' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_22'>Error</button>
+    <div id='div_ft1_22' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_22: 2022-11-07 11:49:16,311 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-07 11:49:19,325 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\report\img  screen：20221107_11_49_19.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\EliminarEMP.py", line 20, in EliminarEMP
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 115, in test_020
+    return EliminarEMP.EliminarEMP.EliminarEMP(self)
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\Empresa\EliminarEMP.py", line 31, in EliminarEMP
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1322, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1358, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1370, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221107_11_49_19.png" target="_blank">
+            <img src="../../../../img/20221107_11_49_19.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_23' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_100: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_23' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_23'>Error</button>
+    <div id='div_ft1_23' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_23' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_23'>Error</button>
+    <div id='div_ft1_23' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_23: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptMorado\testCase\ScriptMorado.py", line 119, in test_100
+    self.driver.close()
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PWST\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01181ED3+2236115]
+	Ordinal0 [0x011192F1+1807089]
+	Ordinal0 [0x010265C0+812480]
+	Ordinal0 [0x0104A1CB+958923]
+	Ordinal0 [0x01071980+1120640]
+	Ordinal0 [0x0106E9A6+1108390]
+	Ordinal0 [0x0106E518+1107224]
+	Ordinal0 [0x01005517+677143]
+	Ordinal0 [0x01005B83+678787]
+	Ordinal0 [0x01005FBA+679866]
+	GetHandleVerifier [0x0142E7E2+2743074]
+	GetHandleVerifier [0x014208D4+2685972]
+	GetHandleVerifier [0x01212BAA+532202]
+	GetHandleVerifier [0x01211990+527568]
+	Ordinal0 [0x0112080C+1837068]
+	Ordinal0 [0x01005387+676743]
+	Ordinal0 [0x01004D79+675193]
+	GetHandleVerifier [0x0144BEBC+2863612]
+	BaseThreadInitThunk [0x75E97BA9+25]
+	RtlInitializeExceptionChain [0x77A8BB3B+107]
+	RtlClearBits [0x77A8BABF+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>23</td>
+    <td>15</td>
+    <td>0</td>
+    <td>8</td>
+    <td>Taza de resultado：65.22%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

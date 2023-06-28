@@ -1,0 +1,40 @@
+2022-10-18 10:58:11,355 - root - INFO -  Se abre el chrome
+2022-10-18 10:58:12,623 - root - INFO -  Entra a la URL
+2022-10-18 10:58:12,876 - root - INFO -  Maximiza la pantalla
+2022-10-18 10:58:15,968 - root - INFO -  Cambia al frame
+2022-10-18 10:58:19,150 - root - INFO -  Escribe el usuario
+2022-10-18 10:58:19,275 - root - INFO -  Escribe la contraseña
+2022-10-18 10:58:19,490 - root - INFO -  Se dio clic en el boton ingresar
+2022-10-18 10:58:21,440 - root - INFO -  Ejecutar Enterprise
+2022-10-18 10:58:25,567 - root - INFO -  Cambia entre pestañas
+2022-10-18 10:58:48,283 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-10-18 10:58:48,323 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-10-18 10:58:51,329 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20221018_10_58_51.png
+2022-10-18 10:58:51,569 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-10-18 10:58:56,616 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-10-18 10:58:56,658 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-10-18 10:58:56,698 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-10-18 10:58:56,737 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-10-18 10:58:56,773 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-10-18 10:58:56,808 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-10-18 10:58:56,845 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-10-18 10:58:56,885 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-10-18 10:58:56,966 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-10-18 10:59:00,122 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-10-18 10:59:03,348 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-10-18 10:59:13,787 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-10-18 10:59:24,178 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-10-18 10:59:27,265 - root - INFO -  Se dió click en el checkbox Activa.
+2022-10-18 10:59:30,359 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-10-18 10:59:33,459 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-10-18 10:59:36,584 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-10-18 10:59:41,642 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-10-18 10:59:41,694 - root - INFO -  El campo 'Porcentaje de Descuento' si se encuentra visible.
+2022-10-18 10:59:41,758 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-10-18 10:59:41,797 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-10-18 10:59:41,934 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-10-18 10:59:49,074 - root - INFO -  Ingresa el Porcentaje de Descuento del nuevo registro 
+2022-10-18 10:59:52,189 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-10-18 10:59:55,296 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-10-18 10:59:58,300 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\05PV\report\img  screen：20221018_10_59_58.png
+2022-10-18 10:59:58,589 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.

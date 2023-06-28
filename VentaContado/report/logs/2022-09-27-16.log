@@ -1,0 +1,42 @@
+2022-09-27 16:43:57,392 - root - INFO -  Se abre el chrome
+2022-09-27 16:44:00,162 - root - INFO -  Entra a la URL
+2022-09-27 16:44:00,301 - root - INFO -  Maximiza la pantalla
+2022-09-27 16:44:03,347 - root - INFO -  Cambia al frame
+2022-09-27 16:44:06,428 - root - INFO -  Escribe el usuario
+2022-09-27 16:44:06,505 - root - INFO -  Escribe la contraseña
+2022-09-27 16:44:06,603 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-27 16:44:07,853 - root - INFO -  Ejecutar Enterprise
+2022-09-27 16:44:11,902 - root - INFO -  Cambia entre pestañas
+2022-09-27 16:44:35,354 - root - INFO - Se ingresa al explorador de reportes
+2022-09-27 16:44:51,140 - root - INFO - Se ingresa al reporte de toma de stock del vendedor
+2022-09-27 16:45:01,534 - root - INFO - Se ingresan los datos para ver el reporte del vendedor deseado
+2022-09-27 16:45:08,537 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_45_08.png
+2022-09-27 16:45:10,690 - root - ERROR - No se pudo ingresar al menu indicado, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-09-27 16:45:10,699 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_45_10.png
+2022-09-27 16:45:20,894 - root - INFO - Se actualiza el stock del vendedor
+2022-09-27 16:45:20,894 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_45_20.png
+2022-09-27 16:45:23,024 - root - ERROR - No se pudo ingresar el menu documentos emitidos, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-09-27 16:45:23,038 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_45_23.png
+2022-09-27 16:45:27,293 - root - INFO -  Se cierra chrome
+2022-09-27 16:49:24,918 - root - INFO -  Se abre el chrome
+2022-09-27 16:49:27,000 - root - INFO -  Entra a la URL
+2022-09-27 16:49:27,116 - root - INFO -  Maximiza la pantalla
+2022-09-27 16:49:30,160 - root - INFO -  Cambia al frame
+2022-09-27 16:49:33,238 - root - INFO -  Escribe el usuario
+2022-09-27 16:49:33,307 - root - INFO -  Escribe la contraseña
+2022-09-27 16:49:33,409 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-27 16:49:35,729 - root - INFO -  Ejecutar Enterprise
+2022-09-27 16:49:39,779 - root - INFO -  Cambia entre pestañas
+2022-09-27 16:50:43,869 - root - INFO - Se ingresa al explorador de reportes
+2022-09-27 16:50:59,657 - root - INFO - Se ingresa al reporte de toma de stock del vendedor
+2022-09-27 16:51:10,064 - root - INFO - Se ingresan los datos para ver el reporte del vendedor deseado
+2022-09-27 16:51:17,076 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_51_17.png
+2022-09-27 16:51:42,646 - root - INFO - Se abre el documento de venta a realizar
+2022-09-27 16:52:26,295 - root - INFO - Se agrega el artículo facturado por unidades a la venta
+2022-09-27 16:52:44,639 - root - INFO - Se agrega el artículo facturado por packing a la venta
+2022-09-27 16:52:59,739 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_52_59.png
+2022-09-27 16:52:59,917 - root - INFO - Se guarda la venta realizaada
+2022-09-27 16:53:25,017 - root - INFO - Se actualiza el stock del vendedor
+2022-09-27 16:53:25,017 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\Venta01\report\img  screen：20220927_16_53_25.png
+2022-09-27 16:54:10,405 - root - INFO - Se visualiza la venta realizada
+2022-09-27 16:54:24,643 - root - INFO -  Se cierra chrome

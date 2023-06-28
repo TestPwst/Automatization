@@ -1,0 +1,48 @@
+2022-11-29 18:22:56,768 - root - INFO -  Se abre el chrome
+2022-11-29 18:22:57,689 - root - INFO -  Entra a la URL
+2022-11-29 18:22:57,811 - root - INFO -  Maximiza la pantalla
+2022-11-29 18:23:03,642 - root - INFO -  Escribe el usuario
+2022-11-29 18:23:03,752 - root - INFO -  Escribe la contraseña
+2022-11-29 18:23:03,843 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-29 18:23:09,098 - root - INFO -  Ejecutar Enterprise
+2022-11-29 18:23:13,179 - root - INFO -  Cambia entre pestañas
+2022-11-29 18:23:39,242 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-11-29 18:23:39,332 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-11-29 18:23:42,343 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\14PV\report\img  screen：20221129_18_23_42.png
+2022-11-29 18:23:46,742 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-29 18:23:51,816 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-29 18:23:51,860 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-29 18:23:51,890 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-11-29 18:23:51,931 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-11-29 18:23:51,970 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-11-29 18:23:52,001 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-11-29 18:23:52,040 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-11-29 18:23:52,080 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-11-29 18:23:52,120 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-11-29 18:23:52,190 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-29 18:23:55,329 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-29 18:23:58,556 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-29 18:24:10,797 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-11-29 18:24:22,775 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-11-29 18:24:25,785 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\14PV\report\img  screen：20221129_18_24_25.png
+2022-11-29 18:24:34,409 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-11-29 18:24:37,535 - root - INFO -  Se dió click en el checkbox Activa.
+2022-11-29 18:24:40,683 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-11-29 18:24:43,806 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-11-29 18:24:46,941 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-11-29 18:24:52,031 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-11-29 18:24:52,091 - root - INFO -  El campo 'Porcentaje de Descuento' si se encuentra visible.
+2022-11-29 18:24:52,141 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-11-29 18:24:52,181 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-11-29 18:24:52,291 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-11-29 18:24:59,546 - root - INFO -  Ingresa el Porcentaje de Descuento del nuevo registro 
+2022-11-29 18:25:02,669 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-11-29 18:25:05,874 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-11-29 18:25:09,048 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-11-29 18:25:14,190 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-29 18:25:20,311 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 18:25:23,321 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\14PV\report\img  screen：20221129_18_25_23.png
+2022-11-29 18:25:31,441 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 18:25:34,451 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\14PV\report\img  screen：20221129_18_25_34.png
+2022-11-29 18:25:34,471 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 18:25:37,481 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\14PV\report\img  screen：20221129_18_25_37.png

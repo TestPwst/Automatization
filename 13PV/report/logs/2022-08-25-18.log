@@ -1,0 +1,95 @@
+2022-08-25 18:51:19,199 - root - INFO -  Se abre el chrome
+2022-08-25 18:51:21,138 - root - INFO -  Entra a la URL
+2022-08-25 18:51:21,274 - root - INFO -  Maximiza la pantalla
+2022-08-25 18:51:24,337 - root - INFO -  Cambia al frame
+2022-08-25 18:51:27,428 - root - INFO -  Escribe el usuario
+2022-08-25 18:51:27,534 - root - INFO -  Escribe la contraseña
+2022-08-25 18:51:27,674 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-25 18:51:28,972 - root - INFO -  Ejecutar Enterprise
+2022-08-25 18:51:28,974 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_51_28.png
+2022-08-25 18:51:33,218 - root - INFO -  Cambia entre pestañas
+2022-08-25 18:51:38,314 - root - INFO -  Abre el menu completo
+2022-08-25 18:51:53,227 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-08-25 18:51:53,300 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-08-25 18:51:56,313 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_51_56.png
+2022-08-25 18:51:56,514 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-25 18:52:01,566 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-25 18:52:01,606 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-25 18:52:01,647 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-25 18:52:01,686 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-25 18:52:01,726 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-08-25 18:52:01,766 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-08-25 18:52:01,808 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-08-25 18:52:01,847 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-08-25 18:52:01,897 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-08-25 18:52:01,937 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-08-25 18:52:01,976 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-08-25 18:52:02,087 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-25 18:52:05,198 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-25 18:52:08,382 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-25 18:52:20,024 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-08-25 18:52:44,011 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_52_44.png
+2022-08-25 18:53:11,273 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-25 18:53:14,375 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-25 18:53:19,439 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-25 18:53:19,478 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2022-08-25 18:53:19,519 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2022-08-25 18:53:19,559 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2022-08-25 18:53:19,600 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-08-25 18:53:19,638 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-08-25 18:53:19,810 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-25 18:53:29,946 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-08-25 18:53:40,101 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-08-25 18:53:43,217 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-08-25 18:53:46,337 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-08-25 18:53:49,462 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-08-25 18:53:52,556 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-25 18:53:57,663 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-25 18:54:02,771 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-25 18:54:07,886 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-25 18:54:12,936 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-25 18:54:12,977 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-25 18:54:13,016 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-25 18:54:13,055 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-25 18:54:13,094 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-08-25 18:54:13,133 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-08-25 18:54:13,170 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-08-25 18:54:13,209 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-08-25 18:54:13,250 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-08-25 18:54:13,303 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-08-25 18:54:13,348 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-08-25 18:54:13,459 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-25 18:54:16,575 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-25 18:54:19,756 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-25 18:54:31,426 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-08-25 18:55:22,510 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-25 18:55:27,510 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_55_27.png
+2022-08-25 18:55:27,752 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-25 18:55:30,857 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-25 18:55:34,941 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-25 18:55:44,577 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-25 18:55:49,811 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-08-25 18:55:53,112 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-08-25 18:56:04,784 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-08-25 18:56:28,736 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_56_28.png
+2022-08-25 18:56:55,978 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-25 18:57:03,597 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-25 18:57:06,861 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-25 18:57:17,070 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-08-25 18:57:27,241 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-08-25 18:57:30,426 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-08-25 18:57:33,592 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-25 18:57:38,697 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-25 18:57:43,815 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-25 18:57:53,464 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-25 18:57:58,580 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-25 18:58:06,201 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-25 18:58:14,319 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-25 18:58:14,410 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-25 18:58:24,005 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-25 18:58:32,111 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-25 18:58:32,112 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20220825_18_58_32.png
+2022-08-25 18:58:32,285 - root - INFO -  Se confirma el eliminado del registro
+2022-08-25 18:58:37,371 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-25 18:58:42,470 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-25 18:58:46,715 - root - INFO -  Se cierra chrome

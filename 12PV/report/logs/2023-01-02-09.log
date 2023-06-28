@@ -1,0 +1,538 @@
+2023-01-02 09:22:15,001 - root - INFO -  Se abre el chrome
+2023-01-02 09:22:16,889 - root - INFO -  Entra a la URL
+2023-01-02 09:22:17,039 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:22:20,265 - root - INFO -  Escribe el usuario
+2023-01-02 09:22:20,439 - root - INFO -  Escribe la contraseña
+2023-01-02 09:22:20,600 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:22:22,432 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:22:26,490 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:22:50,347 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:22:55,643 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:22:55,655 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_22_55.png
+2023-01-02 09:23:06,322 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:23:09,524 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:23:09,578 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:23:09,628 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:23:09,663 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:23:09,693 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:23:09,758 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:23:09,783 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:23:09,813 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:23:09,852 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:23:09,918 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:23:09,994 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:23:10,144 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:23:10,292 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:23:11,304 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_23_11.png
+2023-01-02 09:24:12,027 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:24:12,029 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_24_12.png
+2023-01-02 09:24:16,574 - root - INFO -  Se cierra chrome
+2023-01-02 09:24:16,576 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:24:16,578 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:24:16,580 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:25:37,485 - root - INFO -  Se abre el chrome
+2023-01-02 09:25:39,626 - root - INFO -  Entra a la URL
+2023-01-02 09:25:39,784 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:25:43,035 - root - INFO -  Escribe el usuario
+2023-01-02 09:25:43,239 - root - INFO -  Escribe la contraseña
+2023-01-02 09:25:43,445 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:25:44,284 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:25:48,360 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:25:59,220 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:25:59,830 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:25:59,831 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_25_59.png
+2023-01-02 09:26:10,516 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:26:12,122 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:26:12,185 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:26:12,215 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:26:12,245 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:26:12,276 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:26:12,308 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:26:12,345 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:26:12,408 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:26:12,462 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:26:12,513 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:26:12,587 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:26:12,705 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:26:12,799 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:26:13,814 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_26_13.png
+2023-01-02 09:27:15,158 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:27:15,161 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_27_15.png
+2023-01-02 09:27:19,778 - root - INFO -  Se cierra chrome
+2023-01-02 09:27:19,780 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:27:19,782 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:27:19,784 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:27:28,433 - root - INFO -  Se abre el chrome
+2023-01-02 09:27:30,315 - root - INFO -  Entra a la URL
+2023-01-02 09:27:30,456 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:27:33,659 - root - INFO -  Escribe el usuario
+2023-01-02 09:27:33,822 - root - INFO -  Escribe la contraseña
+2023-01-02 09:27:33,986 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:27:35,317 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:27:39,378 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:27:50,517 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:27:51,618 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:27:51,630 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_27_51.png
+2023-01-02 09:28:02,366 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:28:04,039 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:28:04,067 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:28:04,120 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:28:04,151 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:28:04,180 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:28:04,210 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:28:04,240 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:28:04,294 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:28:04,324 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:28:04,374 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:28:04,453 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:28:04,628 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:28:04,689 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:28:05,693 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_28_05.png
+2023-01-02 09:28:07,508 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-02 09:28:08,293 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-02 09:28:08,354 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-02 09:28:08,410 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-02 09:28:08,468 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-01-02 09:28:09,067 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-01-02 09:28:10,145 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-01-02 09:28:10,176 - root - INFO -  El campo 'Cantidad Mix Ideal(Packing)' si se encuentra visible.
+2023-01-02 09:28:10,209 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-01-02 09:28:10,241 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-01-02 09:28:10,388 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:28:10,459 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:28:10,576 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:28:10,645 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:28:11,011 - root - INFO -  Se presiona el boton 'Guardar', para guardar el primer registro de Por Articulo.
+2023-01-02 09:28:11,458 - root - INFO -  Se presiona el boton 'Nuevo', para crear el segundo registro de Por Articulo.
+2023-01-02 09:28:12,673 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:28:12,776 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:28:12,870 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:28:12,949 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:28:13,194 - root - INFO -  Se presiona el boton 'Guardar', para guardar el segundo registro de Por Articulo.
+2023-01-02 09:28:13,516 - root - INFO -  Se presiona el boton 'Nuevo', para crear el tercer registro de Por Articulo.
+2023-01-02 09:28:14,739 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:28:14,878 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:28:14,999 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:28:15,093 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:28:15,253 - root - INFO -  Se presiona el boton 'Guardar', para guardar el tercer registro de Por Articulo.
+2023-01-02 09:28:15,592 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-02 09:28:16,705 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:28:16,706 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_28_16.png
+2023-01-02 09:28:17,255 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-02 09:28:20,268 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_28_20.png
+2023-01-02 09:28:36,769 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:28:36,769 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_28_36.png
+2023-01-02 09:28:36,783 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:28:36,783 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_28_36.png
+2023-01-02 09:29:36,106 - root - INFO -  Se abre el chrome
+2023-01-02 09:29:38,040 - root - INFO -  Entra a la URL
+2023-01-02 09:29:38,190 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:29:41,421 - root - INFO -  Escribe el usuario
+2023-01-02 09:29:41,601 - root - INFO -  Escribe la contraseña
+2023-01-02 09:29:41,774 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:29:43,126 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:29:47,191 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:29:59,342 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:30:00,427 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:30:00,427 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_30_00.png
+2023-01-02 09:30:01,137 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-02 09:30:03,317 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-01-02 09:30:04,968 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:30:05,028 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-01-02 09:30:05,333 - root - ERROR - No se encontró el segundo registro de Por Articulo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:30:05,334 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_30_05.png
+2023-01-02 09:30:09,817 - root - INFO -  Se cierra chrome
+2023-01-02 09:30:09,817 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:30:09,817 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:30:09,817 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:30:09,817 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:33:39,271 - root - INFO -  Se abre el chrome
+2023-01-02 09:33:41,170 - root - INFO -  Entra a la URL
+2023-01-02 09:33:41,283 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:33:44,475 - root - INFO -  Escribe el usuario
+2023-01-02 09:33:44,614 - root - INFO -  Escribe la contraseña
+2023-01-02 09:33:44,741 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:33:45,998 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:33:50,072 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:34:01,743 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:34:02,805 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:34:02,806 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_34_02.png
+2023-01-02 09:34:03,545 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-02 09:34:05,205 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-01-02 09:34:06,894 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:34:06,965 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-01-02 09:34:07,267 - root - ERROR - No se encontró el segundo registro de Por Articulo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:34:07,273 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_34_07.png
+2023-01-02 09:34:11,701 - root - INFO -  Se cierra chrome
+2023-01-02 09:34:11,701 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:34:11,706 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:34:11,706 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:34:11,706 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:35:57,276 - root - INFO -  Se abre el chrome
+2023-01-02 09:35:59,201 - root - INFO -  Entra a la URL
+2023-01-02 09:35:59,333 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:36:02,561 - root - INFO -  Escribe el usuario
+2023-01-02 09:36:02,731 - root - INFO -  Escribe la contraseña
+2023-01-02 09:36:02,890 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:36:04,182 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:36:08,241 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:36:19,825 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:36:20,984 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:36:20,985 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_36_20.png
+2023-01-02 09:36:21,737 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-02 09:36:23,424 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-01-02 09:36:24,546 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:36:24,621 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-01-02 09:36:26,242 - root - INFO -  Se da clic en el segundo registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:36:26,298 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el segundo registro de Por Articulo.
+2023-01-02 09:36:27,947 - root - INFO -  Se da clic en el tercer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:36:28,023 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el tercere registro de Por Articulo.
+2023-01-02 09:36:28,146 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-02 09:36:28,751 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-02 09:36:29,214 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-02 09:36:29,813 - root - INFO -  Se confirma el eliminado del registro
+2023-01-02 09:36:30,176 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-02 09:36:30,479 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:36:32,083 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:36:32,116 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:36:32,152 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:36:32,200 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:36:32,231 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:36:32,276 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:36:32,311 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:36:32,347 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:36:32,371 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:36:32,430 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:36:32,510 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:36:32,634 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:36:32,702 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:36:33,722 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_36_33.png
+2023-01-02 09:37:34,747 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:37:34,748 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_37_34.png
+2023-01-02 09:37:39,280 - root - INFO -  Se cierra chrome
+2023-01-02 09:37:39,281 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:37:39,282 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:37:39,283 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:38:21,109 - root - INFO -  Se abre el chrome
+2023-01-02 09:38:23,292 - root - INFO -  Entra a la URL
+2023-01-02 09:38:23,448 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:38:26,708 - root - INFO -  Escribe el usuario
+2023-01-02 09:38:26,914 - root - INFO -  Escribe la contraseña
+2023-01-02 09:38:27,153 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:38:28,551 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:38:32,806 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:38:54,003 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:38:55,584 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:38:55,584 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_38_55.png
+2023-01-02 09:39:06,345 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:39:08,450 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:39:08,486 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:39:08,553 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:39:08,585 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:39:08,617 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:39:08,649 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:39:08,682 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:39:08,714 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:39:08,746 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:39:08,799 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:39:08,878 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:39:09,004 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:39:09,072 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:39:10,084 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_39_10.png
+2023-01-02 09:39:57,350 - root - INFO -  Se abre el chrome
+2023-01-02 09:39:59,426 - root - INFO -  Entra a la URL
+2023-01-02 09:39:59,597 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:40:02,832 - root - INFO -  Escribe el usuario
+2023-01-02 09:40:03,012 - root - INFO -  Escribe la contraseña
+2023-01-02 09:40:03,180 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:40:05,097 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:40:09,190 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:40:20,118 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:40:20,681 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:40:20,681 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_40_20.png
+2023-01-02 09:40:31,420 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:40:31,961 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:40:31,991 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:40:32,041 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:40:32,079 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:40:32,161 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:40:32,190 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:40:32,222 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:40:32,250 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:40:32,280 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:40:32,330 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:40:32,425 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:40:32,595 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:40:32,690 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:40:33,701 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_40_33.png
+2023-01-02 09:40:45,837 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-02 09:40:46,374 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-02 09:40:46,432 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-02 09:40:46,487 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-02 09:40:46,535 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-01-02 09:40:47,184 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-01-02 09:40:47,803 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-01-02 09:40:47,833 - root - INFO -  El campo 'Cantidad Mix Ideal(Packing)' si se encuentra visible.
+2023-01-02 09:40:47,863 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-01-02 09:40:47,895 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-01-02 09:40:48,004 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:40:48,073 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:40:48,163 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:40:48,237 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:40:48,567 - root - INFO -  Se presiona el boton 'Guardar', para guardar el primer registro de Por Articulo.
+2023-01-02 09:40:48,821 - root - INFO -  Se presiona el boton 'Nuevo', para crear el segundo registro de Por Articulo.
+2023-01-02 09:40:49,515 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:40:49,594 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:40:49,690 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:40:49,760 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:40:50,037 - root - INFO -  Se presiona el boton 'Guardar', para guardar el segundo registro de Por Articulo.
+2023-01-02 09:40:50,302 - root - INFO -  Se presiona el boton 'Nuevo', para crear el tercer registro de Por Articulo.
+2023-01-02 09:40:50,972 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:40:51,096 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:40:51,195 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:40:51,292 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:40:51,453 - root - INFO -  Se presiona el boton 'Guardar', para guardar el tercer registro de Por Articulo.
+2023-01-02 09:40:51,750 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-02 09:40:52,830 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-02 09:40:52,990 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-02 09:40:53,585 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:40:53,666 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:40:53,785 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:40:53,923 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:40:53,984 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:40:54,881 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-02 09:40:55,403 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-02 09:40:55,458 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-02 09:40:55,517 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-02 09:40:55,562 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-02 09:40:56,577 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_40_56.png
+2023-01-02 09:41:02,119 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-02 09:41:03,135 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_41_03.png
+2023-01-02 09:41:03,420 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-02 09:41:03,538 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-02 09:41:03,717 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-02 09:41:04,015 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:41:04,016 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_41_04.png
+2023-01-02 09:42:04,246 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-02 09:42:07,260 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_42_07.png
+2023-01-02 09:42:23,831 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:42:23,832 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_42_23.png
+2023-01-02 09:42:50,194 - root - INFO -  Se abre el chrome
+2023-01-02 09:42:52,234 - root - INFO -  Entra a la URL
+2023-01-02 09:42:52,419 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:42:55,672 - root - INFO -  Escribe el usuario
+2023-01-02 09:42:55,874 - root - INFO -  Escribe la contraseña
+2023-01-02 09:42:56,097 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:42:57,488 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:43:01,571 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:43:14,883 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:43:18,049 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:43:18,049 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_43_18.png
+2023-01-02 09:43:18,788 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-02 09:43:20,439 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-01-02 09:43:21,520 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:43:21,589 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-01-02 09:43:23,231 - root - INFO -  Se da clic en el segundo registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:43:23,319 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el segundo registro de Por Articulo.
+2023-01-02 09:43:24,902 - root - INFO -  Se da clic en el tercer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:43:24,949 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el tercere registro de Por Articulo.
+2023-01-02 09:43:25,086 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-02 09:43:25,662 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-02 09:43:26,310 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-02 09:43:26,888 - root - INFO -  Se confirma el eliminado del registro
+2023-01-02 09:43:27,222 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-02 09:43:27,492 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:43:29,154 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:43:29,188 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:43:29,217 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:43:29,248 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:43:29,277 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:43:29,308 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:43:29,365 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:43:29,395 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:43:29,424 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:43:29,475 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:43:29,540 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:43:29,633 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:43:29,724 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:43:30,732 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_43_30.png
+2023-01-02 09:44:31,758 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:44:31,759 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_44_31.png
+2023-01-02 09:44:36,235 - root - INFO -  Se cierra chrome
+2023-01-02 09:44:36,236 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:44:36,237 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:44:36,238 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:46:43,913 - root - INFO -  Se abre el chrome
+2023-01-02 09:46:45,619 - root - INFO -  Entra a la URL
+2023-01-02 09:46:45,748 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:46:48,848 - root - INFO -  Escribe el usuario
+2023-01-02 09:46:48,920 - root - INFO -  Escribe la contraseña
+2023-01-02 09:46:48,984 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:46:50,247 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:46:54,290 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:47:05,569 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:47:07,209 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:47:07,210 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_47_07.png
+2023-01-02 09:47:17,960 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:47:19,559 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:47:19,591 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:47:19,623 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:47:19,664 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:47:19,727 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:47:19,814 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:47:19,843 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:47:19,871 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:47:19,902 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:47:19,955 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:47:20,023 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:47:20,145 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:47:20,215 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:47:21,223 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_47_21.png
+2023-01-02 09:48:22,214 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:48:22,217 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_48_22.png
+2023-01-02 09:48:26,751 - root - INFO -  Se cierra chrome
+2023-01-02 09:48:26,752 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:48:26,753 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:48:26,753 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-02 09:50:14,354 - root - INFO -  Se abre el chrome
+2023-01-02 09:50:15,781 - root - INFO -  Entra a la URL
+2023-01-02 09:50:15,903 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:50:19,042 - root - INFO -  Escribe el usuario
+2023-01-02 09:50:19,140 - root - INFO -  Escribe la contraseña
+2023-01-02 09:50:19,242 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:50:20,006 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:50:24,076 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:50:34,956 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:50:35,506 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:50:35,507 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_50_35.png
+2023-01-02 09:50:46,256 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:50:46,832 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:50:46,874 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:50:46,908 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:50:46,972 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:50:47,032 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:50:47,071 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:50:47,108 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:50:47,144 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:50:47,177 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:50:47,256 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:50:47,350 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:50:47,450 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:50:47,514 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:50:48,524 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_50_48.png
+2023-01-02 09:51:14,293 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-02 09:51:14,908 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-02 09:51:14,976 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-02 09:51:15,041 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-02 09:51:15,093 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-01-02 09:51:15,672 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-01-02 09:51:16,748 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-01-02 09:51:16,810 - root - INFO -  El campo 'Cantidad Mix Ideal(Packing)' si se encuentra visible.
+2023-01-02 09:51:16,845 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-01-02 09:51:16,875 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-01-02 09:51:17,006 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:51:17,085 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:51:17,179 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:51:17,259 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:51:17,623 - root - INFO -  Se presiona el boton 'Guardar', para guardar el primer registro de Por Articulo.
+2023-01-02 09:51:17,957 - root - INFO -  Se presiona el boton 'Nuevo', para crear el segundo registro de Por Articulo.
+2023-01-02 09:51:19,175 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:51:19,336 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:51:19,455 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:51:19,538 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:51:19,853 - root - INFO -  Se presiona el boton 'Guardar', para guardar el segundo registro de Por Articulo.
+2023-01-02 09:51:20,223 - root - INFO -  Se presiona el boton 'Nuevo', para crear el tercer registro de Por Articulo.
+2023-01-02 09:51:21,408 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-01-02 09:51:21,475 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-01-02 09:51:21,596 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-01-02 09:51:21,711 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-01-02 09:51:21,767 - root - INFO -  Se presiona el boton 'Guardar', para guardar el tercer registro de Por Articulo.
+2023-01-02 09:51:22,076 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-02 09:51:23,502 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-02 09:51:23,996 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-02 09:51:25,607 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:51:25,652 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:51:25,721 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:51:25,824 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:51:25,893 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:51:31,266 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2023-01-02 09:51:36,836 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-01-02 09:51:36,907 - root - INFO -  Se dió click en el checkbox Activa.
+2023-01-02 09:51:36,969 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-01-02 09:51:37,023 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-02 09:51:38,039 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_51_38.png
+2023-01-02 09:51:43,778 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-02 09:51:44,790 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_51_44.png
+2023-01-02 09:51:45,028 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-02 09:51:45,159 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-02 09:51:45,291 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-02 09:51:45,602 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:51:45,602 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_51_45.png
+2023-01-02 09:52:45,889 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-02 09:52:48,894 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_52_48.png
+2023-01-02 09:53:05,483 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-01-02 09:53:05,484 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_53_05.png
+2023-01-02 09:57:33,688 - root - INFO -  Se abre el chrome
+2023-01-02 09:57:35,031 - root - INFO -  Entra a la URL
+2023-01-02 09:57:35,157 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:57:38,348 - root - INFO -  Escribe el usuario
+2023-01-02 09:57:38,489 - root - INFO -  Escribe la contraseña
+2023-01-02 09:57:38,629 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:57:39,923 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:57:43,995 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:57:58,105 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:57:59,407 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:57:59,408 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_57_59.png
+2023-01-02 09:58:00,301 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-02 09:58:01,964 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-01-02 09:58:03,081 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:58:03,134 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-01-02 09:58:04,719 - root - INFO -  Se da clic en el segundo registro de Por Articulo, para proceder a eliminarlo.
+2023-01-02 09:58:04,794 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el segundo registro de Por Articulo.
+2023-01-02 09:58:10,060 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el tercere registro de Por Articulo.
+2023-01-02 09:58:10,256 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-02 09:58:10,849 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-02 09:58:11,176 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-02 09:58:11,766 - root - INFO -  Se confirma el eliminado del registro
+2023-01-02 09:58:12,109 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-02 09:58:12,349 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:58:13,942 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:58:13,974 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:58:14,006 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:58:14,038 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:58:14,068 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:58:14,104 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:58:14,138 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:58:14,169 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:58:14,200 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:58:14,254 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:58:14,345 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:58:14,507 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:58:14,571 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:58:15,586 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_58_15.png
+2023-01-02 09:59:01,215 - root - INFO -  Se abre el chrome
+2023-01-02 09:59:03,571 - root - INFO -  Entra a la URL
+2023-01-02 09:59:03,713 - root - INFO -  Maximiza la pantalla
+2023-01-02 09:59:06,960 - root - INFO -  Escribe el usuario
+2023-01-02 09:59:07,129 - root - INFO -  Escribe la contraseña
+2023-01-02 09:59:07,288 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-02 09:59:08,572 - root - INFO -  Ejecutar Enterprise
+2023-01-02 09:59:12,639 - root - INFO -  Cambia entre pestañas
+2023-01-02 09:59:24,978 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-01-02 09:59:26,633 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-01-02 09:59:26,634 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_59_26.png
+2023-01-02 09:59:37,331 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-02 09:59:38,928 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-02 09:59:38,958 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-02 09:59:38,990 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-02 09:59:39,021 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-02 09:59:39,050 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-01-02 09:59:39,080 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-01-02 09:59:39,132 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-01-02 09:59:39,170 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-01-02 09:59:39,200 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-01-02 09:59:39,252 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-02 09:59:39,320 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-02 09:59:39,461 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-02 09:59:39,533 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-01-02 09:59:40,546 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20230102_09_59_40.png

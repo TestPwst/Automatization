@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-12-13 12:45:42</p>
+<p class='attribute'><strong>Duracion : </strong> 0:01:31.620861</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Errores 8 ，Taza de resultado 0.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 0.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 8 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 0 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>PoliticasVenta13.Test: Escenario 1 de Autorizaciones de Credito</td>
+    <td class="text-center">8</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">8</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_1: 2022-12-13 12:45:44,067 - root - INFO -  Se abre el chrome
+2022-12-13 12:46:23,839 - root - INFO -  Entra a la URL
+2022-12-13 12:46:23,967 - root - INFO -  Maximiza la pantalla
+Traceback (most recent call last):
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 88, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="mainFrame"]"}
+  (Session info: chrome=108.0.5359.99)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008EF243]
+	(No symbol) [0x00877FD1]
+	(No symbol) [0x0076D04D]
+	(No symbol) [0x0079C0B0]
+	(No symbol) [0x0079C22B]
+	(No symbol) [0x007CE612]
+	(No symbol) [0x007B85D4]
+	(No symbol) [0x007CC9EB]
+	(No symbol) [0x007B8386]
+	(No symbol) [0x0079163C]
+	(No symbol) [0x0079269D]
+	GetHandleVerifier [0x00B89A22+2655074]
+	GetHandleVerifier [0x00B7CA24+2601828]
+	GetHandleVerifier [0x00998C0A+619850]
+	GetHandleVerifier [0x00997830+614768]
+	(No symbol) [0x008805FC]
+	(No symbol) [0x00885968]
+	(No symbol) [0x00885A55]
+	(No symbol) [0x0089051B]
+	BaseThreadInitThunk [0x76ECFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77477BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77477B8E+238]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 91, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="mainFrame"]"}
+  (Session info: chrome=108.0.5359.99)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008EF243]
+	(No symbol) [0x00877FD1]
+	(No symbol) [0x0076D04D]
+	(No symbol) [0x0079C0B0]
+	(No symbol) [0x0079C22B]
+	(No symbol) [0x007CE612]
+	(No symbol) [0x007B85D4]
+	(No symbol) [0x007CC9EB]
+	(No symbol) [0x007B8386]
+	(No symbol) [0x0079163C]
+	(No symbol) [0x0079269D]
+	GetHandleVerifier [0x00B89A22+2655074]
+	GetHandleVerifier [0x00B7CA24+2601828]
+	GetHandleVerifier [0x00998C0A+619850]
+	GetHandleVerifier [0x00997830+614768]
+	(No symbol) [0x008805FC]
+	(No symbol) [0x00885968]
+	(No symbol) [0x00885A55]
+	(No symbol) [0x0089051B]
+	BaseThreadInitThunk [0x76ECFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77477BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77477B8E+238]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 32, in test
+    self.driver.switch_to.frame("mainFrame")
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 93, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: mainFrame
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_2' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>Error</button>
+    <div id='div_ft1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>Error</button>
+    <div id='div_ft1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_2: 2022-12-13 12:46:57,443 - root - ERROR - No se pudo encontrar el campo para ingresar el usuario, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-13 12:46:57,444 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_12_46_57.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 38, in test_000
+    return ingresologin.ingresologin(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ingresologin.py", line 26, in ingresologin
+    Usuario = self.wait.until(conditions.visibility((By.XPATH, configgnral.id_usuario)))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008EF243]
+	(No symbol) [0x00877FD1]
+	(No symbol) [0x0076D04D]
+	(No symbol) [0x0079C0B0]
+	(No symbol) [0x0079C22B]
+	(No symbol) [0x007CE612]
+	(No symbol) [0x007B85D4]
+	(No symbol) [0x007CC9EB]
+	(No symbol) [0x007B8386]
+	(No symbol) [0x0079163C]
+	(No symbol) [0x0079269D]
+	GetHandleVerifier [0x00B89A22+2655074]
+	GetHandleVerifier [0x00B7CA24+2601828]
+	GetHandleVerifier [0x00998C0A+619850]
+	GetHandleVerifier [0x00997830+614768]
+	(No symbol) [0x008805FC]
+	(No symbol) [0x00885968]
+	(No symbol) [0x00885A55]
+	(No symbol) [0x0089051B]
+	BaseThreadInitThunk [0x76ECFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77477BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77477B8E+238]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221213_12_46_57.png" target="_blank">
+            <img src="../../../../img/20221213_12_46_57.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_3' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_3: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 44, in test_001
+    success = ingresopantalla.ingresopantalla.ingresopantalla(self, conditions, Configuracion)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ingresopantalla.ingresopantalla() takes 1 positional argument but 3 were given
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_4: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 58, in test_002
+    success = nuevoregistro.nuevoregistro.nuevoregistro(self, conditions, Configuracion)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: nuevoregistro.nuevoregistro() takes 1 positional argument but 3 were given
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_003: Repetir el registro creado anteriormente</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_5: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 74, in test_003
+    success = repetirregistro.repetirregistro.repetirregistro(self, conditions, Configuracion)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: repetirregistro.repetirregistro() takes 1 positional argument but 3 were given
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_6' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_6: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 102, in test_004
+    success = modificarregistro.modificarregistro.modificarregistro(self, conditions, Configuracion)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: modificarregistro.modificarregistro() takes 1 positional argument but 3 were given
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_7' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_005: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_7: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 130, in test_005
+    success = eliminarregistro.eliminarregistro.eliminarregistro(self, conditions, Configuracion)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: eliminarregistro.eliminarregistro() takes 1 positional argument but 3 were given
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_8' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_006: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_8'>Error</button>
+    <div id='div_ft1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_8: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\testCase\PoliticasVenta13.py", line 149, in test_006
+    self.driver.switch_to.window(self.driver.window_handles[0])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 600, in window_handles
+    return self.execute(Command.W3C_GET_WINDOW_HANDLES)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\pwst\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008EF243]
+	(No symbol) [0x00877FD1]
+	(No symbol) [0x0076CF10]
+	(No symbol) [0x007912ED]
+	(No symbol) [0x0079269D]
+	GetHandleVerifier [0x00B89A22+2655074]
+	GetHandleVerifier [0x00B7CA24+2601828]
+	GetHandleVerifier [0x00998C0A+619850]
+	GetHandleVerifier [0x00997830+614768]
+	(No symbol) [0x008805FC]
+	(No symbol) [0x00885968]
+	(No symbol) [0x00885A55]
+	(No symbol) [0x0089051B]
+	BaseThreadInitThunk [0x76ECFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77477BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77477B8E+238]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>0</td>
+    <td>0</td>
+    <td>8</td>
+    <td>Taza de resultado：0.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

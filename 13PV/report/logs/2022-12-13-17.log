@@ -1,0 +1,196 @@
+2022-12-13 17:07:59,019 - root - INFO -  Se abre el chrome
+2022-12-13 17:08:00,239 - root - INFO -  Entra a la URL
+2022-12-13 17:08:00,401 - root - INFO -  Maximiza la pantalla
+2022-12-13 17:08:00,608 - root - INFO -  Escribe el usuario
+2022-12-13 17:08:00,729 - root - INFO -  Escribe la contraseña
+2022-12-13 17:08:00,825 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-13 17:08:02,288 - root - INFO -  Ejecutar Enterprise
+2022-12-13 17:08:06,343 - root - INFO -  Cambia entre pestañas
+2022-12-13 17:08:10,315 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-13 17:08:11,113 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-13 17:08:11,114 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_08_11.png
+2022-12-13 17:08:11,340 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-13 17:08:11,977 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-13 17:08:12,024 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-13 17:08:12,125 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-13 17:08:12,168 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-13 17:08:12,211 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-13 17:08:12,253 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-12-13 17:08:12,296 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-13 17:08:12,340 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-13 17:08:12,383 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-13 17:08:12,465 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-13 17:08:12,577 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-13 17:08:12,790 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-13 17:08:13,882 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-13 17:08:15,121 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-12-13 17:08:15,122 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_08_15.png
+2022-12-13 17:08:15,884 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-13 17:08:16,013 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-13 17:08:16,096 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-13 17:08:16,191 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-12-13 17:08:16,929 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-12-13 17:08:17,683 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-12-13 17:08:17,728 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2022-12-13 17:08:17,776 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2022-12-13 17:08:17,822 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2022-12-13 17:08:17,875 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-12-13 17:08:17,919 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-12-13 17:08:18,062 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-13 17:08:18,209 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-12-13 17:08:18,370 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-12-13 17:08:18,560 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-12-13 17:08:19,113 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-12-13 17:08:19,252 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-12-13 17:08:19,354 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-12-13 17:08:19,802 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-13 17:08:20,941 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:08:20,942 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_08_20.png
+2022-12-13 17:08:22,311 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:08:22,313 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_08_22.png
+2022-12-13 17:08:23,813 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:08:23,815 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_08_23.png
+2022-12-13 17:08:30,060 - root - INFO -  Se cierra chrome
+2022-12-13 17:09:13,329 - root - INFO -  Se abre el chrome
+2022-12-13 17:09:14,526 - root - INFO -  Entra a la URL
+2022-12-13 17:09:14,668 - root - INFO -  Maximiza la pantalla
+2022-12-13 17:09:14,858 - root - INFO -  Escribe el usuario
+2022-12-13 17:09:14,982 - root - INFO -  Escribe la contraseña
+2022-12-13 17:09:15,072 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-13 17:09:16,499 - root - INFO -  Ejecutar Enterprise
+2022-12-13 17:09:20,549 - root - INFO -  Cambia entre pestañas
+2022-12-13 17:09:29,112 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-13 17:09:29,679 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-13 17:09:29,680 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_09_29.png
+2022-12-13 17:09:29,901 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-13 17:09:30,477 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-13 17:09:30,517 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-13 17:09:30,557 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-13 17:09:30,649 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-13 17:09:30,690 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-13 17:09:30,732 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-12-13 17:09:30,774 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-13 17:09:30,817 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-13 17:09:30,861 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-13 17:09:30,944 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-13 17:09:31,057 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-13 17:09:31,249 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-13 17:09:32,321 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-13 17:09:33,941 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-12-13 17:09:33,942 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_09_33.png
+2022-12-13 17:09:34,646 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-13 17:09:34,787 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-13 17:09:34,879 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-13 17:09:34,998 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-12-13 17:09:35,697 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-12-13 17:09:36,307 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-12-13 17:09:36,370 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2022-12-13 17:09:36,528 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2022-12-13 17:09:36,571 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2022-12-13 17:09:36,613 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-12-13 17:09:36,656 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-12-13 17:09:36,795 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-13 17:09:36,929 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-12-13 17:09:37,074 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-12-13 17:09:37,289 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-12-13 17:09:37,878 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-12-13 17:09:38,011 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-12-13 17:09:38,099 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-12-13 17:09:38,557 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-13 17:09:39,682 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:09:39,683 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_09_39.png
+2022-12-13 17:09:40,925 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:09:40,926 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_09_40.png
+2022-12-13 17:09:42,170 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-13 17:09:42,172 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_09_42.png
+2022-12-13 17:09:46,796 - root - INFO -  Se cierra chrome
+2022-12-13 17:11:57,728 - root - INFO -  Se abre el chrome
+2022-12-13 17:11:58,998 - root - INFO -  Entra a la URL
+2022-12-13 17:11:59,153 - root - INFO -  Maximiza la pantalla
+2022-12-13 17:11:59,380 - root - INFO -  Escribe el usuario
+2022-12-13 17:11:59,517 - root - INFO -  Escribe la contraseña
+2022-12-13 17:11:59,616 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-13 17:12:01,081 - root - INFO -  Ejecutar Enterprise
+2022-12-13 17:12:05,144 - root - INFO -  Cambia entre pestañas
+2022-12-13 17:12:15,177 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-13 17:12:15,879 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-13 17:12:15,880 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_15.png
+2022-12-13 17:12:16,223 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-13 17:12:16,964 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-13 17:12:17,083 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-13 17:12:17,146 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-13 17:12:17,189 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-13 17:12:17,233 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-13 17:12:17,284 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2022-12-13 17:12:17,332 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-13 17:12:17,378 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-13 17:12:17,423 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-13 17:12:17,512 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-13 17:12:17,628 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-13 17:12:17,831 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-13 17:12:18,970 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-13 17:12:20,464 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-12-13 17:12:20,465 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_20.png
+2022-12-13 17:12:21,230 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-13 17:12:21,343 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-13 17:12:21,441 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-13 17:12:21,549 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-12-13 17:12:22,179 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-12-13 17:12:22,852 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-12-13 17:12:22,902 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2022-12-13 17:12:23,033 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2022-12-13 17:12:23,079 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2022-12-13 17:12:23,123 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-12-13 17:12:23,165 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-12-13 17:12:23,302 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-13 17:12:23,439 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-12-13 17:12:23,596 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-12-13 17:12:23,782 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-12-13 17:12:24,317 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2022-12-13 17:12:24,484 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-12-13 17:12:24,640 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2022-12-13 17:12:24,937 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-13 17:12:25,369 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-13 17:12:27,576 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-13 17:12:28,155 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-13 17:12:28,440 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-13 17:12:28,657 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-13 17:12:28,874 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-13 17:12:30,041 - root - INFO -  Se dió doble click en el registro de Moneda.
+2022-12-13 17:12:31,441 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-12-13 17:12:31,446 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_31.png
+2022-12-13 17:12:32,156 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-12-13 17:12:32,514 - root - INFO -  Se dió click en el checkbox Activa.
+2022-12-13 17:12:32,758 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-13 17:12:32,960 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-13 17:12:35,963 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_35.png
+2022-12-13 17:12:36,374 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-13 17:12:36,528 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-13 17:12:36,772 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-13 17:12:39,536 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-13 17:12:40,380 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-12-13 17:12:40,619 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-13 17:12:41,718 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2022-12-13 17:12:41,721 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_41.png
+2022-12-13 17:12:42,194 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-12-13 17:12:42,354 - root - INFO - Se hace el cambio a la pestaña para continuar con la modificación del registro
+2022-12-13 17:12:43,620 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a modificarlo.
+2022-12-13 17:12:44,591 - root - INFO -  Se modifica el contenido del campo Articulo 
+2022-12-13 17:12:44,920 - root - INFO -  Se modifica el contenido del campo Articulo a Bonificar 
+2022-12-13 17:12:45,229 - root - INFO -  Se modifica el contenido del campo Cantidad a Bonificar 
+2022-12-13 17:12:45,505 - root - INFO -  Se modifica el contenido del campo Cantidad en Bonificación 
+2022-12-13 17:12:45,665 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Por Articulo.
+2022-12-13 17:12:45,963 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-13 17:12:46,459 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-13 17:12:49,209 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-13 17:12:50,055 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2022-12-13 17:12:51,237 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a eliminarlo.
+2022-12-13 17:12:51,523 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Por Articulo.
+2022-12-13 17:12:51,824 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-13 17:12:52,456 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-13 17:12:52,620 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-13 17:12:55,622 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20221213_17_12_55.png
+2022-12-13 17:12:55,879 - root - INFO -  Se confirma el eliminado del registro
+2022-12-13 17:12:56,219 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-13 17:12:58,482 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2022-12-13 17:13:03,004 - root - INFO -  Se cierra chrome

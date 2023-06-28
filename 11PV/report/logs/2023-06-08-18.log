@@ -1,0 +1,82 @@
+2023-06-08 18:12:36,658 - root - INFO -  Se abre el chrome
+2023-06-08 18:12:37,927 - root - INFO -  Entra a la URL
+2023-06-08 18:12:38,084 - root - INFO -  Maximiza la pantalla
+2023-06-08 18:12:41,190 - root - INFO -  Escribe el usuario
+2023-06-08 18:12:41,296 - root - INFO -  Escribe la contraseña
+2023-06-08 18:12:41,377 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 18:12:42,581 - root - INFO -  Ejecutar Enterprise
+2023-06-08 18:12:46,627 - root - INFO -  Cambia entre pestañas
+2023-06-08 18:12:57,700 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-06-08 18:12:58,271 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-06-08 18:12:58,272 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_12_58.png
+2023-06-08 18:13:08,729 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 18:13:09,296 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 18:13:09,325 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 18:13:09,353 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-06-08 18:13:09,380 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 18:13:09,405 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2023-06-08 18:13:09,431 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-06-08 18:13:09,462 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-06-08 18:13:09,514 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-06-08 18:13:09,538 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-06-08 18:13:09,605 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 18:13:09,691 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 18:13:09,875 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 18:13:09,981 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-06-08 18:13:10,983 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_10.png
+2023-06-08 18:13:11,423 - root - INFO -  Se agrego la Moneda.
+2023-06-08 18:13:11,877 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-08 18:13:12,217 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 18:13:12,284 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-08 18:13:12,370 - root - INFO - Se hace el cambio a la pestaña Restricción de Producto para continuar con el registro nuevo
+2023-06-08 18:13:12,949 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Restricción de Producto.
+2023-06-08 18:13:13,504 - root - INFO -  El campo 'Tipo Restricción' si se encuentra visible.
+2023-06-08 18:13:13,547 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-06-08 18:13:13,914 - root - INFO -  Se dió click en la opción Prohibido.
+2023-06-08 18:13:15,081 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-06-08 18:13:15,081 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_15.png
+2023-06-08 18:13:15,379 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Restriccción por Producto.
+2023-06-08 18:13:15,564 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 18:13:16,098 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 18:13:18,159 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 18:13:18,708 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 18:13:18,813 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 18:13:18,893 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 18:13:19,081 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 18:13:19,180 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2023-06-08 18:13:20,094 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-06-08 18:13:20,574 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-08 18:13:20,909 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 18:13:20,980 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-08 18:13:21,056 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-08 18:13:22,057 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_22.png
+2023-06-08 18:13:27,598 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 18:13:28,599 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_28.png
+2023-06-08 18:13:28,842 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 18:13:28,950 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 18:13:29,093 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-06-08 18:13:32,703 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 18:13:33,402 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-06-08 18:13:33,674 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 18:13:33,888 - root - INFO -  Se modifica el contenido del campo Tipo Documento 
+2023-06-08 18:13:34,889 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_34.png
+2023-06-08 18:13:35,212 - root - INFO -  Se dió click en el checkbox Ignorar Ajuste.
+2023-06-08 18:13:35,280 - root - INFO - Se hace el cambio a la pestaña Restricción de Documento para continuar con la modificación del registro
+2023-06-08 18:13:36,386 - root - INFO -  Se da clic en el registro de Restricción por Producto, para proceder a modificarlo.
+2023-06-08 18:13:38,128 - root - INFO -  Se modifica el contenido del campo Articulo 
+2023-06-08 18:13:38,129 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_38.png
+2023-06-08 18:13:38,476 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del regsitro de Restricción por Producto.
+2023-06-08 18:13:38,652 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 18:13:39,123 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 18:13:42,719 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-08 18:13:43,345 - root - INFO - Se hace el cambio a la pestaña Restricción por Producto para continuar con la eliminación del registro
+2023-06-08 18:13:44,422 - root - INFO -  Se da clic en el registro de Restricción por Producto, para proceder a eliminarlo.
+2023-06-08 18:13:44,496 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Restricción por Producto.
+2023-06-08 18:13:44,651 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 18:13:45,269 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-08 18:13:45,353 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 18:13:47,354 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20230608_18_13_47.png
+2023-06-08 18:13:47,547 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 18:13:47,719 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-06-08 18:13:49,785 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2023-06-08 18:13:57,334 - root - INFO -  Se cierra chrome

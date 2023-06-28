@@ -1,0 +1,64 @@
+2022-12-30 12:24:32,912 - root - INFO -  Se abre el chrome
+2022-12-30 12:24:37,602 - root - INFO -  Entra a la URL
+2022-12-30 12:24:37,747 - root - INFO -  Maximiza la pantalla
+2022-12-30 12:24:41,049 - root - INFO -  Escribe el usuario
+2022-12-30 12:24:41,285 - root - INFO -  Escribe la contraseña
+2022-12-30 12:24:41,495 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-30 12:24:42,433 - root - INFO -  Ejecutar Enterprise
+2022-12-30 12:24:46,558 - root - INFO -  Cambia entre pestañas
+2022-12-30 12:24:58,358 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-30 12:24:58,918 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-30 12:24:58,919 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_24_58.png
+2022-12-30 12:25:09,481 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-30 12:25:10,138 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-30 12:25:10,194 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-30 12:25:10,255 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-30 12:25:10,377 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-30 12:25:10,435 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2022-12-30 12:25:10,492 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-30 12:25:10,544 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-30 12:25:10,595 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-30 12:25:10,654 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-30 12:25:10,740 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-30 12:25:10,860 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-30 12:25:11,083 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-30 12:25:11,209 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-30 12:25:12,221 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_25_12.png
+2022-12-30 12:26:12,936 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-30 12:26:12,936 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_26_12.png
+2022-12-30 12:26:17,485 - root - INFO -  Se cierra chrome
+2022-12-30 12:26:17,485 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-30 12:26:17,485 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-30 12:26:17,485 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-30 12:27:46,494 - root - INFO -  Se abre el chrome
+2022-12-30 12:27:49,594 - root - INFO -  Entra a la URL
+2022-12-30 12:27:49,879 - root - INFO -  Maximiza la pantalla
+2022-12-30 12:27:53,922 - root - INFO -  Escribe el usuario
+2022-12-30 12:27:54,233 - root - INFO -  Escribe la contraseña
+2022-12-30 12:27:54,522 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-30 12:27:57,940 - root - INFO -  Ejecutar Enterprise
+2022-12-30 12:28:02,443 - root - INFO -  Cambia entre pestañas
+2022-12-30 12:28:18,099 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-12-30 12:28:19,106 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-12-30 12:28:19,108 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_28_19.png
+2022-12-30 12:28:30,187 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-30 12:28:30,743 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-30 12:28:30,863 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-30 12:28:30,923 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-30 12:28:30,975 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-30 12:28:31,023 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2022-12-30 12:28:31,071 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-12-30 12:28:31,123 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-12-30 12:28:31,173 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-12-30 12:28:31,223 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-12-30 12:28:31,309 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-30 12:28:31,430 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-30 12:28:31,609 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-30 12:28:31,734 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-12-30 12:28:32,743 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_28_32.png
+2022-12-30 12:29:34,290 - root - ERROR - No se encontró el registro de Moneda, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-30 12:29:34,290 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\11PV\report\img  screen：20221230_12_29_34.png
+2022-12-30 12:29:38,993 - root - INFO -  Se cierra chrome
+2022-12-30 12:29:38,996 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-30 12:29:38,996 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-30 12:29:39,003 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte

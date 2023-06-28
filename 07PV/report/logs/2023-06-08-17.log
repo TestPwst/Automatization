@@ -1,0 +1,100 @@
+2023-06-08 17:32:00,867 - root - INFO -  Se abre el chrome
+2023-06-08 17:32:01,816 - root - INFO -  Entra a la URL
+2023-06-08 17:32:01,984 - root - INFO -  Maximiza la pantalla
+2023-06-08 17:32:05,066 - root - INFO -  Escribe el usuario
+2023-06-08 17:32:05,161 - root - INFO -  Escribe la contraseña
+2023-06-08 17:32:05,224 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 17:32:06,462 - root - INFO -  Ejecutar Enterprise
+2023-06-08 17:32:10,501 - root - INFO -  Cambia entre pestañas
+2023-06-08 17:32:21,877 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-06-08 17:32:22,943 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-06-08 17:32:22,944 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\07PV\report\img  screen：20230608_17_32_22.png
+2023-06-08 17:32:33,458 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 17:32:33,992 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 17:32:34,018 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 17:32:34,047 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-06-08 17:32:34,074 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 17:32:34,100 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-06-08 17:32:34,124 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-06-08 17:32:34,150 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-06-08 17:32:34,204 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-06-08 17:32:34,261 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 17:32:34,334 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 17:32:34,435 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 17:32:35,388 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-06-08 17:32:35,995 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-08 17:32:36,059 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 17:32:36,117 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-08 17:32:36,171 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-06-08 17:32:36,768 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-06-08 17:32:37,368 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-06-08 17:32:37,394 - root - INFO -  El campo 'Cantidad Mix Ideal(Packing)' si se encuentra visible.
+2023-06-08 17:32:37,435 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-06-08 17:32:37,471 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-06-08 17:32:37,547 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-06-08 17:32:38,710 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-06-08 17:32:38,786 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-06-08 17:32:38,868 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-06-08 17:32:38,922 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2023-06-08 17:32:39,216 - root - INFO -  Se presiona el boton 'Nuevo', para crear otro nuevo registro de Por Articulo.
+2023-06-08 17:32:39,884 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-06-08 17:32:41,046 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-06-08 17:32:41,121 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-06-08 17:32:41,199 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-06-08 17:32:41,247 - root - INFO -  Se presiona el boton 'Guardar', para guardar el seguhdo registro de Por articulo.
+2023-06-08 17:32:41,531 - root - INFO -  Se presiona el boton 'Nuevo', para crear otro nuevo registro de Por Articulo.
+2023-06-08 17:32:42,170 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-06-08 17:32:43,326 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 
+2023-06-08 17:32:43,400 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-06-08 17:32:43,471 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-06-08 17:32:43,530 - root - INFO -  Se presiona el boton 'Guardar', para guardar el tercer registro de Por Articulo.
+2023-06-08 17:32:43,739 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 17:32:44,245 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 17:32:46,308 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 17:32:46,863 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 17:32:46,938 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 17:32:47,009 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 17:32:47,151 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 17:32:48,042 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-06-08 17:32:48,535 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-08 17:32:48,587 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 17:32:48,636 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-08 17:32:48,697 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-08 17:32:49,698 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\07PV\report\img  screen：20230608_17_32_49.png
+2023-06-08 17:32:55,190 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 17:32:56,192 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\07PV\report\img  screen：20230608_17_32_56.png
+2023-06-08 17:32:56,400 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 17:32:56,583 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 17:32:56,735 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-06-08 17:33:00,399 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 17:33:01,101 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-06-08 17:33:01,280 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 17:33:01,329 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-08 17:33:01,403 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la modificación del registro
+2023-06-08 17:33:03,514 - root - INFO -  Se da clic en el primer registro de Por Articulo , para proceder a modificarlo.
+2023-06-08 17:33:04,190 - root - INFO -  Se modifica el contenido del campo Cantidad Mix Ideal 
+2023-06-08 17:33:04,244 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del primer registro de Por Articulo.
+2023-06-08 17:33:05,887 - root - INFO -  Se da clic en el segundo registro de Por Articulo , para proceder a modificarlo.
+2023-06-08 17:33:06,553 - root - INFO -  Se modifica el contenido del campo Cantidad de Mix Ideal 
+2023-06-08 17:33:06,658 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del segundo registro de Por Articulo.
+2023-06-08 17:33:08,281 - root - INFO -  Se da clic en el tercer registro Por Articulo, para proceder a modificarlo.
+2023-06-08 17:33:08,956 - root - INFO -  Se modifica el contenido del campo Cantidad Mix Ideal 
+2023-06-08 17:33:09,008 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del tercer registro de Por Articulo.
+2023-06-08 17:33:09,228 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 17:33:09,738 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 17:33:13,371 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-08 17:33:13,947 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con la eliminación de Por Articulo
+2023-06-08 17:33:16,046 - root - INFO -  Se da clic en el primer registro de Por Articulo, para proceder a eliminarlo.
+2023-06-08 17:33:16,101 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el primer registro de Por Articulo.
+2023-06-08 17:33:18,720 - root - INFO -  Se da clic en el segundo registro de Por Articulo, para proceder a eliminarlo.
+2023-06-08 17:33:18,791 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el segundo registro de Por Articulo.
+2023-06-08 17:33:21,397 - root - INFO -  Se da clic en el tercer registro de por Articulo, para proceder a eliminarlo.
+2023-06-08 17:33:21,444 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el tercer registro de Por Articulo.
+2023-06-08 17:33:22,516 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 17:33:23,079 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-08 17:33:23,143 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 17:33:25,145 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\07PV\report\img  screen：20230608_17_33_25.png
+2023-06-08 17:33:25,306 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 17:33:25,652 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-06-08 17:33:27,729 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2023-06-08 17:33:33,951 - root - INFO -  Se cierra chrome

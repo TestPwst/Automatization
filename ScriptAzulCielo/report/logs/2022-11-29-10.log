@@ -1,0 +1,52 @@
+2022-11-29 10:00:00,564 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-11-29 10:00:12,463 - root - INFO -  Abre la pantalla de Clasificaciones 2
+2022-11-29 10:00:12,500 - root - INFO -  La pantalla ejecutada es Clasifiaciones 2
+2022-11-29 10:00:15,506 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_00_15.png
+2022-11-29 10:00:15,750 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-29 10:00:20,802 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-29 10:00:20,884 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-29 10:00:24,004 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-29 10:00:27,104 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-29 10:00:30,291 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-11-29 10:00:33,308 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_00_33.png
+2022-11-29 10:00:33,571 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-29 10:00:38,637 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-29 10:00:48,218 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-11-29 10:00:51,342 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-11-29 10:00:54,466 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-29 10:00:57,638 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-11-29 10:01:00,640 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_01_00.png
+2022-11-29 10:01:00,908 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-11-29 10:01:05,963 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-11-29 10:01:15,531 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-11-29 10:01:23,605 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-11-29 10:01:23,606 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_01_23.png
+2022-11-29 10:01:23,875 - root - INFO -  Se confirma el eliminado del registro
+2022-11-29 10:01:28,929 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-11-29 10:01:34,000 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-11-29 10:01:40,388 - root - INFO -  Se cierra chrome
+2022-11-29 10:04:30,815 - root - INFO -  Se abre el chrome
+2022-11-29 10:04:31,755 - root - INFO -  Entra a la URL
+2022-11-29 10:04:31,896 - root - INFO -  Maximiza la pantalla
+2022-11-29 10:04:34,984 - root - INFO -  Cambia al frame
+2022-11-29 10:04:38,139 - root - INFO -  Escribe el usuario
+2022-11-29 10:04:38,310 - root - INFO -  Escribe la contraseña
+2022-11-29 10:04:38,537 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-29 10:04:39,285 - root - INFO -  Ejecutar Enterprise
+2022-11-29 10:04:43,351 - root - INFO -  Cambia entre pestañas
+2022-11-29 10:04:53,374 - root - INFO - Prueba
+2022-11-29 10:05:05,241 - root - INFO -  Abre la pantalla de Clasificación Vendedor
+2022-11-29 10:05:05,260 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:05,260 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_05.png
+2022-11-29 10:05:21,726 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:24,732 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_24.png
+2022-11-29 10:05:24,737 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:27,750 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_27.png
+2022-11-29 10:05:27,756 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:30,761 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_30.png
+2022-11-29 10:05:30,773 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:33,781 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_33.png
+2022-11-29 10:05:33,791 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:36,805 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_36.png
+2022-11-29 10:05:36,815 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-11-29 10:05:39,829 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221129_10_05_39.png

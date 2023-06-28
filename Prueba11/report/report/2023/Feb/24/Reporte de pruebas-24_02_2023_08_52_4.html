@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2023-02-24 08:52:42</p>
+<p class='attribute'><strong>Duracion : </strong> 0:02:45.972751</p>
+<p class='attribute'><strong>Resultado : </strong> Total 7，Correctos 7 ，Taza de resultado 100.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 100.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 0 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 7 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 7 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>Venta.Test: Escenario 1 Ventas</td>
+    <td class="text-center">7</td>
+    <td class="text-center">7</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',7)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2023-02-24 08:52:44,039 - root - INFO -  Se abre el chrome
+2023-02-24 08:52:48,536 - root - INFO -  Entra a la URL
+2023-02-24 08:52:48,670 - root - INFO -  Maximiza la pantalla
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa datos para logearse</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2023-02-24 08:52:51,758 - root - INFO -  Escribe el usuario
+2023-02-24 08:52:51,867 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_52_51.png
+2023-02-24 08:52:52,042 - root - INFO -  Escribe la contraseña
+2023-02-24 08:52:52,113 - root - INFO -  Se dio clic en el boton ingresar
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230224_08_52_51.png" target="_blank">
+            <img src="../../../../img/20230224_08_52_51.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Raliza venta</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2023-02-24 08:53:02,869 - root - INFO -  Escribe el primer articulo
+2023-02-24 08:53:05,924 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:05,925 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_05.png
+2023-02-24 08:53:09,146 - root - INFO -  Escribe el segundo articulo
+2023-02-24 08:53:12,182 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:12,183 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_12.png
+2023-02-24 08:53:15,386 - root - INFO -  Escribe el tercer articulo
+2023-02-24 08:53:18,432 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:18,433 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_18.png
+2023-02-24 08:53:21,645 - root - INFO -  Escribe el cuarto articulo
+2023-02-24 08:53:24,681 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:24,682 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_24.png
+2023-02-24 08:53:30,903 - root - INFO -  Da click en el boton continuar
+2023-02-24 08:53:33,496 - root - INFO -  Obtiene el total a pagar
+2023-02-24 08:53:33,606 - root - INFO -  Da click en el boton cash
+2023-02-24 08:53:34,202 - root - INFO -  Da click en el boton para seleccionar la caja
+2023-02-24 08:53:35,261 - root - INFO - Selecciona la caja
+2023-02-24 08:53:35,261 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_35.png
+2023-02-24 08:53:35,554 - root - INFO -  Escribe el total a pagar
+2023-02-24 08:53:35,648 - root - INFO -  Da click en el boton para agregar el total a pagar
+2023-02-24 08:53:36,797 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_36.png
+2023-02-24 08:53:36,934 - root - INFO -  Da click en el boton para finalizar la venta
+2023-02-24 08:53:41,182 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_41.png
+2023-02-24 08:53:41,314 - root - INFO -  Da click en el boton para cerrar el ticket
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230224_08_53_41.png" target="_blank">
+            <img src="../../../../img/20230224_08_53_41.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Raliza venta2</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2023-02-24 08:53:46,420 - root - INFO -  Escribe el primer articulo
+2023-02-24 08:53:49,463 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:49,464 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_49.png
+2023-02-24 08:53:52,663 - root - INFO -  Escribe el segundo articulo
+2023-02-24 08:53:55,704 - root - INFO - Selecciona el articulo
+2023-02-24 08:53:55,705 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_53_55.png
+2023-02-24 08:53:58,893 - root - INFO -  Escribe el tercer articulo
+2023-02-24 08:54:01,934 - root - INFO - Selecciona el articulo
+2023-02-24 08:54:01,935 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_01.png
+2023-02-24 08:54:08,121 - root - INFO -  Da click en el boton continuar
+2023-02-24 08:54:11,203 - root - INFO -  Obtiene el total a pagar
+2023-02-24 08:54:11,304 - root - INFO -  Da click en el boton cash
+2023-02-24 08:54:11,887 - root - INFO -  Da click en el boton para seleccionar la caja
+2023-02-24 08:54:12,920 - root - INFO - Selecciona la caja
+2023-02-24 08:54:12,922 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_12.png
+2023-02-24 08:54:13,246 - root - INFO -  Escribe el total a pagar
+2023-02-24 08:54:13,377 - root - INFO -  Da click en el boton para agregar el total a pagar
+2023-02-24 08:54:14,530 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_14.png
+2023-02-24 08:54:14,694 - root - INFO -  Da click en el boton para finalizar la venta
+2023-02-24 08:54:19,132 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_19.png
+2023-02-24 08:54:19,307 - root - INFO -  Da click en el boton para cerrar el ticket
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230224_08_54_19.png" target="_blank">
+            <img src="../../../../img/20230224_08_54_19.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Raliza venta3</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2023-02-24 08:54:24,447 - root - INFO -  Escribe el primer articulo
+2023-02-24 08:54:27,492 - root - INFO - Selecciona el articulo
+2023-02-24 08:54:27,494 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_27.png
+2023-02-24 08:54:30,835 - root - INFO -  Escribe el segundo articulo
+2023-02-24 08:54:33,881 - root - INFO - Selecciona el articulo
+2023-02-24 08:54:33,882 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_33.png
+2023-02-24 08:54:40,163 - root - INFO -  Da click en el boton continuar
+2023-02-24 08:54:42,782 - root - INFO -  Obtiene el total a pagar
+2023-02-24 08:54:42,910 - root - INFO -  Da click en el boton cash
+2023-02-24 08:54:43,569 - root - INFO -  Da click en el boton para seleccionar la caja
+2023-02-24 08:54:44,641 - root - INFO - Selecciona la caja
+2023-02-24 08:54:44,645 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_44.png
+2023-02-24 08:54:47,051 - root - INFO -  Escribe el total a pagar
+2023-02-24 08:54:48,143 - root - INFO -  Da click en el boton para agregar el total a pagar
+2023-02-24 08:54:50,781 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_50.png
+2023-02-24 08:54:51,756 - root - INFO -  Da click en el boton para finalizar la venta
+2023-02-24 08:54:55,669 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_54_55.png
+2023-02-24 08:54:56,393 - root - INFO -  Da click en el boton para cerrar el ticket
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230224_08_54_55.png" target="_blank">
+            <img src="../../../../img/20230224_08_54_55.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Raliza venta4</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2023-02-24 08:55:01,921 - root - INFO -  Escribe el primer articulo
+2023-02-24 08:55:05,477 - root - INFO - Selecciona el articulo
+2023-02-24 08:55:05,482 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_55_05.png
+2023-02-24 08:55:12,891 - root - INFO -  Da click en el boton continuar
+2023-02-24 08:55:15,459 - root - INFO -  Obtiene el total a pagar
+2023-02-24 08:55:16,045 - root - INFO -  Da click en el boton cash
+2023-02-24 08:55:16,707 - root - INFO -  Da click en el boton para seleccionar la caja
+2023-02-24 08:55:17,933 - root - INFO - Selecciona la caja
+2023-02-24 08:55:17,940 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_55_17.png
+2023-02-24 08:55:19,252 - root - INFO -  Escribe el total a pagar
+2023-02-24 08:55:19,769 - root - INFO -  Da click en el boton para agregar el total a pagar
+2023-02-24 08:55:21,533 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_55_21.png
+2023-02-24 08:55:22,378 - root - INFO -  Da click en el boton para finalizar la venta
+2023-02-24 08:55:26,038 - root - INFO -  Captura: C:\xi2posw01\testCase\report\img  screen：20230224_08_55_26.png
+2023-02-24 08:55:26,765 - root - INFO -  Da click en el boton para cerrar el ticket
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230224_08_55_26.png" target="_blank">
+            <img src="../../../../img/20230224_08_55_26.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_005: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>Correcto</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_7: 2023-02-24 08:55:28,592 - root - INFO -  Se cierra chrome
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>7</td>
+    <td>7</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Taza de resultado：100.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

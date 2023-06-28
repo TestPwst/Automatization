@@ -1,0 +1,92 @@
+2023-06-20 14:50:22,438 - root - INFO -  Se abre el chrome
+2023-06-20 14:50:24,768 - root - INFO -  Entra a la URL
+2023-06-20 14:50:24,896 - root - INFO -  Maximiza la pantalla
+2023-06-20 14:50:27,995 - root - INFO -  Escribe el usuario
+2023-06-20 14:50:28,103 - root - INFO -  Escribe la contraseña
+2023-06-20 14:50:28,175 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-20 14:50:29,885 - root - INFO -  Ejecutar Enterprise
+2023-06-20 14:50:33,934 - root - INFO -  Cambia entre pestañas
+2023-06-20 14:50:46,586 - root - INFO -  Abre la pantalla de Politicas de Venta
+2023-06-20 14:50:47,141 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2023-06-20 14:50:47,141 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_50_47.png
+2023-06-20 14:50:57,543 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-20 14:50:58,091 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 14:50:58,124 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-20 14:50:58,155 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-06-20 14:50:58,182 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-20 14:50:58,212 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2023-06-20 14:50:58,276 - root - INFO -  El campo 'Grupo Ad-Hoc' si se encuentra visible.
+2023-06-20 14:50:58,297 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2023-06-20 14:50:58,323 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-06-20 14:50:58,350 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2023-06-20 14:50:58,412 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 14:50:58,498 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 14:50:58,686 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 14:50:59,644 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-06-20 14:51:00,711 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2023-06-20 14:51:00,712 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_00.png
+2023-06-20 14:51:01,248 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-20 14:51:01,320 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-20 14:51:01,384 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-20 14:51:01,455 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2023-06-20 14:51:02,033 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2023-06-20 14:51:02,594 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2023-06-20 14:51:02,625 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2023-06-20 14:51:02,680 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2023-06-20 14:51:02,713 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2023-06-20 14:51:02,744 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2023-06-20 14:51:02,770 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2023-06-20 14:51:02,876 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2023-06-20 14:51:02,983 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2023-06-20 14:51:03,074 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2023-06-20 14:51:03,159 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2023-06-20 14:51:03,342 - root - INFO -  Ingresa el Tope Descuento 1 del nuevo registro 
+2023-06-20 14:51:03,444 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2023-06-20 14:51:03,601 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro de Por Articulo.
+2023-06-20 14:51:03,823 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-20 14:51:04,157 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 14:51:06,216 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-20 14:51:06,784 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 14:51:06,848 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 14:51:06,939 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 14:51:07,103 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 14:51:08,001 - root - INFO -  Se dió doble click en el registro de Moneda.
+2023-06-20 14:51:09,042 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2023-06-20 14:51:09,044 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_09.png
+2023-06-20 14:51:09,516 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2023-06-20 14:51:09,843 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-20 14:51:09,896 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-20 14:51:09,968 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-20 14:51:10,969 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_10.png
+2023-06-20 14:51:16,350 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 14:51:17,352 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_17.png
+2023-06-20 14:51:17,563 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 14:51:17,814 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-20 14:51:17,948 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 14:51:21,572 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-20 14:51:22,314 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-06-20 14:51:22,605 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-20 14:51:24,057 - root - INFO -  Se dió doble click en el registro de Grupo AdHoc.
+2023-06-20 14:51:24,058 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_24.png
+2023-06-20 14:51:24,298 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2023-06-20 14:51:24,358 - root - INFO - Se hace el cambio a la pestaña para continuar con la modificación del registro
+2023-06-20 14:51:25,464 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a modificarlo.
+2023-06-20 14:51:26,315 - root - INFO -  Se modifica el contenido del campo Articulo 
+2023-06-20 14:51:26,605 - root - INFO -  Se modifica el contenido del campo Articulo a Bonificar 
+2023-06-20 14:51:27,044 - root - INFO -  Se modifica el contenido del campo Cantidad a Bonificar 
+2023-06-20 14:51:27,441 - root - INFO -  Se modifica el contenido del campo Cantidad en Bonificación 
+2023-06-20 14:51:27,530 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Por Articulo.
+2023-06-20 14:51:28,597 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-20 14:51:29,653 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-20 14:51:33,292 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-20 14:51:33,898 - root - INFO - Se hace el cambio de pestaña para continuar con la eliminación del registro
+2023-06-20 14:51:34,969 - root - INFO -  Se da clic en el registro de Por Articulo, para proceder a eliminarlo.
+2023-06-20 14:51:35,036 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Por Articulo.
+2023-06-20 14:51:36,102 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-20 14:51:37,655 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-20 14:51:37,724 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-20 14:51:39,725 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\13PV\report\img  screen：20230620_14_51_39.png
+2023-06-20 14:51:39,890 - root - INFO -  Se confirma el eliminado del registro
+2023-06-20 14:51:40,129 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-06-20 14:51:42,187 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Politicas de Venta.
+2023-06-20 14:51:48,570 - root - INFO -  Se cierra chrome

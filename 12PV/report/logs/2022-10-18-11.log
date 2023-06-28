@@ -1,0 +1,39 @@
+2022-10-18 11:58:10,178 - root - INFO -  Se abre el chrome
+2022-10-18 11:58:11,968 - root - INFO -  Entra a la URL
+2022-10-18 11:58:12,392 - root - INFO -  Maximiza la pantalla
+2022-10-18 11:58:15,447 - root - INFO -  Cambia al frame
+2022-10-18 11:58:18,642 - root - INFO -  Escribe el usuario
+2022-10-18 11:58:18,834 - root - INFO -  Escribe la contraseña
+2022-10-18 11:58:19,165 - root - INFO -  Se dio clic en el boton ingresar
+2022-10-18 11:58:20,052 - root - INFO -  Ejecutar Enterprise
+2022-10-18 11:58:24,204 - root - INFO -  Cambia entre pestañas
+2022-10-18 11:58:46,147 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-10-18 11:58:46,222 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-10-18 11:58:49,246 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20221018_11_58_49.png
+2022-10-18 11:58:49,565 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-10-18 11:58:54,622 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-10-18 11:58:54,667 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-10-18 11:58:54,703 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-10-18 11:58:54,750 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-10-18 11:58:54,812 - root - INFO -  El campo 'Tipo de Documento' si se encuentra visible.
+2022-10-18 11:58:54,859 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-10-18 11:58:54,896 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-10-18 11:58:54,938 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-10-18 11:58:54,982 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-10-18 11:58:55,127 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-10-18 11:58:58,354 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-10-18 11:59:01,748 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-10-18 11:59:04,976 - root - INFO -  Ingresa el tipo de documento del nuevo registro 
+2022-10-18 11:59:07,984 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\12PV\report\img  screen：20221018_11_59_07.png
+2022-10-18 11:59:18,883 - root - INFO -  Se dió doble click en el registro de Tipo Documento.
+2022-10-18 11:59:29,403 - root - INFO -  Se dió click en la opción BackOffice y Mobile.
+2022-10-18 11:59:32,591 - root - INFO -  Se dió click en el checkbox Activa.
+2022-10-18 11:59:35,700 - root - INFO -  Se dió click en el checkbox Aplicación Global.
+2022-10-18 11:59:38,844 - root - INFO - Se hace el cambio a la pestaña Por Articulo para continuar con el registro nuevo
+2022-10-18 11:59:42,038 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Por Articulo.
+2022-10-18 11:59:47,136 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-10-18 11:59:47,214 - root - INFO -  El campo 'Cantidad Mix Ideal(Packing)' si se encuentra visible.
+2022-10-18 11:59:47,261 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-10-18 11:59:47,305 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-10-18 11:59:47,552 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-10-18 11:59:57,889 - root - INFO -  Ingresa la Cantidad de Mix Ideal del nuevo registro 

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2023-02-16 13:10:40</p>
+<p class='attribute'><strong>Duracion : </strong> 0:00:15.058379</p>
+<p class='attribute'><strong>Resultado : </strong> Total 4，Errores 4 ，Taza de resultado 0.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 0.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 4 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 0 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 4 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>VentaCiclada.Test: Venta Automatizada</td>
+    <td class="text-center">4</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">4</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',4)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_1: 2023-02-16 13:10:43,962 - root - INFO -  Se abre el chrome
+2023-02-16 13:10:48,989 - root - INFO -  Entra a la URL
+2023-02-16 13:10:49,141 - root - INFO -  Maximiza la pantalla
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 88, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="mainFrame"]"}
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x0044D382]
+	(No symbol) [0x0044D4BB]
+	(No symbol) [0x00483302]
+	(No symbol) [0x0046B464]
+	(No symbol) [0x00481215]
+	(No symbol) [0x0046B216]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 91, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="mainFrame"]"}
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x0044D382]
+	(No symbol) [0x0044D4BB]
+	(No symbol) [0x00483302]
+	(No symbol) [0x0046B464]
+	(No symbol) [0x00481215]
+	(No symbol) [0x0046B216]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 26, in test
+    self.driver.switch_to.frame("mainFrame")
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 93, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: mainFrame
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_2' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>Error</button>
+    <div id='div_ft1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>Error</button>
+    <div id='div_ft1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_2: 2023-02-16 13:10:52,380 - root - INFO -  Escribe el usuario
+2023-02-16 13:10:52,514 - root - INFO -  Escribe la contraseña
+2023-02-16 13:10:52,611 - root - INFO -  Se dio clic en el boton ingresar
+2023-02-16 13:10:53,347 - root - INFO -  Ejecutar Enterprise
+2023-02-16 13:10:55,387 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20230216_13_10_55.png
+Traceback (most recent call last):
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ingresologin.py", line 85, in ingresologin
+    self.driver.switch_to.window(self.driver.window_handles[1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 600, in window_handles
+    return self.execute(Command.W3C_GET_WINDOW_HANDLES)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x0040BE5A]
+	(No symbol) [0x0040C63A]
+	(No symbol) [0x0040C5D8]
+	(No symbol) [0x003FD0BA]
+	(No symbol) [0x003FDBA7]
+	(No symbol) [0x0047597B]
+	(No symbol) [0x0046B3E3]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 32, in test_000
+    return ingresologin.ingresologin(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/xampp/htdocs/versiones/automatizaciones/AutoPWST/ingresologin.py", line 94, in ingresologin
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 929, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 965, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 977, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x003FE5DA]
+	(No symbol) [0x0046F0CB]
+	(No symbol) [0x00480A56]
+	(No symbol) [0x0046B216]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230216_13_10_55.png" target="_blank">
+            <img src="../../../../img/20230216_13_10_55.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_3' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_001: Realiza las n ventas</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_3: 2023-02-16 13:10:55,408 - root - ERROR - No se pudo ingresar al menu indicado, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2023-02-16 13:10:55,409 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\report\img  screen：20230216_13_10_55.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\realizaventa.py", line 22, in ventaciclada
+    Documentos = self.wait.until(conditions.visibility((By.XPATH, "//*[@id='_documentos']")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x003FE5DA]
+	(No symbol) [0x0046F0CB]
+	(No symbol) [0x00480A56]
+	(No symbol) [0x0046B216]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 36, in test_001
+    return ventaciclada.ventaciclada(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\realizaventa.py", line 56, in ventaciclada
+    self.driver.get_screenshot_as_file(img_name)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 929, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 965, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 977, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x003FE5DA]
+	(No symbol) [0x0046F0CB]
+	(No symbol) [0x00480A56]
+	(No symbol) [0x0046B216]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20230216_13_10_55.png" target="_blank">
+            <img src="../../../../img/20230216_13_10_55.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_002: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_4: Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\VentaCiclada\testCase\VentaCiclada.py", line 40, in test_002
+    self.driver.close()
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 561, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.97)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005837D3]
+	(No symbol) [0x00518B81]
+	(No symbol) [0x0041B36D]
+	(No symbol) [0x0040BE5A]
+	(No symbol) [0x0040C63A]
+	(No symbol) [0x0040C5D8]
+	(No symbol) [0x003FD0BA]
+	(No symbol) [0x003FDBA7]
+	(No symbol) [0x0047489B]
+	(No symbol) [0x0046B3E3]
+	(No symbol) [0x00440D97]
+	(No symbol) [0x0044253D]
+	GetHandleVerifier [0x007FABF2+2510930]
+	GetHandleVerifier [0x00828EC1+2700065]
+	GetHandleVerifier [0x0082C86C+2714828]
+	GetHandleVerifier [0x00633480+645344]
+	(No symbol) [0x00520FD2]
+	(No symbol) [0x00526C68]
+	(No symbol) [0x00526D4B]
+	(No symbol) [0x00530D6B]
+	BaseThreadInitThunk [0x75C77D69+25]
+	RtlInitializeExceptionChain [0x7752BB9B+107]
+	RtlClearBits [0x7752BB1F+191]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4</td>
+    <td>Taza de resultado：0.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

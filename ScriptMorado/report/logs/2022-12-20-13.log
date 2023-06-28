@@ -1,0 +1,244 @@
+2022-12-20 13:00:24,231 - root - INFO -  Se abre el chrome
+2022-12-20 13:00:25,388 - root - INFO -  Entra a la URL
+2022-12-20 13:00:25,515 - root - INFO -  Maximiza la pantalla
+2022-12-20 13:00:28,613 - root - INFO -  Escribe el usuario
+2022-12-20 13:00:28,682 - root - INFO -  Escribe la contraseña
+2022-12-20 13:00:28,751 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-20 13:00:29,446 - root - INFO -  Ejecutar Enterprise
+2022-12-20 13:00:33,501 - root - INFO -  Cambia entre pestañas
+2022-12-20 13:00:44,250 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-20 13:00:44,825 - root - INFO -  La pantalla ejecutada es Lista de precios.
+2022-12-20 13:00:44,832 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_00_44.png
+2022-12-20 13:00:45,018 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:00:55,509 - root - ERROR - No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-20 13:00:55,512 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_00_55.png
+2022-12-20 13:01:36,334 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-20 13:01:36,337 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:01:36,337 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:01:36,338 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:01:36,339 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:01:37,220 - root - INFO -  Abre la pantalla de PopUps
+2022-12-20 13:01:37,815 - root - INFO -  La pantalla ejecutada es PopUps.
+2022-12-20 13:01:38,828 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_01_38.png
+2022-12-20 13:01:40,154 - root - INFO -  Se ordenó por codigo.
+2022-12-20 13:01:50,706 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-20 13:01:51,262 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:01:51,307 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-20 13:01:51,340 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-12-20 13:01:51,370 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-12-20 13:01:51,400 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-20 13:01:51,434 - root - INFO -  El campo 'Modo Visualización' si se encuentra visible.
+2022-12-20 13:01:51,466 - root - INFO -  El campo 'Tipo Popup' si se encuentra visible.
+2022-12-20 13:01:51,497 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-12-20 13:01:51,546 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-12-20 13:01:51,578 - root - INFO -  El campo 'Texto' si se encuentra visible.
+2022-12-20 13:01:51,608 - root - INFO -  El campo 'Seleccione Imagen' si se encuentra visible.
+2022-12-20 13:01:51,656 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-20 13:01:51,718 - root - INFO - Ingresa la orden del nuevo registro 
+2022-12-20 13:01:52,834 - root - INFO -  Hizo click en el checkbox Activo
+2022-12-20 13:01:52,990 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-20 13:01:53,390 - root - INFO -  Se dió click en la opción Pantalla Held.
+2022-12-20 13:01:54,645 - root - INFO -  Se dió doble click en el registro de Tipo Pop Up.
+2022-12-20 13:01:54,886 - root - INFO -  Ingresa el texto del nuevo registro 
+2022-12-20 13:01:55,887 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_01_55.png
+2022-12-20 13:01:56,109 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:01:56,396 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:01:56,987 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-20 13:01:57,537 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:01:57,565 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-20 13:01:57,592 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-12-20 13:01:57,617 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-12-20 13:01:57,643 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-20 13:01:57,703 - root - INFO -  El campo 'Modo Visualización' si se encuentra visible.
+2022-12-20 13:01:57,734 - root - INFO -  El campo 'Tipo Popup' si se encuentra visible.
+2022-12-20 13:01:57,762 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-12-20 13:01:57,793 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-12-20 13:01:57,822 - root - INFO -  El campo 'Texto' si se encuentra visible.
+2022-12-20 13:01:57,852 - root - INFO -  El campo 'Seleccione Imagen' si se encuentra visible.
+2022-12-20 13:01:57,897 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-20 13:01:57,972 - root - INFO -  Ingresa la orden del nuevo registro 
+2022-12-20 13:01:59,076 - root - INFO -  Hizo click en el checkbox Activo
+2022-12-20 13:01:59,230 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-20 13:01:59,588 - root - INFO -  Se dió click en la opción Pantalla Hand Held.
+2022-12-20 13:02:00,780 - root - INFO -  Se dió doble click en el registro de Tipo PopUp.
+2022-12-20 13:02:00,946 - root - INFO -  Ingresa el texto del nuevo registro 
+2022-12-20 13:02:01,066 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-20 13:02:02,074 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_02_02.png
+2022-12-20 13:02:02,383 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-20 13:02:02,465 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-20 13:02:02,595 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-20 13:02:04,278 - root - INFO -  Se dió dos veces click en el encabezado para modificar el orden de los registros.
+2022-12-20 13:02:06,480 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-20 13:02:07,128 - root - INFO -  Se modifica el contenido del campo Orden 
+2022-12-20 13:02:08,237 - root - INFO -  Hizo click en el checkbox activo
+2022-12-20 13:02:08,395 - root - INFO -  Se modifica el contenido del campo Descripción 
+2022-12-20 13:02:08,783 - root - INFO -  Se dió click en la opción Ambos.
+2022-12-20 13:02:09,693 - root - INFO -  Se dió doble click en el registro de Tipo PopUp.
+2022-12-20 13:02:09,867 - root - INFO -  Se modifica el contenido del campo Texto 
+2022-12-20 13:02:10,874 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_02_10.png
+2022-12-20 13:02:11,098 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-20 13:02:11,336 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-20 13:02:12,949 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-20 13:02:14,028 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-20 13:02:14,029 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_02_14.png
+2022-12-20 13:02:14,235 - root - INFO -  Se confirma el eliminado del registro
+2022-12-20 13:02:14,825 - root - INFO -  Se presiona el boton 'Refrescar', para veriicar si el registro ha sido eliminado.
+2022-12-20 13:02:15,460 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Pop Ups.
+2022-12-20 13:02:19,733 - root - INFO -  Se cierra chrome
+2022-12-20 13:05:20,132 - root - INFO -  Se abre el chrome
+2022-12-20 13:05:20,955 - root - INFO -  Entra a la URL
+2022-12-20 13:05:21,083 - root - INFO -  Maximiza la pantalla
+2022-12-20 13:05:24,231 - root - INFO -  Escribe el usuario
+2022-12-20 13:05:24,334 - root - INFO -  Escribe la contraseña
+2022-12-20 13:05:24,435 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-20 13:05:25,121 - root - INFO -  Ejecutar Enterprise
+2022-12-20 13:05:29,173 - root - INFO -  Cambia entre pestañas
+2022-12-20 13:05:39,819 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-20 13:05:40,401 - root - INFO -  La pantalla ejecutada es Lista de precios.
+2022-12-20 13:05:40,401 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_05_40.png
+2022-12-20 13:05:40,566 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:05:51,079 - root - ERROR - No se encontró el botón Nuevo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-20 13:05:51,082 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_05_51.png
+2022-12-20 13:06:12,466 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-20 13:06:12,467 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:06:12,468 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:06:12,469 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:06:12,470 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:06:13,526 - root - INFO -  Abre la pantalla de PopUps
+2022-12-20 13:06:14,426 - root - INFO -  La pantalla ejecutada es PopUps.
+2022-12-20 13:06:15,439 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_06_15.png
+2022-12-20 13:06:16,925 - root - INFO -  Se ordenó por codigo.
+2022-12-20 13:06:27,338 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-20 13:06:27,961 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:06:28,072 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-20 13:06:28,253 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-12-20 13:06:28,390 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-12-20 13:06:28,541 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-20 13:06:28,666 - root - INFO -  El campo 'Modo Visualización' si se encuentra visible.
+2022-12-20 13:06:28,798 - root - INFO -  El campo 'Tipo Popup' si se encuentra visible.
+2022-12-20 13:06:28,937 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-12-20 13:06:29,057 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-12-20 13:06:29,178 - root - INFO -  El campo 'Texto' si se encuentra visible.
+2022-12-20 13:06:29,253 - root - INFO -  El campo 'Seleccione Imagen' si se encuentra visible.
+2022-12-20 13:06:29,391 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-20 13:06:29,543 - root - INFO - Ingresa la orden del nuevo registro 
+2022-12-20 13:06:30,825 - root - INFO -  Hizo click en el checkbox Activo
+2022-12-20 13:06:31,074 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-20 13:06:31,542 - root - INFO -  Se dió click en la opción Pantalla Held.
+2022-12-20 13:06:32,915 - root - INFO -  Se dió doble click en el registro de Tipo Pop Up.
+2022-12-20 13:06:33,549 - root - INFO -  Ingresa el texto del nuevo registro 
+2022-12-20 13:06:34,561 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_06_34.png
+2022-12-20 13:06:35,077 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:06:35,340 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:06:35,996 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-20 13:06:36,615 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:06:36,725 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-20 13:06:36,847 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-12-20 13:06:36,965 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-12-20 13:06:37,069 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-20 13:06:37,175 - root - INFO -  El campo 'Modo Visualización' si se encuentra visible.
+2022-12-20 13:06:37,300 - root - INFO -  El campo 'Tipo Popup' si se encuentra visible.
+2022-12-20 13:06:37,391 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-12-20 13:06:37,455 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-12-20 13:06:37,519 - root - INFO -  El campo 'Texto' si se encuentra visible.
+2022-12-20 13:06:37,581 - root - INFO -  El campo 'Seleccione Imagen' si se encuentra visible.
+2022-12-20 13:06:37,689 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-20 13:06:37,842 - root - INFO -  Ingresa la orden del nuevo registro 
+2022-12-20 13:06:39,125 - root - INFO -  Hizo click en el checkbox Activo
+2022-12-20 13:06:39,969 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-20 13:06:40,559 - root - INFO -  Se dió click en la opción Pantalla Hand Held.
+2022-12-20 13:06:41,718 - root - INFO -  Se dió doble click en el registro de Tipo PopUp.
+2022-12-20 13:06:42,351 - root - INFO -  Ingresa el texto del nuevo registro 
+2022-12-20 13:06:42,590 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-20 13:06:43,608 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_06_43.png
+2022-12-20 13:06:44,103 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-20 13:06:44,243 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-20 13:06:44,379 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-20 13:06:46,455 - root - INFO -  Se dió dos veces click en el encabezado para modificar el orden de los registros.
+2022-12-20 13:06:48,784 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-20 13:06:49,790 - root - INFO -  Se modifica el contenido del campo Orden 
+2022-12-20 13:06:51,096 - root - INFO -  Hizo click en el checkbox activo
+2022-12-20 13:06:51,538 - root - INFO -  Se modifica el contenido del campo Descripción 
+2022-12-20 13:06:52,089 - root - INFO -  Se dió click en la opción Ambos.
+2022-12-20 13:06:53,520 - root - INFO -  Se dió doble click en el registro de Tipo PopUp.
+2022-12-20 13:06:54,252 - root - INFO -  Se modifica el contenido del campo Texto 
+2022-12-20 13:06:55,267 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_06_55.png
+2022-12-20 13:06:55,898 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-20 13:06:56,244 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-20 13:06:57,991 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-20 13:06:59,127 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-20 13:06:59,130 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_06_59.png
+2022-12-20 13:06:59,504 - root - INFO -  Se confirma el eliminado del registro
+2022-12-20 13:07:00,393 - root - INFO -  Se presiona el boton 'Refrescar', para veriicar si el registro ha sido eliminado.
+2022-12-20 13:07:01,152 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Pop Ups.
+2022-12-20 13:07:05,743 - root - INFO -  Se cierra chrome
+2022-12-20 13:10:25,819 - root - INFO -  Se abre el chrome
+2022-12-20 13:10:27,065 - root - INFO -  Entra a la URL
+2022-12-20 13:10:27,201 - root - INFO -  Maximiza la pantalla
+2022-12-20 13:10:30,355 - root - INFO -  Escribe el usuario
+2022-12-20 13:10:30,467 - root - INFO -  Escribe la contraseña
+2022-12-20 13:10:30,572 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-20 13:10:31,791 - root - INFO -  Ejecutar Enterprise
+2022-12-20 13:10:35,853 - root - INFO -  Cambia entre pestañas
+2022-12-20 13:10:47,113 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-12-20 13:10:47,782 - root - INFO -  La pantalla ejecutada es Lista de precios.
+2022-12-20 13:10:47,784 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_10_47.png
+2022-12-20 13:10:48,144 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:10:58,503 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-20 13:10:59,169 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:10:59,299 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-20 13:10:59,426 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-20 13:10:59,551 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-20 13:11:01,685 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-20 13:11:03,703 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_03.png
+2022-12-20 13:11:04,080 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-20 13:11:04,788 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-20 13:11:05,444 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-12-20 13:11:05,564 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-12-20 13:11:05,679 - root - INFO -  El campo 'Tipo Unidad' si se encuentra visible.
+2022-12-20 13:11:05,791 - root - INFO -  El campo 'Objetivo Cantidad' si se encuentra visible.
+2022-12-20 13:11:05,904 - root - INFO -  El campo 'Objetivo Cobertura' si se encuentra visible.
+2022-12-20 13:11:08,727 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-20 13:11:08,980 - root - INFO -  Ingresa el Objetivo Cobertura del nuevo registro 
+2022-12-20 13:11:09,125 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:11:09,290 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:11:09,539 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:11:14,727 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-20 13:11:15,391 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-20 13:11:15,494 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-12-20 13:11:15,598 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-12-20 13:11:15,704 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-12-20 13:11:17,742 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-20 13:11:17,968 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:11:19,982 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_19.png
+2022-12-20 13:11:20,505 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-20 13:11:20,649 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-20 13:11:20,755 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:11:22,478 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-20 13:11:23,372 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-12-20 13:11:25,385 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_25.png
+2022-12-20 13:11:25,772 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-20 13:11:27,012 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-20 13:11:30,291 - root - INFO -  Ingresa el Objetivo Cantidad del nuevo registro 
+2022-12-20 13:11:30,594 - root - INFO -  Ingresa el Objetivo Cobertura del nuevo registro 
+2022-12-20 13:11:30,752 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-20 13:11:30,952 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-20 13:11:31,242 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-20 13:11:32,973 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-20 13:11:33,208 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-20 13:11:35,222 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_35.png
+2022-12-20 13:11:35,540 - root - INFO -  Se confirma el eliminado del registro
+2022-12-20 13:11:35,719 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-20 13:11:35,939 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-12-20 13:11:37,068 - root - INFO -  Abre la pantalla de PopUps
+2022-12-20 13:11:37,787 - root - INFO -  La pantalla ejecutada es PopUps.
+2022-12-20 13:11:38,794 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_38.png
+2022-12-20 13:11:40,306 - root - INFO -  Se ordenó por codigo.
+2022-12-20 13:11:50,522 - root - ERROR - No se dió click en el botón Nuevo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-20 13:11:51,535 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\ScriptAmarillo\report\img  screen：20221220_13_11_51.png
+2022-12-20 13:12:02,640 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-20 13:12:02,643 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:12:02,646 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:12:02,648 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:12:02,652 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-20 13:12:07,270 - root - INFO -  Se cierra chrome
