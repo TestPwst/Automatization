@@ -1,0 +1,45 @@
+2023-01-04 15:09:42,045 - root - INFO -  Se abre el chrome
+2023-01-04 15:09:43,193 - root - INFO -  Entra a la URL
+2023-01-04 15:09:43,328 - root - INFO -  Maximiza la pantalla
+2023-01-04 15:09:46,466 - root - INFO -  Escribe el usuario
+2023-01-04 15:09:46,528 - root - INFO -  Escribe la contraseña
+2023-01-04 15:09:46,592 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-04 15:09:47,801 - root - INFO -  Ejecutar Enterprise
+2023-01-04 15:09:51,841 - root - INFO -  Cambia entre pestañas
+2023-01-04 15:10:05,883 - root - INFO -  Abre la pantalla de Tipo Encuestas
+2023-01-04 15:10:06,932 - root - INFO -  La pantalla ejecutada es Tipo Encuestas.
+2023-01-04 15:10:06,932 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230104_15_10_06.png
+2023-01-04 15:10:07,106 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-04 15:10:07,649 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-04 15:10:07,698 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-01-04 15:10:07,769 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-01-04 15:10:07,855 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-01-04 15:10:08,201 - root - INFO -  Se dió click en la opción Texto Libre.
+2023-01-04 15:10:08,201 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230104_15_10_08.png
+2023-01-04 15:10:08,363 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-04 15:10:08,612 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 15:10:10,672 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-04 15:10:11,215 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-04 15:10:11,260 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-01-04 15:10:11,329 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-01-04 15:10:11,421 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-01-04 15:10:11,758 - root - INFO -  Se dió click en la opción Texto Libre.
+2023-01-04 15:10:11,891 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-04 15:10:12,480 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-01-04 15:10:14,481 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230104_15_10_14.png
+2023-01-04 15:10:14,664 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-04 15:10:14,783 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-04 15:10:14,903 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro .
+2023-01-04 15:10:17,477 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-04 15:10:18,080 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-01-04 15:10:18,202 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-01-04 15:10:18,202 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230104_15_10_18.png
+2023-01-04 15:10:18,355 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-04 15:10:18,590 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-04 15:10:21,149 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-04 15:10:21,197 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-04 15:10:23,198 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230104_15_10_23.png
+2023-01-04 15:10:23,354 - root - INFO -  Se confirma el eliminado del registro
+2023-01-04 15:10:23,616 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-01-04 15:10:25,675 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Encuestas.
+2023-01-04 15:10:30,122 - root - INFO -  Se cierra chrome

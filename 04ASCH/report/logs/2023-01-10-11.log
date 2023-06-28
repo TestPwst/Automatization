@@ -1,0 +1,235 @@
+2023-01-10 11:32:00,727 - root - INFO -  Se abre el chrome
+2023-01-10 11:32:01,649 - root - INFO -  Entra a la URL
+2023-01-10 11:32:01,833 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:32:04,940 - root - INFO -  Escribe el usuario
+2023-01-10 11:32:05,056 - root - INFO -  Escribe la contraseña
+2023-01-10 11:32:05,150 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:32:05,901 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:32:09,953 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:32:22,329 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:32:22,900 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:32:22,901 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_22.png
+2023-01-10 11:32:23,478 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:32:24,095 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:32:24,131 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:32:24,167 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:32:24,203 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:32:24,237 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:32:24,339 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:32:24,461 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:32:26,786 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:32:27,788 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_27.png
+2023-01-10 11:32:28,419 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-10 11:32:29,020 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:32:29,597 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-01-10 11:32:30,818 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:32:31,141 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:32:31,421 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-10 11:32:31,622 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-10 11:32:32,193 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:32:32,225 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:32:32,259 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:32:32,300 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:32:32,336 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:32:32,405 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:32:32,520 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:32:34,722 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:32:34,790 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-10 11:32:35,791 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_35.png
+2023-01-10 11:32:41,629 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-10 11:32:42,632 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_42.png
+2023-01-10 11:32:43,481 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-10 11:32:48,729 - root - ERROR - No se encontró el botón Cerrar de la ventana., revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:32:48,732 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_48.png
+2023-01-10 11:32:54,357 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:32:57,360 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_57.png
+2023-01-10 11:32:58,307 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:32:58,308 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_58.png
+2023-01-10 11:32:58,322 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:32:58,323 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_32_58.png
+2023-01-10 11:33:51,240 - root - INFO -  Se abre el chrome
+2023-01-10 11:33:52,201 - root - INFO -  Entra a la URL
+2023-01-10 11:33:52,348 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:33:55,458 - root - INFO -  Escribe el usuario
+2023-01-10 11:33:55,569 - root - INFO -  Escribe la contraseña
+2023-01-10 11:33:55,665 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:33:56,412 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:34:00,476 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:34:12,736 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:34:13,364 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:34:13,365 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_13.png
+2023-01-10 11:34:13,883 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:34:14,469 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:34:14,506 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:34:14,544 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:34:14,580 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:34:14,617 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:34:14,697 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:34:14,827 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:34:16,780 - root - INFO -  Se abre el chrome
+2023-01-10 11:34:17,341 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:34:17,683 - root - INFO -  Entra a la URL
+2023-01-10 11:34:17,904 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:34:18,343 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_18.png
+2023-01-10 11:34:18,988 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-10 11:34:19,671 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:34:20,361 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-01-10 11:34:21,682 - root - INFO -  Escribe el usuario
+2023-01-10 11:34:21,685 - root - ERROR - No se pudo encontrar el campo para ingresar la contraseña, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,686 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,711 - root - ERROR - No se pudo encontrar el menu indicado, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,712 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,726 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,727 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,739 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,740 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,749 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,750 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,759 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:21,759 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_21.png
+2023-01-10 11:34:21,857 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:34:22,139 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:34:23,986 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:23,987 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_23.png
+2023-01-10 11:34:46,333 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:49,336 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_49.png
+2023-01-10 11:34:49,350 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:49,351 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_49.png
+2023-01-10 11:34:49,362 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:34:49,363 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_34_49.png
+2023-01-10 11:35:12,262 - root - INFO -  Se abre el chrome
+2023-01-10 11:35:13,160 - root - INFO -  Entra a la URL
+2023-01-10 11:35:13,381 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:35:16,492 - root - INFO -  Escribe el usuario
+2023-01-10 11:35:16,600 - root - INFO -  Escribe la contraseña
+2023-01-10 11:35:16,695 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:35:17,493 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:35:21,566 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:35:33,871 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:35:34,476 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:35:34,477 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_35_34.png
+2023-01-10 11:35:35,027 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:35:35,655 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:35:35,694 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:35:35,731 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:35:35,768 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:35:35,805 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:35:35,886 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:35:36,013 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:35:38,478 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:35:39,479 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_35_39.png
+2023-01-10 11:35:40,072 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-10 11:35:40,659 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:35:41,214 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-01-10 11:35:42,645 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:35:42,940 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:35:44,161 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:35:44,162 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_35_44.png
+2023-01-10 11:36:45,220 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:36:48,222 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_36_48.png
+2023-01-10 11:36:49,305 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:36:49,307 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_36_49.png
+2023-01-10 11:36:49,313 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:36:49,313 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_36_49.png
+2023-01-10 11:42:34,033 - root - INFO -  Se abre el chrome
+2023-01-10 11:42:34,969 - root - INFO -  Entra a la URL
+2023-01-10 11:42:35,149 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:42:38,266 - root - INFO -  Escribe el usuario
+2023-01-10 11:42:38,369 - root - INFO -  Escribe la contraseña
+2023-01-10 11:42:38,459 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:42:39,305 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:42:41,116 - root - INFO -  Se abre el chrome
+2023-01-10 11:42:41,968 - root - INFO -  Entra a la URL
+2023-01-10 11:42:42,121 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:42:43,419 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:42:45,244 - root - INFO -  Escribe el usuario
+2023-01-10 11:42:45,358 - root - INFO -  Escribe la contraseña
+2023-01-10 11:42:45,450 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:42:46,203 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:42:50,382 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:42:55,772 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:42:56,335 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:42:56,336 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_42_56.png
+2023-01-10 11:43:00,325 - root - INFO -  Se abre el chrome
+2023-01-10 11:43:01,173 - root - INFO -  Entra a la URL
+2023-01-10 11:43:01,332 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:43:02,504 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:43:02,967 - root - INFO -  Se cierra chrome
+2023-01-10 11:43:02,970 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:43:02,973 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:43:02,976 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:43:02,978 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:43:03,094 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:43:03,094 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_03.png
+2023-01-10 11:43:03,770 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:43:04,329 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:43:04,376 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:43:04,429 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:43:04,465 - root - INFO -  Escribe el usuario
+2023-01-10 11:43:04,489 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:43:04,545 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:43:04,622 - root - INFO -  Escribe la contraseña
+2023-01-10 11:43:04,669 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:43:04,914 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:43:04,918 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:43:05,838 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:43:07,590 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:43:08,591 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_08.png
+2023-01-10 11:43:09,354 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-10 11:43:09,953 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:43:09,996 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:43:10,526 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-01-10 11:43:11,709 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:43:11,977 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:43:13,113 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:43:13,114 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_13.png
+2023-01-10 11:43:22,830 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:43:23,402 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:43:23,402 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_23.png
+2023-01-10 11:43:24,069 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:43:24,635 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-10 11:43:24,682 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-10 11:43:24,724 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-10 11:43:24,769 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-01-10 11:43:24,813 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-01-10 11:43:24,914 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-10 11:43:25,055 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-10 11:43:27,466 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-01-10 11:43:28,466 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_28.png
+2023-01-10 11:43:29,164 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-01-10 11:43:29,783 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-10 11:43:30,360 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-01-10 11:43:31,546 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:43:31,852 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-10 11:43:33,006 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:43:33,008 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_43_33.png
+2023-01-10 11:44:17,861 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:20,870 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_20.png
+2023-01-10 11:44:22,574 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:22,575 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_22.png
+2023-01-10 11:44:22,580 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:22,581 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_22.png
+2023-01-10 11:44:35,118 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:38,119 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_38.png
+2023-01-10 11:44:39,328 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:39,328 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_39.png
+2023-01-10 11:44:39,334 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:44:39,335 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_44_39.png
+2023-01-10 11:51:45,351 - root - INFO -  Se abre el chrome
+2023-01-10 11:51:46,411 - root - INFO -  Entra a la URL
+2023-01-10 11:51:46,567 - root - INFO -  Maximiza la pantalla
+2023-01-10 11:51:49,678 - root - INFO -  Escribe el usuario
+2023-01-10 11:51:49,785 - root - INFO -  Escribe la contraseña
+2023-01-10 11:51:49,891 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-10 11:51:50,637 - root - INFO -  Ejecutar Enterprise
+2023-01-10 11:51:54,691 - root - INFO -  Cambia entre pestañas
+2023-01-10 11:52:07,618 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-01-10 11:52:08,228 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-01-10 11:52:08,229 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_52_08.png
+2023-01-10 11:53:09,069 - root - ERROR - No se encontró el botón Programaciones, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-01-10 11:53:09,071 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230110_11_53_09.png
+2023-01-10 11:53:14,931 - root - INFO -  Se cierra chrome
+2023-01-10 11:53:14,936 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:53:14,940 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:53:14,945 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-01-10 11:53:14,949 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte

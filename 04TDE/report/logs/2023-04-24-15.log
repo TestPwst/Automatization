@@ -1,0 +1,46 @@
+2023-04-24 15:54:12,171 - root - INFO -  Se abre el chrome
+2023-04-24 15:54:13,068 - root - INFO -  Entra a la URL
+2023-04-24 15:54:13,243 - root - INFO -  Maximiza la pantalla
+2023-04-24 15:54:16,406 - root - INFO -  Escribe el usuario
+2023-04-24 15:54:16,525 - root - INFO -  Escribe la contraseña
+2023-04-24 15:54:16,637 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 15:54:17,897 - root - INFO -  Ejecutar Enterprise
+2023-04-24 15:54:21,936 - root - INFO -  Cambia entre pestañas
+2023-04-24 15:55:36,146 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 15:55:36,147 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 15:55:36,841 - root - INFO -  La pantalla ejecutada es Tipo Encuestas.
+2023-04-24 15:55:36,842 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230424_15_55_36.png
+2023-04-24 15:55:37,015 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 15:55:37,570 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 15:55:37,673 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:55:37,773 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 15:55:37,901 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 15:55:38,272 - root - INFO -  Se dió click en la opción Texto Libre.
+2023-04-24 15:55:38,275 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230424_15_55_38.png
+2023-04-24 15:55:38,429 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 15:55:38,624 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 15:55:40,675 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 15:55:41,231 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 15:55:41,298 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:55:41,393 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 15:55:41,524 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 15:55:41,872 - root - INFO -  Se dió click en la opción Texto Libre.
+2023-04-24 15:55:41,998 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-24 15:55:42,587 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-24 15:55:44,590 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230424_15_55_44.png
+2023-04-24 15:55:44,785 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 15:55:44,928 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 15:55:45,031 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro .
+2023-04-24 15:55:47,643 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 15:55:48,333 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-04-24 15:55:48,478 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-04-24 15:55:48,478 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230424_15_55_48.png
+2023-04-24 15:55:48,660 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 15:55:48,883 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 15:55:51,463 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 15:55:51,539 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 15:55:53,539 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04TDE\report\img  screen：20230424_15_55_53.png
+2023-04-24 15:55:53,702 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 15:55:53,969 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-04-24 15:55:56,062 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Encuestas.
+2023-04-24 15:56:02,462 - root - INFO -  Se cierra chrome

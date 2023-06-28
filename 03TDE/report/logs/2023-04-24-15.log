@@ -1,0 +1,65 @@
+2023-04-24 15:29:36,644 - root - INFO -  Se abre el chrome
+2023-04-24 15:29:37,637 - root - INFO -  Entra a la URL
+2023-04-24 15:29:37,766 - root - INFO -  Maximiza la pantalla
+2023-04-24 15:29:40,901 - root - INFO -  Escribe el usuario
+2023-04-24 15:29:41,019 - root - INFO -  Escribe la contraseña
+2023-04-24 15:29:41,115 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 15:29:42,345 - root - INFO -  Ejecutar Enterprise
+2023-04-24 15:29:46,384 - root - INFO -  Cambia entre pestañas
+2023-04-24 15:30:58,222 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 15:30:58,223 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 15:30:58,806 - root - INFO -  La pantalla ejecutada es Tipo Encuestas.
+2023-04-24 15:30:58,806 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03TDE\report\img  screen：20230424_15_30_58.png
+2023-04-24 15:30:59,002 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 15:30:59,573 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 15:30:59,665 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:30:59,794 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 15:30:59,923 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 15:31:00,842 - root - INFO -  Se dió click en la opción Verificación(Finaliza encuesta).
+2023-04-24 15:31:00,843 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03TDE\report\img  screen：20230424_15_31_00.png
+2023-04-24 15:31:01,010 - root - INFO -  Se hace el cambio a la pestaña Respuestas; para continuar con el nuevo registro.
+2023-04-24 15:31:01,606 - root - INFO -  Se dió click en el botón Nuevo; se debe crear un nuevo registro de Respuestas.
+2023-04-24 15:31:02,194 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:31:02,296 - root - INFO -  Ingresa la Orden del nuevo registro 
+2023-04-24 15:31:02,387 - root - INFO -  Ingresa la Descripción del nuevo registro 
+2023-04-24 15:31:02,456 - root - INFO -  Se dió click en el checkbox Finaliza Encuesta.
+2023-04-24 15:31:02,530 - root - INFO -  Se da clic en el boton Guardar de la pestaña programas; se debe crear un nuevo registro.
+2023-04-24 15:31:02,721 - root - INFO -  Se dió click en el botón Nuevo; se debe crear un nuevo registro de Respuestas.
+2023-04-24 15:31:03,308 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:31:03,396 - root - INFO -  Ingresa la Orden del nuevo registro 
+2023-04-24 15:31:03,485 - root - INFO -  Ingresa la Descripción del nuevo registro 
+2023-04-24 15:31:03,553 - root - INFO -  Se dió click en el checkbox Finaliza Encuesta.
+2023-04-24 15:31:03,623 - root - INFO -  Se da clic en el boton Guardar de la pestaña programas; se debe crear un nuevo registro.
+2023-04-24 15:31:03,821 - root - INFO -  Se dió click en el botón Nuevo; se debe crear un nuevo registro de Respuestas.
+2023-04-24 15:31:04,396 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:31:04,486 - root - INFO -  Ingresa la Orden del nuevo registro 
+2023-04-24 15:31:04,598 - root - INFO -  Ingresa la Descripción del nuevo registro 
+2023-04-24 15:31:04,668 - root - INFO -  Se dió click en el checkbox Finaliza Encuesta.
+2023-04-24 15:31:04,739 - root - INFO -  Se da clic en el boton Guardar de la pestaña programas; se debe crear un nuevo registro.
+2023-04-24 15:31:04,962 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 15:31:05,154 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 15:31:07,200 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 15:31:07,746 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 15:31:07,807 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-04-24 15:31:07,906 - root - INFO -  Ingresa el Codigo Alternativo del nuevo registro 
+2023-04-24 15:31:08,032 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-04-24 15:31:08,919 - root - INFO -  Se dió click en la opción Verificación(Finaliza encuesta).
+2023-04-24 15:31:09,063 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 15:31:09,684 - root - INFO -  Se da clic en el boton del mensaje de registro duplicado
+2023-04-24 15:31:11,686 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03TDE\report\img  screen：20230424_15_31_11.png
+2023-04-24 15:31:11,947 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 15:31:12,183 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 15:31:12,306 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 15:31:14,907 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 15:31:15,563 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo 
+2023-04-24 15:31:15,729 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-04-24 15:31:15,729 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03TDE\report\img  screen：20230424_15_31_15.png
+2023-04-24 15:31:15,894 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 15:31:16,127 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 15:31:18,700 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-24 15:31:18,785 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 15:31:20,786 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03TDE\report\img  screen：20230424_15_31_20.png
+2023-04-24 15:31:20,983 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 15:31:21,423 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-04-24 15:31:23,520 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Encuestas.
+2023-04-24 15:31:29,954 - root - INFO -  Se cierra chrome

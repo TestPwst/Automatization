@@ -1,0 +1,66 @@
+2023-06-08 15:47:29,786 - root - INFO -  Se abre el chrome
+2023-06-08 15:47:32,197 - root - INFO -  Entra a la URL
+2023-06-08 15:47:32,322 - root - INFO -  Maximiza la pantalla
+2023-06-08 15:47:35,410 - root - INFO -  Escribe el usuario
+2023-06-08 15:47:35,499 - root - INFO -  Escribe la contraseña
+2023-06-08 15:47:35,562 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 15:47:36,749 - root - INFO -  Ejecutar Enterprise
+2023-06-08 15:47:40,787 - root - INFO -  Cambia entre pestañas
+2023-06-08 15:47:52,680 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2023-06-08 15:47:53,242 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-06-08 15:47:53,242 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_47_53.png
+2023-06-08 15:48:03,708 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 15:48:04,246 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 15:48:04,266 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 15:48:04,287 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 15:48:04,305 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-06-08 15:48:04,332 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-06-08 15:48:04,415 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 15:48:04,511 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 15:48:06,784 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-06-08 15:48:07,785 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_48_07.png
+2023-06-08 15:48:07,954 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-08 15:48:08,524 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 15:48:09,070 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-06-08 15:48:10,162 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 15:48:10,451 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 15:48:10,674 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 15:48:12,742 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 15:48:13,292 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 15:48:13,309 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 15:48:13,327 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 15:48:13,348 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-06-08 15:48:13,366 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2023-06-08 15:48:13,418 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 15:48:13,526 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 15:48:15,503 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-06-08 15:48:15,576 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-08 15:48:16,577 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_48_16.png
+2023-06-08 15:48:21,966 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 15:48:22,967 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_48_22.png
+2023-06-08 15:48:23,181 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 15:48:23,315 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 15:48:23,439 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 15:48:27,037 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:48:27,692 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 15:48:28,659 - root - INFO -  Ingresa el Procedimiento Evento del nuevo registro 
+2023-06-08 15:48:29,660 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_48_29.png
+2023-06-08 15:48:29,827 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-08 15:48:30,898 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:48:30,943 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 15:48:31,058 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 15:48:32,639 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 15:48:32,909 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 15:48:33,160 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 15:48:36,758 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:48:37,830 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-08 15:48:38,910 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:48:38,958 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 15:48:39,383 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 15:48:39,964 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:48:40,012 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 15:48:42,014 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20230608_15_48_42.png
+2023-06-08 15:48:42,192 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 15:48:42,463 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 15:48:44,523 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Acciones Scheduler.
+2023-06-08 15:48:50,831 - root - INFO -  Se cierra chrome

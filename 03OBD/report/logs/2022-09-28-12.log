@@ -1,0 +1,63 @@
+2022-09-28 12:28:39,769 - root - INFO -  Se abre el chrome
+2022-09-28 12:28:41,192 - root - INFO -  Entra a la URL
+2022-09-28 12:28:41,319 - root - INFO -  Maximiza la pantalla
+2022-09-28 12:28:44,354 - root - INFO -  Cambia al frame
+2022-09-28 12:28:47,433 - root - INFO -  Escribe el usuario
+2022-09-28 12:28:47,537 - root - INFO -  Escribe la contraseña
+2022-09-28 12:28:47,653 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-28 12:28:48,465 - root - INFO -  Ejecutar Enterprise
+2022-09-28 12:28:52,549 - root - INFO -  Cambia entre pestañas
+2022-09-28 12:29:12,762 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-09-28 12:29:12,842 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-09-28 12:29:15,842 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220928_12_29_15.png
+2022-09-28 12:29:16,049 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-28 12:29:21,136 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-28 12:29:21,176 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-28 12:29:21,206 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-28 12:29:21,236 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-28 12:29:28,676 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-09-28 12:29:39,122 - root - INFO -  Se dió click en el botón hoy para seleccionar la fecha actual.
+2022-09-28 12:29:42,256 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-28 12:29:45,266 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220928_12_29_45.png
+2022-09-28 12:29:45,485 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-09-28 12:29:48,578 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-09-28 12:29:53,623 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-09-28 12:29:53,663 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-09-28 12:29:53,693 - root - INFO -  El campo 'Objetivo Distribución' si se encuentra visible.
+2022-09-28 12:30:01,146 - root - INFO -  Se dió doble click en el registro de Grupo Politica.
+2022-09-28 12:30:11,559 - root - INFO -  Se dió click en la opción Distribución Diaria.
+2022-09-28 12:30:14,686 - root - INFO -  Ingresa el Objetivo Distribucion  del nuevo registro 
+2022-09-28 12:30:17,800 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-09-28 12:30:22,911 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-28 12:30:28,044 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-28 12:30:33,140 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-28 12:30:38,175 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-28 12:30:38,215 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-28 12:30:38,255 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-28 12:30:38,285 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-28 12:30:47,732 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-09-28 12:30:58,192 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha Actual.
+2022-09-28 12:31:01,308 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-28 12:31:04,413 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-28 12:31:09,415 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220928_12_31_09.png
+2022-09-28 12:31:09,634 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-28 12:31:12,753 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-28 12:31:16,840 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2022-09-28 12:31:26,469 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-09-28 12:31:29,629 - root - INFO -  Se Modifica el contenido del campo Efectividad 
+2022-09-28 12:31:32,634 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220928_12_31_32.png
+2022-09-28 12:31:32,843 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con modificación del registro
+2022-09-28 12:31:40,478 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2022-09-28 12:31:50,946 - root - INFO -  Se dió doble click en el registro de Grupos Politicas.
+2022-09-28 12:32:01,410 - root - INFO -  Se dió click en la opción Distribucion Diaria.
+2022-09-28 12:32:04,574 - root - INFO -  Se Modifica el contenido del campo Objetivo Distribucion 
+2022-09-28 12:32:07,682 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2022-09-28 12:32:12,767 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-28 12:32:17,856 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-28 12:32:27,466 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-28 12:32:30,573 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-28 12:32:35,582 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220928_12_32_35.png
+2022-09-28 12:32:35,789 - root - INFO -  Se confirma el eliminado del registro
+2022-09-28 12:32:40,888 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si se ha eliminado el registro.
+2022-09-28 12:32:45,992 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2022-09-28 12:32:52,323 - root - INFO -  Se cierra chrome

@@ -1,0 +1,39 @@
+2022-11-25 11:33:24,882 - root - INFO -  Se abre el chrome
+2022-11-25 11:33:25,932 - root - INFO -  Entra a la URL
+2022-11-25 11:33:26,055 - root - INFO -  Maximiza la pantalla
+2022-11-25 11:33:30,928 - root - INFO -  Cambia al frame
+2022-11-25 11:33:34,002 - root - INFO -  Escribe el usuario
+2022-11-25 11:33:34,100 - root - INFO -  Escribe la contraseña
+2022-11-25 11:33:35,951 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-25 11:33:36,212 - root - INFO -  Ejecutar Enterprise
+2022-11-25 11:33:40,254 - root - INFO -  Cambia entre pestañas
+2022-11-25 11:34:22,360 - root - INFO -  Abre la pantalla de Programas
+2022-11-25 11:34:22,433 - root - INFO -  La pantalla ejecutada es Programas.
+2022-11-25 11:34:25,436 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20221125_11_34_25.png
+2022-11-25 11:34:30,955 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-25 11:34:35,999 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-25 11:34:36,037 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-11-25 11:34:36,078 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-11-25 11:34:36,116 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2022-11-25 11:34:36,154 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-11-25 11:34:36,193 - root - INFO -  El campo 'Password' si se encuentra visible.
+2022-11-25 11:34:36,231 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-11-25 11:34:36,270 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2022-11-25 11:34:36,337 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2022-11-25 11:34:39,498 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-11-25 11:34:45,079 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2022-11-25 11:34:54,309 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-11-25 11:35:12,101 - root - INFO -  Se dió click en la opción Proc. Evento.
+2022-11-25 11:35:15,152 - root - INFO -  El campo 'Proc. Evento' si se encuentra visible.
+2022-11-25 11:35:16,832 - root - INFO -  Ingresa el Proc. Evento del nuevo registro 
+2022-11-25 11:35:28,876 - root - INFO -  Se dió doble click en el registro de Usuario.
+2022-11-25 11:35:32,016 - root - INFO -  Ingresa el Password del nuevo registro 
+2022-11-25 11:35:36,934 - root - INFO -  Se dió click en el checkbox Activa.
+2022-11-25 11:35:39,937 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20221125_11_35_39.png
+2022-11-25 11:35:46,317 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-11-25 11:35:52,476 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 11:35:55,479 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20221125_11_35_55.png
+2022-11-25 11:36:04,307 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 11:36:07,308 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20221125_11_36_07.png
+2022-11-25 11:36:07,319 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-11-25 11:36:10,320 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20221125_11_36_10.png

@@ -1,0 +1,77 @@
+2023-06-08 15:28:19,510 - root - INFO -  Se abre el chrome
+2023-06-08 15:28:20,876 - root - INFO -  Entra a la URL
+2023-06-08 15:28:20,996 - root - INFO -  Maximiza la pantalla
+2023-06-08 15:28:24,081 - root - INFO -  Escribe el usuario
+2023-06-08 15:28:24,163 - root - INFO -  Escribe la contraseña
+2023-06-08 15:28:24,232 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 15:28:25,920 - root - INFO -  Ejecutar Enterprise
+2023-06-08 15:28:29,964 - root - INFO -  Cambia entre pestañas
+2023-06-08 15:28:42,921 - root - INFO -  Abre la pantalla de Programas
+2023-06-08 15:28:43,989 - root - INFO -  La pantalla ejecutada es Programas.
+2023-06-08 15:28:43,989 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_28_43.png
+2023-06-08 15:28:54,455 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 15:28:54,999 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 15:28:55,021 - root - INFO -  El campo 'Código' si se encuentra visible.
+2023-06-08 15:28:55,042 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-08 15:28:55,064 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2023-06-08 15:28:55,085 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2023-06-08 15:28:55,109 - root - INFO -  El campo 'Password' si se encuentra visible.
+2023-06-08 15:28:55,136 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-06-08 15:28:55,165 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2023-06-08 15:28:55,232 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-06-08 15:28:55,331 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-06-08 15:28:55,415 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2023-06-08 15:28:56,281 - root - INFO -  Se dió doble click en el registro de Usuario.
+2023-06-08 15:28:56,399 - root - INFO -  Ingresa el Password del nuevo registro 
+2023-06-08 15:28:56,469 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 15:28:56,470 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_28_56.png
+2023-06-08 15:28:56,985 - root - INFO -  Se dió click en la opción Depurador.
+2023-06-08 15:28:57,089 - root - INFO -  Ingresa el Depurador del nuevo registro 
+2023-06-08 15:28:57,139 - root - INFO -  Se cambia a la Pestaña Archivo de Conficuración para continuar con el registro nuevo 
+2023-06-08 15:28:57,776 - root - INFO -  Ingresa la configuracion del nuevo registro 
+2023-06-08 15:28:57,820 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 15:28:57,993 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 15:29:00,046 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 15:29:00,582 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 15:29:00,600 - root - INFO -  El campo 'Código' si se encuentra visible.
+2023-06-08 15:29:00,617 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-08 15:29:00,642 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2023-06-08 15:29:00,667 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2023-06-08 15:29:00,685 - root - INFO -  El campo 'Password' si se encuentra visible.
+2023-06-08 15:29:00,703 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2023-06-08 15:29:00,726 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2023-06-08 15:29:00,783 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2023-06-08 15:29:00,876 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2023-06-08 15:29:00,962 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2023-06-08 15:29:01,814 - root - INFO -  Se dió doble click en el registro de Usuario.
+2023-06-08 15:29:01,952 - root - INFO -  Ingresa el Password del nuevo registro 
+2023-06-08 15:29:02,018 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 15:29:02,371 - root - INFO -  Se dió click en la opción Depurador.
+2023-06-08 15:29:02,480 - root - INFO -  Ingresa el Depurador del nuevo registro 
+2023-06-08 15:29:02,521 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-06-08 15:29:03,521 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_29_03.png
+2023-06-08 15:29:08,891 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 15:29:09,892 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_29_09.png
+2023-06-08 15:29:10,074 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 15:29:10,196 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 15:29:10,375 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-06-08 15:29:13,988 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 15:29:14,675 - root - INFO -  Se modifica el contenido del campo Descripción 
+2023-06-08 15:29:14,797 - root - INFO -  Se modifica el contenido del campo Query Variables 
+2023-06-08 15:29:15,924 - root - INFO -  Se dió doble click en el registro de Usuario.
+2023-06-08 15:29:16,090 - root - INFO -  Se modifica el contenido del campo Password 
+2023-06-08 15:29:16,137 - root - INFO -  Se dió click en el checkbox Activa.
+2023-06-08 15:29:17,138 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_29_17.png
+2023-06-08 15:29:17,615 - root - INFO -  Se dió click en la opción Depurador.
+2023-06-08 15:29:17,743 - root - INFO -  Se modifica el contenido del campo Depurador 
+2023-06-08 15:29:17,786 - root - INFO -  Se cambia a la pestaña Archivo Configuración para continuar con la modificación del registro 
+2023-06-08 15:29:18,447 - root - INFO -  Se modifica el contenido del campo Configuración 
+2023-06-08 15:29:18,484 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 15:29:18,739 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 15:29:22,338 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-08 15:29:22,428 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 15:29:24,429 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03PSCH\report\img  screen：20230608_15_29_24.png
+2023-06-08 15:29:24,588 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 15:29:25,047 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-06-08 15:29:27,104 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Programas Scheduler.
+2023-06-08 15:29:33,335 - root - INFO -  Se cierra chrome

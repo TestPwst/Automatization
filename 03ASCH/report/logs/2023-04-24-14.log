@@ -1,0 +1,89 @@
+2023-04-24 14:54:45,891 - root - INFO -  Se abre el chrome
+2023-04-24 14:54:47,183 - root - INFO -  Entra a la URL
+2023-04-24 14:54:47,316 - root - INFO -  Maximiza la pantalla
+2023-04-24 14:54:50,445 - root - INFO -  Escribe el usuario
+2023-04-24 14:54:50,541 - root - INFO -  Escribe la contraseña
+2023-04-24 14:54:50,637 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 14:54:51,870 - root - INFO -  Ejecutar Enterprise
+2023-04-24 14:54:55,921 - root - INFO -  Cambia entre pestañas
+2023-04-24 14:56:08,888 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 14:56:08,890 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 14:56:09,445 - root - INFO -  La pantalla ejecutada es Acciones.
+2023-04-24 14:56:09,446 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_09.png
+2023-04-24 14:56:19,838 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 14:56:20,896 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 14:56:20,933 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 14:56:20,971 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 14:56:21,013 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-04-24 14:56:21,052 - root - INFO -  El campo 'Url FTP' si se encuentra visible.
+2023-04-24 14:56:21,089 - root - INFO -  El campo 'Directorio FTP' si se encuentra visible.
+2023-04-24 14:56:21,128 - root - INFO -  El campo 'Usuario FTP' si se encuentra visible.
+2023-04-24 14:56:21,184 - root - INFO -  El campo 'Password FTP' si se encuentra visible.
+2023-04-24 14:56:21,267 - root - INFO -  El campo 'Max. cantidad intentos' si se encuentra visible.
+2023-04-24 14:56:21,348 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 14:56:21,474 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 14:56:24,024 - root - INFO -  Ingresa la Url FTP del nuevo registro 
+2023-04-24 14:56:24,136 - root - INFO -  Ingresa el Directorio FTP del nuevo registro 
+2023-04-24 14:56:24,244 - root - INFO -  Ingresa el Usuario FTP del nuevo registro 
+2023-04-24 14:56:24,327 - root - INFO - Ingresa la Password FTP del nuevo registro 
+2023-04-24 14:56:24,328 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_24.png
+2023-04-24 14:56:24,503 - root - INFO -  Ingresa el Maximo de Intentos del nuevo registro 
+2023-04-24 14:56:24,577 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-04-24 14:56:25,170 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 14:56:25,730 - root - INFO -  El campo 'Programación' si se encuentra visible.
+2023-04-24 14:56:26,887 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 14:56:27,279 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 14:56:27,623 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 14:56:27,986 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 14:56:28,538 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 14:56:28,568 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 14:56:28,600 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 14:56:28,629 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2023-04-24 14:56:28,667 - root - INFO -  El campo 'Url FTP' si se encuentra visible.
+2023-04-24 14:56:28,696 - root - INFO -  El campo 'Directorio FTP' si se encuentra visible.
+2023-04-24 14:56:28,726 - root - INFO -  El campo 'Usuario FTP' si se encuentra visible.
+2023-04-24 14:56:28,757 - root - INFO -  El campo 'Password FTP' si se encuentra visible.
+2023-04-24 14:56:28,787 - root - INFO -  El campo 'Max. cantidad intentos' si se encuentra visible.
+2023-04-24 14:56:28,857 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 14:56:28,968 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 14:56:29,325 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_29.png
+2023-04-24 14:56:30,571 - root - INFO -  Ingresa la Url FTP del nuevo registro 
+2023-04-24 14:56:30,682 - root - INFO -  Ingresa el Directorio FTP del nuevo registro 
+2023-04-24 14:56:30,797 - root - INFO -  Ingresa el Usuario FTP del nuevo registro 
+2023-04-24 14:56:30,876 - root - INFO -  Ingresa la Password FTP del nuevo registro 
+2023-04-24 14:56:30,950 - root - INFO -  Ingresa el Maximo de Intentos del nuevo registro 
+2023-04-24 14:56:31,005 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-24 14:56:32,006 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_32.png
+2023-04-24 14:56:37,432 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 14:56:38,434 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_38.png
+2023-04-24 14:56:38,630 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 14:56:38,763 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 14:56:38,869 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 14:56:40,490 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:56:41,673 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-24 14:56:42,057 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_42.png
+2023-04-24 14:56:42,324 - root - INFO -  Ingresa la Url FTP del nuevo registro 
+2023-04-24 14:56:42,467 - root - INFO -  Ingresa el Directorio FTP del nuevo registro 
+2023-04-24 14:56:42,598 - root - INFO -  Ingresa el Usuario FTP del nuevo registro 
+2023-04-24 14:56:42,707 - root - INFO -  Ingresa la Password FTP del nuevo registro 
+2023-04-24 14:56:43,708 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_43.png
+2023-04-24 14:56:43,917 - root - INFO -  Ingresa el Maximo de Intentos del nuevo registro 
+2023-04-24 14:56:43,979 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-04-24 14:56:45,070 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:56:45,156 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 14:56:45,325 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 14:56:47,232 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 14:56:47,613 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 14:56:47,983 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 14:56:49,579 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:56:50,661 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-04-24 14:56:51,735 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:56:51,811 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 14:56:51,944 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 14:56:52,513 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 14:56:52,681 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 14:56:54,682 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20230424_14_56_54.png
+2023-04-24 14:56:54,863 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 14:56:55,296 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 14:56:57,385 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Acciones Scheduler.
+2023-04-24 14:57:04,847 - root - INFO -  Se cierra chrome

@@ -1,0 +1,67 @@
+2022-08-10 18:19:48,822 - root - INFO -  Se abre el chrome
+2022-08-10 18:19:52,810 - root - INFO -  Entra a la URL
+2022-08-10 18:19:52,941 - root - INFO -  Maximiza la pantalla
+2022-08-10 18:19:55,996 - root - INFO -  Cambia al frame
+2022-08-10 18:19:59,098 - root - INFO -  Escribe el usuario
+2022-08-10 18:19:59,216 - root - INFO -  Escribe la contraseña
+2022-08-10 18:19:59,362 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-10 18:20:02,899 - root - INFO -  Ejecutar Enterprise
+2022-08-10 18:20:02,899 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_20_02.png
+2022-08-10 18:20:07,134 - root - INFO -  Cambia entre pestañas
+2022-08-10 18:20:37,782 - root - INFO -  Abre el menu completo
+2022-08-10 18:21:02,234 - root - INFO -  Abre la pantalla de Programas
+2022-08-10 18:21:02,273 - root - INFO -  La pantalla ejecutada es Programas.
+2022-08-10 18:21:05,276 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_21_05.png
+2022-08-10 18:21:05,523 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-10 18:21:10,580 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 18:21:10,620 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-10 18:21:10,660 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-10 18:21:10,697 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2022-08-10 18:21:10,741 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-08-10 18:21:10,782 - root - INFO -  El campo 'Password' si se encuentra visible.
+2022-08-10 18:21:10,821 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-08-10 18:21:10,861 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2022-08-10 18:21:10,939 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2022-08-10 18:21:14,079 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-10 18:21:17,242 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2022-08-10 18:21:42,883 - root - INFO -  El campo 'Proc. Evento' si se encuentra visible.
+2022-08-10 18:21:43,011 - root - INFO -  Ingresa el Proc. Evento del nuevo registro 
+2022-08-10 18:21:56,661 - root - INFO -  Ingresa el Password del nuevo registro 
+2022-08-10 18:22:02,739 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_22_02.png
+2022-08-10 18:22:02,957 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 18:22:08,050 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 18:22:13,183 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-10 18:22:18,248 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-10 18:22:18,284 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-10 18:22:18,326 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-10 18:22:18,368 - root - INFO -  El campo 'Query Variables' si se encuentra visible.
+2022-08-10 18:22:18,409 - root - INFO -  El campo 'Usuario' si se encuentra visible.
+2022-08-10 18:22:18,450 - root - INFO -  El campo 'Password' si se encuentra visible.
+2022-08-10 18:22:18,492 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-08-10 18:22:18,533 - root - INFO -  El campo 'Ejecutar' si se encuentra visible.
+2022-08-10 18:22:18,612 - root - INFO -  Ingresa el Codigo del nuevo registro 
+2022-08-10 18:22:21,769 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-10 18:22:24,896 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2022-08-10 18:22:48,573 - root - INFO -  El campo 'Proc. Evento' si se encuentra visible.
+2022-08-10 18:22:48,711 - root - INFO -  Ingresa el Proc. Evento del nuevo registro 
+2022-08-10 18:23:02,296 - root - INFO -  Ingresa el Password del nuevo registro 
+2022-08-10 18:23:08,529 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-10 18:23:13,542 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_23_13.png
+2022-08-10 18:23:13,776 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-10 18:23:16,919 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-10 18:23:21,004 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 18:23:33,615 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-10 18:23:33,832 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-10 18:23:37,036 - root - INFO -  Ingresa los Query Variables del nuevo registro 
+2022-08-10 18:24:00,776 - root - INFO -  Ingresa el Proc. Evento del nuevo registro 
+2022-08-10 18:24:14,459 - root - INFO -  Ingresa el Password del nuevo registro 
+2022-08-10 18:24:20,560 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_24_20.png
+2022-08-10 18:24:20,791 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-10 18:24:25,883 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-10 18:24:38,487 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-10 18:24:38,572 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-10 18:24:43,576 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PSCH\report\img  screen：20220810_18_24_43.png
+2022-08-10 18:24:43,789 - root - INFO -  Se confirma el eliminado del registro
+2022-08-10 18:24:48,892 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-10 18:24:53,992 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-10 18:24:58,269 - root - INFO -  Se cierra chrome

@@ -1,0 +1,33 @@
+2022-08-19 18:15:03,333 - root - INFO -  Se abre el chrome
+2022-08-19 18:15:08,774 - root - INFO -  Entra a la URL
+2022-08-19 18:15:08,942 - root - INFO -  Maximiza la pantalla
+2022-08-19 18:15:12,013 - root - INFO -  Cambia al frame
+2022-08-19 18:15:15,120 - root - INFO -  Escribe el usuario
+2022-08-19 18:15:15,271 - root - INFO -  Escribe la contraseña
+2022-08-19 18:15:15,473 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 18:15:18,495 - root - INFO -  Ejecutar Enterprise
+2022-08-19 18:15:22,649 - root - INFO -  Cambia entre pestañas
+2022-08-19 18:15:44,801 - root - INFO -  Abre el menu completo
+2022-08-19 18:16:08,312 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2022-08-19 18:16:08,356 - root - INFO -  La pantalla ejecutada es Acciones.
+2022-08-19 18:16:08,357 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20220819_18_16_08.png
+2022-08-19 18:16:08,545 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 18:16:11,653 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 18:16:11,726 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 18:16:11,772 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-19 18:16:11,828 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2022-08-19 18:16:11,872 - root - INFO -  El campo 'Url FTP' si se encuentra visible.
+2022-08-19 18:16:11,922 - root - INFO -  El campo 'Directorio FTP' si se encuentra visible.
+2022-08-19 18:16:11,968 - root - INFO -  El campo 'Usuario FTP' si se encuentra visible.
+2022-08-19 18:16:12,011 - root - INFO -  El campo 'Password FTP' si se encuentra visible.
+2022-08-19 18:16:12,052 - root - INFO -  El campo 'Max. cantidad intentos' si se encuentra visible.
+2022-08-19 18:16:12,151 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-19 18:16:15,315 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-19 18:16:28,796 - root - ERROR - No se pudo encontrar el campo para ingresar la Url FTP, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:16:28,797 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20220819_18_16_28.png
+2022-08-19 18:16:31,687 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:16:31,688 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20220819_18_16_31.png
+2022-08-19 18:16:31,710 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:16:31,712 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20220819_18_16_31.png
+2022-08-19 18:16:31,733 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:16:31,734 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03ASCH\report\img  screen：20220819_18_16_31.png

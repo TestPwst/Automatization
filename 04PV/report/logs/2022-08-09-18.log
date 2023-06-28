@@ -1,0 +1,52 @@
+2022-08-09 18:13:48,780 - root - INFO -  Se abre el chrome
+2022-08-09 18:13:52,138 - root - INFO -  Entra a la URL
+2022-08-09 18:13:52,266 - root - INFO -  Maximiza la pantalla
+2022-08-09 18:13:55,314 - root - INFO -  Cambia al frame
+2022-08-09 18:13:58,470 - root - INFO -  Escribe el usuario
+2022-08-09 18:13:58,578 - root - INFO -  Escribe la contraseña
+2022-08-09 18:13:58,720 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-09 18:14:01,754 - root - INFO -  Ejecutar Enterprise
+2022-08-09 18:14:01,755 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_14_01.png
+2022-08-09 18:14:06,008 - root - INFO -  Cambia entre pestañas
+2022-08-09 18:14:39,119 - root - INFO -  Abre el menu completo
+2022-08-09 18:14:54,087 - root - INFO -  Abre la pantalla de Politicas de Venta
+2022-08-09 18:14:54,155 - root - INFO -  La pantalla ejecutada es Politicas de Venta
+2022-08-09 18:14:57,166 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_14_57.png
+2022-08-09 18:14:57,372 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-09 18:15:02,440 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-09 18:15:02,478 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-09 18:15:02,516 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-09 18:15:02,555 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-09 18:15:02,593 - root - INFO -  El campo 'Fecha Desde' si se encuentra visible.
+2022-08-09 18:15:02,630 - root - INFO -  El campo 'Fecha Hasta' si se encuentra visible.
+2022-08-09 18:15:02,668 - root - INFO -  El campo 'Moneda' si se encuentra visible.
+2022-08-09 18:15:02,707 - root - INFO -  El campo 'Aplicable en' si se encuentra visible.
+2022-08-09 18:15:02,746 - root - INFO -  El campo 'Activa' si se encuentra visible.
+2022-08-09 18:15:02,784 - root - INFO -  El campo 'Aplicación Global' si se encuentra visible.
+2022-08-09 18:15:02,887 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-09 18:15:06,030 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-09 18:15:09,249 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-09 18:15:20,932 - root - INFO -  Ingresa la Fecha hasta del nuevo registro 
+2022-08-09 18:16:01,695 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-09 18:16:04,788 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-09 18:16:09,857 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-08-09 18:16:09,895 - root - INFO -  El campo 'Artículo a Bonificar' si se encuentra visible.
+2022-08-09 18:16:09,934 - root - INFO -  El campo 'Cantidad a Bonificar(Packing)' si se encuentra visible.
+2022-08-09 18:16:09,972 - root - INFO -  El campo 'Cantidad en Bonificación(Unidad)' si se encuentra visible.
+2022-08-09 18:16:10,010 - root - INFO -  El campo 'Tope Descuento 1' si se encuentra visible.
+2022-08-09 18:16:10,048 - root - INFO -  El campo 'Tope Descuento 2' si se encuentra visible.
+2022-08-09 18:16:10,188 - root - INFO -  Ingresa el Grupo Politica del nuevo registro 
+2022-08-09 18:16:20,365 - root - INFO -  Ingresa el Articulo a bonificar del nuevo registro 
+2022-08-09 18:16:30,488 - root - INFO -  Ingresa la Cantidad a Bonificar del nuevo registro 
+2022-08-09 18:16:33,607 - root - INFO -  Ingresa la Cantidad en Bonificación del nuevo registro 
+2022-08-09 18:16:36,764 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-08-09 18:16:39,894 - root - INFO -  Ingresa el Tope Descuento 2 del nuevo registro 
+2022-08-09 18:16:42,897 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_16_42.png
+2022-08-09 18:16:43,157 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-09 18:16:48,268 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-09 18:16:54,402 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-09 18:16:57,406 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_16_57.png
+2022-08-09 18:16:57,927 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-09 18:17:00,942 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_17_00.png
+2022-08-09 18:17:00,967 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-09 18:17:03,978 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\04PV\report\img  screen：20220809_18_17_03.png

@@ -1,0 +1,29 @@
+2022-08-19 18:25:40,998 - root - INFO -  Se abre el chrome
+2022-08-19 18:25:44,908 - root - INFO -  Entra a la URL
+2022-08-19 18:25:45,058 - root - INFO -  Maximiza la pantalla
+2022-08-19 18:25:48,133 - root - INFO -  Cambia al frame
+2022-08-19 18:25:51,258 - root - INFO -  Escribe el usuario
+2022-08-19 18:25:51,422 - root - INFO -  Escribe la contraseña
+2022-08-19 18:25:51,624 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 18:25:55,131 - root - INFO -  Ejecutar Enterprise
+2022-08-19 18:25:59,252 - root - INFO -  Cambia entre pestañas
+2022-08-19 18:26:22,556 - root - INFO -  Abre el menu completo
+2022-08-19 18:26:46,070 - root - INFO -  Abre la pantalla de Acciones Scheduler
+2022-08-19 18:26:46,159 - root - INFO -  La pantalla ejecutada es Acciones.
+2022-08-19 18:26:46,160 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20220819_18_26_46.png
+2022-08-19 18:26:46,369 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 18:26:49,418 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 18:26:49,501 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 18:26:49,593 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-19 18:26:49,639 - root - INFO -  El campo 'Tipo Acción' si se encuentra visible.
+2022-08-19 18:26:49,685 - root - INFO -  El campo 'Procedimiento Evento' si se encuentra visible.
+2022-08-19 18:26:49,785 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-19 18:26:52,951 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-19 18:27:10,718 - root - ERROR - No se pudo encontrar el campo para ingresar el Procedimiento Evento, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:27:10,718 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20220819_18_27_10.png
+2022-08-19 18:27:13,709 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:27:13,711 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20220819_18_27_13.png
+2022-08-19 18:27:13,731 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:27:13,732 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20220819_18_27_13.png
+2022-08-19 18:27:13,830 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-19 18:27:13,831 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\04ASCH\report\img  screen：20220819_18_27_13.png

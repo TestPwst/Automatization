@@ -1,0 +1,63 @@
+2023-01-11 09:16:23,820 - root - INFO -  Se abre el chrome
+2023-01-11 09:16:24,683 - root - INFO -  Entra a la URL
+2023-01-11 09:16:24,945 - root - INFO -  Maximiza la pantalla
+2023-01-11 09:16:28,085 - root - INFO -  Escribe el usuario
+2023-01-11 09:16:28,197 - root - INFO -  Escribe la contraseña
+2023-01-11 09:16:28,317 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-11 09:16:29,090 - root - INFO -  Ejecutar Enterprise
+2023-01-11 09:16:33,165 - root - INFO -  Cambia entre pestañas
+2023-01-11 09:16:44,612 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2023-01-11 09:16:45,222 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2023-01-11 09:16:45,223 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_16_45.png
+2023-01-11 09:16:45,807 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2023-01-11 09:16:55,982 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 09:16:56,571 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 09:16:56,615 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2023-01-11 09:16:56,653 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2023-01-11 09:16:56,693 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2023-01-11 09:16:57,714 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2023-01-11 09:16:57,841 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2023-01-11 09:16:58,843 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_16_58.png
+2023-01-11 09:16:59,443 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2023-01-11 09:17:00,064 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2023-01-11 09:17:00,629 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2023-01-11 09:17:00,672 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2023-01-11 09:17:00,714 - root - INFO -  El campo 'Objetivo Distribución' si se encuentra visible.
+2023-01-11 09:17:02,097 - root - INFO -  Se dió doble click en el registro de Grupo Politica.
+2023-01-11 09:17:02,998 - root - INFO -  Se dió click en la opción Distribución Diaria.
+2023-01-11 09:17:04,643 - root - INFO -  Ingresa el Objetivo Distribucion  del nuevo registro 
+2023-01-11 09:17:04,795 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2023-01-11 09:17:05,171 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 09:17:05,463 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 09:17:05,759 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-11 09:17:06,424 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 09:17:06,570 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2023-01-11 09:17:06,651 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2023-01-11 09:17:06,745 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2023-01-11 09:17:07,743 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2023-01-11 09:17:07,996 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2023-01-11 09:17:08,081 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-11 09:17:09,083 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_17_09.png
+2023-01-11 09:17:14,930 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 09:17:15,931 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_17_15.png
+2023-01-11 09:17:16,758 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 09:17:16,869 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-11 09:17:16,997 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2023-01-11 09:17:18,617 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2023-01-11 09:17:19,243 - root - INFO -  Se Modifica el contenido del campo Efectividad 
+2023-01-11 09:17:20,245 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_17_20.png
+2023-01-11 09:17:20,910 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con modificación del registro
+2023-01-11 09:17:22,026 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2023-01-11 09:17:23,786 - root - INFO -  Se dió doble click en el registro de Grupos Politicas.
+2023-01-11 09:17:24,347 - root - INFO -  Se dió click en la opción Distribucion Diaria.
+2023-01-11 09:17:24,613 - root - INFO -  Se Modifica el contenido del campo Objetivo Distribucion 
+2023-01-11 09:17:24,782 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2023-01-11 09:17:25,061 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 09:17:25,341 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-11 09:17:26,928 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-11 09:17:27,016 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 09:17:28,018 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20230111_09_17_28.png
+2023-01-11 09:17:28,635 - root - INFO -  Se confirma el eliminado del registro
+2023-01-11 09:17:28,848 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si se ha eliminado el registro.
+2023-01-11 09:17:29,018 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2023-01-11 09:17:33,314 - root - INFO -  Se cierra chrome

@@ -1,0 +1,111 @@
+2022-09-05 13:18:09,900 - root - INFO -  Se abre el chrome
+2022-09-05 13:18:11,098 - root - INFO -  Entra a la URL
+2022-09-05 13:18:11,227 - root - INFO -  Maximiza la pantalla
+2022-09-05 13:18:14,278 - root - INFO -  Cambia al frame
+2022-09-05 13:18:17,368 - root - INFO -  Escribe el usuario
+2022-09-05 13:18:17,465 - root - INFO -  Escribe la contraseña
+2022-09-05 13:18:17,599 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-05 13:18:18,400 - root - INFO -  Ejecutar Enterprise
+2022-09-05 13:18:18,402 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_18_18.png
+2022-09-05 13:18:22,627 - root - INFO -  Cambia entre pestañas
+2022-09-05 13:18:33,394 - root - INFO -  Abre el menu completo
+2022-09-05 13:18:47,348 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-09-05 13:18:47,411 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-09-05 13:18:50,423 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_18_50.png
+2022-09-05 13:18:50,638 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-05 13:18:55,719 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-05 13:18:55,764 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-05 13:18:55,802 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-05 13:18:55,840 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-05 13:19:03,266 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-09-05 13:19:13,734 - root - INFO -  Se dió click en el botón hoy para seleccionar la fecha actual.
+2022-09-05 13:19:16,863 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-05 13:19:19,866 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_19_19.png
+2022-09-05 13:19:20,072 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con el registro nuevo
+2022-09-05 13:19:23,176 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Grupos.
+2022-09-05 13:19:28,278 - root - INFO -  El campo 'Grupo Política' si se encuentra visible.
+2022-09-05 13:19:28,316 - root - INFO -  El campo 'Tipo Objetivo' si se encuentra visible.
+2022-09-05 13:19:28,353 - root - INFO -  El campo 'Objetivo Distribución' si se encuentra visible.
+2022-09-05 13:19:35,818 - root - INFO -  Se dió doble click en el registro de Grupo Politica.
+2022-09-05 13:19:46,259 - root - INFO -  Se dió click en la opción Distribución Diaria.
+2022-09-05 13:19:49,413 - root - INFO -  Ingresa el Objetivo Distribucion  del nuevo registro 
+2022-09-05 13:19:52,508 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro de Grupos.
+2022-09-05 13:19:57,615 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-05 13:20:02,740 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-05 13:20:07,843 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-05 13:20:12,937 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-05 13:20:12,974 - root - INFO -  El campo 'Vendedor' si se encuentra visible.
+2022-09-05 13:20:13,008 - root - INFO -  El campo 'Fecha' si se encuentra visible.
+2022-09-05 13:20:13,043 - root - INFO -  El campo 'Efectividad %' si se encuentra visible.
+2022-09-05 13:20:22,517 - root - INFO -  Se dió doble click en el registro de Vendedor.
+2022-09-05 13:20:33,026 - root - INFO -  Se dió click en el botón Hoy para seleccionar la fecha Actual.
+2022-09-05 13:20:36,164 - root - INFO -  Ingresa la efectividad del nuevo registro 
+2022-09-05 13:20:39,310 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-05 13:20:44,316 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_20_44.png
+2022-09-05 13:20:44,531 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-05 13:20:47,629 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-05 13:20:51,800 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2022-09-05 13:21:01,424 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-09-05 13:21:04,622 - root - INFO -  Se Modifica el contenido del campo Efectividad 
+2022-09-05 13:21:07,632 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_21_07.png
+2022-09-05 13:21:07,844 - root - INFO - Se hace el cambio a la pestaña Grupos para continuar con modificación del registro
+2022-09-05 13:21:15,507 - root - INFO -  Se da doble click en el registro de Grupos, para proceder a modificarlo.
+2022-09-05 13:21:25,973 - root - INFO -  Se dió doble click en el registro de Grupos Politicas.
+2022-09-05 13:21:36,471 - root - INFO -  Se dió click en la opción Distribucion Diaria.
+2022-09-05 13:21:39,653 - root - INFO -  Se Modifica el contenido del campo Objetivo Distribucion 
+2022-09-05 13:21:42,808 - root - INFO -  Se da clic en el boton Guardar; se debe modificar el registro de Grupos.
+2022-09-05 13:21:47,972 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-05 13:21:53,103 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-05 13:22:02,730 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-05 13:22:05,856 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-05 13:22:10,867 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_22_10.png
+2022-09-05 13:22:11,066 - root - INFO -  Se confirma el eliminado del registro
+2022-09-05 13:22:16,172 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si se ha eliminado el registro.
+2022-09-05 13:22:21,271 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Objetivos Diarios.
+2022-09-05 13:22:27,652 - root - INFO -  Se cierra chrome
+2022-09-05 13:23:13,943 - root - INFO -  Se abre el chrome
+2022-09-05 13:23:15,098 - root - INFO -  Entra a la URL
+2022-09-05 13:23:15,223 - root - INFO -  Maximiza la pantalla
+2022-09-05 13:23:18,272 - root - INFO -  Cambia al frame
+2022-09-05 13:23:21,359 - root - INFO -  Escribe el usuario
+2022-09-05 13:23:21,458 - root - INFO -  Escribe la contraseña
+2022-09-05 13:23:21,591 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-05 13:23:22,388 - root - INFO -  Ejecutar Enterprise
+2022-09-05 13:23:22,389 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_22.png
+2022-09-05 13:23:26,617 - root - INFO -  Cambia entre pestañas
+2022-09-05 13:23:31,723 - root - INFO -  Abre el menu completo
+2022-09-05 13:23:38,134 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-05 13:23:41,173 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_41.png
+2022-09-05 13:23:42,963 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-09-05 13:23:45,980 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_45.png
+2022-09-05 13:23:45,985 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-05 13:23:48,988 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_48.png
+2022-09-05 13:23:49,002 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-05 13:23:52,004 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_52.png
+2022-09-05 13:23:52,017 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-05 13:23:55,028 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_23_55.png
+2022-09-05 13:24:01,591 - root - INFO -  Se abre el chrome
+2022-09-05 13:24:02,710 - root - INFO -  Entra a la URL
+2022-09-05 13:24:02,840 - root - INFO -  Maximiza la pantalla
+2022-09-05 13:24:05,888 - root - INFO -  Cambia al frame
+2022-09-05 13:24:08,977 - root - INFO -  Escribe el usuario
+2022-09-05 13:24:09,072 - root - INFO -  Escribe la contraseña
+2022-09-05 13:24:09,202 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-05 13:24:09,998 - root - INFO -  Ejecutar Enterprise
+2022-09-05 13:24:09,999 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_24_09.png
+2022-09-05 13:24:14,226 - root - INFO -  Cambia entre pestañas
+2022-09-05 13:24:23,286 - root - ERROR - No se dió click en el botón para desplegar el menu completo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-09-05 13:24:46,337 - root - INFO -  Se abre el chrome
+2022-09-05 13:24:47,864 - root - INFO -  Entra a la URL
+2022-09-05 13:24:48,023 - root - INFO -  Maximiza la pantalla
+2022-09-05 13:24:51,072 - root - INFO -  Cambia al frame
+2022-09-05 13:24:54,186 - root - INFO -  Escribe el usuario
+2022-09-05 13:24:54,322 - root - INFO -  Escribe la contraseña
+2022-09-05 13:24:54,466 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-05 13:24:55,243 - root - INFO -  Ejecutar Enterprise
+2022-09-05 13:24:55,244 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_24_55.png
+2022-09-05 13:24:59,476 - root - INFO -  Cambia entre pestañas
+2022-09-05 13:25:04,595 - root - INFO -  Abre el menu completo
+2022-09-05 13:25:18,535 - root - INFO -  Abre la pantalla de Objetivos Diarios
+2022-09-05 13:25:18,606 - root - INFO -  La pantalla ejecutada es Objetivos Diarios.
+2022-09-05 13:25:21,614 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\03OBD\report\img  screen：20220905_13_25_21.png
