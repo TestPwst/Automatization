@@ -1,0 +1,846 @@
+2022-08-19 17:01:53,869 - root - INFO -  Se abre el chrome
+2022-08-19 17:01:59,465 - root - INFO -  Entra a la URL
+2022-08-19 17:01:59,592 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:02:02,649 - root - INFO -  Cambia al frame
+2022-08-19 17:02:05,730 - root - INFO -  Escribe el usuario
+2022-08-19 17:02:05,831 - root - INFO -  Escribe la contraseña
+2022-08-19 17:02:05,966 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:02:10,148 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:02:10,149 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_02_10.png
+2022-08-19 17:02:14,383 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:02:40,979 - root - INFO -  Abre el menu completo
+2022-08-19 17:02:53,673 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:02:53,793 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:02:56,795 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_02_56.png
+2022-08-19 17:02:57,017 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:03:02,109 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:03:02,150 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:03:02,189 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:03:02,229 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:03:02,268 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:03:02,307 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:03:02,346 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:03:02,384 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:03:02,424 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:03:02,463 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:03:02,502 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:03:02,540 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:03:02,597 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:03:02,636 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:03:02,674 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:03:02,713 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:03:02,751 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:03:02,790 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:03:02,828 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:03:02,867 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:03:02,906 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:03:02,945 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:03:02,985 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:03:03,024 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:03:03,063 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:03:03,239 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:03:06,444 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:03:09,636 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:03:12,820 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:03:16,006 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:03:19,169 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:03:22,350 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:03:25,545 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:03:28,696 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:03:31,860 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:03:35,005 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:03:38,158 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:03:41,331 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:03:52,862 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:04:07,494 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:04:10,646 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:04:13,804 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:04:16,947 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:04:19,958 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_04_19.png
+2022-08-19 17:04:20,181 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:04:25,266 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:04:25,433 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:04:28,576 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:04:33,713 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:04:38,801 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:04:38,841 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:04:38,883 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:04:38,922 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:04:38,960 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:04:38,998 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:04:39,057 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:04:39,095 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:04:39,132 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:04:39,170 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:04:39,208 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:04:39,247 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:04:39,433 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:04:42,608 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:04:45,797 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:04:48,998 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:04:52,199 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:05:03,677 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:05:06,873 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:05:10,008 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:05:15,151 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:05:20,264 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:05:25,371 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:05:43,004 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:05:45,158 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:06:48,737 - root - INFO -  Se abre el chrome
+2022-08-19 17:06:54,267 - root - INFO -  Entra a la URL
+2022-08-19 17:06:54,401 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:06:57,452 - root - INFO -  Cambia al frame
+2022-08-19 17:07:00,542 - root - INFO -  Escribe el usuario
+2022-08-19 17:07:00,646 - root - INFO -  Escribe la contraseña
+2022-08-19 17:07:00,783 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:07:04,864 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:07:04,865 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_07_04.png
+2022-08-19 17:07:09,063 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:07:30,347 - root - INFO -  Abre el menu completo
+2022-08-19 17:07:42,987 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:07:43,071 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:07:46,080 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_07_46.png
+2022-08-19 17:07:46,305 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:07:51,389 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:07:51,426 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:07:51,467 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:07:51,505 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:07:51,543 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:07:51,582 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:07:51,621 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:07:51,660 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:07:51,699 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:07:51,738 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:07:51,777 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:07:51,815 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:07:51,855 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:07:51,893 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:07:51,946 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:07:51,984 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:07:52,023 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:07:52,060 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:07:52,099 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:07:52,137 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:07:52,176 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:07:52,216 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:07:52,254 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:07:52,292 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:07:52,331 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:07:52,515 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:07:55,702 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:07:58,873 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:08:02,049 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:08:05,222 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:08:08,396 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:08:11,549 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:08:14,720 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:08:17,852 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:08:20,981 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:08:24,129 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:08:27,263 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:08:30,423 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:08:41,990 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:08:56,659 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:08:59,808 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:09:02,962 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:09:06,133 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:09:09,149 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_09_09.png
+2022-08-19 17:09:09,389 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:09:14,472 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:09:14,598 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:09:17,711 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:09:22,845 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:09:27,919 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:09:27,957 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:09:27,997 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:09:28,039 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:09:28,100 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:09:28,143 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:09:28,179 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:09:28,214 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:09:28,251 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:09:28,289 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:09:28,327 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:09:28,365 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:09:28,559 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:09:31,735 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:09:34,919 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:09:38,126 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:09:41,325 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:09:52,863 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:09:56,022 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:09:59,162 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:10:04,275 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:10:09,401 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:10:14,537 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:10:32,167 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:10:34,290 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:10:42,537 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:10:52,222 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:10:55,450 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:10:58,616 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:11:01,825 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:11:04,995 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:11:08,163 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:11:11,327 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:11:14,498 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:11:17,705 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:11:20,908 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:11:32,387 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:11:40,579 - root - ERROR - No se encontró el registro de Depto/Provi, verificar si el xpath sigue siendo el mismo, si al abrir la ayuda tardo mas de lo esperado, si la ayuda abre de manera correcta o si fallo la selección del registro del campo anterior
+2022-08-19 17:11:43,587 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_11_43.png
+2022-08-19 17:11:44,122 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:11:47,137 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_11_47.png
+2022-08-19 17:13:32,923 - root - INFO -  Se abre el chrome
+2022-08-19 17:13:36,512 - root - INFO -  Entra a la URL
+2022-08-19 17:13:36,636 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:13:39,693 - root - INFO -  Cambia al frame
+2022-08-19 17:13:42,780 - root - INFO -  Escribe el usuario
+2022-08-19 17:13:42,884 - root - INFO -  Escribe la contraseña
+2022-08-19 17:13:43,020 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:13:47,191 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:13:47,192 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_13_47.png
+2022-08-19 17:13:51,430 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:14:08,175 - root - INFO -  Abre el menu completo
+2022-08-19 17:14:20,865 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:14:20,939 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:14:23,950 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_14_23.png
+2022-08-19 17:14:24,168 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:14:29,247 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:14:29,286 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:14:29,326 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:14:29,363 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:14:29,403 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:14:29,442 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:14:29,480 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:14:29,518 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:14:29,558 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:14:29,595 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:14:29,631 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:14:29,681 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:14:29,719 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:14:29,756 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:14:29,794 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:14:29,831 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:14:29,871 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:14:29,907 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:14:29,945 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:14:29,984 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:14:30,023 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:14:30,062 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:14:30,103 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:14:30,140 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:14:30,180 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:14:30,356 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:14:33,522 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:14:36,699 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:14:39,854 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:14:43,017 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:14:46,199 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:14:49,365 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:14:52,516 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:14:55,655 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:14:58,815 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:15:01,963 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:15:05,110 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:15:08,283 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:15:19,806 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:15:34,617 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:15:37,777 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:15:40,927 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:15:44,088 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:15:47,094 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_15_47.png
+2022-08-19 17:15:47,334 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:15:52,394 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:15:52,528 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:15:55,627 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:16:00,739 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:16:05,815 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:16:05,853 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:16:05,890 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:16:05,928 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:16:05,966 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:16:06,021 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:16:06,059 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:16:06,097 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:16:06,137 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:16:06,174 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:16:06,212 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:16:06,249 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:16:06,441 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:16:09,590 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:16:12,788 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:16:15,949 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:16:19,155 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:16:30,661 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:16:33,837 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:16:36,954 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:16:42,091 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:16:47,191 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:16:52,320 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:17:09,938 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:17:12,075 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:17:20,306 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:17:29,927 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:17:33,228 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:17:36,418 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:17:39,611 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:17:42,789 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:17:45,955 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:17:49,133 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:17:52,313 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:17:55,515 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:17:58,736 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:18:10,239 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:18:18,432 - root - ERROR - No se encontró el registro de Depto/Provi, verificar si el xpath sigue siendo el mismo, si al abrir la ayuda tardo mas de lo esperado, si la ayuda abre de manera correcta o si fallo la selección del registro del campo anterior
+2022-08-19 17:18:21,438 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_18_21.png
+2022-08-19 17:18:21,975 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:18:24,988 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_18_24.png
+2022-08-19 17:21:15,768 - root - INFO -  Se abre el chrome
+2022-08-19 17:21:21,007 - root - INFO -  Entra a la URL
+2022-08-19 17:21:21,147 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:21:24,200 - root - INFO -  Cambia al frame
+2022-08-19 17:21:27,300 - root - INFO -  Escribe el usuario
+2022-08-19 17:21:27,403 - root - INFO -  Escribe la contraseña
+2022-08-19 17:21:27,539 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:21:31,692 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:21:31,693 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_21_31.png
+2022-08-19 17:21:35,928 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:22:02,767 - root - INFO -  Abre el menu completo
+2022-08-19 17:22:15,457 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:22:15,530 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:22:18,538 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_22_18.png
+2022-08-19 17:22:18,773 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:22:23,865 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:22:23,903 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:22:23,941 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:22:23,978 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:22:24,016 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:22:24,053 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:22:24,090 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:22:24,127 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:22:24,165 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:22:24,203 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:22:24,240 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:22:24,285 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:22:24,326 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:22:24,364 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:22:24,402 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:22:24,440 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:22:24,477 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:22:24,519 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:22:24,557 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:22:24,594 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:22:24,633 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:22:24,672 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:22:24,711 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:22:24,749 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:22:24,789 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:22:24,972 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:22:28,148 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:22:31,337 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:22:34,487 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:22:37,639 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:22:40,809 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:22:43,990 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:22:47,171 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:22:50,312 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:22:53,472 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:22:56,624 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:22:59,762 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:23:02,921 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:23:14,407 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:23:29,084 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:23:32,294 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:23:35,480 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:23:38,626 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:23:41,638 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_23_41.png
+2022-08-19 17:23:41,876 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:23:46,948 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:23:47,110 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:23:50,236 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:23:55,401 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:24:00,498 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:24:00,543 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:24:00,581 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:24:00,620 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:24:00,659 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:24:00,715 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:24:00,755 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:24:00,793 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:24:00,832 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:24:00,870 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:24:00,909 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:24:00,947 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:24:01,129 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:24:04,311 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:24:07,472 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:24:10,669 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:24:13,828 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:24:25,347 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:24:28,494 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:24:31,628 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:24:36,743 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:24:41,853 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:24:47,000 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:24:53,120 - root - ERROR - No se encontrarón los filtros revise si el xpath sigue siendo el mismo y revise si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:24:53,122 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_24_53.png
+2022-08-19 17:24:58,706 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:25:01,714 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_25_01.png
+2022-08-19 17:25:19,743 - root - INFO -  Se abre el chrome
+2022-08-19 17:25:24,032 - root - INFO -  Entra a la URL
+2022-08-19 17:25:24,171 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:25:27,225 - root - INFO -  Cambia al frame
+2022-08-19 17:25:30,309 - root - INFO -  Escribe el usuario
+2022-08-19 17:25:30,413 - root - INFO -  Escribe la contraseña
+2022-08-19 17:25:30,548 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:25:35,196 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:25:35,198 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_25_35.png
+2022-08-19 17:25:39,440 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:26:08,321 - root - INFO -  Abre el menu completo
+2022-08-19 17:26:21,004 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:26:21,069 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:26:24,079 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_26_24.png
+2022-08-19 17:26:24,262 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:26:29,351 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:26:29,417 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:26:29,481 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:26:29,525 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:26:29,566 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:26:29,607 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:26:29,646 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:26:29,684 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:26:29,724 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:26:29,764 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:26:29,804 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:26:29,842 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:26:29,896 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:26:29,935 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:26:29,975 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:26:30,013 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:26:30,051 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:26:30,091 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:26:30,132 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:26:30,170 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:26:30,210 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:26:30,250 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:26:30,290 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:26:30,330 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:26:30,383 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:26:30,546 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:26:33,717 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:26:36,871 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:26:40,060 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:26:43,235 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:26:46,438 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:26:49,629 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:26:52,810 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:26:55,954 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:26:59,096 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:27:02,249 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:27:05,382 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:27:08,584 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:27:20,081 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:27:34,694 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:27:37,889 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:27:41,046 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:27:44,231 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:27:47,240 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_27_47.png
+2022-08-19 17:27:47,451 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:27:52,529 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:27:52,691 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:27:55,795 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:28:00,937 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:28:06,030 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:28:06,069 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:28:06,108 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:28:06,148 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:28:06,187 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:28:06,225 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:28:06,282 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:28:06,322 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:28:06,360 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:28:06,399 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:28:06,438 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:28:06,477 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:28:06,680 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:28:09,832 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:28:13,005 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:28:16,195 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:28:19,400 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:28:30,935 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:28:34,118 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:28:37,250 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:28:42,420 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:28:47,512 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:28:52,715 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:29:10,298 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:29:12,433 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:29:20,697 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:29:30,289 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:29:33,563 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:29:36,791 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:29:39,988 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:29:43,183 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:29:46,358 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:29:49,541 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:29:52,751 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:29:55,968 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:29:59,243 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:30:10,752 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:30:18,973 - root - ERROR - No se encontró el registro de Depto/Provi, verificar si el xpath sigue siendo el mismo, si al abrir la ayuda tardo mas de lo esperado, si la ayuda abre de manera correcta o si fallo la selección del registro del campo anterior
+2022-08-19 17:30:21,983 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_30_21.png
+2022-08-19 17:30:22,619 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:30:25,623 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_30_25.png
+2022-08-19 17:33:18,379 - root - INFO -  Se abre el chrome
+2022-08-19 17:33:23,955 - root - INFO -  Entra a la URL
+2022-08-19 17:33:24,089 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:33:27,146 - root - INFO -  Cambia al frame
+2022-08-19 17:33:30,279 - root - INFO -  Escribe el usuario
+2022-08-19 17:33:30,402 - root - INFO -  Escribe la contraseña
+2022-08-19 17:33:30,535 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:33:34,616 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:33:34,617 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_33_34.png
+2022-08-19 17:33:38,866 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:34:05,839 - root - INFO -  Abre el menu completo
+2022-08-19 17:34:18,518 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:34:18,614 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:34:21,624 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_34_21.png
+2022-08-19 17:34:21,832 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:34:26,920 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:34:26,990 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:34:27,028 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:34:27,070 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:34:27,109 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:34:27,149 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:34:27,187 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:34:27,227 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:34:27,267 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:34:27,308 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:34:27,348 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:34:27,387 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:34:27,427 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:34:27,481 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:34:27,519 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:34:27,557 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:34:27,595 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:34:27,633 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:34:27,670 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:34:27,711 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:34:27,749 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:34:27,788 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:34:27,828 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:34:27,871 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:34:27,912 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:34:28,074 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:34:31,262 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:34:34,484 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:34:37,661 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:34:40,844 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:34:44,016 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:34:47,143 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:34:50,296 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:34:53,431 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:34:56,571 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:34:59,714 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:35:02,888 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:35:06,142 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:35:17,684 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:35:32,321 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:35:35,483 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:35:38,621 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:35:41,775 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:35:44,789 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_35_44.png
+2022-08-19 17:35:45,104 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:35:50,173 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:35:50,309 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:35:53,514 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:35:58,674 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:36:03,741 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:36:03,781 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:36:03,818 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:36:03,855 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:36:03,892 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:36:03,930 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:36:03,969 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:36:04,007 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:36:04,046 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:36:04,083 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:36:04,124 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:36:04,162 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:36:04,358 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:36:07,493 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:36:10,660 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:36:13,812 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:36:16,992 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:36:28,536 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:36:31,718 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:36:34,837 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:36:39,930 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:36:45,054 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:36:50,261 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:37:07,985 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:37:10,167 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:37:18,415 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:37:28,108 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:37:31,469 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:37:34,661 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:37:37,847 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:37:41,058 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:37:44,222 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:37:47,385 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:37:50,605 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:37:53,780 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:37:56,990 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:38:08,473 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:38:19,963 - root - INFO -  Se selecciono el registro de depto/provi 
+2022-08-19 17:38:31,482 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:38:46,144 - root - INFO -  Se selecciono el registro de Lista Precio 
+2022-08-19 17:38:57,690 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:39:09,189 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:39:12,405 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:39:15,560 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:39:18,770 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:39:21,773 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_39_21.png
+2022-08-19 17:39:22,027 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:39:31,652 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:39:34,915 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:39:38,155 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:39:41,340 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:39:52,869 - root - INFO -  Se selecciono el registro de Lista Precio 
+2022-08-19 17:40:04,455 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:40:16,004 - root - INFO -  Se selecciono el registro de depto/provi 
+2022-08-19 17:40:27,549 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:40:50,632 - root - ERROR - No se encontró el registro de Localidad, verificar si el xpath sigue siendo el mismo, si al abrir la ayuda tardo mas de lo esperado, si la ayuda abre de manera correcta o si fallo la selección del registro del campo anterior 
+2022-08-19 17:40:53,643 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_40_53.png
+2022-08-19 17:40:54,238 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-19 17:40:57,248 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_40_57.png
+2022-08-19 17:44:55,194 - root - INFO -  Se abre el chrome
+2022-08-19 17:44:58,029 - root - INFO -  Entra a la URL
+2022-08-19 17:44:58,157 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:45:01,213 - root - INFO -  Cambia al frame
+2022-08-19 17:45:04,291 - root - INFO -  Escribe el usuario
+2022-08-19 17:45:04,395 - root - INFO -  Escribe la contraseña
+2022-08-19 17:45:04,537 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:45:07,625 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:45:07,626 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_45_07.png
+2022-08-19 17:45:11,863 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:45:42,140 - root - INFO -  Abre el menu completo
+2022-08-19 17:45:54,831 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:45:54,894 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:45:57,897 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_45_57.png
+2022-08-19 17:45:58,154 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:46:03,267 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:46:03,314 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:46:03,351 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:46:03,391 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:46:03,429 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:46:03,468 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:46:03,506 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:46:03,544 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:46:03,583 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:46:03,621 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:46:03,664 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:46:03,729 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:46:03,768 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:46:03,805 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:46:03,842 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:46:03,879 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:46:03,917 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:46:03,954 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:46:03,993 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:46:04,032 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:46:04,071 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:46:04,115 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:46:04,156 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:46:04,200 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:46:04,240 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:46:04,416 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:46:07,619 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:46:10,810 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:46:14,015 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:46:17,186 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:46:20,348 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:46:23,514 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:46:26,674 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:46:29,812 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:46:32,943 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:46:36,106 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:46:39,307 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:46:42,483 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:46:54,010 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:47:08,690 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:47:11,827 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:47:15,013 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:47:18,140 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:47:21,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_47_21.png
+2022-08-19 17:47:21,393 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:47:26,483 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:47:26,635 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:47:29,726 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:47:34,847 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:47:39,980 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:47:40,097 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:47:40,147 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:47:40,190 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:47:40,228 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:47:40,268 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:47:40,322 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:47:40,361 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:47:40,398 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:47:40,436 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:47:40,475 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:47:40,515 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:47:40,691 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:47:43,847 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:47:47,035 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:47:50,239 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:47:53,406 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:48:04,905 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:48:08,077 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:48:11,263 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:48:16,377 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:48:21,494 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:48:26,636 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:48:44,226 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:48:46,377 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:48:54,645 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:49:04,313 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:49:07,644 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:49:10,840 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:49:14,051 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:49:17,267 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:49:58,819 - root - INFO -  Se abre el chrome
+2022-08-19 17:50:03,560 - root - INFO -  Entra a la URL
+2022-08-19 17:50:03,696 - root - INFO -  Maximiza la pantalla
+2022-08-19 17:50:06,754 - root - INFO -  Cambia al frame
+2022-08-19 17:50:09,844 - root - INFO -  Escribe el usuario
+2022-08-19 17:50:09,950 - root - INFO -  Escribe la contraseña
+2022-08-19 17:50:10,081 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-19 17:50:13,754 - root - INFO -  Ejecutar Enterprise
+2022-08-19 17:50:13,755 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_50_13.png
+2022-08-19 17:50:17,997 - root - INFO -  Cambia entre pestañas
+2022-08-19 17:50:42,750 - root - INFO -  Abre el menu completo
+2022-08-19 17:50:55,429 - root - INFO -  Abre la pantalla de Clientes
+2022-08-19 17:50:55,512 - root - INFO -  La pantalla ejecutada es Clientes
+2022-08-19 17:50:58,517 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_50_58.png
+2022-08-19 17:50:58,738 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-19 17:51:03,835 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-19 17:51:03,894 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-19 17:51:03,933 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-19 17:51:03,972 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-19 17:51:04,013 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-19 17:51:04,052 - root - INFO -  El campo 'Razón social' si se encuentra visible.
+2022-08-19 17:51:04,092 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:51:04,130 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-19 17:51:04,169 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-19 17:51:04,209 - root - INFO -  El campo 'Código postal' si se encuentra visible.
+2022-08-19 17:51:04,247 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-08-19 17:51:04,300 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:51:04,340 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:51:04,378 - root - INFO -  El campo 'Depto/Provincia' si se encuentra visible.
+2022-08-19 17:51:04,417 - root - INFO -  El campo 'Perfil de Cuenta' si se encuentra visible.
+2022-08-19 17:51:04,455 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:51:04,493 - root - INFO -  El campo 'Perfil de Crédito' si se encuentra visible.
+2022-08-19 17:51:04,531 - root - INFO -  El campo 'Aprobado' si se encuentra visible.
+2022-08-19 17:51:04,571 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:51:04,611 - root - INFO -  El campo 'Lista de Precio' si se encuentra visible.
+2022-08-19 17:51:04,652 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:51:04,692 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:51:04,733 - root - INFO -  El campo 'Colonia' si se encuentra visible.
+2022-08-19 17:51:04,773 - root - INFO -  El campo 'Coordenadas X' si se encuentra visible.
+2022-08-19 17:51:04,815 - root - INFO -  El campo 'Coordenadas Y' si se encuentra visible.
+2022-08-19 17:51:04,989 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:51:08,185 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-19 17:51:11,399 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:51:14,597 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:51:17,863 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:51:21,039 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:51:24,215 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:51:27,379 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:51:30,652 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:51:33,823 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:51:37,036 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:51:40,182 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:51:43,348 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:51:54,882 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:52:09,511 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:52:12,677 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:52:15,830 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:52:19,014 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:52:22,019 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_52_22.png
+2022-08-19 17:52:22,264 - root - INFO - Se hace el cambio de pestaña Politicas de Venta para continuar con el registro nuevo
+2022-08-19 17:52:27,354 - root - INFO -  El campo 'Tope Descuento' si se encuentra visible.
+2022-08-19 17:52:27,493 - root - INFO -  Ingresa el Tope Descuento del nuevo registro 
+2022-08-19 17:52:30,625 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:52:35,740 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña sucursal' , para crear un nuevo registro.
+2022-08-19 17:52:40,832 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-08-19 17:52:40,876 - root - INFO -  El campo 'Código GLN' si se encuentra visible.
+2022-08-19 17:52:40,914 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-08-19 17:52:40,951 - root - INFO -  El campo 'Razón Social' si se encuentra visible.
+2022-08-19 17:52:40,996 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-19 17:52:41,040 - root - INFO -  El campo 'Tipo de Identificación' si se encuentra visible.
+2022-08-19 17:52:41,077 - root - INFO -  El campo 'Lista de Precios' si se encuentra visible.
+2022-08-19 17:52:41,114 - root - INFO -  El campo 'Estado' si se encuentra visible.
+2022-08-19 17:52:41,153 - root - INFO -  El campo 'Municipio' si se encuentra visible.
+2022-08-19 17:52:41,191 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-19 17:52:41,233 - root - INFO -  El campo 'Barrio' si se encuentra visible.
+2022-08-19 17:52:41,271 - root - INFO -  El campo 'Empresa' si se encuentra visible.
+2022-08-19 17:52:41,456 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-19 17:52:44,611 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-19 17:52:47,778 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:52:50,966 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:52:54,171 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:53:05,704 - root - INFO -  Se selecciono el registro de Tipo Identificación 
+2022-08-19 17:53:08,928 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:53:12,044 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:53:17,192 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:53:22,291 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:53:28,203 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-19 17:53:45,888 - root - INFO -  El campo 'Código de cliente' si se encuentra visible.
+2022-08-19 17:53:48,080 - root - INFO -  Ingresa el codigo cliente en el filtro del nuevo registro 
+2022-08-19 17:53:56,332 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:54:05,973 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:54:09,315 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:54:12,512 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:54:15,744 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-19 17:54:18,990 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-19 17:54:22,159 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-19 17:54:25,328 - root - INFO -  Ingresa la Codigo Postal del nuevo registro 
+2022-08-19 17:54:28,550 - root - INFO -  Ingresa el telefono 1 del nuevo registro 
+2022-08-19 17:54:31,741 - root - INFO -  Ingresa el telefono 2 del nuevo registro 
+2022-08-19 17:54:34,972 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:54:46,464 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:54:57,983 - root - INFO -  Se selecciono el registro de depto/provi 
+2022-08-19 17:55:09,510 - root - INFO -  Se selecciono el registro de perfil credito 
+2022-08-19 17:55:24,171 - root - INFO -  Se selecciono el registro de Lista Precio 
+2022-08-19 17:55:35,720 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:55:47,211 - root - INFO -  Se selecciono el registro de Barrios 
+2022-08-19 17:55:50,430 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:55:53,648 - root - INFO -  Ingresa las coordenadas x del nuevo registro 
+2022-08-19 17:55:56,832 - root - INFO -  Ingresa las coordenadas y del nuevo registro 
+2022-08-19 17:55:59,841 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_55_59.png
+2022-08-19 17:56:00,093 - root - INFO - Se hace el cambio de pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:56:09,770 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-19 17:56:13,036 - root - INFO -  Ingresa el Nom negocio del nuevo registro 
+2022-08-19 17:56:16,215 - root - INFO -  Ingresa la Razón Social del nuevo registro 
+2022-08-19 17:56:19,418 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-19 17:56:30,901 - root - INFO -  Se selecciono el registro de Lista Precio 
+2022-08-19 17:56:42,382 - root - INFO -  Se selecciono el registro de estado 
+2022-08-19 17:56:53,969 - root - INFO -  Se selecciono el registro de depto/provi 
+2022-08-19 17:57:05,546 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:57:17,073 - root - INFO -  Se selecciono el registro de Localidad 
+2022-08-19 17:57:20,298 - root - INFO -  Ingresa la colonia del nuevo registro 
+2022-08-19 17:57:23,506 - root - INFO - Se hace el cambio de pestaña categorización de la pestaña sucursales para continuar con el registro nuevo
+2022-08-19 17:57:28,627 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-19 17:57:33,791 - root - INFO - Se hace el cambio de pestaña categorización para continuar con el registro nuevo
+2022-08-19 17:57:38,944 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-19 17:57:44,064 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-19 17:57:53,709 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-19 17:58:01,889 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-19 17:58:01,891 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01CLN\report\img  screen：20220819_17_58_01.png
+2022-08-19 17:58:02,173 - root - INFO -  Se confirma el eliminado del registro
+2022-08-19 17:58:07,361 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-19 17:58:12,489 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-19 17:58:16,721 - root - INFO -  Se cierra chrome

@@ -1,0 +1,952 @@
+2022-12-23 14:00:28,860 - root - ERROR - No se pudo encontrar el menu indicado, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-12-23 14:00:31,862 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_00_31.png
+2022-12-23 14:00:31,892 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2022-12-23 14:01:00,527 - root - INFO -  Se abre el chrome
+2022-12-23 14:01:02,408 - root - INFO -  Entra a la URL
+2022-12-23 14:01:02,534 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:01:05,626 - root - INFO -  Escribe el usuario
+2022-12-23 14:01:05,694 - root - INFO -  Escribe la contraseña
+2022-12-23 14:01:05,755 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:01:08,014 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:01:12,048 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:01:15,979 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:01:16,729 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:01:16,730 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_01_16.png
+2022-12-23 14:01:16,902 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:01:17,963 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:01:18,001 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:01:18,094 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:01:18,442 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:01:18,519 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:01:21,671 - root - ERROR - No se dió click en la opción Normal, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:01:24,672 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_01_24.png
+2022-12-23 14:01:29,080 - root - INFO -  Se cierra chrome
+2022-12-23 14:01:29,081 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:01:29,082 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:01:29,083 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:04:06,249 - root - INFO -  Se abre el chrome
+2022-12-23 14:04:08,859 - root - INFO -  Entra a la URL
+2022-12-23 14:04:08,988 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:04:12,086 - root - INFO -  Escribe el usuario
+2022-12-23 14:04:12,156 - root - INFO -  Escribe la contraseña
+2022-12-23 14:04:12,218 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:04:14,478 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:04:18,526 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:04:22,488 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:04:23,549 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:04:23,549 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_04_23.png
+2022-12-23 14:04:23,709 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:04:24,258 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:04:24,321 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:04:24,439 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:04:24,833 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:04:24,951 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:04:25,329 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:04:25,899 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:04:26,561 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:04:26,641 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:04:26,711 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:04:27,103 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:04:27,193 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:04:27,194 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_04_27.png
+2022-12-23 14:04:29,442 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:04:31,510 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:04:31,582 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:04:31,656 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:04:31,733 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:04:31,817 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:04:33,209 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:04:33,616 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:04:33,698 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:04:33,776 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:04:34,363 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:04:35,825 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:04:35,925 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:04:36,237 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:04:51,188 - root - ERROR - No se dió click en el botón Nuevo de la pestaña Permiso, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:06:37,962 - root - INFO -  Se abre el chrome
+2022-12-23 14:06:39,274 - root - INFO -  Entra a la URL
+2022-12-23 14:06:39,426 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:06:42,526 - root - INFO -  Escribe el usuario
+2022-12-23 14:06:42,600 - root - INFO -  Escribe la contraseña
+2022-12-23 14:06:42,660 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:06:45,182 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:06:49,222 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:07:01,944 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:07:03,026 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:07:03,027 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_03.png
+2022-12-23 14:07:03,217 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:07:04,290 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:07:04,339 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:07:04,467 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:07:04,843 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:07:04,925 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:07:05,294 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:07:05,996 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:07:06,383 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:07:06,465 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:07:06,538 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:07:06,934 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:07:07,018 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:07:07,019 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_07.png
+2022-12-23 14:07:07,220 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:07:21,077 - root - ERROR - No se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:07:24,078 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_24.png
+2022-12-23 14:07:24,096 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud 
+2022-12-23 14:07:27,098 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_27.png
+2022-12-23 14:07:27,114 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:07:30,116 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_30.png
+2022-12-23 14:07:30,137 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:07:33,138 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_07_33.png
+2022-12-23 14:08:12,351 - root - INFO -  Se abre el chrome
+2022-12-23 14:08:13,513 - root - INFO -  Entra a la URL
+2022-12-23 14:08:13,651 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:08:16,740 - root - INFO -  Escribe el usuario
+2022-12-23 14:08:16,833 - root - INFO -  Escribe la contraseña
+2022-12-23 14:08:16,905 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:08:18,135 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:08:22,175 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:08:35,246 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:08:35,802 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:08:35,803 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_08_35.png
+2022-12-23 14:08:35,958 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:08:36,519 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:08:36,588 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:08:36,713 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:08:37,084 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:08:37,178 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:08:37,573 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:08:38,308 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:08:38,975 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:08:39,052 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:08:39,125 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:08:39,501 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:08:39,600 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:08:39,602 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_08_39.png
+2022-12-23 14:08:41,842 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:08:41,905 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:08:41,977 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:08:42,051 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:08:42,129 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:08:43,216 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:08:44,587 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:08:45,237 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:08:45,322 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:08:45,398 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:08:45,989 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:08:47,420 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:08:47,500 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:08:48,159 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:09:03,092 - root - ERROR - No se dió click en el botón Nuevo de la pestaña Permiso, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:12:00,943 - root - INFO -  Se abre el chrome
+2022-12-23 14:12:03,622 - root - INFO -  Entra a la URL
+2022-12-23 14:12:03,746 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:12:06,839 - root - INFO -  Escribe el usuario
+2022-12-23 14:12:06,916 - root - INFO -  Escribe la contraseña
+2022-12-23 14:12:06,975 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:12:09,230 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:12:13,277 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:12:17,782 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:12:18,367 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:12:18,367 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_12_18.png
+2022-12-23 14:12:18,547 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:12:19,101 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:12:19,164 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:12:19,285 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:12:19,657 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:12:19,760 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:12:20,129 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:12:20,649 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:12:21,044 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:12:21,126 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:12:21,202 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:12:21,590 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:12:21,686 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:12:21,687 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_12_21.png
+2022-12-23 14:12:23,909 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:12:24,009 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:12:24,083 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:12:24,150 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:12:24,231 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:12:25,341 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:12:26,775 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:12:27,323 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:12:27,424 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:12:27,505 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:12:28,100 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:12:29,564 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:12:29,637 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:12:29,936 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:12:30,530 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:12:32,018 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:12:32,358 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:12:32,708 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:12:34,160 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:12:34,483 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:12:34,798 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:12:36,283 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:12:36,583 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:12:36,927 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:12:37,514 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:12:38,105 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:12:40,290 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:12:42,374 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:12:43,021 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:12:45,272 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:12:47,371 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:12:48,549 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:12:50,785 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:12:52,884 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:12:53,528 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:12:55,712 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:12:57,818 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:12:58,539 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:13:00,906 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:13:03,021 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:13:03,650 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:13:03,732 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:13:29,657 - root - ERROR - No se encontró el registro de Ruta Referencia, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:13:32,659 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_13_32.png
+2022-12-23 14:13:32,702 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud 
+2022-12-23 14:13:35,715 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_13_35.png
+2022-12-23 14:13:35,741 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:13:38,742 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_13_38.png
+2022-12-23 14:13:38,764 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:13:41,765 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_13_41.png
+2022-12-23 14:18:45,878 - root - INFO -  Se abre el chrome
+2022-12-23 14:18:47,164 - root - INFO -  Entra a la URL
+2022-12-23 14:18:47,409 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:18:50,497 - root - INFO -  Escribe el usuario
+2022-12-23 14:18:50,570 - root - INFO -  Escribe la contraseña
+2022-12-23 14:18:50,630 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:18:52,392 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:18:56,433 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:19:00,394 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:19:00,942 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:19:00,942 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_19_00.png
+2022-12-23 14:19:01,125 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:19:01,672 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:19:01,741 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:19:01,860 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:19:02,244 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:19:02,348 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:19:02,721 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:19:03,448 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:19:03,830 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:19:03,916 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:19:03,995 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:19:04,365 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:19:04,445 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:19:04,446 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_19_04.png
+2022-12-23 14:19:06,684 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:19:07,842 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:19:07,919 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:19:07,989 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:19:08,063 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:19:09,165 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:19:10,543 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:19:10,917 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:19:10,998 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:19:11,072 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:19:11,678 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:19:13,106 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:19:13,188 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:19:13,488 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:19:14,072 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:19:15,533 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:19:16,383 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:19:16,724 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:19:18,150 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:19:18,470 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:19:18,768 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:19:20,249 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:19:20,562 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:19:20,896 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:19:21,479 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:19:22,081 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:19:24,245 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:19:26,325 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:19:26,978 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:19:29,174 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:19:31,241 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:19:31,890 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:19:34,079 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:19:36,171 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:19:36,813 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:19:39,013 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:19:41,111 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:19:42,258 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:19:44,494 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:19:46,588 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:19:47,211 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:19:47,290 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:20:01,707 - root - ERROR - No se encontró el registro de Ruta Referencia, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:24:05,879 - root - INFO -  Se abre el chrome
+2022-12-23 14:24:07,252 - root - INFO -  Entra a la URL
+2022-12-23 14:24:07,398 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:24:10,492 - root - INFO -  Escribe el usuario
+2022-12-23 14:24:10,570 - root - INFO -  Escribe la contraseña
+2022-12-23 14:24:10,628 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:24:12,368 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:24:16,411 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:24:29,843 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:24:30,410 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:24:30,411 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_24_30.png
+2022-12-23 14:24:30,573 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:24:31,649 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:24:31,696 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:24:31,810 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:24:32,179 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:24:32,281 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:24:32,662 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:24:33,166 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:24:33,566 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:24:33,639 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:24:33,714 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:24:34,086 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:24:34,181 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:24:34,183 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_24_34.png
+2022-12-23 14:24:36,418 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:24:36,479 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:24:36,535 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:24:36,597 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:24:36,666 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:24:37,747 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:24:39,132 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:24:39,527 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:24:39,598 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:24:39,662 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:24:40,241 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:24:41,668 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:24:41,749 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:24:42,061 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:24:42,650 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:24:44,078 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:24:44,414 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:24:44,737 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:24:46,194 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:24:46,843 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:24:47,502 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:24:48,971 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:24:49,611 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:24:50,417 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:24:51,020 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:24:51,632 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:24:53,818 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:24:55,918 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:24:56,590 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:24:58,814 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:25:00,916 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:25:02,120 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:25:04,313 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:25:06,407 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:25:07,090 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:25:09,293 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:25:11,385 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:25:13,088 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:25:15,266 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:25:17,378 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:25:18,007 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:25:18,089 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:25:19,097 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:26:19,410 - root - ERROR - No se dió click en el checkbox Clasificación 1, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:26:22,412 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_26_22.png
+2022-12-23 14:26:27,041 - root - INFO -  Se cierra chrome
+2022-12-23 14:26:27,043 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:26:27,044 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:26:27,046 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-23 14:36:20,477 - root - INFO -  Se abre el chrome
+2022-12-23 14:36:21,762 - root - INFO -  Entra a la URL
+2022-12-23 14:36:21,928 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:36:25,048 - root - INFO -  Escribe el usuario
+2022-12-23 14:36:25,119 - root - INFO -  Escribe la contraseña
+2022-12-23 14:36:25,185 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:36:26,415 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:36:30,474 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:36:34,442 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:36:35,043 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:36:35,044 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_36_35.png
+2022-12-23 14:36:35,216 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:36:35,819 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:36:35,891 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:36:36,036 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:36:36,409 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:36:36,516 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:36:36,908 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:36:37,488 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:36:37,878 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:36:37,964 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:36:38,038 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:36:38,424 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:36:38,523 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:36:38,524 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_36_38.png
+2022-12-23 14:36:40,750 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:36:40,817 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:36:40,873 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:36:40,936 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:36:41,009 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:36:42,088 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:36:43,465 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:36:43,862 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:36:43,934 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:36:44,003 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:36:44,607 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:36:46,071 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:36:46,152 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:36:46,455 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:36:47,066 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:36:48,528 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:36:48,834 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:36:49,167 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:36:50,680 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:36:51,482 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:36:51,787 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:36:53,293 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:36:53,595 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:36:53,920 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:36:54,522 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:36:55,102 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:36:57,261 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:36:59,365 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:37:00,020 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:37:02,216 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:37:04,324 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:37:05,002 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:37:07,207 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:37:09,299 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:37:09,947 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:37:12,146 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:37:14,251 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:37:14,933 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:37:17,113 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:37:19,221 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:37:20,418 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:37:20,497 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:37:21,486 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:37:22,116 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:37:22,386 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:37:22,780 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:37:22,963 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:37:23,122 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:37:23,305 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:37:23,469 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:37:23,694 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:37:23,885 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:37:24,068 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:37:24,251 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:37:24,435 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:37:24,614 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 14:37:25,166 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:37:27,263 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 14:37:27,832 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:37:27,901 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:37:28,015 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:37:28,390 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:37:28,515 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:37:28,922 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:37:29,485 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:37:29,908 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:37:30,009 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:37:30,089 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:37:30,501 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:37:30,628 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:37:32,706 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-23 14:37:36,757 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_37_36.png
+2022-12-23 14:37:36,962 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 14:37:37,108 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 14:37:37,250 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 14:37:39,842 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:37:41,032 - root - INFO -  Se modifica el contenido del campo Observaciones 1 
+2022-12-23 14:37:41,411 - root - INFO -  Se selecciono la opción Una Ruta 
+2022-12-23 14:37:41,412 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_37_41.png
+2022-12-23 14:37:41,605 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la modificación del registro
+2022-12-23 14:37:42,709 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:37:43,637 - root - INFO -  Se dió click en la opción Anular Documentos 
+2022-12-23 14:37:43,714 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:37:44,319 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la modificación del registro
+2022-12-23 14:37:45,004 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con la modificación del registro
+2022-12-23 14:37:46,083 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:37:46,159 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el primer registro.
+2022-12-23 14:37:46,476 - root - ERROR - No se encontró el registro de la pestaña Impulso Ventas, revise si el xpath sigue siendo el mismo y si durante la acción de cambio de pestaña tardo mucho tiempo en realizarse
+2022-12-23 14:37:49,478 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_37_49.png
+2022-12-23 14:37:49,623 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla.
+2022-12-23 14:37:49,771 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 14:37:52,351 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:37:52,975 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:37:54,056 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:37:54,129 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:42:52,843 - root - INFO -  Se abre el chrome
+2022-12-23 14:42:56,828 - root - INFO -  Entra a la URL
+2022-12-23 14:42:56,992 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:43:15,550 - root - INFO -  Se abre el chrome
+2022-12-23 14:43:18,070 - root - INFO -  Entra a la URL
+2022-12-23 14:43:18,213 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:43:21,301 - root - INFO -  Escribe el usuario
+2022-12-23 14:43:21,382 - root - INFO -  Escribe la contraseña
+2022-12-23 14:43:21,453 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:43:23,702 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:43:27,734 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:43:32,206 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:43:32,774 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:43:32,774 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_43_32.png
+2022-12-23 14:43:32,917 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:43:33,471 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:43:33,521 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:43:33,613 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:43:33,973 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:43:34,068 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:43:34,417 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:43:35,024 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:43:35,367 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:43:35,431 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:43:35,480 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:43:35,811 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:43:35,883 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:43:35,884 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_43_35.png
+2022-12-23 14:43:38,088 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:43:38,142 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:43:38,198 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:43:38,254 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:43:38,305 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:43:39,395 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:43:40,732 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:43:41,394 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:43:41,453 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:43:41,507 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:43:42,063 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:43,490 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:43:43,545 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:43:43,856 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:43:44,444 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:45,903 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:46,224 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:46,538 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:47,977 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:48,312 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:48,640 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:50,078 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:50,431 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:50,754 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:43:51,326 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:43:51,893 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:43:54,050 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:43:56,145 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:43:56,806 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:43:59,002 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:01,074 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:02,220 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:04,409 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:06,490 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:07,104 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:09,280 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:11,364 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:11,998 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:14,208 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:16,291 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:44:16,890 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:44:16,951 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:44:17,942 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:44:18,241 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:44:18,839 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:44:18,997 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:44:19,159 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:44:19,329 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:44:19,498 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:44:19,642 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:44:19,858 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:44:20,007 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:44:20,200 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:44:20,658 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:44:20,785 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:44:20,969 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 14:44:21,492 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:44:23,572 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 14:44:24,214 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:44:24,263 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:44:24,354 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:44:24,707 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:44:24,817 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:44:25,172 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:44:26,091 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:44:26,524 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:44:26,614 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:44:26,672 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:44:27,038 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:44:27,130 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:44:29,188 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-23 14:44:33,228 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_33.png
+2022-12-23 14:44:33,418 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 14:44:33,874 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 14:44:34,037 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 14:44:36,630 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:37,296 - root - INFO -  Se modifica el contenido del campo Observaciones 1 
+2022-12-23 14:44:37,640 - root - INFO -  Se selecciono la opción Una Ruta 
+2022-12-23 14:44:37,640 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_37.png
+2022-12-23 14:44:37,806 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la modificación del registro
+2022-12-23 14:44:38,370 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:44:39,290 - root - INFO -  Se dió click en la opción Anular Documentos 
+2022-12-23 14:44:39,353 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:44:39,979 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la modificación del registro
+2022-12-23 14:44:40,204 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con la modificación del registro
+2022-12-23 14:44:41,889 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:41,947 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el primer registro.
+2022-12-23 14:44:43,526 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:43,562 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el segundo registro.
+2022-12-23 14:44:45,128 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:45,161 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el tercer registro.
+2022-12-23 14:44:46,740 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:46,776 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el cuarto registro.
+2022-12-23 14:44:48,346 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:48,393 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el quinto registro.
+2022-12-23 14:44:49,446 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:44:50,018 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 14:44:52,583 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:44:53,670 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:44:54,743 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:44:54,802 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:44:55,112 - root - ERROR - No se encontró el segundo registro de la pestaña permisos, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:44:58,113 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_58.png
+2022-12-23 14:45:02,540 - root - INFO -  Se cierra chrome
+2022-12-23 14:47:39,321 - root - INFO -  Se abre el chrome
+2022-12-23 14:47:40,663 - root - INFO -  Entra a la URL
+2022-12-23 14:47:40,790 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:47:43,881 - root - INFO -  Escribe el usuario
+2022-12-23 14:47:43,951 - root - INFO -  Escribe la contraseña
+2022-12-23 14:47:44,009 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:47:45,248 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:47:49,286 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:47:56,583 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:47:57,151 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:47:57,151 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_47_57.png
+2022-12-23 14:47:57,833 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:47:58,412 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:47:59,502 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:47:59,582 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:48:01,170 - root - INFO -  Se da clic en el segundo registro de Permisos, para proceder a Eliminarlo.
+2022-12-23 14:48:01,230 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:48:02,298 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la eliminación del registro
+2022-12-23 14:48:03,398 - root - INFO -  Se da clic en el primer registro de Linea de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:48:03,472 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el primer registro.
+2022-12-23 14:48:05,045 - root - INFO -  Se da clic en el segundo registro Linea de negocio, para proceder a Eliminarlo.
+2022-12-23 14:48:05,111 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el segundo registro.
+2022-12-23 14:48:06,692 - root - INFO -  Se da clic en el tercer registro Lineas de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:48:06,733 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el tercer registro.
+2022-12-23 14:48:07,808 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con la eliminación del registro
+2022-12-23 14:48:08,409 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:48:08,571 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:48:09,256 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:48:09,435 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:48:09,600 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:48:09,751 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:48:09,927 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:48:10,110 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:48:10,287 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:48:10,473 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:48:10,638 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:48:10,810 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:48:10,989 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:48:11,586 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:48:11,645 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 14:48:12,217 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 14:48:12,419 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:48:14,486 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:48:15,041 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:48:15,092 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:48:15,232 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:48:15,610 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:48:15,706 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:48:16,106 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:48:16,684 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:48:17,059 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:48:17,155 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:48:17,221 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:48:17,590 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:48:17,677 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:48:17,678 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_48_17.png
+2022-12-23 14:48:19,903 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:48:19,967 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:48:20,049 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:48:20,130 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:48:20,204 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:48:21,292 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:48:22,676 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:48:23,332 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:48:23,416 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:48:23,494 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:48:24,076 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:48:25,519 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:48:25,596 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:48:25,917 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:48:26,498 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:48:27,965 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:48:28,299 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:48:28,609 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:48:30,100 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:48:30,464 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:48:30,796 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:48:32,223 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:48:32,597 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:48:32,914 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:48:33,518 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:48:34,094 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:48:36,258 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:48:38,360 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:48:39,003 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:48:41,200 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:48:43,296 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:48:43,929 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:48:46,172 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:48:48,240 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:48:48,914 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:48:51,129 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:48:53,244 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:48:53,917 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:48:56,165 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:48:58,265 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:48:59,398 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:48:59,468 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:49:00,419 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:49:01,088 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:49:01,586 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:49:02,002 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:49:02,991 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:49:03,111 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:49:03,266 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:49:03,431 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:49:03,614 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:49:03,818 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:49:04,003 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:49:04,163 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:49:04,333 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:49:04,515 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 14:49:05,074 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:49:07,172 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 14:49:07,727 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:49:07,788 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:49:07,907 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:49:08,302 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:49:08,405 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:49:08,771 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:49:09,358 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:49:09,808 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:49:09,915 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:49:10,011 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:49:10,401 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:49:10,521 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:49:12,597 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-23 14:49:16,660 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_49_16.png
+2022-12-23 14:49:16,878 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 14:49:17,036 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 14:49:17,229 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 14:49:19,812 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:20,976 - root - INFO -  Se modifica el contenido del campo Observaciones 1 
+2022-12-23 14:49:21,348 - root - INFO -  Se selecciono la opción Una Ruta 
+2022-12-23 14:49:21,349 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_49_21.png
+2022-12-23 14:49:21,546 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la modificación del registro
+2022-12-23 14:49:22,127 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:49:23,048 - root - INFO -  Se dió click en la opción Anular Documentos 
+2022-12-23 14:49:23,125 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:49:23,682 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la modificación del registro
+2022-12-23 14:49:23,857 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con la modificación del registro
+2022-12-23 14:49:24,936 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:25,009 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el primer registro.
+2022-12-23 14:49:26,583 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:26,641 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el segundo registro.
+2022-12-23 14:49:28,210 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:28,272 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el tercer registro.
+2022-12-23 14:49:29,847 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:29,899 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el cuarto registro.
+2022-12-23 14:49:31,493 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:49:31,565 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el quinto registro.
+2022-12-23 14:49:32,630 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:49:33,150 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 14:49:35,743 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:49:36,362 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:49:37,456 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:49:37,542 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:49:39,108 - root - INFO -  Se da clic en el segundo registro de Permisos, para proceder a Eliminarlo.
+2022-12-23 14:49:39,173 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:49:40,237 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la eliminación del registro
+2022-12-23 14:49:41,307 - root - INFO -  Se da clic en el primer registro de Linea de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:49:41,383 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el primer registro.
+2022-12-23 14:49:42,952 - root - INFO -  Se da clic en el segundo registro Linea de negocio, para proceder a Eliminarlo.
+2022-12-23 14:49:43,017 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el segundo registro.
+2022-12-23 14:49:44,599 - root - INFO -  Se da clic en el tercer registro Lineas de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:49:44,671 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el tercer registro.
+2022-12-23 14:49:45,740 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con la eliminación del registro
+2022-12-23 14:49:46,364 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:49:46,535 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:49:46,708 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:49:47,529 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:49:47,765 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:49:48,000 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:49:48,252 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:49:48,780 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:49:49,168 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:49:49,429 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:49:49,898 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:49:50,263 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:49:50,514 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:49:51,115 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:49:51,211 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 14:49:53,213 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_49_53.png
+2022-12-23 14:49:53,371 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 14:49:53,567 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-23 14:49:55,648 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Perfiles Moviles.
+2022-12-23 14:50:00,012 - root - INFO -  Se cierra chrome
+2022-12-23 14:50:16,877 - root - INFO -  Se abre el chrome
+2022-12-23 14:50:18,199 - root - INFO -  Entra a la URL
+2022-12-23 14:50:18,343 - root - INFO -  Maximiza la pantalla
+2022-12-23 14:50:21,442 - root - INFO -  Escribe el usuario
+2022-12-23 14:50:21,513 - root - INFO -  Escribe la contraseña
+2022-12-23 14:50:21,568 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:50:22,809 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:50:26,844 - root - INFO -  Cambia entre pestañas
+2022-12-23 14:50:30,776 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:50:31,328 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:50:31,328 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_50_31.png
+2022-12-23 14:50:31,516 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 14:50:32,056 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:50:32,105 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:50:32,200 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:50:32,558 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:50:32,632 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:50:32,973 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:50:33,600 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:50:33,942 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:50:33,998 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:50:34,050 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:50:34,401 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:50:34,466 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:50:34,466 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_50_34.png
+2022-12-23 14:50:36,658 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:50:36,767 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:50:36,843 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:50:36,909 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:50:36,977 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:50:38,061 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:50:39,413 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:50:40,064 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:50:40,123 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:50:40,179 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:50:40,733 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:50:42,145 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:50:42,198 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:50:42,503 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:50:43,072 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:50:44,510 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:50:45,004 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:50:45,328 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:50:46,792 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:50:47,344 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:50:47,679 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:50:49,155 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:50:49,449 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:50:49,789 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:50:50,362 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:50:50,934 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:50:53,082 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:50:55,131 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:50:55,777 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:50:57,961 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:51:00,075 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:51:00,724 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:51:02,877 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:51:04,960 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:51:05,571 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:51:07,743 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:51:09,837 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:51:10,480 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:51:12,721 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:51:14,834 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:51:15,559 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:51:15,609 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:51:16,598 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:51:17,117 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:51:17,325 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:51:17,647 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:51:18,138 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:51:19,084 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:51:19,550 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:51:19,997 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:51:20,477 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:51:21,586 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:51:22,068 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:51:22,550 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:51:22,998 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:51:23,921 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 14:51:24,464 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:51:26,536 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 14:51:27,629 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:51:27,696 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:51:27,811 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:51:28,180 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:51:28,303 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:51:28,666 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:51:29,234 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:51:29,662 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:51:29,719 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:51:29,778 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:51:30,155 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:51:30,270 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:51:32,329 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-23 14:51:36,402 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_51_36.png
+2022-12-23 14:51:36,572 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 14:51:37,019 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 14:51:37,215 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 14:51:39,782 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:40,440 - root - INFO -  Se modifica el contenido del campo Observaciones 1 
+2022-12-23 14:51:40,768 - root - INFO -  Se selecciono la opción Una Ruta 
+2022-12-23 14:51:40,769 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_51_40.png
+2022-12-23 14:51:40,935 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la modificación del registro
+2022-12-23 14:51:41,521 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:51:42,422 - root - INFO -  Se dió click en la opción Anular Documentos 
+2022-12-23 14:51:42,482 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:51:42,789 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la modificación del registro
+2022-12-23 14:51:43,544 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con la modificación del registro
+2022-12-23 14:51:44,622 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:44,685 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el primer registro.
+2022-12-23 14:51:46,256 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:46,303 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el segundo registro.
+2022-12-23 14:51:47,864 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:47,896 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el tercer registro.
+2022-12-23 14:51:49,486 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:49,530 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el cuarto registro.
+2022-12-23 14:51:51,082 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:51:51,120 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el quinto registro.
+2022-12-23 14:51:52,175 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:51:52,801 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 14:51:55,380 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:51:55,954 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:51:57,054 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:51:57,116 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:51:58,697 - root - INFO -  Se da clic en el segundo registro de Permisos, para proceder a Eliminarlo.
+2022-12-23 14:51:58,736 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:51:59,787 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la eliminación del registro
+2022-12-23 14:52:00,874 - root - INFO -  Se da clic en el primer registro de Linea de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:52:00,917 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el primer registro.
+2022-12-23 14:52:02,482 - root - INFO -  Se da clic en el segundo registro Linea de negocio, para proceder a Eliminarlo.
+2022-12-23 14:52:02,520 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el segundo registro.
+2022-12-23 14:52:04,078 - root - INFO -  Se da clic en el tercer registro Lineas de Negocio, para proceder a Eliminarlo.
+2022-12-23 14:52:04,118 - root - INFO -  Se presiona el boton 'Eliminar de Linea de Negocio', para eliminar el tercer registro.
+2022-12-23 14:52:05,176 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con la eliminación del registro
+2022-12-23 14:52:05,749 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:52:06,091 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:52:06,369 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:52:06,825 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:52:07,265 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:52:07,765 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:52:08,205 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:52:08,430 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:52:08,692 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:52:09,080 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:52:09,431 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:52:09,728 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:52:10,198 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 14:52:10,792 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:52:11,100 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 14:52:13,101 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_52_13.png
+2022-12-23 14:52:13,252 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 14:52:13,498 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2022-12-23 14:52:15,552 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Perfiles Moviles.
+2022-12-23 14:52:19,866 - root - INFO -  Se cierra chrome

@@ -1,0 +1,283 @@
+2022-08-23 17:02:11,436 - root - INFO -  Se abre el chrome
+2022-08-23 17:02:14,938 - root - INFO -  Entra a la URL
+2022-08-23 17:02:15,067 - root - INFO -  Maximiza la pantalla
+2022-08-23 17:02:18,128 - root - INFO -  Cambia al frame
+2022-08-23 17:02:21,227 - root - INFO -  Escribe el usuario
+2022-08-23 17:02:21,329 - root - INFO -  Escribe la contraseña
+2022-08-23 17:02:21,469 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 17:02:24,946 - root - INFO -  Ejecutar Enterprise
+2022-08-23 17:02:24,946 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_02_24.png
+2022-08-23 17:02:29,167 - root - INFO -  Cambia entre pestañas
+2022-08-23 17:02:59,812 - root - INFO -  Abre el menu completo
+2022-08-23 17:03:16,722 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-08-23 17:03:16,811 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-08-23 17:03:19,824 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_03_19.png
+2022-08-23 17:03:20,055 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 17:03:25,144 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 17:03:25,191 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-23 17:03:25,231 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-23 17:03:25,271 - root - INFO -  El campo 'Cargar rutas' si se encuentra visible.
+2022-08-23 17:03:25,311 - root - INFO -  El campo 'Tipo documento default' si se encuentra visible.
+2022-08-23 17:03:25,351 - root - INFO -  El campo 'Modo carga liquidación' si se encuentra visible.
+2022-08-23 17:03:25,389 - root - INFO -  El campo 'Modo descarga HH' si se encuentra visible.
+2022-08-23 17:03:25,428 - root - INFO -  El campo 'Modo PDV' si se encuentra visible.
+2022-08-23 17:03:25,467 - root - INFO -  El campo 'Registrar coordenadas GPS' si se encuentra visible.
+2022-08-23 17:03:25,507 - root - INFO -  El campo 'Fin Automático de visita cuando inicio es' si se encuentra visible.
+2022-08-23 17:03:25,546 - root - INFO -  El campo 'Intervalo lectura coordenadas GPS(min)' si se encuentra visible.
+2022-08-23 17:03:25,627 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 17:03:28,803 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-23 17:03:40,282 - root - INFO -  Se selecciono el registro de Cargar Rutas 
+2022-08-23 17:03:43,423 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-08-23 17:03:58,507 - root - INFO -  Se selecciono el registro de Tipo documento default 
+2022-08-23 17:04:09,999 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-08-23 17:04:21,463 - root - INFO -  Se selecciono el registro de Modo descarga HH 
+2022-08-23 17:04:24,596 - root - INFO -  Se dió click en el campo Modo PDV 
+2022-08-23 17:04:27,717 - root - INFO -  Se dió click en el campo Registrar coordenadas GPS 
+2022-08-23 17:04:39,144 - root - INFO -  Se selecciono el registro de Fin Automático de visita cuando inicio es 
+2022-08-23 17:04:42,269 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-08-23 17:04:45,286 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_04_45.png
+2022-08-23 17:04:48,618 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-23 17:04:53,694 - root - INFO -  El campo 'Cargar resumen de cuentas únicamente del vendedor de la ruta' si se encuentra visible.
+2022-08-23 17:04:53,733 - root - INFO -  El campo 'Verificar límite de crédito' si se encuentra visible.
+2022-08-23 17:04:53,772 - root - INFO -  El campo 'Verificar opción guardar como' del tipo de documento' si se encuentra visible.
+2022-08-23 17:04:53,810 - root - INFO -  El campo 'Permitir pagos a cuenta en cancelaciones' si se encuentra visible.
+2022-08-23 17:04:53,850 - root - INFO -  El campo 'Disco de datos (WorkAbout)' si se encuentra visible.
+2022-08-23 17:04:53,888 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-08-23 17:04:53,928 - root - INFO -  El campo 'Enviar documentos de inmediato al servidor.' si se encuentra visible.
+2022-08-23 17:04:54,012 - root - INFO -  Se dió click en el campo Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-08-23 17:04:57,138 - root - INFO -  Se dió click en el campo Verificar límite de crédito 
+2022-08-23 17:05:00,261 - root - INFO -  Se dió click en el campo Verificar opción 'guardar como' del tipo de documento 
+2022-08-23 17:05:03,391 - root - INFO -  Se dió click en el campo Permitir Pagos 
+2022-08-23 17:05:11,595 - root - ERROR - No se encontró el registro de Disco de Datos, verificar si el xpath sigue siendo el mismo, si al abrir la ayuda tardo mas de lo esperado, si la ayuda abre de manera correcta o si fallo la selección del registro del campo anterior
+2022-08-23 17:05:14,599 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_05_14.png
+2022-08-23 17:05:15,105 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción anterior guardar registro tardo mucho en realizarse 
+2022-08-23 17:05:18,120 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_05_18.png
+2022-08-23 17:05:18,136 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-23 17:05:21,141 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_05_21.png
+2022-08-23 17:05:21,155 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-23 17:05:24,166 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_05_24.png
+2022-08-23 17:10:05,648 - root - INFO -  Se abre el chrome
+2022-08-23 17:10:09,379 - root - INFO -  Entra a la URL
+2022-08-23 17:10:09,517 - root - INFO -  Maximiza la pantalla
+2022-08-23 17:10:12,565 - root - INFO -  Cambia al frame
+2022-08-23 17:10:15,668 - root - INFO -  Escribe el usuario
+2022-08-23 17:10:15,772 - root - INFO -  Escribe la contraseña
+2022-08-23 17:10:15,905 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 17:10:19,552 - root - INFO -  Ejecutar Enterprise
+2022-08-23 17:10:19,553 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_10_19.png
+2022-08-23 17:10:23,765 - root - INFO -  Cambia entre pestañas
+2022-08-23 17:11:06,872 - root - INFO -  Abre el menu completo
+2022-08-23 17:11:23,794 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-08-23 17:11:23,859 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-08-23 17:11:26,873 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_11_26.png
+2022-08-23 17:11:27,083 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 17:11:32,156 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 17:11:32,194 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-23 17:11:32,233 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-23 17:11:32,270 - root - INFO -  El campo 'Cargar rutas' si se encuentra visible.
+2022-08-23 17:11:32,309 - root - INFO -  El campo 'Tipo documento default' si se encuentra visible.
+2022-08-23 17:11:32,348 - root - INFO -  El campo 'Modo carga liquidación' si se encuentra visible.
+2022-08-23 17:11:32,387 - root - INFO -  El campo 'Modo descarga HH' si se encuentra visible.
+2022-08-23 17:11:32,425 - root - INFO -  El campo 'Modo PDV' si se encuentra visible.
+2022-08-23 17:11:32,464 - root - INFO -  El campo 'Registrar coordenadas GPS' si se encuentra visible.
+2022-08-23 17:11:32,503 - root - INFO -  El campo 'Fin Automático de visita cuando inicio es' si se encuentra visible.
+2022-08-23 17:11:32,553 - root - INFO -  El campo 'Intervalo lectura coordenadas GPS(min)' si se encuentra visible.
+2022-08-23 17:11:32,625 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 17:11:35,775 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-23 17:11:47,223 - root - INFO -  Se selecciono el registro de Cargar Rutas 
+2022-08-23 17:11:50,340 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-08-23 17:12:05,446 - root - INFO -  Se selecciono el registro de Tipo documento default 
+2022-08-23 17:12:16,894 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-08-23 17:12:28,365 - root - INFO -  Se selecciono el registro de Modo descarga HH 
+2022-08-23 17:12:31,513 - root - INFO -  Se dió click en el campo Modo PDV 
+2022-08-23 17:12:34,631 - root - INFO -  Se dió click en el campo Registrar coordenadas GPS 
+2022-08-23 17:12:46,064 - root - INFO -  Se selecciono el registro de Fin Automático de visita cuando inicio es 
+2022-08-23 17:12:49,193 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-08-23 17:12:52,203 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_12_52.png
+2022-08-23 17:12:55,513 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-23 17:13:00,586 - root - INFO -  El campo 'Cargar resumen de cuentas únicamente del vendedor de la ruta' si se encuentra visible.
+2022-08-23 17:13:00,624 - root - INFO -  El campo 'Verificar límite de crédito' si se encuentra visible.
+2022-08-23 17:13:00,662 - root - INFO -  El campo 'Verificar opción guardar como' del tipo de documento' si se encuentra visible.
+2022-08-23 17:13:00,703 - root - INFO -  El campo 'Permitir pagos a cuenta en cancelaciones' si se encuentra visible.
+2022-08-23 17:13:00,740 - root - INFO -  El campo 'Disco de datos (WorkAbout)' si se encuentra visible.
+2022-08-23 17:13:00,780 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-08-23 17:13:00,818 - root - INFO -  El campo 'Enviar documentos de inmediato al servidor.' si se encuentra visible.
+2022-08-23 17:13:00,901 - root - INFO -  Se dió click en el campo Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-08-23 17:13:04,097 - root - INFO -  Se dió click en el campo Verificar límite de crédito 
+2022-08-23 17:13:07,204 - root - INFO -  Se dió click en el campo Verificar opción 'guardar como' del tipo de documento 
+2022-08-23 17:13:10,353 - root - INFO -  Se dió click en el campo Permitir Pagos 
+2022-08-23 17:13:31,990 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-08-23 17:13:43,453 - root - INFO -  Se selecciono el registro de Tipo de Vendedor 
+2022-08-23 17:13:46,592 - root - INFO -  Se dió click en el campo Enviar documentos de inmediato al servidor. 
+2022-08-23 17:13:49,704 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con el registro nuevo
+2022-08-23 17:13:54,805 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:13:59,883 - root - INFO -  El campo 'Permisos' si se encuentra visible.
+2022-08-23 17:14:08,330 - root - INFO -  Se selecciono el registro de Permisos 
+2022-08-23 17:14:11,484 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-08-23 17:14:16,603 - root - INFO - Se hace el cambio de pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-08-23 17:14:21,710 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:14:26,780 - root - INFO -  El campo 'Línea negocio' si se encuentra visible.
+2022-08-23 17:14:35,239 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:14:38,325 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:14:43,431 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:14:56,889 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:14:59,989 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:15:05,118 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:15:18,610 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:15:21,712 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:15:26,823 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con el registro nuevo
+2022-08-23 17:15:31,923 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:15:36,991 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-23 17:15:37,071 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:15:43,317 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:15:48,420 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:15:53,563 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:15:59,784 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:16:04,854 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:16:09,967 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:16:16,186 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:16:21,311 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:16:26,464 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:16:32,671 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:16:37,774 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:16:42,891 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:16:49,127 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:16:54,244 - root - INFO - Se hace el cambio de pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-08-23 17:16:59,315 - root - INFO -  El campo 'Permiso agregar nuevos clientes' si se encuentra visible.
+2022-08-23 17:16:59,352 - root - INFO -  El campo 'Permiso modificar clientes existentes' si se encuentra visible.
+2022-08-23 17:16:59,393 - root - INFO -  El campo 'Ruta referencia' si se encuentra visible.
+2022-08-23 17:16:59,476 - root - INFO -  Se dió click en el campo Permiso agregar nuevos clientes 
+2022-08-23 17:17:02,640 - root - INFO -  Se dió click en el campo Permiso modificar clientes existentes 
+2022-08-23 17:17:14,153 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-08-23 17:17:17,305 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-23 17:17:22,416 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-23 17:17:27,520 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-23 17:17:35,591 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 17:17:38,593 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_17_38.png
+2022-08-23 17:17:39,114 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-23 17:17:42,121 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_17_42.png
+2022-08-23 17:17:42,139 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-23 17:17:45,151 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_17_45.png
+2022-08-23 17:20:07,970 - root - INFO -  Se abre el chrome
+2022-08-23 17:20:10,978 - root - INFO -  Entra a la URL
+2022-08-23 17:20:11,121 - root - INFO -  Maximiza la pantalla
+2022-08-23 17:20:14,174 - root - INFO -  Cambia al frame
+2022-08-23 17:20:17,270 - root - INFO -  Escribe el usuario
+2022-08-23 17:20:17,375 - root - INFO -  Escribe la contraseña
+2022-08-23 17:20:17,514 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 17:21:15,283 - root - INFO -  Se abre el chrome
+2022-08-23 17:21:18,615 - root - INFO -  Entra a la URL
+2022-08-23 17:21:18,761 - root - INFO -  Maximiza la pantalla
+2022-08-23 17:21:21,817 - root - INFO -  Cambia al frame
+2022-08-23 17:21:24,912 - root - INFO -  Escribe el usuario
+2022-08-23 17:21:25,011 - root - INFO -  Escribe la contraseña
+2022-08-23 17:21:25,143 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 17:21:30,298 - root - INFO -  Ejecutar Enterprise
+2022-08-23 17:21:30,299 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_21_30.png
+2022-08-23 17:21:34,572 - root - INFO -  Cambia entre pestañas
+2022-08-23 17:21:59,158 - root - INFO -  Abre el menu completo
+2022-08-23 17:22:16,129 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-08-23 17:22:16,214 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-08-23 17:22:19,217 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_22_19.png
+2022-08-23 17:22:19,454 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 17:22:24,526 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 17:22:24,569 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-23 17:22:24,609 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-23 17:22:24,647 - root - INFO -  El campo 'Cargar rutas' si se encuentra visible.
+2022-08-23 17:22:24,685 - root - INFO -  El campo 'Tipo documento default' si se encuentra visible.
+2022-08-23 17:22:24,724 - root - INFO -  El campo 'Modo carga liquidación' si se encuentra visible.
+2022-08-23 17:22:24,761 - root - INFO -  El campo 'Modo descarga HH' si se encuentra visible.
+2022-08-23 17:22:24,800 - root - INFO -  El campo 'Modo PDV' si se encuentra visible.
+2022-08-23 17:22:24,838 - root - INFO -  El campo 'Registrar coordenadas GPS' si se encuentra visible.
+2022-08-23 17:22:24,890 - root - INFO -  El campo 'Fin Automático de visita cuando inicio es' si se encuentra visible.
+2022-08-23 17:22:24,927 - root - INFO -  El campo 'Intervalo lectura coordenadas GPS(min)' si se encuentra visible.
+2022-08-23 17:22:24,992 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 17:22:28,154 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-23 17:22:39,603 - root - INFO -  Se selecciono el registro de Cargar Rutas 
+2022-08-23 17:22:42,763 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-08-23 17:22:57,821 - root - INFO -  Se selecciono el registro de Tipo documento default 
+2022-08-23 17:23:09,267 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-08-23 17:23:20,734 - root - INFO -  Se selecciono el registro de Modo descarga HH 
+2022-08-23 17:23:23,867 - root - INFO -  Se dió click en el campo Modo PDV 
+2022-08-23 17:23:26,980 - root - INFO -  Se dió click en el campo Registrar coordenadas GPS 
+2022-08-23 17:23:38,445 - root - INFO -  Se selecciono el registro de Fin Automático de visita cuando inicio es 
+2022-08-23 17:23:41,555 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-08-23 17:23:44,567 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_23_44.png
+2022-08-23 17:23:47,902 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-23 17:23:52,991 - root - INFO -  El campo 'Cargar resumen de cuentas únicamente del vendedor de la ruta' si se encuentra visible.
+2022-08-23 17:23:53,030 - root - INFO -  El campo 'Verificar límite de crédito' si se encuentra visible.
+2022-08-23 17:23:53,069 - root - INFO -  El campo 'Verificar opción guardar como' del tipo de documento' si se encuentra visible.
+2022-08-23 17:23:53,107 - root - INFO -  El campo 'Permitir pagos a cuenta en cancelaciones' si se encuentra visible.
+2022-08-23 17:23:53,146 - root - INFO -  El campo 'Disco de datos (WorkAbout)' si se encuentra visible.
+2022-08-23 17:23:53,187 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-08-23 17:23:53,226 - root - INFO -  El campo 'Enviar documentos de inmediato al servidor.' si se encuentra visible.
+2022-08-23 17:23:53,295 - root - INFO -  Se dió click en el campo Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-08-23 17:23:56,418 - root - INFO -  Se dió click en el campo Verificar límite de crédito 
+2022-08-23 17:23:59,539 - root - INFO -  Se dió click en el campo Verificar opción 'guardar como' del tipo de documento 
+2022-08-23 17:24:02,672 - root - INFO -  Se dió click en el campo Permitir Pagos 
+2022-08-23 17:24:24,288 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-08-23 17:24:35,733 - root - INFO -  Se selecciono el registro de Tipo de Vendedor 
+2022-08-23 17:24:38,840 - root - INFO -  Se dió click en el campo Enviar documentos de inmediato al servidor. 
+2022-08-23 17:24:41,949 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con el registro nuevo
+2022-08-23 17:24:47,068 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:24:52,147 - root - INFO -  El campo 'Permisos' si se encuentra visible.
+2022-08-23 17:25:00,590 - root - INFO -  Se selecciono el registro de Permisos 
+2022-08-23 17:25:03,687 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-08-23 17:25:08,786 - root - INFO - Se hace el cambio de pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-08-23 17:25:13,902 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:25:18,953 - root - INFO -  El campo 'Línea negocio' si se encuentra visible.
+2022-08-23 17:25:27,394 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:25:30,485 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:25:35,550 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:25:48,941 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:25:52,034 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:25:57,112 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-08-23 17:26:10,537 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-08-23 17:26:13,642 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-08-23 17:26:18,748 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con el registro nuevo
+2022-08-23 17:26:23,840 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:26:28,914 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-23 17:26:29,006 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:26:35,222 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:26:40,327 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:26:45,435 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:26:51,661 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:26:56,801 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:27:01,908 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:27:08,109 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:27:13,180 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:27:18,293 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:27:24,529 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:27:29,687 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-08-23 17:27:34,823 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-08-23 17:27:41,045 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-08-23 17:27:46,168 - root - INFO - Se hace el cambio de pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-08-23 17:27:51,241 - root - INFO -  El campo 'Permiso agregar nuevos clientes' si se encuentra visible.
+2022-08-23 17:27:51,284 - root - INFO -  El campo 'Permiso modificar clientes existentes' si se encuentra visible.
+2022-08-23 17:27:51,328 - root - INFO -  El campo 'Ruta referencia' si se encuentra visible.
+2022-08-23 17:27:51,425 - root - INFO -  Se dió click en el campo Permiso agregar nuevos clientes 
+2022-08-23 17:27:54,531 - root - INFO -  Se dió click en el campo Permiso modificar clientes existentes 
+2022-08-23 17:28:06,009 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-08-23 17:28:09,177 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-23 17:28:14,289 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-23 17:28:19,408 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-23 17:28:27,485 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 17:28:27,572 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 17:28:30,736 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-23 17:28:42,208 - root - INFO -  Se selecciono el registro de Cargar Rutas 
+2022-08-23 17:28:45,338 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-08-23 17:29:00,391 - root - INFO -  Se selecciono el registro de Tipo documento default 
+2022-08-23 17:29:11,844 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-08-23 17:29:23,294 - root - INFO -  Se selecciono el registro de Modo descarga HH 
+2022-08-23 17:29:26,409 - root - INFO -  Se dió click en el campo Modo PDV 
+2022-08-23 17:29:29,519 - root - INFO -  Se dió click en el campo Registrar coordenadas GPS 
+2022-08-23 17:29:41,003 - root - INFO -  Se selecciono el registro de Fin Automático de visita cuando inicio es 
+2022-08-23 17:29:44,130 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-08-23 17:29:47,237 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-23 17:29:54,254 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_29_54.png
+2022-08-23 17:30:14,895 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 17:30:17,908 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_30_17.png
+2022-08-23 17:30:18,606 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-23 17:30:21,610 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_30_21.png
+2022-08-23 17:30:21,637 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-23 17:30:24,640 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_17_30_24.png

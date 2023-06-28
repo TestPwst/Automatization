@@ -1,0 +1,67 @@
+2022-08-05 12:24:38,412 - root - INFO -  Se abre el chrome
+2022-08-05 12:24:41,538 - root - INFO -  Entra a la URL
+2022-08-05 12:24:41,670 - root - INFO -  Maximiza la pantalla
+2022-08-05 12:24:44,729 - root - INFO -  Cambia al frame
+2022-08-05 12:24:47,831 - root - INFO -  Escribe el usuario
+2022-08-05 12:24:47,940 - root - INFO -  Escribe la contraseña
+2022-08-05 12:24:48,083 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-05 12:24:51,067 - root - INFO -  Ejecutar Enterprise
+2022-08-05 12:24:51,068 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_24_51.png
+2022-08-05 12:24:55,324 - root - INFO -  Cambia entre pestañas
+2022-08-05 12:25:15,725 - root - INFO -  Abre el menu completo
+2022-08-05 12:25:28,661 - root - INFO -  Abre la pantalla de Depositos
+2022-08-05 12:25:28,738 - root - INFO -  La pantalla ejecutada es Depositos
+2022-08-05 12:25:31,748 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_25_31.png
+2022-08-05 12:25:31,954 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-05 12:25:37,085 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-05 12:25:37,140 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-05 12:25:37,179 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-05 12:25:37,216 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-05 12:25:37,253 - root - INFO -  El campo 'Codigo GLN' si se encuentra visible.
+2022-08-05 12:25:37,292 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-05 12:25:37,328 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-08-05 12:25:37,366 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-08-05 12:25:37,404 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-08-05 12:25:37,443 - root - INFO -  El campo 'Capacidad(M3)' si se encuentra visible.
+2022-08-05 12:25:37,482 - root - INFO -  El campo 'Observación 1D' si se encuentra visible.
+2022-08-05 12:25:37,520 - root - INFO -  El campo 'Observación 2D' si se encuentra visible.
+2022-08-05 12:25:37,569 - root - INFO -  El campo 'Clasificación' si se encuentra visible.
+2022-08-05 12:25:37,608 - root - INFO -  El campo 'Distribuidor' si se encuentra visible.
+2022-08-05 12:25:37,647 - root - INFO -  El campo 'Depósito Principal' si se encuentra visible.
+2022-08-05 12:25:37,685 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-08-05 12:25:37,724 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-08-05 12:25:37,763 - root - INFO -  El campo 'Depósito central' si se encuentra visible.
+2022-08-05 12:25:37,849 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-05 12:25:41,013 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-05 12:25:44,160 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-05 12:25:47,347 - root - INFO -  Ingresa el codigo GLN del nuevo registro 
+2022-08-05 12:25:50,584 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-05 12:25:53,791 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-08-05 12:25:56,918 - root - INFO -  Ingresa el Num de la puerta del nuevo registro 
+2022-08-05 12:26:00,100 - root - INFO -  Ingresa la esquina 1 del nuevo registro 
+2022-08-05 12:26:03,263 - root - INFO -  Ingresa la esquina 2 del nuevo registro 
+2022-08-05 12:26:06,437 - root - INFO -  Ingresa la Capacidad M3 del nuevo registro 
+2022-08-05 12:26:09,639 - root - INFO -  Ingresa la observacion 1D del nuevo registro 
+2022-08-05 12:26:12,837 - root - INFO -  Ingresa la Observacion 2D del nuevo registro 
+2022-08-05 12:27:11,611 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_27_11.png
+2022-08-05 12:27:11,855 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-05 12:27:14,968 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-05 12:27:20,065 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-05 12:27:20,137 - root - INFO -  El campo 'Stock Mínimo' si se encuentra visible.
+2022-08-05 12:27:20,178 - root - INFO -  El campo 'Stock Deseado' si se encuentra visible.
+2022-08-05 12:27:35,771 - root - INFO -  Ingresa el Stock Minimo del nuevo registro 
+2022-08-05 12:27:38,933 - root - INFO -  Ingresa el Stock Deseado del nuevo registro 
+2022-08-05 12:27:42,052 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-05 12:27:47,155 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-05 12:27:50,278 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-05 12:27:55,356 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-05 12:27:55,407 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-08-05 12:27:55,449 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-08-05 12:28:27,052 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-08-05 12:28:32,189 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-05 12:28:38,335 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-05 12:28:41,346 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_28_41.png
+2022-08-05 12:28:41,903 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-05 12:28:44,915 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_28_44.png
+2022-08-05 12:28:44,939 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-05 12:28:47,956 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01DEP\report\img  screen：20220805_12_28_47.png

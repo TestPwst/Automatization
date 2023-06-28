@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="https://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-12-23 14:43:14</p>
+<p class='attribute'><strong>Duracion : </strong> 0:01:48.178749</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Correctos 6 ，Errores 2 ，Taza de resultado 75.00%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 75.00% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 2 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 6 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>PerfilesMoviles.Test: Escenario 1 de Perfiles Moviles</td>
+    <td class="text-center">8</td>
+    <td class="text-center">6</td>
+    <td class="text-center">0</td>
+    <td class="text-center">2</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>Error</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_1: 2022-12-23 14:43:15,550 - root - INFO -  Se abre el chrome
+2022-12-23 14:43:18,070 - root - INFO -  Entra a la URL
+2022-12-23 14:43:18,213 - root - INFO -  Maximiza la pantalla
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 88, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="mainFrame"]"}
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0077F243]
+	(No symbol) [0x00707FD1]
+	(No symbol) [0x005FD04D]
+	(No symbol) [0x0062C0B0]
+	(No symbol) [0x0062C22B]
+	(No symbol) [0x0065E612]
+	(No symbol) [0x006485D4]
+	(No symbol) [0x0065C9EB]
+	(No symbol) [0x00648386]
+	(No symbol) [0x0062163C]
+	(No symbol) [0x0062269D]
+	GetHandleVerifier [0x00A19A22+2655074]
+	GetHandleVerifier [0x00A0CA24+2601828]
+	GetHandleVerifier [0x00828C0A+619850]
+	GetHandleVerifier [0x00827830+614768]
+	(No symbol) [0x007105FC]
+	(No symbol) [0x00715968]
+	(No symbol) [0x00715A55]
+	(No symbol) [0x0072051B]
+	BaseThreadInitThunk [0x76347D69+25]
+	RtlInitializeExceptionChain [0x7731BB9B+107]
+	RtlClearBits [0x7731BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 91, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="mainFrame"]"}
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0077F243]
+	(No symbol) [0x00707FD1]
+	(No symbol) [0x005FD04D]
+	(No symbol) [0x0062C0B0]
+	(No symbol) [0x0062C22B]
+	(No symbol) [0x0065E612]
+	(No symbol) [0x006485D4]
+	(No symbol) [0x0065C9EB]
+	(No symbol) [0x00648386]
+	(No symbol) [0x0062163C]
+	(No symbol) [0x0062269D]
+	GetHandleVerifier [0x00A19A22+2655074]
+	GetHandleVerifier [0x00A0CA24+2601828]
+	GetHandleVerifier [0x00828C0A+619850]
+	GetHandleVerifier [0x00827830+614768]
+	(No symbol) [0x007105FC]
+	(No symbol) [0x00715968]
+	(No symbol) [0x00715A55]
+	(No symbol) [0x0072051B]
+	BaseThreadInitThunk [0x76347D69+25]
+	RtlInitializeExceptionChain [0x7731BB9B+107]
+	RtlClearBits [0x7731BB1F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\testCase\PerfilesMoviles.py", line 30, in test
+    self.driver.switch_to.frame("mainFrame")
+  File "C:\Users\gerar\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 93, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: mainFrame
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-12-23 14:43:21,301 - root - INFO -  Escribe el usuario
+2022-12-23 14:43:21,382 - root - INFO -  Escribe la contraseña
+2022-12-23 14:43:21,453 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 14:43:23,702 - root - INFO -  Ejecutar Enterprise
+2022-12-23 14:43:27,734 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>Correcto</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_3: 2022-12-23 14:43:32,206 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-12-23 14:43:32,774 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-12-23 14:43:32,774 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_43_32.png
+2022-12-23 14:43:32,917 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221223_14_43_32.png" target="_blank">
+            <img src="../../../../img/20221223_14_43_32.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>Correcto</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_4: 2022-12-23 14:43:33,471 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:43:33,521 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:43:33,613 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:43:33,973 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:43:34,068 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:43:34,417 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:43:35,024 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:43:35,367 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:43:35,431 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:43:35,480 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:43:35,811 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:43:35,883 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:43:35,884 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_43_35.png
+2022-12-23 14:43:38,088 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-12-23 14:43:38,142 - root - INFO -  Se dió click en el checkbox Cargar resumen de cuentas únicamente del vendedor de la ruta 
+2022-12-23 14:43:38,198 - root - INFO -  Se dió click en el checkbox Verificar límite de crédito 
+2022-12-23 14:43:38,254 - root - INFO -  Se dió click en el checkbox Verificar opción 'guardar como' del tipo de documento 
+2022-12-23 14:43:38,305 - root - INFO -  Se dió click en el checkbox Permitir Pagos 
+2022-12-23 14:43:39,395 - root - INFO -  Se dió click en el botón espacio para mover la pantalla hacía abajo 
+2022-12-23 14:43:40,732 - root - INFO -  Se selecciono el registro de Disco de Datos 
+2022-12-23 14:43:41,394 - root - INFO -  Se dió click en la opción Autoventa 
+2022-12-23 14:43:41,453 - root - INFO -  Se dió click en el checkbox Enviar documentos de inmediato al servidor. 
+2022-12-23 14:43:41,507 - root - INFO - Se hace el cambio a la pestaña Permisos para continuar con el registro nuevo
+2022-12-23 14:43:42,063 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:43,490 - root - INFO -  Se dió click en la opción Inihibir Georeferenciación 
+2022-12-23 14:43:43,545 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:43:43,856 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con el registro nuevo
+2022-12-23 14:43:44,444 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:45,903 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:46,224 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:46,538 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:47,977 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:48,312 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:48,640 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:43:50,078 - root - INFO -  Se selecciono el registro de Linea de negocio 
+2022-12-23 14:43:50,431 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Linea de Negocio', para guardar el registro.
+2022-12-23 14:43:50,754 - root - INFO - Se hace el cambio a la pestaña Impulso Ventas para continuar con el registro nuevo
+2022-12-23 14:43:51,326 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:43:51,893 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:43:54,050 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:43:56,145 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:43:56,806 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:43:59,002 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:01,074 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:02,220 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:04,409 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:06,490 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:07,104 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:09,280 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:11,364 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impulso de Ventas' , para crear un nuevo registro.
+2022-12-23 14:44:11,998 - root - INFO -  Ingresa el Articulo del nuevo registro 
+2022-12-23 14:44:14,208 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Impulso de Ventas', para guardar el registro.
+2022-12-23 14:44:16,291 - root - INFO - Se hace el cambio a la pestaña Mantenimiento Clientes para continuar con el registro nuevo
+2022-12-23 14:44:16,890 - root - INFO -  Se dió click en el checkbox Permiso agregar nuevos clientes 
+2022-12-23 14:44:16,951 - root - INFO -  Se dió click en el checkbox Permiso modificar clientes existentes 
+2022-12-23 14:44:17,942 - root - INFO -  Se selecciono el registro de Ruta Referencia 
+2022-12-23 14:44:18,241 - root - INFO -  Se dió click en el checkbox Clasificación 1 
+2022-12-23 14:44:18,839 - root - INFO -  Se dió click en el checkbox Clasificación 2 
+2022-12-23 14:44:18,997 - root - INFO -  Se dió click en el checkbox Clasificación 3 
+2022-12-23 14:44:19,159 - root - INFO -  Se dió click en el checkbox Colonia 
+2022-12-23 14:44:19,329 - root - INFO -  Se dió click en el checkbox Codigo Postal 
+2022-12-23 14:44:19,498 - root - INFO -  Se dió click en el checkbox Direccion 
+2022-12-23 14:44:19,642 - root - INFO -  Se dió click en el checkbox Entorno PDV 
+2022-12-23 14:44:19,858 - root - INFO -  Se dió click en el checkbox Esquina 1 
+2022-12-23 14:44:20,007 - root - INFO -  Se dió click en el checkbox Esquina 2 
+2022-12-23 14:44:20,200 - root - INFO -  Se dió click en el checkbox Paises 
+2022-12-23 14:44:20,658 - root - INFO -  Se dió click en el checkbox Departamento 
+2022-12-23 14:44:20,785 - root - INFO -  Se dió click en el checkbox Localidad 
+2022-12-23 14:44:20,969 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221223_14_43_35.png" target="_blank">
+            <img src="../../../../img/20221223_14_43_35.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_003: Repite el Registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>Correcto</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_5: 2022-12-23 14:44:21,492 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 14:44:23,572 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 14:44:24,214 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 14:44:24,263 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 14:44:24,354 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-12-23 14:44:24,707 - root - INFO -  Se selecciono la opción Todas las Rutas 
+2022-12-23 14:44:24,817 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-12-23 14:44:25,172 - root - INFO -  Se selecciono la opción Normal 
+2022-12-23 14:44:26,091 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-12-23 14:44:26,524 - root - INFO -  Se selecciono  la opción Documento (carga directa) 
+2022-12-23 14:44:26,614 - root - INFO -  Se dió click en el checkbox Modo PDV 
+2022-12-23 14:44:26,672 - root - INFO -  Se dió click en el checkbox Registrar coordenadas GPS 
+2022-12-23 14:44:27,038 - root - INFO -  Se dió click en la opción No lo toma 
+2022-12-23 14:44:27,130 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-12-23 14:44:29,188 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-12-23 14:44:33,228 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_33.png
+2022-12-23 14:44:33,418 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 14:44:33,874 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221223_14_44_33.png" target="_blank">
+            <img src="../../../../img/20221223_14_44_33.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>Correcto</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_6: 2022-12-23 14:44:34,037 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 14:44:36,630 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:37,296 - root - INFO -  Se modifica el contenido del campo Observaciones 1 
+2022-12-23 14:44:37,640 - root - INFO -  Se selecciono la opción Una Ruta 
+2022-12-23 14:44:37,640 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_37.png
+2022-12-23 14:44:37,806 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la modificación del registro
+2022-12-23 14:44:38,370 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Permiso' , para crear un nuevo registro.
+2022-12-23 14:44:39,290 - root - INFO -  Se dió click en la opción Anular Documentos 
+2022-12-23 14:44:39,353 - root - INFO -  Se presiona el boton 'Guardar de la pestaña Permiso', para guardar el registro.
+2022-12-23 14:44:39,979 - root - INFO - Se hace el cambio a la pestaña Lineas de Negocio para continuar con la modificación del registro
+2022-12-23 14:44:40,204 - root - INFO - Se hace el cambio de pestaña Impulso Ventas para continuar con la modificación del registro
+2022-12-23 14:44:41,889 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:41,947 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el primer registro.
+2022-12-23 14:44:43,526 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:43,562 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el segundo registro.
+2022-12-23 14:44:45,128 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:45,161 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el tercer registro.
+2022-12-23 14:44:46,740 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:46,776 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el cuarto registro.
+2022-12-23 14:44:48,346 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 14:44:48,393 - root - INFO -  Se presiona el boton 'Eliminar de Impulso Ventas', para eliminar el quinto registro.
+2022-12-23 14:44:49,446 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221223_14_44_37.png" target="_blank">
+            <img src="../../../../img/20221223_14_44_37.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_7' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_005: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_7: 2022-12-23 14:44:50,018 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 14:44:52,583 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 14:44:53,670 - root - INFO - Se hace el cambio de pestaña Permisos para continuar con la eliminación del registro
+2022-12-23 14:44:54,743 - root - INFO -  Se da clic en el primer registro de Permisos, para proceder a eliminarlo.
+2022-12-23 14:44:54,802 - root - INFO -  Se presiona el boton 'Eliminar de Permiso', para eliminar el segundo registro.
+2022-12-23 14:44:55,112 - root - ERROR - No se encontró el segundo registro de la pestaña permisos, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 14:44:58,113 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20221223_14_44_58.png
+2022-12-23 14:45:02,540 - root - INFO -  Se cierra chrome
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\testCase\PerfilesMoviles.py", line 136, in test_005
+    raise Exception()
+Exception
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/20221223_14_44_58.png" target="_blank">
+            <img src="../../../../img/20221223_14_44_58.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_006: Cerrar_Navegador</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">Correcto</span></td>
+    <td align="right">
+        <a hidden="hidden" href="">
+            <img src="" height="200" width="400"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>6</td>
+    <td>0</td>
+    <td>2</td>
+    <td>Taza de resultado：75.00%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

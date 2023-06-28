@@ -1,0 +1,47 @@
+2022-08-23 16:00:52,928 - root - INFO -  Se abre el chrome
+2022-08-23 16:00:55,969 - root - INFO -  Entra a la URL
+2022-08-23 16:00:56,098 - root - INFO -  Maximiza la pantalla
+2022-08-23 16:00:59,154 - root - INFO -  Cambia al frame
+2022-08-23 16:01:02,252 - root - INFO -  Escribe el usuario
+2022-08-23 16:01:02,360 - root - INFO -  Escribe la contraseña
+2022-08-23 16:01:02,491 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-23 16:01:05,905 - root - INFO -  Ejecutar Enterprise
+2022-08-23 16:01:05,906 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_01_05.png
+2022-08-23 16:01:10,106 - root - INFO -  Cambia entre pestañas
+2022-08-23 16:01:36,411 - root - INFO -  Abre el menu completo
+2022-08-23 16:01:53,396 - root - INFO -  Abre la pantalla de Perfiles Moviles
+2022-08-23 16:01:53,471 - root - INFO -  La pantalla ejecutada es Perfiles Moviles
+2022-08-23 16:01:56,480 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_01_56.png
+2022-08-23 16:01:56,719 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-23 16:02:01,793 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-23 16:02:01,834 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-23 16:02:01,874 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-23 16:02:01,912 - root - INFO -  El campo 'Cargar rutas' si se encuentra visible.
+2022-08-23 16:02:01,950 - root - INFO -  El campo 'Tipo documento default' si se encuentra visible.
+2022-08-23 16:02:01,991 - root - INFO -  El campo 'Modo carga liquidación' si se encuentra visible.
+2022-08-23 16:02:02,029 - root - INFO -  El campo 'Modo descarga HH' si se encuentra visible.
+2022-08-23 16:02:02,068 - root - INFO -  El campo 'Modo PDV' si se encuentra visible.
+2022-08-23 16:02:02,107 - root - INFO -  El campo 'Registrar coordenadas GPS' si se encuentra visible.
+2022-08-23 16:02:02,145 - root - INFO -  El campo 'Fin Automático de visita cuando inicio es' si se encuentra visible.
+2022-08-23 16:02:02,183 - root - INFO -  El campo 'Intervalo lectura coordenadas GPS(min)' si se encuentra visible.
+2022-08-23 16:02:02,260 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-23 16:02:05,425 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-23 16:02:16,892 - root - INFO -  Se selecciono el registro de Cargar Rutas 
+2022-08-23 16:02:20,009 - root - INFO -  Ingresa el Tipo documento default del nuevo registro 
+2022-08-23 16:02:35,309 - root - INFO -  Se selecciono el registro de Tipo documento default 
+2022-08-23 16:02:46,775 - root - INFO -  Se selecciono el registro de Modo carga liquidación 
+2022-08-23 16:02:58,244 - root - INFO -  Se selecciono el registro de Modo descarga HH 
+2022-08-23 16:03:01,362 - root - INFO -  Se dió click en el campo Modo PDV 
+2022-08-23 16:03:04,484 - root - INFO -  Se dió click en el campo Registrar coordenadas GPS 
+2022-08-23 16:03:15,965 - root - INFO -  Se selecciono el registro de Fin Automático de visita cuando inicio es 
+2022-08-23 16:03:19,107 - root - INFO -  Ingresa el Intervalo lectura coordenadas GPS(min) del nuevo registro 
+2022-08-23 16:03:22,110 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_03_22.png
+2022-08-23 16:03:22,343 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-23 16:03:47,499 - root - ERROR - El campo 'Cargar resumen de cuentas únicamente del vendedor de la ruta' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-23 16:03:50,512 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_03_50.png
+2022-08-23 16:03:51,007 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción anterior guardar registro tardo mucho en realizarse 
+2022-08-23 16:03:54,022 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_03_54.png
+2022-08-23 16:03:54,040 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-23 16:03:57,044 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_03_57.png
+2022-08-23 16:03:57,052 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-23 16:04:00,067 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01PM\report\img  screen：20220823_16_04_00.png

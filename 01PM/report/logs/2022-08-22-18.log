@@ -1,0 +1,706 @@
+2022-08-22 18:00:01,693 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:00:13,295 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:00:24,828 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:00:27,989 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:00:39,523 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:00:51,057 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:01:02,575 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:01:05,721 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:01:08,917 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:01:12,051 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:01:15,195 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:01:18,348 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:01:21,516 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:01:24,682 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:01:27,816 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:01:30,948 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:01:34,066 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:01:37,207 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:01:40,216 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_01_40.png
+2022-08-22 18:01:40,463 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:01:45,528 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:01:45,572 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:01:45,764 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:01:48,937 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:01:52,059 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:01:57,112 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:01:57,310 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:02:00,413 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:02:05,495 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:02:05,534 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:02:14,068 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:02:25,542 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:02:28,635 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:02:33,771 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:02:58,972 - root - ERROR - El campo 'Clasificación Artículo 1' no se muestra visible, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-22 18:03:01,976 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_03_01.png
+2022-08-22 18:03:02,497 - root - ERROR - No se encontró el filtro revise si el xpath sigue siendo el mismo y revise si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-22 18:03:02,497 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_03_02.png
+2022-08-22 18:03:02,514 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-22 18:03:05,529 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_03_05.png
+2022-08-22 18:07:19,905 - root - INFO -  Se abre el chrome
+2022-08-22 18:07:24,213 - root - INFO -  Entra a la URL
+2022-08-22 18:07:24,353 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:07:27,409 - root - INFO -  Cambia al frame
+2022-08-22 18:07:30,505 - root - INFO -  Escribe el usuario
+2022-08-22 18:07:30,613 - root - INFO -  Escribe la contraseña
+2022-08-22 18:07:30,747 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:07:34,327 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:07:34,329 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_07_34.png
+2022-08-22 18:07:38,582 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:08:02,733 - root - INFO -  Abre el menu completo
+2022-08-22 18:08:19,660 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:08:19,737 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:08:22,744 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_08_22.png
+2022-08-22 18:08:22,976 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:08:28,070 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:08:28,136 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:08:28,195 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:08:28,235 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:08:28,274 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:08:28,314 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:08:28,351 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:08:28,389 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:08:28,428 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:08:28,480 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:08:28,518 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:08:28,557 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:08:28,596 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:08:28,633 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:08:28,676 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:08:28,714 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:08:28,752 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:08:28,790 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:08:28,830 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:08:28,869 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:08:28,906 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:08:28,959 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:08:28,997 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:08:29,035 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:08:29,166 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:08:32,336 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:08:35,529 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:08:38,714 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:08:41,871 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:08:45,009 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:08:56,537 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:09:08,040 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:09:11,216 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:09:22,764 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:09:34,240 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:09:45,747 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:09:48,888 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:09:52,054 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:09:55,235 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:09:58,401 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:10:01,564 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:10:04,694 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:10:36,388 - root - INFO -  Se abre el chrome
+2022-08-22 18:10:50,941 - root - INFO -  Entra a la URL
+2022-08-22 18:10:51,060 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:10:54,111 - root - INFO -  Cambia al frame
+2022-08-22 18:10:57,265 - root - INFO -  Escribe el usuario
+2022-08-22 18:10:57,372 - root - INFO -  Escribe la contraseña
+2022-08-22 18:10:57,500 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:11:03,137 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:11:03,138 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_11_03.png
+2022-08-22 18:11:07,424 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:11:33,302 - root - INFO -  Abre el menu completo
+2022-08-22 18:11:50,265 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:11:50,340 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:11:53,351 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_11_53.png
+2022-08-22 18:11:53,606 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:11:58,676 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:11:58,715 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:11:58,760 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:11:58,801 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:11:58,838 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:11:58,878 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:11:58,917 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:11:58,957 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:11:59,010 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:11:59,050 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:11:59,089 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:11:59,129 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:11:59,166 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:11:59,206 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:11:59,247 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:11:59,286 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:11:59,323 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:11:59,361 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:11:59,399 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:11:59,442 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:11:59,493 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:11:59,533 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:11:59,570 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:11:59,608 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:11:59,744 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:12:02,880 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:12:06,058 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:12:09,247 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:12:12,423 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:12:15,585 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:12:27,102 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:12:38,647 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:12:41,815 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:12:53,302 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:13:04,805 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:13:16,251 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:13:19,394 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:13:22,553 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:13:25,726 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:13:28,882 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:13:32,028 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:13:35,168 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:13:38,310 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:13:41,458 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:13:44,588 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:13:47,684 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:13:50,811 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:13:53,827 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_13_53.png
+2022-08-22 18:13:54,087 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:13:59,188 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:13:59,225 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:13:59,482 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:14:02,658 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:14:05,784 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:14:10,867 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:14:11,065 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:14:14,269 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:14:19,373 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:14:19,411 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:14:27,945 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:14:39,448 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:14:42,583 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:14:47,727 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:14:52,801 - root - INFO -  El campo 'Clasificación Artículo 1' si se encuentra visible.
+2022-08-22 18:14:52,839 - root - INFO -  El campo 'Sabor' si se encuentra visible.
+2022-08-22 18:14:52,879 - root - INFO -  El campo 'Tipo de Artículo' si se encuentra visible.
+2022-08-22 18:15:01,340 - root - INFO -  Se selecciono el registro de Clasificación de Articulo 1 
+2022-08-22 18:15:12,842 - root - INFO -  Se selecciono el registro de Sabor 
+2022-08-22 18:15:24,353 - root - INFO -  Se selecciono el registro de Tipo de Articulo 
+2022-08-22 18:15:47,541 - root - ERROR - No se encontró el campo de Aguascalientes revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-22 18:15:50,553 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_15_50.png
+2022-08-22 18:15:51,059 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-22 18:15:54,065 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_15_54.png
+2022-08-22 18:15:54,083 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-22 18:15:57,090 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_15_57.png
+2022-08-22 18:17:31,611 - root - INFO -  Se abre el chrome
+2022-08-22 18:17:35,366 - root - INFO -  Entra a la URL
+2022-08-22 18:17:35,502 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:17:38,563 - root - INFO -  Cambia al frame
+2022-08-22 18:17:41,655 - root - INFO -  Escribe el usuario
+2022-08-22 18:17:41,758 - root - INFO -  Escribe la contraseña
+2022-08-22 18:17:41,895 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:17:45,474 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:17:45,474 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_17_45.png
+2022-08-22 18:17:49,717 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:18:19,544 - root - INFO -  Abre el menu completo
+2022-08-22 18:18:36,478 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:18:36,517 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:18:39,529 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_18_39.png
+2022-08-22 18:18:39,774 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:18:44,871 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:18:44,933 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:18:44,972 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:18:45,011 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:18:45,048 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:18:45,088 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:18:45,128 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:18:45,166 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:18:45,206 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:18:45,246 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:18:45,285 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:18:45,323 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:18:45,362 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:18:45,408 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:18:45,452 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:18:45,491 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:18:45,529 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:18:45,569 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:18:45,607 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:18:45,646 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:18:45,684 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:18:45,722 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:18:45,761 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:18:45,800 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:18:45,937 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:18:49,097 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:18:52,257 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:18:55,424 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:18:58,601 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:19:01,746 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:19:13,282 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:19:24,813 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:19:27,989 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:19:39,482 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:19:51,001 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:20:02,509 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:20:05,670 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:20:08,855 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:20:12,071 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:20:15,236 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:20:18,412 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:20:21,551 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:20:24,701 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:20:27,839 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:20:30,944 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:20:34,086 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:20:37,179 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:20:40,190 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_20_40.png
+2022-08-22 18:20:40,444 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:20:45,529 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:20:45,575 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:20:45,754 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:20:48,928 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:20:52,048 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:20:57,150 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:20:57,349 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:21:00,466 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:21:05,561 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:21:05,605 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:21:14,111 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:21:25,610 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:21:28,730 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:21:33,818 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:21:38,903 - root - INFO -  El campo 'Clasificación Artículo 1' si se encuentra visible.
+2022-08-22 18:21:38,942 - root - INFO -  El campo 'Sabor' si se encuentra visible.
+2022-08-22 18:21:38,981 - root - INFO -  El campo 'Tipo de Artículo' si se encuentra visible.
+2022-08-22 18:21:47,453 - root - INFO -  Se selecciono el registro de Clasificación de Articulo 1 
+2022-08-22 18:21:58,996 - root - INFO -  Se selecciono el registro de Sabor 
+2022-08-22 18:22:10,513 - root - INFO -  Se selecciono el registro de Tipo de Articulo 
+2022-08-22 18:22:13,635 - root - INFO - Se hace el cambio de pestaña Custom Properties para continuar con el registro nuevo
+2022-08-22 18:22:18,759 - root - INFO -  Se dió click en el campo de Aguascalientes
+2022-08-22 18:22:21,963 - root - INFO -  Se dió click en el campo de Baja California 
+2022-08-22 18:22:25,157 - root - INFO -  Se dió click en el campo Baja California Sur 
+2022-08-22 18:22:28,341 - root - INFO -  Se dió click en el campo de Campeche 
+2022-08-22 18:22:31,501 - root - INFO -  Se dió click en el campo de Coahuila 
+2022-08-22 18:22:34,697 - root - INFO -  Se dió click en el campo de Colima 
+2022-08-22 18:22:37,845 - root - INFO -  Se dió click en el campo de Chiapas 
+2022-08-22 18:22:41,032 - root - INFO -  Se dió click en el campo de Chihuahua 
+2022-08-22 18:22:44,179 - root - INFO -  Se dió click en el campo de Distrito Federal 
+2022-08-22 18:22:47,326 - root - INFO -  Se dió click en el campo de Durango 
+2022-08-22 18:22:50,463 - root - INFO -  Se dió click en el campo de Guanajuato 
+2022-08-22 18:22:53,593 - root - INFO -  Se dió click en el campo de Guerrero 
+2022-08-22 18:22:56,782 - root - INFO -  Se dió click en el campo de Hidalgo 
+2022-08-22 18:23:00,019 - root - INFO -  Se dió click en el campo de Jalisco
+2022-08-22 18:23:03,193 - root - INFO -  Se dió click en el campo de México
+2022-08-22 18:23:06,365 - root - INFO -  Se dió click en el campo de Michoacan
+2022-08-22 18:23:09,596 - root - INFO -  Se dió click en el campo de Morelos
+2022-08-22 18:23:12,744 - root - INFO -  Se dió click en el campo de Nayarit
+2022-08-22 18:23:15,874 - root - INFO -  Se dió click en el campo de Nuevo León
+2022-08-22 18:23:19,026 - root - INFO -  Se dió click en el campo de Oaxaca
+2022-08-22 18:23:22,205 - root - INFO -  Se dió click en el campo de Puebla
+2022-08-22 18:23:25,387 - root - INFO -  Se dió click en el campo de Queretaro
+2022-08-22 18:23:28,551 - root - INFO -  Se dió click en el campo de Quintana Roo
+2022-08-22 18:23:31,698 - root - INFO -  Se dió click en el campo de San Luis Potosi
+2022-08-22 18:23:34,874 - root - INFO -  Se dió click en el campo de Sinaloa
+2022-08-22 18:23:38,021 - root - INFO -  Se dió click en el campo de Sonora
+2022-08-22 18:23:41,207 - root - INFO -  Se dió click en el campo de Tabasco
+2022-08-22 18:23:44,379 - root - INFO -  Se dió click en el campo de Tamaulipas
+2022-08-22 18:23:47,598 - root - INFO -  Se dió click en el campo de Tlaxcala
+2022-08-22 18:23:50,744 - root - INFO -  Se dió click en el campo de Veracruz
+2022-08-22 18:23:53,954 - root - INFO -  Se dió click en el campo de Yucatan
+2022-08-22 18:23:57,122 - root - INFO -  Se dió click en el campo de Zacatecas
+2022-08-22 18:24:00,322 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-22 18:24:11,604 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo y si la acción de guardar anterior tardo mucho
+2022-08-22 18:24:14,615 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_24_14.png
+2022-08-22 18:24:15,307 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, si la acción guardar anterior tardo mucho tiempo en realizarse
+2022-08-22 18:24:18,308 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_24_18.png
+2022-08-22 18:28:16,048 - root - INFO -  Se abre el chrome
+2022-08-22 18:29:51,979 - root - INFO -  Se abre el chrome
+2022-08-22 18:30:29,941 - root - INFO -  Se abre el chrome
+2022-08-22 18:30:32,858 - root - INFO -  Entra a la URL
+2022-08-22 18:30:32,999 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:30:36,058 - root - INFO -  Cambia al frame
+2022-08-22 18:30:39,138 - root - INFO -  Escribe el usuario
+2022-08-22 18:30:39,249 - root - INFO -  Escribe la contraseña
+2022-08-22 18:30:39,385 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:30:42,473 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:30:42,475 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_30_42.png
+2022-08-22 18:30:46,717 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:31:17,720 - root - INFO -  Abre el menu completo
+2022-08-22 18:31:34,680 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:31:34,724 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:31:37,736 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_31_37.png
+2022-08-22 18:31:37,967 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:31:43,053 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:31:43,100 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:31:43,140 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:31:43,180 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:31:43,220 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:31:43,260 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:31:43,298 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:31:43,336 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:31:43,375 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:31:43,413 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:31:43,451 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:31:43,491 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:31:43,544 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:31:43,584 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:31:43,622 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:31:43,660 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:31:43,698 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:31:43,736 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:31:43,776 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:31:43,814 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:31:43,853 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:31:43,892 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:31:43,930 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:31:43,981 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:31:44,124 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:31:47,323 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:31:50,492 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:31:53,675 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:31:56,850 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:32:00,008 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:32:11,515 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:32:23,046 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:32:26,220 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:32:37,778 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:32:49,277 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:33:00,787 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:33:03,925 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:33:07,090 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:33:10,295 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:33:13,450 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:33:16,591 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:33:19,770 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:33:22,890 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:33:26,031 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:33:29,162 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:33:32,275 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:33:35,438 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:33:38,440 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_33_38.png
+2022-08-22 18:33:38,725 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:33:43,818 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:33:43,860 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:33:44,029 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:33:47,206 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:33:50,326 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:33:55,429 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:33:55,683 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:33:58,818 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:34:03,908 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:34:03,955 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:34:12,446 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:34:23,970 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:34:27,115 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:34:32,268 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:34:37,350 - root - INFO -  El campo 'Clasificación Artículo 1' si se encuentra visible.
+2022-08-22 18:34:37,395 - root - INFO -  El campo 'Sabor' si se encuentra visible.
+2022-08-22 18:34:37,436 - root - INFO -  El campo 'Tipo de Artículo' si se encuentra visible.
+2022-08-22 18:34:45,885 - root - INFO -  Se selecciono el registro de Clasificación de Articulo 1 
+2022-08-22 18:34:57,426 - root - INFO -  Se selecciono el registro de Sabor 
+2022-08-22 18:35:08,938 - root - INFO -  Se selecciono el registro de Tipo de Articulo 
+2022-08-22 18:35:12,062 - root - INFO - Se hace el cambio de pestaña Custom Properties para continuar con el registro nuevo
+2022-08-22 18:35:17,231 - root - INFO -  Se dió click en el campo de Aguascalientes
+2022-08-22 18:35:20,386 - root - INFO -  Se dió click en el campo de Baja California 
+2022-08-22 18:35:23,554 - root - INFO -  Se dió click en el campo Baja California Sur 
+2022-08-22 18:35:26,752 - root - INFO -  Se dió click en el campo de Campeche 
+2022-08-22 18:35:29,941 - root - INFO -  Se dió click en el campo de Coahuila 
+2022-08-22 18:35:33,074 - root - INFO -  Se dió click en el campo de Colima 
+2022-08-22 18:35:36,285 - root - INFO -  Se dió click en el campo de Chiapas 
+2022-08-22 18:35:39,516 - root - INFO -  Se dió click en el campo de Chihuahua 
+2022-08-22 18:35:42,660 - root - INFO -  Se dió click en el campo de Distrito Federal 
+2022-08-22 18:35:45,807 - root - INFO -  Se dió click en el campo de Durango 
+2022-08-22 18:35:48,990 - root - INFO -  Se dió click en el campo de Guanajuato 
+2022-08-22 18:35:52,164 - root - INFO -  Se dió click en el campo de Guerrero 
+2022-08-22 18:35:55,360 - root - INFO -  Se dió click en el campo de Hidalgo 
+2022-08-22 18:35:58,597 - root - INFO -  Se dió click en el campo de Jalisco
+2022-08-22 18:36:01,777 - root - INFO -  Se dió click en el campo de México
+2022-08-22 18:36:04,990 - root - INFO -  Se dió click en el campo de Michoacan
+2022-08-22 18:36:08,085 - root - INFO -  Se dió click en el campo de Morelos
+2022-08-22 18:36:11,251 - root - INFO -  Se dió click en el campo de Nayarit
+2022-08-22 18:36:14,454 - root - INFO -  Se dió click en el campo de Nuevo León
+2022-08-22 18:36:17,638 - root - INFO -  Se dió click en el campo de Oaxaca
+2022-08-22 18:36:20,799 - root - INFO -  Se dió click en el campo de Puebla
+2022-08-22 18:36:23,996 - root - INFO -  Se dió click en el campo de Queretaro
+2022-08-22 18:36:27,175 - root - INFO -  Se dió click en el campo de Quintana Roo
+2022-08-22 18:36:30,321 - root - INFO -  Se dió click en el campo de San Luis Potosi
+2022-08-22 18:36:33,548 - root - INFO -  Se dió click en el campo de Sinaloa
+2022-08-22 18:36:36,665 - root - INFO -  Se dió click en el campo de Sonora
+2022-08-22 18:36:39,842 - root - INFO -  Se dió click en el campo de Tabasco
+2022-08-22 18:36:43,001 - root - INFO -  Se dió click en el campo de Tamaulipas
+2022-08-22 18:36:46,225 - root - INFO -  Se dió click en el campo de Tlaxcala
+2022-08-22 18:36:49,423 - root - INFO -  Se dió click en el campo de Veracruz
+2022-08-22 18:36:52,564 - root - INFO -  Se dió click en el campo de Yucatan
+2022-08-22 18:36:55,745 - root - INFO -  Se dió click en el campo de Zacatecas
+2022-08-22 18:36:58,872 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-22 18:39:58,268 - root - INFO -  Se abre el chrome
+2022-08-22 18:40:01,329 - root - INFO -  Entra a la URL
+2022-08-22 18:40:01,471 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:40:04,528 - root - INFO -  Cambia al frame
+2022-08-22 18:40:07,617 - root - INFO -  Escribe el usuario
+2022-08-22 18:40:07,722 - root - INFO -  Escribe la contraseña
+2022-08-22 18:40:07,863 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:40:10,902 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:40:10,903 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_40_10.png
+2022-08-22 18:40:15,110 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:41:19,535 - root - INFO -  Abre el menu completo
+2022-08-22 18:41:36,533 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:41:36,602 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:41:39,616 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_41_39.png
+2022-08-22 18:41:39,847 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:41:47,073 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:41:47,113 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:41:47,149 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:41:47,188 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:41:47,233 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:41:47,277 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:41:47,315 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:41:47,367 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:41:47,408 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:41:47,446 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:41:47,484 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:41:47,525 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:41:47,565 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:41:47,606 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:41:47,645 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:41:47,684 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:41:47,722 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:41:47,760 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:41:47,798 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:41:47,848 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:41:47,885 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:41:47,922 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:41:47,960 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:41:47,998 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:41:48,134 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:41:51,295 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:41:54,470 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:41:57,661 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:42:00,847 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:42:04,013 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:42:15,516 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:42:27,050 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:42:30,199 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:42:41,713 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:42:53,225 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:43:04,734 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:43:07,885 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:43:11,062 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:43:14,232 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:43:17,399 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:43:20,559 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:43:23,692 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:43:26,815 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:43:29,968 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:43:33,089 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:43:36,213 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:43:39,308 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:43:42,321 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_43_42.png
+2022-08-22 18:43:42,563 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:43:47,643 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:43:47,683 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:43:47,863 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:43:51,041 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:43:54,162 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:43:59,217 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:43:59,428 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:44:02,569 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:44:07,662 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:44:07,709 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:44:16,235 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:44:27,747 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:44:30,861 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:44:35,994 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:44:41,075 - root - INFO -  El campo 'Clasificación Artículo 1' si se encuentra visible.
+2022-08-22 18:44:41,115 - root - INFO -  El campo 'Sabor' si se encuentra visible.
+2022-08-22 18:44:41,153 - root - INFO -  El campo 'Tipo de Artículo' si se encuentra visible.
+2022-08-22 18:44:49,582 - root - INFO -  Se selecciono el registro de Clasificación de Articulo 1 
+2022-08-22 18:45:01,074 - root - INFO -  Se selecciono el registro de Sabor 
+2022-08-22 18:45:12,578 - root - INFO -  Se selecciono el registro de Tipo de Articulo 
+2022-08-22 18:45:15,732 - root - INFO - Se hace el cambio de pestaña Custom Properties para continuar con el registro nuevo
+2022-08-22 18:45:20,889 - root - INFO -  Se dió click en el campo de Aguascalientes
+2022-08-22 18:45:24,059 - root - INFO -  Se dió click en el campo de Baja California 
+2022-08-22 18:45:27,241 - root - INFO -  Se dió click en el campo Baja California Sur 
+2022-08-22 18:45:30,387 - root - INFO -  Se dió click en el campo de Campeche 
+2022-08-22 18:45:33,574 - root - INFO -  Se dió click en el campo de Coahuila 
+2022-08-22 18:45:36,737 - root - INFO -  Se dió click en el campo de Colima 
+2022-08-22 18:45:39,907 - root - INFO -  Se dió click en el campo de Chiapas 
+2022-08-22 18:45:43,087 - root - INFO -  Se dió click en el campo de Chihuahua 
+2022-08-22 18:45:46,296 - root - INFO -  Se dió click en el campo de Distrito Federal 
+2022-08-22 18:45:49,465 - root - INFO -  Se dió click en el campo de Durango 
+2022-08-22 18:45:52,616 - root - INFO -  Se dió click en el campo de Guanajuato 
+2022-08-22 18:45:55,785 - root - INFO -  Se dió click en el campo de Guerrero 
+2022-08-22 18:45:58,931 - root - INFO -  Se dió click en el campo de Hidalgo 
+2022-08-22 18:46:02,081 - root - INFO -  Se dió click en el campo de Jalisco
+2022-08-22 18:46:05,254 - root - INFO -  Se dió click en el campo de México
+2022-08-22 18:46:08,446 - root - INFO -  Se dió click en el campo de Michoacan
+2022-08-22 18:46:11,617 - root - INFO -  Se dió click en el campo de Morelos
+2022-08-22 18:46:14,810 - root - INFO -  Se dió click en el campo de Nayarit
+2022-08-22 18:46:17,955 - root - INFO -  Se dió click en el campo de Nuevo León
+2022-08-22 18:46:21,111 - root - INFO -  Se dió click en el campo de Oaxaca
+2022-08-22 18:46:24,256 - root - INFO -  Se dió click en el campo de Puebla
+2022-08-22 18:46:27,455 - root - INFO -  Se dió click en el campo de Queretaro
+2022-08-22 18:46:30,563 - root - INFO -  Se dió click en el campo de Quintana Roo
+2022-08-22 18:46:33,714 - root - INFO -  Se dió click en el campo de San Luis Potosi
+2022-08-22 18:46:36,884 - root - INFO -  Se dió click en el campo de Sinaloa
+2022-08-22 18:46:40,076 - root - INFO -  Se dió click en el campo de Sonora
+2022-08-22 18:46:43,216 - root - INFO -  Se dió click en el campo de Tabasco
+2022-08-22 18:46:46,366 - root - INFO -  Se dió click en el campo de Tamaulipas
+2022-08-22 18:46:49,564 - root - INFO -  Se dió click en el campo de Tlaxcala
+2022-08-22 18:46:52,732 - root - INFO -  Se dió click en el campo de Veracruz
+2022-08-22 18:46:55,902 - root - INFO -  Se dió click en el campo de Yucatan
+2022-08-22 18:46:59,080 - root - INFO -  Se dió click en el campo de Zacatecas
+2022-08-22 18:47:02,250 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-22 18:47:19,845 - root - INFO -  El campo Código de artículo' si se encuentra visible.
+2022-08-22 18:47:19,963 - root - INFO -  Ingresa el codigo articulo en el filtro del nuevo registro 
+2022-08-22 18:47:23,117 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-22 18:47:31,359 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-22 18:47:38,594 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:47:38,746 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:47:41,919 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:47:45,115 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:47:48,325 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:47:51,535 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:47:54,719 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:48:06,236 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:48:17,722 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:48:20,894 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:48:32,483 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:48:43,997 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:48:55,528 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:48:58,758 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:51:10,555 - root - INFO -  Se abre el chrome
+2022-08-22 18:51:14,728 - root - INFO -  Entra a la URL
+2022-08-22 18:51:14,863 - root - INFO -  Maximiza la pantalla
+2022-08-22 18:51:17,910 - root - INFO -  Cambia al frame
+2022-08-22 18:51:21,004 - root - INFO -  Escribe el usuario
+2022-08-22 18:51:21,108 - root - INFO -  Escribe la contraseña
+2022-08-22 18:51:21,244 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-22 18:51:24,317 - root - INFO -  Ejecutar Enterprise
+2022-08-22 18:51:24,319 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_51_24.png
+2022-08-22 18:51:28,578 - root - INFO -  Cambia entre pestañas
+2022-08-22 18:52:02,300 - root - INFO -  Abre el menu completo
+2022-08-22 18:52:19,270 - root - INFO -  Abre la pantalla de Articulos
+2022-08-22 18:52:19,352 - root - INFO -  La pantalla ejecutada es Articulos
+2022-08-22 18:52:22,366 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_52_22.png
+2022-08-22 18:52:22,638 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-22 18:52:27,743 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:52:27,811 - root - INFO -  El campo 'Código Interno' si se encuentra visible.
+2022-08-22 18:52:27,855 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-08-22 18:52:27,894 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-08-22 18:52:27,933 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2022-08-22 18:52:27,971 - root - INFO -  El campo 'Descripción Colector' si se encuentra visible.
+2022-08-22 18:52:28,010 - root - INFO -  El campo 'Liquidar como' si se encuentra visible.
+2022-08-22 18:52:28,050 - root - INFO -  El campo 'Familia' si se encuentra visible.
+2022-08-22 18:52:28,098 - root - INFO -  El campo 'Línea de Negocio' si se encuentra visible.
+2022-08-22 18:52:28,136 - root - INFO -  El campo 'Código de Barras' si se encuentra visible.
+2022-08-22 18:52:28,175 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2022-08-22 18:52:28,213 - root - INFO -  El campo 'Packing' si se encuentra visible.
+2022-08-22 18:52:28,251 - root - INFO -  El campo 'Unidad Venta' si se encuentra visible.
+2022-08-22 18:52:28,291 - root - INFO -  El campo 'Días de validez' si se encuentra visible.
+2022-08-22 18:52:28,330 - root - INFO -  El campo 'Unidades por Packing' si se encuentra visible.
+2022-08-22 18:52:28,368 - root - INFO -  El campo 'Decimales por Packing' si se encuentra visible.
+2022-08-22 18:52:28,406 - root - INFO -  El campo 'Unidades Homogéneas Factor 1' si se encuentra visible.
+2022-08-22 18:52:28,445 - root - INFO -  El campo 'Unidades Homogéneas Factor 2' si se encuentra visible.
+2022-08-22 18:52:28,484 - root - INFO -  El campo 'Unidades Homogéneas Factor 3' si se encuentra visible.
+2022-08-22 18:52:28,522 - root - INFO -  El campo 'Unidades Homogéneas Factor 4' si se encuentra visible.
+2022-08-22 18:52:28,565 - root - INFO -  El campo 'Activo' si se encuentra visible.
+2022-08-22 18:52:28,609 - root - INFO -  El campo 'Facturación por packing' si se encuentra visible.
+2022-08-22 18:52:28,645 - root - INFO -  El campo 'Controlar Lotes' si se encuentra visible.
+2022-08-22 18:52:28,686 - root - INFO -  El campo 'Controlar Stock' si se encuentra visible.
+2022-08-22 18:52:28,816 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:52:31,968 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:52:35,114 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:52:38,290 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:52:41,462 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:52:44,655 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:52:56,165 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:53:07,690 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:53:10,871 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:53:22,369 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:53:33,884 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:53:45,368 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:53:48,526 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:53:51,703 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:53:54,892 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:53:58,046 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:54:01,207 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:54:04,354 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
+2022-08-22 18:54:07,486 - root - INFO -  Ingresa las Unidades Homogéneas Factor 4 del nuevo registro 
+2022-08-22 18:54:10,631 - root - INFO -  Se dió click en el campo activo 
+2022-08-22 18:54:13,755 - root - INFO -  Se dió click en el campo Factura por Packing 
+2022-08-22 18:54:16,898 - root - INFO -  Se dió click en el campo Control Lotes 
+2022-08-22 18:54:20,035 - root - INFO -  Se dió click en el campo control stock 
+2022-08-22 18:54:23,050 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ART\report\img  screen：20220822_18_54_23.png
+2022-08-22 18:54:23,294 - root - INFO - Se hace el cambio de pestaña Lista de Precios para continuar con el registro nuevo
+2022-08-22 18:54:28,371 - root - INFO -  El campo 'Descripción para L.P.' si se encuentra visible.
+2022-08-22 18:54:28,427 - root - INFO -  El campo 'Observación para L.P.' si se encuentra visible.
+2022-08-22 18:54:28,607 - root - INFO -  Ingresa la Descripcion LP del nuevo registro 
+2022-08-22 18:54:31,768 - root - INFO -  Ingresa la Observacion LP del nuevo registro 
+2022-08-22 18:54:34,896 - root - INFO - Se hace el cambio de pestaña impuestos para continuar con el registro nuevo
+2022-08-22 18:54:39,992 - root - INFO -  El campo 'Fórmula cálculo precio unitario' si se encuentra visible.
+2022-08-22 18:54:40,213 - root - INFO -  Ingresa la Fórmula cálculo precio unitario del nuevo registro 
+2022-08-22 18:54:43,345 - root - INFO -  Se presiona el boton 'Nuevo de la pestaña Impuesto' , para crear un nuevo registro.
+2022-08-22 18:54:48,443 - root - INFO -  El campo 'Fecha de Vigencia' si se encuentra visible.
+2022-08-22 18:54:48,488 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-22 18:54:56,992 - root - INFO -  Se selecciono el registro de Fecha Vigencia 
+2022-08-22 18:55:08,490 - root - INFO -  Se selecciono el registro de Impuesto 
+2022-08-22 18:55:11,593 - root - INFO -  Se presiona el boton 'Guardar de la pestaña impuesto', para guardar el registro.
+2022-08-22 18:55:16,722 - root - INFO - Se hace el cambio de pestaña Varios para continuar con el registro nuevo
+2022-08-22 18:55:21,806 - root - INFO -  El campo 'Clasificación Artículo 1' si se encuentra visible.
+2022-08-22 18:55:21,846 - root - INFO -  El campo 'Sabor' si se encuentra visible.
+2022-08-22 18:55:21,886 - root - INFO -  El campo 'Tipo de Artículo' si se encuentra visible.
+2022-08-22 18:55:30,340 - root - INFO -  Se selecciono el registro de Clasificación de Articulo 1 
+2022-08-22 18:55:41,856 - root - INFO -  Se selecciono el registro de Sabor 
+2022-08-22 18:55:53,374 - root - INFO -  Se selecciono el registro de Tipo de Articulo 
+2022-08-22 18:55:56,526 - root - INFO - Se hace el cambio de pestaña Custom Properties para continuar con el registro nuevo
+2022-08-22 18:56:01,676 - root - INFO -  Se dió click en el campo de Aguascalientes
+2022-08-22 18:56:04,870 - root - INFO -  Se dió click en el campo de Baja California 
+2022-08-22 18:56:07,997 - root - INFO -  Se dió click en el campo Baja California Sur 
+2022-08-22 18:56:11,159 - root - INFO -  Se dió click en el campo de Campeche 
+2022-08-22 18:56:14,315 - root - INFO -  Se dió click en el campo de Coahuila 
+2022-08-22 18:56:17,431 - root - INFO -  Se dió click en el campo de Colima 
+2022-08-22 18:56:20,612 - root - INFO -  Se dió click en el campo de Chiapas 
+2022-08-22 18:56:23,792 - root - INFO -  Se dió click en el campo de Chihuahua 
+2022-08-22 18:56:26,948 - root - INFO -  Se dió click en el campo de Distrito Federal 
+2022-08-22 18:56:30,104 - root - INFO -  Se dió click en el campo de Durango 
+2022-08-22 18:56:33,274 - root - INFO -  Se dió click en el campo de Guanajuato 
+2022-08-22 18:56:36,439 - root - INFO -  Se dió click en el campo de Guerrero 
+2022-08-22 18:56:39,622 - root - INFO -  Se dió click en el campo de Hidalgo 
+2022-08-22 18:56:42,799 - root - INFO -  Se dió click en el campo de Jalisco
+2022-08-22 18:56:46,012 - root - INFO -  Se dió click en el campo de México
+2022-08-22 18:56:49,206 - root - INFO -  Se dió click en el campo de Michoacan
+2022-08-22 18:56:52,393 - root - INFO -  Se dió click en el campo de Morelos
+2022-08-22 18:56:55,543 - root - INFO -  Se dió click en el campo de Nayarit
+2022-08-22 18:56:58,701 - root - INFO -  Se dió click en el campo de Nuevo León
+2022-08-22 18:57:01,878 - root - INFO -  Se dió click en el campo de Oaxaca
+2022-08-22 18:57:05,026 - root - INFO -  Se dió click en el campo de Puebla
+2022-08-22 18:57:08,142 - root - INFO -  Se dió click en el campo de Queretaro
+2022-08-22 18:57:11,324 - root - INFO -  Se dió click en el campo de Quintana Roo
+2022-08-22 18:57:14,498 - root - INFO -  Se dió click en el campo de San Luis Potosi
+2022-08-22 18:57:17,685 - root - INFO -  Se dió click en el campo de Sinaloa
+2022-08-22 18:57:20,845 - root - INFO -  Se dió click en el campo de Sonora
+2022-08-22 18:57:24,048 - root - INFO -  Se dió click en el campo de Tabasco
+2022-08-22 18:57:27,228 - root - INFO -  Se dió click en el campo de Tamaulipas
+2022-08-22 18:57:30,417 - root - INFO -  Se dió click en el campo de Tlaxcala
+2022-08-22 18:57:33,583 - root - INFO -  Se dió click en el campo de Veracruz
+2022-08-22 18:57:36,756 - root - INFO -  Se dió click en el campo de Yucatan
+2022-08-22 18:57:39,924 - root - INFO -  Se dió click en el campo de Zacatecas
+2022-08-22 18:57:43,157 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-22 18:58:00,787 - root - INFO -  El campo Código de artículo' si se encuentra visible.
+2022-08-22 18:58:00,925 - root - INFO -  Ingresa el codigo articulo en el filtro del nuevo registro 
+2022-08-22 18:58:04,134 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-22 18:58:14,371 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-22 18:58:22,462 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-22 18:58:22,607 - root - INFO -  Ingresa el codigo interno del nuevo registro 
+2022-08-22 18:58:25,797 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-08-22 18:58:28,999 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-22 18:58:32,245 - root - INFO -  Ingresa la Descripcion del nuevo registro 
+2022-08-22 18:58:35,423 - root - INFO -  Ingresa la Descripcion Colector del nuevo registro 
+2022-08-22 18:58:38,611 - root - INFO -  Ingresa el liquidar como del nuevo registro 
+2022-08-22 18:58:50,208 - root - INFO -  Se selecciono el registro de Familia 
+2022-08-22 18:59:01,743 - root - INFO -  Se selecciono el registro de Linea Negocio 
+2022-08-22 18:59:04,909 - root - INFO -  Ingresa el Codigo de Barras del nuevo registro 
+2022-08-22 18:59:16,500 - root - INFO -  Se selecciono el registro de Unidad Negocio 
+2022-08-22 18:59:28,036 - root - INFO -  Se selecciono el registro de Packing 
+2022-08-22 18:59:39,547 - root - INFO -  Se selecciono el registro de Unidad Venta 
+2022-08-22 18:59:42,715 - root - INFO -  Ingresa los días de validez del nuevo registro 
+2022-08-22 18:59:45,918 - root - INFO -  Ingresa las unidades por packing del nuevo registro 
+2022-08-22 18:59:49,099 - root - INFO -  Ingresa los decimales por packing del nuevo registro 
+2022-08-22 18:59:52,334 - root - INFO -  Ingresa las Unidades Homogéneas Factor 1 del nuevo registro 
+2022-08-22 18:59:55,458 - root - INFO -  Ingresa las Unidades Homogéneas Factor 2 del nuevo registro 
+2022-08-22 18:59:58,623 - root - INFO -  Ingresa las Unidades Homogéneas Factor 3 del nuevo registro 
