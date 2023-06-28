@@ -1,0 +1,90 @@
+2022-09-01 17:42:19,775 - root - INFO -  Se abre el chrome
+2022-09-01 17:42:21,046 - root - INFO -  Entra a la URL
+2022-09-01 17:42:21,170 - root - INFO -  Maximiza la pantalla
+2022-09-01 17:42:24,252 - root - INFO -  Cambia al frame
+2022-09-01 17:42:27,338 - root - INFO -  Escribe el usuario
+2022-09-01 17:42:27,457 - root - INFO -  Escribe la contraseña
+2022-09-01 17:42:27,624 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 17:42:28,439 - root - INFO -  Ejecutar Enterprise
+2022-09-01 17:42:28,440 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_42_28.png
+2022-09-01 17:42:32,691 - root - INFO -  Cambia entre pestañas
+2022-09-01 17:42:37,816 - root - INFO -  Abre el menu completo
+2022-09-01 17:42:50,713 - root - INFO -  Abre la pantalla de Tipos Oficina
+2022-09-01 17:42:50,775 - root - INFO -  La pantalla ejecutada es Tipos de Oficina.
+2022-09-01 17:42:53,787 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_42_53.png
+2022-09-01 17:42:53,960 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-01 17:42:59,028 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 17:42:59,071 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 17:42:59,132 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-09-01 17:42:59,191 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-09-01 17:42:59,247 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 17:42:59,376 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 17:43:02,517 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-09-01 17:43:05,657 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-01 17:43:08,858 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 17:43:11,874 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_43_11.png
+2022-09-01 17:43:12,103 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-01 17:43:17,223 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-01 17:43:22,287 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-01 17:43:27,324 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-01 17:43:27,360 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-01 17:43:27,396 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-09-01 17:43:27,432 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-09-01 17:43:27,468 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-01 17:43:27,546 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-01 17:43:30,674 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-09-01 17:43:33,800 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-09-01 17:43:36,991 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-01 17:43:40,079 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-01 17:43:45,094 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_43_45.png
+2022-09-01 17:43:45,289 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-01 17:43:48,368 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-01 17:43:52,432 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2022-09-01 17:44:02,047 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-09-01 17:44:05,214 - root - INFO -  Se modifica el contenido del campo Codigo Usuario
+2022-09-01 17:44:08,381 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-09-01 17:44:11,631 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-01 17:44:14,634 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_44_14.png
+2022-09-01 17:44:14,854 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-01 17:44:19,950 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-01 17:44:29,548 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-01 17:44:32,639 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-01 17:44:37,644 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_44_37.png
+2022-09-01 17:44:37,845 - root - INFO -  Se confirma el eliminado del registro
+2022-09-01 17:44:42,928 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro se elimino.
+2022-09-01 17:44:48,017 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Oficina.
+2022-09-01 17:44:54,383 - root - INFO -  Se cierra chrome
+2022-09-01 17:45:38,921 - root - INFO -  Se abre el chrome
+2022-09-01 17:45:40,071 - root - INFO -  Entra a la URL
+2022-09-01 17:45:40,204 - root - INFO -  Maximiza la pantalla
+2022-09-01 17:45:43,255 - root - INFO -  Cambia al frame
+2022-09-01 17:45:46,338 - root - INFO -  Escribe el usuario
+2022-09-01 17:45:46,450 - root - INFO -  Escribe la contraseña
+2022-09-01 17:45:46,592 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 17:45:47,382 - root - INFO -  Ejecutar Enterprise
+2022-09-01 17:45:47,383 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_45_47.png
+2022-09-01 17:45:51,646 - root - INFO -  Cambia entre pestañas
+2022-09-01 17:46:01,694 - root - INFO -  Abre el menu completo
+2022-09-01 17:46:10,865 - root - INFO -  Se abre el chrome
+2022-09-01 17:46:12,056 - root - INFO -  Entra a la URL
+2022-09-01 17:46:12,322 - root - INFO -  Maximiza la pantalla
+2022-09-01 17:46:15,383 - root - INFO -  Cambia al frame
+2022-09-01 17:46:18,465 - root - INFO -  Escribe el usuario
+2022-09-01 17:46:18,570 - root - INFO -  Escribe la contraseña
+2022-09-01 17:46:18,715 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 17:46:20,030 - root - INFO -  Ejecutar Enterprise
+2022-09-01 17:46:20,031 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_46_20.png
+2022-09-01 17:46:24,255 - root - INFO -  Cambia entre pestañas
+2022-09-01 17:46:29,371 - root - INFO -  Abre el menu completo
+2022-09-01 17:48:31,716 - root - INFO -  Se abre el chrome
+2022-09-01 17:48:32,862 - root - INFO -  Entra a la URL
+2022-09-01 17:48:32,997 - root - INFO -  Maximiza la pantalla
+2022-09-01 17:48:36,045 - root - INFO -  Cambia al frame
+2022-09-01 17:48:39,131 - root - INFO -  Escribe el usuario
+2022-09-01 17:48:39,238 - root - INFO -  Escribe la contraseña
+2022-09-01 17:48:39,377 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-01 17:48:40,180 - root - INFO -  Ejecutar Enterprise
+2022-09-01 17:48:40,181 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20220901_17_48_40.png
+2022-09-01 17:48:44,419 - root - INFO -  Cambia entre pestañas
+2022-09-01 17:48:54,812 - root - INFO -  Abre el menu completo
+2022-09-01 17:49:07,728 - root - INFO -  Abre la pantalla de Tipos Oficina

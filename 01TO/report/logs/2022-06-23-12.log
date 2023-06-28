@@ -1,0 +1,64 @@
+2022-06-23 12:50:40,048 - root - INFO -  Se abre el chrome
+2022-06-23 12:50:44,155 - root - INFO -  Entra a la URL
+2022-06-23 12:50:44,284 - root - INFO -  Maximiza la pantalla
+2022-06-23 12:50:47,335 - root - INFO -  Cambia al frame
+2022-06-23 12:50:50,445 - root - INFO -  Escribe el usuario
+2022-06-23 12:50:50,575 - root - INFO -  Escribe la contraseña
+2022-06-23 12:50:50,733 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-23 12:50:56,870 - root - INFO -  Ejecutar Enterprise
+2022-06-23 12:51:00,953 - root - INFO -  Cambia entre pestañas
+2022-06-23 12:51:22,369 - root - INFO -  Abre el menu completo
+2022-06-23 12:51:27,786 - root - ERROR - No se pudo encontrar el menu indicado, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-23 12:51:27,788 - root - INFO -  Captura: C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\01TO\report\img  screen：20220623_12_51_27.png
+2022-06-23 12:51:33,219 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-06-23 12:51:33,221 - root - INFO -  Captura: C:\Users\PWST\Desktop\Automatización\AutoPWST-2.0\AutoPWST-2.0\01TO\report\img  screen：20220623_12_51_33.png
+2022-06-23 12:52:36,749 - root - INFO -  Se abre el chrome
+2022-06-23 12:52:41,105 - root - INFO -  Entra a la URL
+2022-06-23 12:52:41,237 - root - INFO -  Maximiza la pantalla
+2022-06-23 12:52:44,298 - root - INFO -  Cambia al frame
+2022-06-23 12:52:47,401 - root - INFO -  Escribe el usuario
+2022-06-23 12:52:47,527 - root - INFO -  Escribe la contraseña
+2022-06-23 12:52:47,678 - root - INFO -  Se dio clic en el boton ingresar
+2022-06-23 12:52:54,455 - root - INFO -  Ejecutar Enterprise
+2022-06-23 12:52:58,543 - root - INFO -  Cambia entre pestañas
+2022-06-23 12:53:21,545 - root - INFO -  Abre el menu completo
+2022-06-23 12:53:34,516 - root - INFO -  Abre la pantalla de Tipos de Agencia
+2022-06-23 12:53:34,611 - root - INFO -  La pantalla ejecutada es Tipos de Oficina.
+2022-06-23 12:53:34,701 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-06-23 12:53:35,836 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-23 12:53:35,879 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-23 12:53:35,920 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-06-23 12:53:35,969 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-23 12:53:36,009 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-23 12:53:38,150 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-23 12:53:41,280 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-06-23 12:53:44,446 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-23 12:53:47,668 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-23 12:53:50,770 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-23 12:53:53,889 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-23 12:53:57,024 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-06-23 12:53:58,115 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-06-23 12:53:58,159 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-06-23 12:53:58,198 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2022-06-23 12:53:58,249 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-06-23 12:53:58,287 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-06-23 12:54:00,426 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-06-23 12:54:03,598 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-06-23 12:54:06,776 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-06-23 12:54:10,005 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-06-23 12:54:13,141 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-06-23 12:54:16,280 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-06-23 12:54:18,381 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-06-23 12:54:22,468 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-23 12:54:30,128 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-06-23 12:54:30,290 - root - INFO -  Se modifica el contenido del campo Codigo Usuario
+2022-06-23 12:54:33,481 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-06-23 12:54:36,773 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-06-23 12:54:39,892 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-06-23 12:54:42,991 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-06-23 12:54:50,594 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-06-23 12:54:50,700 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-06-23 12:54:51,353 - root - INFO -  Se confirma el eliminado del registro
+2022-06-23 12:54:53,464 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-06-23 12:54:55,594 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-06-23 12:54:59,887 - root - INFO -  Se cierra chrome

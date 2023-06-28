@@ -1,0 +1,122 @@
+2022-12-23 11:23:44,964 - root - INFO -  Se abre el chrome
+2022-12-23 11:23:45,725 - root - INFO -  Entra a la URL
+2022-12-23 11:23:45,841 - root - INFO -  Maximiza la pantalla
+2022-12-23 11:23:48,939 - root - INFO -  Escribe el usuario
+2022-12-23 11:23:49,000 - root - INFO -  Escribe la contraseña
+2022-12-23 11:23:49,070 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 11:23:49,734 - root - INFO -  Ejecutar Enterprise
+2022-12-23 11:23:53,800 - root - INFO -  Cambia entre pestañas
+2022-12-23 11:24:02,749 - root - INFO -  Abre la pantalla de Tipos de Politica
+2022-12-23 11:24:03,337 - root - INFO -  La pantalla ejecutada es Tipos de Politica
+2022-12-23 11:24:06,349 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_24_06.png
+2022-12-23 11:24:17,050 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 11:24:17,622 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 11:24:17,676 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 11:24:17,707 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 11:24:17,737 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 11:24:17,766 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-12-23 11:24:17,829 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 11:24:17,955 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 11:24:18,140 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 11:24:18,319 - root - INFO -  Ingresa la Observación del nuevo registro 
+2022-12-23 11:24:19,331 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_24_19.png
+2022-12-23 11:24:19,512 - root - INFO - Se hace el cambio a la pestaña Cuentas Contables para continuar con el registro nuevo
+2022-12-23 11:24:20,072 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Cuentas Contables.
+2022-12-23 11:24:20,104 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-12-23 11:24:20,135 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-12-23 11:24:20,207 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-12-23 11:24:21,093 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2022-12-23 11:24:22,146 - root - INFO -  Se dió doble click en el regitro de Cuentas Contables.
+2022-12-23 11:24:23,149 - root - INFO -  Se dió doble click en el regitro de Centro Costo.
+2022-12-23 11:24:23,347 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro de cuentas contables.
+2022-12-23 11:24:23,554 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 11:24:23,757 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 11:24:23,862 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 11:24:24,451 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 11:24:24,479 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 11:24:24,507 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 11:24:24,535 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 11:24:24,563 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-12-23 11:24:24,617 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 11:24:24,713 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 11:24:24,861 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 11:24:25,100 - root - INFO -  Ingresa la Observación del nuevo registro 
+2022-12-23 11:24:25,143 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-23 11:24:26,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_24_26.png
+2022-12-23 11:24:26,405 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 11:24:26,518 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 11:24:26,632 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 11:24:26,965 - root - ERROR - No se encontró el registro deseado, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-23 11:24:26,967 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_24_26.png
+2022-12-23 11:24:37,810 - root - INFO -  Se abre el chrome
+2022-12-23 11:24:39,372 - root - INFO -  Entra a la URL
+2022-12-23 11:24:39,488 - root - INFO -  Maximiza la pantalla
+2022-12-23 11:24:42,665 - root - INFO -  Escribe el usuario
+2022-12-23 11:24:42,789 - root - INFO -  Escribe la contraseña
+2022-12-23 11:24:42,884 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-23 11:24:43,571 - root - INFO -  Ejecutar Enterprise
+2022-12-23 11:24:47,617 - root - INFO -  Cambia entre pestañas
+2022-12-23 11:24:59,845 - root - INFO -  Abre la pantalla de Tipos de Politica
+2022-12-23 11:25:00,406 - root - INFO -  La pantalla ejecutada es Tipos de Politica
+2022-12-23 11:25:03,420 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_25_03.png
+2022-12-23 11:25:04,146 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-23 11:25:04,221 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 11:25:04,835 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 11:25:05,085 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 11:25:05,207 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-23 11:25:05,797 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 11:25:05,826 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 11:25:05,857 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 11:25:05,915 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 11:25:05,945 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-12-23 11:25:06,028 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 11:25:06,113 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 11:25:06,296 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 11:25:06,508 - root - INFO -  Ingresa la Observación del nuevo registro 
+2022-12-23 11:25:07,511 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_25_07.png
+2022-12-23 11:25:07,713 - root - INFO - Se hace el cambio a la pestaña Cuentas Contables para continuar con el registro nuevo
+2022-12-23 11:25:08,340 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Cuentas Contables.
+2022-12-23 11:25:08,371 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-12-23 11:25:08,402 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-12-23 11:25:08,446 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-12-23 11:25:09,382 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2022-12-23 11:25:10,472 - root - INFO -  Se dió doble click en el regitro de Cuentas Contables.
+2022-12-23 11:25:11,502 - root - INFO -  Se dió doble click en el regitro de Centro Costo.
+2022-12-23 11:25:11,698 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro de cuentas contables.
+2022-12-23 11:25:11,892 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-23 11:25:12,133 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-23 11:25:12,253 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-23 11:25:12,852 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-23 11:25:12,880 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-23 11:25:12,908 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-12-23 11:25:12,935 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-23 11:25:12,963 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-12-23 11:25:13,016 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-23 11:25:13,131 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-23 11:25:13,289 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-23 11:25:13,472 - root - INFO -  Ingresa la Observación del nuevo registro 
+2022-12-23 11:25:13,513 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-23 11:25:14,514 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_25_14.png
+2022-12-23 11:25:14,773 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-23 11:25:14,904 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-23 11:25:15,030 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-12-23 11:25:16,732 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-12-23 11:25:17,367 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2022-12-23 11:25:17,533 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-12-23 11:25:17,615 - root - INFO -  Se modifica el contenido del campo Observaciones 
+2022-12-23 11:25:18,620 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_25_18.png
+2022-12-23 11:25:18,810 - root - INFO - Se hace el cambio a la pestaña Cuentas COntables para continuar con la Modificación del registro
+2022-12-23 11:25:19,890 - root - INFO -  Se da clic en el registro de cuentas contables creado, para proceder a modificarlo.
+2022-12-23 11:25:21,583 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2022-12-23 11:25:22,703 - root - INFO -  Se dió doble click en el regitro de Cuentas Contables.
+2022-12-23 11:25:23,709 - root - INFO -  Se dió doble click en el regitro de Centro Costo.
+2022-12-23 11:25:23,966 - root - INFO -  Se presiona el boton 'Aceptar', para guardar la modiiación del registro de Cuentas Contables.
+2022-12-23 11:25:24,235 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-23 11:25:24,549 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-23 11:25:31,192 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-23 11:25:31,302 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-23 11:25:32,318 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20221223_11_25_32.png
+2022-12-23 11:25:32,493 - root - INFO -  Se confirma el eliminado del registro
+2022-12-23 11:25:32,983 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro se elimino.
+2022-12-23 11:25:33,177 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipo Politicas.
+2022-12-23 11:25:37,430 - root - INFO -  Se cierra chrome

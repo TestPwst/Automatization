@@ -1,0 +1,37 @@
+2022-07-01 10:34:55,767 - root - INFO -  Se abre el chrome
+2022-07-01 10:34:59,185 - root - INFO -  Entra a la URL
+2022-07-01 10:34:59,351 - root - INFO -  Maximiza la pantalla
+2022-07-01 10:35:02,481 - root - INFO -  Cambia al frame
+2022-07-01 10:35:05,630 - root - INFO -  Escribe el usuario
+2022-07-01 10:35:05,765 - root - INFO -  Escribe la contraseña
+2022-07-01 10:35:05,961 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-01 10:35:08,595 - root - INFO -  Ejecutar Enterprise
+2022-07-01 10:35:12,738 - root - INFO -  Cambia entre pestañas
+2022-07-01 10:35:27,942 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-01 10:35:31,034 - root - INFO -  Abre el menu completo
+2022-07-01 10:35:43,951 - root - INFO -  Abre la pantalla de Tipos de Politica
+2022-07-01 10:35:44,031 - root - INFO -  La pantalla ejecutada es Tipos de Politica
+2022-07-01 10:35:44,156 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-01 10:35:45,248 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-01 10:35:45,294 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-01 10:35:45,331 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2022-07-01 10:35:45,401 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-01 10:35:47,458 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2022-07-01 10:35:47,550 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-01 10:35:50,776 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-01 10:35:53,931 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-01 10:35:57,132 - root - INFO -  Ingresa la Observación del nuevo registro 
+2022-07-01 10:36:00,254 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-01 10:36:03,373 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-01 10:36:03,467 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-07-01 10:36:03,527 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2022-07-01 10:36:03,676 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2022-07-01 10:36:28,471 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2022-07-01 10:36:32,643 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-01 10:36:36,822 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 10:36:36,824 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01TP\report\img  screen：20220701_10_36_36.png
+2022-07-01 10:36:38,128 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 10:36:38,130 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01TP\report\img  screen：20220701_10_36_38.png
+2022-07-01 10:36:39,425 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 10:36:39,426 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01TP\report\img  screen：20220701_10_36_39.png
+2022-07-01 10:36:42,006 - root - INFO -  Se cierra chrome

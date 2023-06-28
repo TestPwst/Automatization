@@ -1,0 +1,55 @@
+2023-01-26 18:37:16,253 - root - INFO -  Se abre el chrome
+2023-01-26 18:37:17,264 - root - INFO -  Entra a la URL
+2023-01-26 18:37:17,382 - root - INFO -  Maximiza la pantalla
+2023-01-26 18:37:20,504 - root - INFO -  Escribe el usuario
+2023-01-26 18:37:20,584 - root - INFO -  Escribe la contraseña
+2023-01-26 18:37:20,680 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-26 18:37:21,922 - root - INFO -  Ejecutar Enterprise
+2023-01-26 18:37:25,976 - root - INFO -  Cambia entre pestañas
+2023-01-26 18:37:37,676 - root - INFO -  Abre la pantalla de Tipos Oficina
+2023-01-26 18:37:38,261 - root - INFO -  La pantalla ejecutada es Tipos de Oficina.
+2023-01-26 18:37:39,269 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_37_39.png
+2023-01-26 18:37:50,130 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-26 18:37:50,713 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 18:37:50,763 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-26 18:37:50,803 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2023-01-26 18:37:50,842 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-26 18:37:50,890 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-26 18:37:50,969 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 18:37:51,064 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2023-01-26 18:37:51,160 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-26 18:37:51,306 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 18:37:52,308 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_37_52.png
+2023-01-26 18:37:52,878 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-26 18:37:53,189 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-26 18:37:53,392 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-26 18:37:53,979 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-26 18:37:54,029 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-26 18:37:54,069 - root - INFO -  El campo 'Codigo Usuario' si se encuentra visible.
+2023-01-26 18:37:54,113 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-01-26 18:37:54,142 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-26 18:37:54,216 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-26 18:37:54,308 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2023-01-26 18:37:54,398 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-26 18:37:54,533 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-26 18:37:54,599 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-26 18:37:55,601 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_37_55.png
+2023-01-26 18:38:01,690 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 18:38:02,700 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_38_02.png
+2023-01-26 18:38:03,421 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-26 18:38:03,570 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-26 18:38:03,738 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modifcar el registro.
+2023-01-26 18:38:05,449 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2023-01-26 18:38:06,161 - root - INFO -  Se modifica el contenido del campo Codigo Usuario
+2023-01-26 18:38:06,273 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-01-26 18:38:06,445 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-26 18:38:07,446 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_38_07.png
+2023-01-26 18:38:08,007 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-26 18:38:08,309 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-26 18:38:09,990 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-26 18:38:10,081 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-26 18:38:11,082 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01TO\report\img  screen：20230126_18_38_11.png
+2023-01-26 18:38:11,643 - root - INFO -  Se confirma el eliminado del registro
+2023-01-26 18:38:11,879 - root - INFO -  Se presiona el boton 'Refrescar', para verificar que el registro se elimino.
+2023-01-26 18:38:12,062 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Tipos Oficina.
+2023-01-26 18:38:16,304 - root - INFO -  Se cierra chrome

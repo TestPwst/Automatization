@@ -1,0 +1,82 @@
+2023-05-10 13:17:57,517 - root - INFO -  Se abre el chrome
+2023-05-10 13:17:59,828 - root - INFO -  Entra a la URL
+2023-05-10 13:17:59,950 - root - INFO -  Maximiza la pantalla
+2023-05-10 13:18:03,029 - root - INFO -  Escribe el usuario
+2023-05-10 13:18:03,108 - root - INFO -  Escribe la contraseña
+2023-05-10 13:18:03,165 - root - INFO -  Se dio clic en el boton ingresar
+2023-05-10 13:18:05,418 - root - INFO -  Ejecutar Enterprise
+2023-05-10 13:18:09,483 - root - INFO -  Cambia entre pestañas
+2023-05-10 13:18:49,821 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2023-05-10 13:18:49,821 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_18_49.png
+2023-05-10 13:18:49,836 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-05-10 13:18:52,838 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_18_52.png
+2023-05-10 13:18:52,838 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-05-10 13:18:52,838 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_18_52.png
+2023-05-10 13:18:52,851 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-05-10 13:18:55,860 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_18_55.png
+2023-05-10 13:19:03,766 - root - INFO -  Se abre el chrome
+2023-05-10 13:19:07,341 - root - INFO -  Entra a la URL
+2023-05-10 13:19:07,458 - root - INFO -  Maximiza la pantalla
+2023-05-10 13:19:10,551 - root - INFO -  Escribe el usuario
+2023-05-10 13:19:10,622 - root - INFO -  Escribe la contraseña
+2023-05-10 13:19:10,696 - root - INFO -  Se dio clic en el boton ingresar
+2023-05-10 13:19:12,991 - root - INFO -  Ejecutar Enterprise
+2023-05-10 13:19:17,038 - root - INFO -  Cambia entre pestañas
+2023-05-10 13:19:28,421 - root - INFO -  Abre la pantalla de Tipos de Politica
+2023-05-10 13:19:28,971 - root - INFO -  La pantalla ejecutada es Tipos de Politica
+2023-05-10 13:19:31,983 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_19_31.png
+2023-05-10 13:19:42,439 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-05-10 13:19:43,527 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-10 13:19:43,568 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-05-10 13:19:43,599 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-05-10 13:19:43,650 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-05-10 13:19:43,684 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2023-05-10 13:19:43,748 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-10 13:19:43,870 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-10 13:19:44,016 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-10 13:19:44,223 - root - INFO -  Ingresa la Observación del nuevo registro 
+2023-05-10 13:19:45,227 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_19_45.png
+2023-05-10 13:19:45,401 - root - INFO - Se hace el cambio a la pestaña Cuentas Contables para continuar con el registro nuevo
+2023-05-10 13:19:46,504 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Cuentas Contables.
+2023-05-10 13:19:46,531 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-05-10 13:19:46,585 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2023-05-10 13:19:46,626 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-05-10 13:19:48,053 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-05-10 13:19:49,269 - root - INFO -  Se dió doble click en el regitro de Cuentas Contables.
+2023-05-10 13:19:51,099 - root - INFO -  Se dió doble click en el regitro de Centro Costo.
+2023-05-10 13:19:51,432 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro de cuentas contables.
+2023-05-10 13:19:51,742 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-05-10 13:19:52,066 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-05-10 13:19:54,121 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-05-10 13:19:54,667 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-05-10 13:19:54,725 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-05-10 13:19:54,762 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-05-10 13:19:54,810 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-05-10 13:19:54,841 - root - INFO -  El campo 'Observaciones' si se encuentra visible.
+2023-05-10 13:19:54,910 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-05-10 13:19:55,017 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-05-10 13:19:55,159 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-05-10 13:19:55,361 - root - INFO -  Ingresa la Observación del nuevo registro 
+2023-05-10 13:19:55,413 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-05-10 13:19:56,421 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_19_56.png
+2023-05-10 13:20:01,849 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-05-10 13:20:02,854 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_20_02.png
+2023-05-10 13:20:03,090 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-05-10 13:20:03,240 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-05-10 13:20:03,400 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-05-10 13:20:07,008 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2023-05-10 13:20:08,167 - root - INFO -  Se modifica el contenido del campo Codigo Alternativo
+2023-05-10 13:20:08,329 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-05-10 13:20:08,454 - root - INFO -  Se modifica el contenido del campo Observaciones 
+2023-05-10 13:20:09,459 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_20_09.png
+2023-05-10 13:20:09,657 - root - INFO - Se hace el cambio a la pestaña Cuentas COntables para continuar con la Modificación del registro
+2023-05-10 13:20:11,280 - root - INFO -  Se da clic en el registro de cuentas contables creado, para proceder a modificarlo.
+2023-05-10 13:20:13,016 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-05-10 13:20:14,148 - root - INFO -  Se dió doble click en el regitro de Cuentas Contables.
+2023-05-10 13:20:15,327 - root - ERROR - No se encontró el registro de centro costo, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-05-10 13:20:15,327 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_20_15.png
+2023-05-10 13:21:15,872 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2023-05-10 13:21:17,874 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_21_17.png
+2023-05-10 13:21:19,054 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-05-10 13:21:22,056 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01TP\report\img  screen：20230510_13_21_22.png
+2023-05-10 13:21:26,607 - root - INFO -  Se cierra chrome
