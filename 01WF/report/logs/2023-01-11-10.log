@@ -1,0 +1,66 @@
+2023-01-11 10:36:05,349 - root - INFO -  Se abre el chrome
+2023-01-11 10:36:06,303 - root - INFO -  Entra a la URL
+2023-01-11 10:36:06,435 - root - INFO -  Maximiza la pantalla
+2023-01-11 10:36:09,565 - root - INFO -  Escribe el usuario
+2023-01-11 10:36:09,675 - root - INFO -  Escribe la contraseña
+2023-01-11 10:36:09,774 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-11 10:36:10,554 - root - INFO -  Ejecutar Enterprise
+2023-01-11 10:36:14,622 - root - INFO -  Cambia entre pestañas
+2023-01-11 10:36:26,137 - root - INFO -  Abre la pantalla de Worksflow
+2023-01-11 10:36:26,748 - root - INFO -  La pantalla ejecutada es Work Flows
+2023-01-11 10:36:29,751 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_36_29.png
+2023-01-11 10:36:40,679 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 10:36:45,772 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:36:45,814 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:36:45,851 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:36:45,924 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:36:46,103 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 10:36:47,105 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_36_47.png
+2023-01-11 10:36:47,714 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar con el registro nuevo
+2023-01-11 10:36:48,334 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Tipos Documento.
+2023-01-11 10:36:48,894 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2023-01-11 10:36:48,946 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-01-11 10:36:48,986 - root - INFO -  El campo 'Modo Bloqueo' si se encuentra visible.
+2023-01-11 10:36:49,025 - root - INFO -  El campo 'Obligatorio' si se encuentra visible.
+2023-01-11 10:36:50,025 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-01-11 10:36:50,823 - root - INFO -  Se dió click en el regitro de Modo Bloqueo.
+2023-01-11 10:36:50,943 - root - INFO -  Hizo click en el checkbox Obligatorio 
+2023-01-11 10:36:51,045 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro Tipos Documento.
+2023-01-11 10:36:51,535 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 10:36:51,817 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:36:51,978 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-11 10:36:52,539 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:36:52,576 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:36:52,620 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:36:52,701 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:36:52,905 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 10:36:52,976 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-01-11 10:36:53,978 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_36_53.png
+2023-01-11 10:36:59,810 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:37:00,812 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_37_00.png
+2023-01-11 10:37:01,613 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:37:01,777 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-11 10:37:01,929 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-01-11 10:37:03,555 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 10:37:04,318 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-11 10:37:05,319 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_37_05.png
+2023-01-11 10:37:05,927 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar modificando el registro
+2023-01-11 10:37:07,044 - root - INFO -  Se da doble click en el registro de Tipos Documento, para proceder a modificarlo.
+2023-01-11 10:37:08,869 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-01-11 10:37:09,482 - root - INFO -  Se dió click en la opción No Aplica.
+2023-01-11 10:37:09,642 - root - INFO -  Hizo click en el checkbox Obligatorio
+2023-01-11 10:37:09,820 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Tipo Documento.
+2023-01-11 10:37:10,126 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 10:37:10,435 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-11 10:37:12,048 - root - INFO -  Se da doble click en el registro creado, para proceder a eliminarlo.
+2023-01-11 10:37:12,675 - root - INFO - Se hace el cambio a la Pestaña Tipos Documento para continuar con la eliminación del registro
+2023-01-11 10:37:13,800 - root - INFO -  Se da clic en el registro de Tipo Documento, para proceder a eliminarlo.
+2023-01-11 10:37:13,892 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Tipo Documento.
+2023-01-11 10:37:14,053 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 10:37:14,627 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-11 10:37:14,710 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 10:37:15,711 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230111_10_37_15.png
+2023-01-11 10:37:16,338 - root - INFO -  Se confirma el eliminado del registro
+2023-01-11 10:37:16,518 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-01-11 10:37:16,664 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Works Flows.
+2023-01-11 10:37:21,023 - root - INFO -  Se cierra chrome

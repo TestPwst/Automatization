@@ -1,0 +1,29 @@
+2023-04-21 17:58:17,955 - root - INFO -  Se abre el chrome
+2023-04-21 17:58:19,862 - root - INFO -  Entra a la URL
+2023-04-21 17:58:20,012 - root - INFO -  Maximiza la pantalla
+2023-04-21 17:58:23,129 - root - INFO -  Escribe el usuario
+2023-04-21 17:58:23,223 - root - INFO -  Escribe la contraseña
+2023-04-21 17:58:23,318 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 17:58:24,534 - root - INFO -  Ejecutar Enterprise
+2023-04-21 17:58:28,579 - root - INFO -  Cambia entre pestañas
+2023-04-21 17:59:40,727 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 17:59:40,727 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 17:59:41,277 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230421_17_59_41.png
+2023-04-21 17:59:41,344 - root - INFO -  La pantalla ejecutada es Unidades de Artículos.
+2023-04-21 17:59:51,732 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 17:59:52,297 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:59:52,335 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:59:52,373 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 17:59:52,442 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 17:59:53,722 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230421_17_59_53.png
+2023-04-21 17:59:53,808 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 17:59:53,877 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 17:59:54,137 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 17:59:54,250 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 17:59:54,798 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:59:54,833 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:59:54,867 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-04-21 17:59:54,920 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2023-04-21 17:59:55,144 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2023-04-21 17:59:55,195 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-21 17:59:56,197 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230421_17_59_56.png

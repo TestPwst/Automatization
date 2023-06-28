@@ -1,0 +1,111 @@
+2023-04-21 18:11:51,709 - root - INFO -  Se abre el chrome
+2023-04-21 18:11:54,686 - root - INFO -  Entra a la URL
+2023-04-21 18:11:54,928 - root - INFO -  Maximiza la pantalla
+2023-04-21 18:11:58,069 - root - INFO -  Escribe el usuario
+2023-04-21 18:11:58,177 - root - INFO -  Escribe la contraseña
+2023-04-21 18:11:58,275 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 18:11:59,495 - root - INFO -  Ejecutar Enterprise
+2023-04-21 18:12:03,538 - root - INFO -  Cambia entre pestañas
+2023-04-21 18:13:08,338 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 18:13:08,340 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 18:13:09,980 - root - INFO -  La pantalla ejecutada es Vehiculos.
+2023-04-21 18:13:09,981 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_09.png
+2023-04-21 18:13:20,455 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 18:13:23,509 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 18:13:23,549 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 18:13:23,600 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 18:13:23,641 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2023-04-21 18:13:23,673 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2023-04-21 18:13:23,707 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2023-04-21 18:13:23,741 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2023-04-21 18:13:23,776 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2023-04-21 18:13:23,812 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2023-04-21 18:13:23,847 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2023-04-21 18:13:23,882 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2023-04-21 18:13:23,923 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2023-04-21 18:13:23,962 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2023-04-21 18:13:24,001 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2023-04-21 18:13:24,038 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2023-04-21 18:13:24,076 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2023-04-21 18:13:24,135 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 18:13:24,273 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:13:24,370 - root - INFO - Ingresa la marca del nuevo registro 
+2023-04-21 18:13:24,473 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2023-04-21 18:13:24,565 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2023-04-21 18:13:24,655 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2023-04-21 18:13:24,743 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2023-04-21 18:13:24,852 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2023-04-21 18:13:24,939 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2023-04-21 18:13:25,022 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2023-04-21 18:13:25,101 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2023-04-21 18:13:25,174 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2023-04-21 18:13:25,250 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2023-04-21 18:13:25,331 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2023-04-21 18:13:25,408 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2023-04-21 18:13:26,409 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_26.png
+2023-04-21 18:13:27,619 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 18:13:27,850 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 18:13:28,089 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 18:13:28,682 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 18:13:28,719 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 18:13:28,763 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 18:13:28,803 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2023-04-21 18:13:28,838 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2023-04-21 18:13:28,873 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2023-04-21 18:13:28,904 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2023-04-21 18:13:28,933 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2023-04-21 18:13:28,961 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2023-04-21 18:13:28,993 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2023-04-21 18:13:29,021 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2023-04-21 18:13:29,052 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2023-04-21 18:13:29,084 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2023-04-21 18:13:29,118 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2023-04-21 18:13:29,150 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2023-04-21 18:13:29,186 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2023-04-21 18:13:29,256 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 18:13:29,449 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:13:29,582 - root - INFO - Ingresa la marca del nuevo registro 
+2023-04-21 18:13:29,720 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2023-04-21 18:13:29,834 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2023-04-21 18:13:29,933 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2023-04-21 18:13:30,007 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2023-04-21 18:13:30,080 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2023-04-21 18:13:30,153 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2023-04-21 18:13:30,229 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2023-04-21 18:13:30,304 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2023-04-21 18:13:30,412 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2023-04-21 18:13:30,512 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2023-04-21 18:13:30,600 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2023-04-21 18:13:30,713 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2023-04-21 18:13:31,829 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-21 18:13:32,830 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_32.png
+2023-04-21 18:13:38,271 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 18:13:39,272 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_39.png
+2023-04-21 18:13:39,525 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 18:13:39,622 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-21 18:13:39,727 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 18:13:48,356 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 18:13:48,537 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:13:48,646 - root - INFO - Ingresa la marca del nuevo registro 
+2023-04-21 18:13:48,759 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2023-04-21 18:13:48,867 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2023-04-21 18:13:48,992 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2023-04-21 18:13:49,088 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2023-04-21 18:13:49,314 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2023-04-21 18:13:49,456 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2023-04-21 18:13:49,593 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2023-04-21 18:13:49,728 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2023-04-21 18:13:49,862 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2023-04-21 18:13:50,000 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2023-04-21 18:13:50,116 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2023-04-21 18:13:50,225 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2023-04-21 18:13:51,226 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_51.png
+2023-04-21 18:13:52,440 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 18:13:52,673 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-21 18:13:54,275 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-21 18:13:54,355 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-21 18:13:56,356 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20230421_18_13_56.png
+2023-04-21 18:13:56,504 - root - INFO -  Se confirma el eliminado del registro
+2023-04-21 18:13:56,916 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 18:13:58,986 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Vehiculos.
+2023-04-21 18:14:03,197 - root - INFO -  Se cierra chrome

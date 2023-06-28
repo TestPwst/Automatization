@@ -1,0 +1,90 @@
+2023-06-08 12:28:13,330 - root - INFO -  Se abre el chrome
+2023-06-08 12:28:16,240 - root - INFO -  Entra a la URL
+2023-06-08 12:28:16,368 - root - INFO -  Maximiza la pantalla
+2023-06-08 12:28:19,448 - root - INFO -  Escribe el usuario
+2023-06-08 12:28:19,540 - root - INFO -  Escribe la contraseña
+2023-06-08 12:28:19,605 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 12:28:20,859 - root - INFO -  Ejecutar Enterprise
+2023-06-08 12:28:24,917 - root - INFO -  Cambia entre pestañas
+2023-06-08 12:28:43,781 - root - INFO -  Abre la pantalla de unidades
+2023-06-08 12:28:44,324 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_28_44.png
+2023-06-08 12:28:44,434 - root - INFO -  La pantalla ejecutada es Unidades de Artículos.
+2023-06-08 12:28:54,840 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 12:28:55,912 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 12:28:55,932 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 12:28:55,953 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 12:28:55,995 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 12:28:57,228 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_28_57.png
+2023-06-08 12:28:57,359 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 12:28:57,410 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 12:28:57,711 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:28:59,788 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 12:29:00,332 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 12:29:00,352 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 12:29:00,369 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-08 12:29:00,402 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2023-06-08 12:29:00,620 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2023-06-08 12:29:00,660 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-08 12:29:01,661 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_29_01.png
+2023-06-08 12:29:07,127 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 12:29:08,128 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_29_08.png
+2023-06-08 12:29:08,301 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 12:29:08,667 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 12:29:08,788 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:29:12,406 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 12:29:14,169 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_29_14.png
+2023-06-08 12:29:14,278 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 12:29:14,329 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 12:29:15,191 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 12:29:18,767 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 12:29:18,811 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 12:29:20,811 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_29_20.png
+2023-06-08 12:29:20,991 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 12:29:21,295 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:29:23,338 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Unidades.
+2023-06-08 12:29:27,492 - root - INFO -  Se cierra chrome
+2023-06-08 12:29:52,910 - root - INFO -  Se abre el chrome
+2023-06-08 12:29:53,892 - root - INFO -  Entra a la URL
+2023-06-08 12:29:54,018 - root - INFO -  Maximiza la pantalla
+2023-06-08 12:29:57,085 - root - INFO -  Escribe el usuario
+2023-06-08 12:29:57,165 - root - INFO -  Escribe la contraseña
+2023-06-08 12:29:57,223 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 12:29:58,433 - root - INFO -  Ejecutar Enterprise
+2023-06-08 12:30:02,476 - root - INFO -  Cambia entre pestañas
+2023-06-08 12:30:14,701 - root - INFO -  Abre la pantalla de unidades
+2023-06-08 12:30:15,242 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_15.png
+2023-06-08 12:30:15,349 - root - INFO -  La pantalla ejecutada es Unidades de Artículos.
+2023-06-08 12:30:25,772 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 12:30:26,341 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 12:30:26,368 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 12:30:26,390 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 12:30:26,432 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 12:30:27,661 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_27.png
+2023-06-08 12:30:27,777 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-08 12:30:27,822 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 12:30:28,561 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:30:30,616 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 12:30:31,160 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 12:30:31,193 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-08 12:30:31,221 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-06-08 12:30:31,262 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2023-06-08 12:30:31,477 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2023-06-08 12:30:31,512 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-08 12:30:32,513 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_32.png
+2023-06-08 12:30:37,972 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 12:30:38,972 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_38.png
+2023-06-08 12:30:39,213 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 12:30:39,402 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 12:30:39,597 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:30:43,230 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 12:30:45,018 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_45.png
+2023-06-08 12:30:45,109 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 12:30:45,157 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 12:30:45,471 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 12:30:49,081 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 12:30:49,127 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 12:30:51,128 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UN\report\img  screen：20230608_12_30_51.png
+2023-06-08 12:30:51,270 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 12:30:51,781 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 12:30:53,843 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Unidades.
+2023-06-08 12:30:58,179 - root - INFO -  Se cierra chrome

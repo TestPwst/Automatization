@@ -1,0 +1,45 @@
+2023-06-08 11:04:58,818 - root - INFO -  Se abre el chrome
+2023-06-08 11:04:59,744 - root - INFO -  Entra a la URL
+2023-06-08 11:04:59,884 - root - INFO -  Maximiza la pantalla
+2023-06-08 11:05:02,956 - root - INFO -  Escribe el usuario
+2023-06-08 11:05:03,040 - root - INFO -  Escribe la contraseña
+2023-06-08 11:05:03,107 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-08 11:05:03,823 - root - INFO -  Ejecutar Enterprise
+2023-06-08 11:05:07,864 - root - INFO -  Cambia entre pestañas
+2023-06-08 11:05:19,740 - root - INFO -  Abre la pantalla de Ubicaciones Activos Fijos
+2023-06-08 11:05:20,291 - root - INFO -  La pantalla ejecutada es Ubicaciones Activos Fijos
+2023-06-08 11:05:20,292 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_20.png
+2023-06-08 11:05:30,692 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-08 11:05:31,237 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-08 11:05:31,267 - root - INFO -  El campo 'Código' si se encuentra visible.
+2023-06-08 11:05:31,289 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2023-06-08 11:05:31,310 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-08 11:05:31,370 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 11:05:31,430 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 11:05:32,525 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_32.png
+2023-06-08 11:05:32,686 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 11:05:33,069 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 11:05:35,120 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-08 11:05:36,203 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-08 11:05:36,263 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-08 11:05:36,357 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_36.png
+2023-06-08 11:05:36,489 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-08 11:05:37,490 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_37.png
+2023-06-08 11:05:42,905 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 11:05:43,906 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_43.png
+2023-06-08 11:05:44,077 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-08 11:05:44,662 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-08 11:05:44,780 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 11:05:48,362 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 11:05:49,012 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 11:05:50,142 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_50.png
+2023-06-08 11:05:50,238 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-08 11:05:50,280 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-08 11:05:50,530 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-08 11:05:54,120 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-08 11:05:54,167 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-08 11:05:56,168 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230608_11_05_56.png
+2023-06-08 11:05:56,330 - root - INFO -  Se confirma el eliminado del registro
+2023-06-08 11:05:56,567 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-08 11:05:58,617 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Ubicaciones Activos Fijos.
+2023-06-08 11:06:04,995 - root - INFO -  Se cierra chrome

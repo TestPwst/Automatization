@@ -1,0 +1,251 @@
+2022-07-21 17:07:56,601 - root - INFO -  Se abre el chrome
+2022-07-21 17:08:01,254 - root - INFO -  Entra a la URL
+2022-07-21 17:08:01,383 - root - INFO -  Maximiza la pantalla
+2022-07-21 17:08:04,442 - root - INFO -  Cambia al frame
+2022-07-21 17:08:07,541 - root - INFO -  Escribe el usuario
+2022-07-21 17:08:07,654 - root - INFO -  Escribe la contraseña
+2022-07-21 17:08:07,788 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 17:08:11,972 - root - INFO -  Ejecutar Enterprise
+2022-07-21 17:08:11,973 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_08_11.png
+2022-07-21 17:08:16,210 - root - INFO -  Cambia entre pestañas
+2022-07-21 17:08:39,332 - root - INFO -  Abre el menu completo
+2022-07-21 17:08:50,074 - root - INFO -  Abre la pantalla de Vehiculos
+2022-07-21 17:08:50,155 - root - INFO -  La pantalla ejecutada es Vehiculos.
+2022-07-21 17:08:50,156 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_08_50.png
+2022-07-21 17:08:50,364 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 17:08:51,467 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 17:08:51,508 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 17:08:51,547 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 17:08:51,584 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-07-21 17:08:51,620 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-07-21 17:08:51,658 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-07-21 17:08:51,696 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-07-21 17:08:51,736 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-07-21 17:08:51,782 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-07-21 17:08:51,823 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-07-21 17:08:51,862 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-07-21 17:08:51,900 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-07-21 17:08:51,936 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-07-21 17:08:51,977 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-07-21 17:08:52,016 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-07-21 17:08:52,053 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-07-21 17:08:52,156 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 17:08:55,396 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:08:58,593 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:09:01,808 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:09:04,981 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:09:08,162 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:09:11,348 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:09:14,616 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:09:17,759 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:09:20,949 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:09:24,114 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:09:27,270 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:09:30,418 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:09:33,691 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:09:36,860 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:09:39,868 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_09_39.png
+2022-07-21 17:09:40,130 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 17:09:44,285 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-21 17:09:44,286 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_09_44.png
+2022-07-21 17:09:46,782 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-21 17:09:46,783 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_09_46.png
+2022-07-21 17:09:46,790 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-21 17:09:46,791 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_09_46.png
+2022-07-21 17:11:47,573 - root - INFO -  Se abre el chrome
+2022-07-21 17:11:52,428 - root - INFO -  Entra a la URL
+2022-07-21 17:11:52,558 - root - INFO -  Maximiza la pantalla
+2022-07-21 17:11:55,620 - root - INFO -  Cambia al frame
+2022-07-21 17:11:58,710 - root - INFO -  Escribe el usuario
+2022-07-21 17:11:58,817 - root - INFO -  Escribe la contraseña
+2022-07-21 17:11:58,954 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 17:12:03,204 - root - INFO -  Ejecutar Enterprise
+2022-07-21 17:12:03,205 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_12_03.png
+2022-07-21 17:12:07,436 - root - INFO -  Cambia entre pestañas
+2022-07-21 17:12:36,463 - root - INFO -  Abre el menu completo
+2022-07-21 17:12:47,193 - root - INFO -  Abre la pantalla de Vehiculos
+2022-07-21 17:12:47,280 - root - INFO -  La pantalla ejecutada es Vehiculos.
+2022-07-21 17:12:47,281 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_12_47.png
+2022-07-21 17:12:47,548 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 17:12:49,231 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 17:12:49,311 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 17:12:49,376 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 17:12:49,424 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-07-21 17:12:49,469 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-07-21 17:12:49,512 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-07-21 17:12:49,554 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-07-21 17:12:49,596 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-07-21 17:12:49,648 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-07-21 17:12:49,686 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-07-21 17:12:49,724 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-07-21 17:12:49,763 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-07-21 17:12:49,802 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-07-21 17:12:49,841 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-07-21 17:12:49,881 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-07-21 17:12:49,921 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-07-21 17:12:50,028 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 17:12:53,244 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:12:56,453 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:12:59,639 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:13:02,818 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:13:06,008 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:13:09,233 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:13:12,425 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:13:15,577 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:13:18,711 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:13:21,877 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:13:25,007 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:13:28,183 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:13:31,360 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:13:34,602 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:13:37,608 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_13_37.png
+2022-07-21 17:13:40,960 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 17:13:44,111 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 17:13:47,201 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-21 17:13:48,380 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 17:13:48,429 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 17:13:48,471 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 17:13:48,509 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-07-21 17:13:48,547 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-07-21 17:13:48,586 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-07-21 17:13:48,624 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-07-21 17:13:48,663 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-07-21 17:13:48,703 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-07-21 17:13:48,742 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-07-21 17:13:48,780 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-07-21 17:13:48,833 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-07-21 17:13:48,874 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-07-21 17:13:48,914 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-07-21 17:13:48,953 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-07-21 17:13:48,992 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-07-21 17:13:49,095 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 17:13:52,360 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:13:55,588 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:13:58,799 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:14:01,955 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:14:05,188 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:14:08,354 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:14:11,542 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:14:14,731 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:14:17,889 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:14:21,104 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:14:24,283 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:14:27,461 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:14:30,636 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:14:33,770 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:14:40,047 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-07-21 17:14:43,051 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_14_43.png
+2022-07-21 17:14:43,297 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-21 17:14:45,416 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-21 17:14:49,544 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 17:15:58,389 - root - INFO -  Se abre el chrome
+2022-07-21 17:16:03,320 - root - INFO -  Entra a la URL
+2022-07-21 17:16:03,452 - root - INFO -  Maximiza la pantalla
+2022-07-21 17:16:06,506 - root - INFO -  Cambia al frame
+2022-07-21 17:16:09,600 - root - INFO -  Escribe el usuario
+2022-07-21 17:16:09,710 - root - INFO -  Escribe la contraseña
+2022-07-21 17:16:09,844 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 17:16:14,637 - root - INFO -  Ejecutar Enterprise
+2022-07-21 17:16:14,638 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_16_14.png
+2022-07-21 17:16:18,865 - root - INFO -  Cambia entre pestañas
+2022-07-21 17:16:45,107 - root - INFO -  Abre el menu completo
+2022-07-21 17:16:55,771 - root - INFO -  Abre la pantalla de Vehiculos
+2022-07-21 17:16:55,867 - root - INFO -  La pantalla ejecutada es Vehiculos.
+2022-07-21 17:16:55,868 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_16_55.png
+2022-07-21 17:16:56,056 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 17:16:57,234 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 17:16:57,348 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 17:16:57,394 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 17:16:57,436 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-07-21 17:16:57,478 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-07-21 17:16:57,519 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-07-21 17:16:57,573 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-07-21 17:16:57,613 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-07-21 17:16:57,650 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-07-21 17:16:57,703 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-07-21 17:16:57,739 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-07-21 17:16:57,778 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-07-21 17:16:57,816 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-07-21 17:16:57,855 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-07-21 17:16:57,892 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-07-21 17:16:57,935 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-07-21 17:16:58,032 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 17:17:01,387 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:17:04,589 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:17:07,761 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:17:11,032 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:17:14,306 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:17:17,481 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:17:20,655 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:17:23,875 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:17:27,058 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:17:30,239 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:17:33,417 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:17:36,572 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:17:39,766 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:17:42,942 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:17:45,958 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_17_45.png
+2022-07-21 17:17:49,344 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 17:17:52,509 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 17:17:55,693 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-21 17:17:56,794 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 17:17:56,832 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 17:17:56,871 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 17:17:56,910 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-07-21 17:17:56,962 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-07-21 17:17:57,000 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-07-21 17:17:57,039 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-07-21 17:17:57,077 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-07-21 17:17:57,117 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-07-21 17:17:57,156 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-07-21 17:17:57,194 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-07-21 17:17:57,234 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-07-21 17:17:57,273 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-07-21 17:17:57,327 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-07-21 17:17:57,366 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-07-21 17:17:57,405 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-07-21 17:17:57,498 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 17:18:00,800 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:18:04,022 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:18:07,227 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:18:10,452 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:18:13,675 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:18:16,829 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:18:19,986 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:18:23,177 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:18:26,356 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:18:29,499 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:18:32,691 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:18:35,862 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:18:39,006 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:18:42,149 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:18:48,421 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-07-21 17:18:51,425 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_18_51.png
+2022-07-21 17:18:51,655 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-21 17:18:53,787 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-21 17:18:57,973 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 17:19:09,642 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 17:19:09,938 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 17:19:13,169 - root - INFO - Ingresa la marca del nuevo registro 
+2022-07-21 17:19:16,452 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-07-21 17:19:19,667 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-07-21 17:19:22,926 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-07-21 17:19:26,171 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-07-21 17:19:29,384 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-07-21 17:19:32,630 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-07-21 17:19:35,807 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-07-21 17:19:38,996 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-07-21 17:19:42,271 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-07-21 17:19:45,468 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-07-21 17:19:48,719 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-07-21 17:19:51,934 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-07-21 17:19:54,941 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_19_54.png
+2022-07-21 17:19:58,223 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 17:20:01,348 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-21 17:20:16,993 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 17:20:25,137 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 17:20:25,139 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220721_17_20_25.png
+2022-07-21 17:20:25,364 - root - INFO -  Se confirma el eliminado del registro
+2022-07-21 17:20:33,506 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 17:20:41,653 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-21 17:20:45,971 - root - INFO -  Se cierra chrome

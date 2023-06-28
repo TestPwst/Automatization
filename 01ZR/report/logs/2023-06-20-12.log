@@ -1,0 +1,57 @@
+2023-06-20 12:45:07,294 - root - INFO -  Se abre el chrome
+2023-06-20 12:45:09,104 - root - INFO -  Entra a la URL
+2023-06-20 12:45:09,235 - root - INFO -  Maximiza la pantalla
+2023-06-20 12:45:12,340 - root - INFO -  Escribe el usuario
+2023-06-20 12:45:12,501 - root - INFO -  Escribe la contraseña
+2023-06-20 12:45:12,593 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-20 12:45:13,306 - root - INFO -  Ejecutar Enterprise
+2023-06-20 12:45:17,363 - root - INFO -  Cambia entre pestañas
+2023-06-20 12:45:28,625 - root - INFO -  Abre la pantalla de Zonas de Reparto
+2023-06-20 12:45:29,191 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_45_29.png
+2023-06-20 12:45:29,363 - root - INFO -  La pantalla ejecutada es Zonas Bancarias.
+2023-06-20 12:45:39,660 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-20 12:45:40,200 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 12:45:40,229 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-20 12:45:40,255 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2023-06-20 12:45:40,289 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-20 12:45:40,316 - root - INFO -  El campo 'Repartidor' si se encuentra visible.
+2023-06-20 12:45:40,345 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-06-20 12:45:40,404 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 12:45:40,487 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 12:45:40,649 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 12:45:40,706 - root - INFO -  Ingresa el repartidor del nuevo registro 
+2023-06-20 12:45:41,859 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_45_41.png
+2023-06-20 12:45:42,221 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-20 12:45:42,443 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:45:44,494 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-20 12:45:45,036 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 12:45:45,059 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-20 12:45:45,082 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2023-06-20 12:45:45,107 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-20 12:45:45,130 - root - INFO -  El campo 'Repartidor' si se encuentra visible.
+2023-06-20 12:45:45,155 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-06-20 12:45:45,200 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 12:45:45,271 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 12:45:45,432 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 12:45:45,492 - root - INFO -  Ingresa el repartidor del nuevo registro 
+2023-06-20 12:45:46,801 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-20 12:45:47,803 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_45_47.png
+2023-06-20 12:45:53,150 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 12:45:54,151 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_45_54.png
+2023-06-20 12:45:54,326 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 12:45:54,456 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-20 12:45:54,592 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:45:58,189 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-20 12:45:58,825 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-20 12:45:59,008 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-20 12:46:00,046 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_46_00.png
+2023-06-20 12:46:00,199 - root - INFO -  Se modifica el contenido del campo repartidor
+2023-06-20 12:46:00,253 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-20 12:46:00,506 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-20 12:46:04,086 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-20 12:46:04,139 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-20 12:46:06,141 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230620_12_46_06.png
+2023-06-20 12:46:06,307 - root - INFO -  Se confirma el eliminado del registro
+2023-06-20 12:46:06,567 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:46:08,636 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Zonas de Reparto.
+2023-06-20 12:46:14,853 - root - INFO -  Se cierra chrome

@@ -1,0 +1,109 @@
+2022-09-20 10:39:43,057 - root - INFO -  Se abre el chrome
+2022-09-20 10:39:45,442 - root - INFO -  Entra a la URL
+2022-09-20 10:39:45,569 - root - INFO -  Maximiza la pantalla
+2022-09-20 10:39:48,603 - root - INFO -  Cambia al frame
+2022-09-20 10:39:51,676 - root - INFO -  Escribe el usuario
+2022-09-20 10:39:51,783 - root - INFO -  Escribe la contraseña
+2022-09-20 10:39:51,905 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-20 10:39:53,147 - root - INFO -  Ejecutar Enterprise
+2022-09-20 10:39:57,210 - root - INFO -  Cambia entre pestañas
+2022-09-20 10:40:07,932 - root - INFO -  Abre la pantalla de Vehiculos
+2022-09-20 10:40:08,010 - root - INFO -  La pantalla ejecutada es Vehiculos.
+2022-09-20 10:40:08,010 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220920_10_40_08.png
+2022-09-20 10:40:08,188 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-20 10:40:11,278 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-20 10:40:11,309 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-20 10:40:11,356 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-20 10:40:11,387 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-09-20 10:40:11,418 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-09-20 10:40:11,449 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-09-20 10:40:11,496 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-09-20 10:40:11,528 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-09-20 10:40:11,573 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-09-20 10:40:11,593 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-09-20 10:40:11,640 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-09-20 10:40:11,671 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-09-20 10:40:11,702 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-09-20 10:40:11,733 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-09-20 10:40:11,765 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-09-20 10:40:11,811 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-09-20 10:40:11,889 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-20 10:40:15,113 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-20 10:40:18,305 - root - INFO - Ingresa la marca del nuevo registro 
+2022-09-20 10:40:21,501 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-09-20 10:40:24,674 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-09-20 10:40:27,851 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-09-20 10:40:30,988 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-09-20 10:40:34,141 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-09-20 10:40:37,267 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-09-20 10:40:40,412 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-09-20 10:40:43,556 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-09-20 10:40:46,717 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-09-20 10:40:49,869 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-09-20 10:40:53,003 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-09-20 10:40:56,136 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-09-20 10:40:59,139 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220920_10_40_59.png
+2022-09-20 10:41:02,462 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-20 10:41:05,591 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-20 10:41:08,664 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-20 10:41:09,224 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-20 10:41:09,267 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-20 10:41:09,302 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-20 10:41:09,335 - root - INFO -  El campo 'Marca' si se encuentra visible.
+2022-09-20 10:41:09,367 - root - INFO -  El campo 'Número Placa' si se encuentra visible.
+2022-09-20 10:41:09,404 - root - INFO -  El campo 'Número Motor' si se encuentra visible.
+2022-09-20 10:41:09,439 - root - INFO -  El campo 'Número Chasis' si se encuentra visible.
+2022-09-20 10:41:09,461 - root - INFO -  El campo 'Capacidad en Toneladas' si se encuentra visible.
+2022-09-20 10:41:09,493 - root - INFO -  El campo 'Capacidad en KgLts' si se encuentra visible.
+2022-09-20 10:41:09,540 - root - INFO -  El campo 'Capacidad en Cajas' si se encuentra visible.
+2022-09-20 10:41:09,571 - root - INFO -  El campo 'Metros cúbicos' si se encuentra visible.
+2022-09-20 10:41:09,602 - root - INFO -  El campo 'Máximo volumen de documento' si se encuentra visible.
+2022-09-20 10:41:09,633 - root - INFO -  El campo 'Mínimo volumen de documento' si se encuentra visible.
+2022-09-20 10:41:09,665 - root - INFO -  El campo 'Máximo peso de documento' si se encuentra visible.
+2022-09-20 10:41:09,696 - root - INFO -  El campo 'Mínimo peso de documento' si se encuentra visible.
+2022-09-20 10:41:09,727 - root - INFO -  El campo 'Número máximo de visitas' si se encuentra visible.
+2022-09-20 10:41:09,797 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-20 10:41:13,043 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-20 10:41:16,228 - root - INFO - Ingresa la marca del nuevo registro 
+2022-09-20 10:41:19,428 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-09-20 10:41:22,606 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-09-20 10:41:25,797 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-09-20 10:41:28,945 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-09-20 10:41:32,078 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-09-20 10:41:35,219 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-09-20 10:41:38,364 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-09-20 10:41:41,474 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-09-20 10:41:44,601 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-09-20 10:41:47,745 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-09-20 10:41:50,874 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-09-20 10:41:54,014 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-09-20 10:42:00,230 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-09-20 10:42:03,244 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220920_10_42_03.png
+2022-09-20 10:42:03,467 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-20 10:42:05,587 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-20 10:42:09,687 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-20 10:42:21,307 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-09-20 10:42:21,572 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-20 10:42:24,776 - root - INFO - Ingresa la marca del nuevo registro 
+2022-09-20 10:42:27,979 - root - INFO - Ingresa el numero de placa del nuevo registro 
+2022-09-20 10:42:31,188 - root - INFO - Ingresa el numero del motor del nuevo registro 
+2022-09-20 10:42:34,408 - root - INFO - Ingresa el numero del chasis del nuevo registro 
+2022-09-20 10:42:37,569 - root - INFO - Ingresa la capacidad en toneladas del nuevo registro 
+2022-09-20 10:42:40,752 - root - INFO - Ingresa la capacidad en kg/lts del nuevo registro 
+2022-09-20 10:42:43,889 - root - INFO - Ingresa la capacidad en cajas del nuevo registro 
+2022-09-20 10:42:47,073 - root - INFO - Ingresa los Metros Cubicos del nuevo registro 
+2022-09-20 10:42:50,226 - root - INFO - Ingresa el Máximo volumen de documento del nuevo registro 
+2022-09-20 10:42:53,408 - root - INFO - Ingresa el Mínimo volumen de documento del nuevo registro 
+2022-09-20 10:42:56,558 - root - INFO - Ingresa el Máximo peso de documento del nuevo registro 
+2022-09-20 10:42:59,741 - root - INFO - Ingresa el Minimo peso de documento del nuevo registro 
+2022-09-20 10:43:02,929 - root - INFO -  Ingresa el Número máximo de visitas del nuevo registro 
+2022-09-20 10:43:05,936 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220920_10_43_05.png
+2022-09-20 10:43:09,209 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-20 10:43:12,295 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-20 10:43:27,922 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-20 10:43:36,037 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-20 10:43:36,037 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01V\report\img  screen：20220920_10_43_36.png
+2022-09-20 10:43:36,263 - root - INFO -  Se confirma el eliminado del registro
+2022-09-20 10:43:44,378 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-20 10:43:52,497 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-09-20 10:43:56,753 - root - INFO -  Se cierra chrome

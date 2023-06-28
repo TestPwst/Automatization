@@ -1,0 +1,102 @@
+2022-09-02 11:18:13,940 - root - INFO -  Se abre el chrome
+2022-09-02 11:18:14,801 - root - INFO -  Entra a la URL
+2022-09-02 11:18:14,935 - root - INFO -  Maximiza la pantalla
+2022-09-02 11:18:17,993 - root - INFO -  Cambia al frame
+2022-09-02 11:18:21,069 - root - INFO -  Escribe el usuario
+2022-09-02 11:18:21,168 - root - INFO -  Escribe la contraseña
+2022-09-02 11:18:21,300 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-02 11:18:22,042 - root - INFO -  Ejecutar Enterprise
+2022-09-02 11:18:22,043 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_18_22.png
+2022-09-02 11:18:26,298 - root - INFO -  Cambia entre pestañas
+2022-09-02 11:18:31,403 - root - INFO -  Abre el menu completo
+2022-09-02 11:18:41,294 - root - INFO -  Abre la pantalla de Ubicaciones en deposito
+2022-09-02 11:18:44,372 - root - INFO -  La pantalla ejecutada es Ubicaciones en deposito.
+2022-09-02 11:18:47,374 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_18_47.png
+2022-09-02 11:18:47,596 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-02 11:18:52,673 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 11:18:52,712 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-02 11:18:52,758 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-02 11:18:52,799 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-09-02 11:18:52,858 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-02 11:18:56,076 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-02 11:18:59,175 - root - INFO -  Hizo click en el checkbox Detalle de envio 
+2022-09-02 11:19:02,185 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_19_02.png
+2022-09-02 11:19:02,375 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-02 11:19:07,485 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-02 11:19:12,567 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-02 11:19:17,641 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 11:19:17,675 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-02 11:19:17,711 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-02 11:19:17,746 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-09-02 11:19:17,799 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-02 11:19:20,982 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-02 11:19:24,057 - root - INFO -  Hizo click en el checkbox Detalle para Envio
+2022-09-02 11:19:27,159 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-02 11:19:32,164 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_19_32.png
+2022-09-02 11:19:32,389 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-02 11:19:35,489 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-02 11:19:39,577 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-02 11:19:49,230 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-09-02 11:19:52,474 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-02 11:19:55,571 - root - INFO -  Hizo click en el checkbox Detallar para Envio
+2022-09-02 11:19:58,575 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_19_58.png
+2022-09-02 11:19:58,755 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-02 11:20:03,901 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-02 11:20:13,502 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-02 11:20:16,581 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-02 11:20:21,595 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_20_21.png
+2022-09-02 11:20:21,825 - root - INFO -  Se confirma el eliminado del registro
+2022-09-02 11:20:26,911 - root - INFO -  Se presiona el boton 'Refrescar', para veriicar que el registro ha sido eliminado.
+2022-09-02 11:20:31,995 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Ubicaciones Deposito.
+2022-09-02 11:20:39,267 - root - INFO -  Se cierra chrome
+2022-09-02 11:38:43,542 - root - INFO -  Se abre el chrome
+2022-09-02 11:38:44,772 - root - INFO -  Entra a la URL
+2022-09-02 11:38:44,906 - root - INFO -  Maximiza la pantalla
+2022-09-02 11:38:47,961 - root - INFO -  Cambia al frame
+2022-09-02 11:38:51,053 - root - INFO -  Escribe el usuario
+2022-09-02 11:38:51,155 - root - INFO -  Escribe la contraseña
+2022-09-02 11:38:51,297 - root - INFO -  Se dio clic en el boton ingresar
+2022-09-02 11:38:52,078 - root - INFO -  Ejecutar Enterprise
+2022-09-02 11:38:52,079 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_38_52.png
+2022-09-02 11:38:56,334 - root - INFO -  Cambia entre pestañas
+2022-09-02 11:39:06,521 - root - INFO -  Abre el menu completo
+2022-09-02 11:39:16,478 - root - INFO -  Abre la pantalla de Ubicaciones en deposito
+2022-09-02 11:39:19,576 - root - INFO -  La pantalla ejecutada es Ubicaciones en deposito.
+2022-09-02 11:39:22,589 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_39_22.png
+2022-09-02 11:39:22,818 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-09-02 11:39:27,899 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 11:39:27,936 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-02 11:39:27,974 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-02 11:39:28,011 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-09-02 11:39:28,070 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-02 11:39:31,278 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-02 11:39:34,380 - root - INFO -  Hizo click en el checkbox Detalle de envio 
+2022-09-02 11:39:37,386 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_39_37.png
+2022-09-02 11:39:37,641 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-09-02 11:39:42,725 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-09-02 11:39:47,805 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-09-02 11:39:52,852 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-09-02 11:39:52,893 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-09-02 11:39:52,929 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-09-02 11:39:52,963 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-09-02 11:39:53,016 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-09-02 11:39:56,208 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-09-02 11:39:59,327 - root - INFO -  Hizo click en el checkbox Detalle para Envio
+2022-09-02 11:40:02,409 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-09-02 11:40:07,421 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_40_07.png
+2022-09-02 11:40:07,637 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-09-02 11:40:10,787 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-09-02 11:40:14,887 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2022-09-02 11:40:24,512 - root - INFO -  Se da doble click en el registro creado, para proceder a modificarlo.
+2022-09-02 11:40:27,760 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-09-02 11:40:30,874 - root - INFO -  Hizo click en el checkbox Detallar para Envio
+2022-09-02 11:40:33,887 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_40_33.png
+2022-09-02 11:40:34,106 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-09-02 11:40:39,202 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-09-02 11:40:48,829 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-09-02 11:40:51,957 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-09-02 11:40:56,973 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220902_11_40_56.png
+2022-09-02 11:40:57,156 - root - INFO -  Se confirma el eliminado del registro
+2022-09-02 11:41:02,258 - root - INFO -  Se presiona el boton 'Refrescar', para veriicar que el registro ha sido eliminado.
+2022-09-02 11:41:07,389 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Ubicaciones Deposito.
+2022-09-02 11:41:14,644 - root - INFO -  Se cierra chrome

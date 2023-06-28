@@ -1,0 +1,61 @@
+2023-06-20 12:42:42,326 - root - INFO -  Se abre el chrome
+2023-06-20 12:42:45,805 - root - INFO -  Entra a la URL
+2023-06-20 12:42:45,937 - root - INFO -  Maximiza la pantalla
+2023-06-20 12:42:49,026 - root - INFO -  Escribe el usuario
+2023-06-20 12:42:49,116 - root - INFO -  Escribe la contraseña
+2023-06-20 12:42:49,194 - root - INFO -  Se dio clic en el boton ingresar
+2023-06-20 12:42:50,444 - root - INFO -  Ejecutar Enterprise
+2023-06-20 12:42:54,487 - root - INFO -  Cambia entre pestañas
+2023-06-20 12:43:05,775 - root - INFO -  Abre la pantalla de Zonas Geográficas
+2023-06-20 12:43:06,336 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_06.png
+2023-06-20 12:43:06,443 - root - INFO -  La pantalla ejecutada es Zonas Geográficas.
+2023-06-20 12:43:16,716 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-20 12:43:17,259 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 12:43:17,291 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-20 12:43:17,322 - root - INFO -  El campo 'Codigo Alternativo' si se encuentra visible.
+2023-06-20 12:43:17,358 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-20 12:43:17,387 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-06-20 12:43:17,454 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 12:43:17,561 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 12:43:17,839 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 12:43:18,995 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_18.png
+2023-06-20 12:43:19,192 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-20 12:43:19,762 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-06-20 12:43:20,301 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-06-20 12:43:20,328 - root - INFO -  El campo 'Cuenta Contable' si se encuentra visible.
+2023-06-20 12:43:20,358 - root - INFO -  El campo 'Centro Costo' si se encuentra visible.
+2023-06-20 12:43:23,663 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-06-20 12:43:23,880 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-06-20 12:43:24,128 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:43:26,187 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-06-20 12:43:26,736 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-06-20 12:43:26,771 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-06-20 12:43:26,802 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2023-06-20 12:43:26,829 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-06-20 12:43:26,861 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-06-20 12:43:26,926 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-06-20 12:43:27,069 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-06-20 12:43:27,671 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-06-20 12:43:29,189 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-06-20 12:43:30,191 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_30.png
+2023-06-20 12:43:35,513 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 12:43:36,514 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_36.png
+2023-06-20 12:43:36,686 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-06-20 12:43:37,296 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-06-20 12:43:37,443 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:43:41,040 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-20 12:43:41,707 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-20 12:43:41,994 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-06-20 12:43:43,137 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_43.png
+2023-06-20 12:43:43,354 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2023-06-20 12:43:44,442 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-06-20 12:43:48,173 - root - INFO -  Se presiona el boton 'Aceptar', para guardar el registro.
+2023-06-20 12:43:48,388 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-06-20 12:43:48,603 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-06-20 12:43:52,181 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-06-20 12:43:52,233 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-06-20 12:43:54,235 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZG\report\img  screen：20230620_12_43_54.png
+2023-06-20 12:43:54,380 - root - INFO -  Se confirma el eliminado del registro
+2023-06-20 12:43:54,634 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-06-20 12:43:56,693 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Zonas Geograficas.
+2023-06-20 12:44:03,032 - root - INFO -  Se cierra chrome

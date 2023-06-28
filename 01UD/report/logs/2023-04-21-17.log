@@ -1,0 +1,51 @@
+2023-04-21 17:45:08,249 - root - INFO -  Se abre el chrome
+2023-04-21 17:45:11,570 - root - INFO -  Entra a la URL
+2023-04-21 17:45:11,694 - root - INFO -  Maximiza la pantalla
+2023-04-21 17:45:15,079 - root - INFO -  Escribe el usuario
+2023-04-21 17:45:15,256 - root - INFO -  Escribe la contraseña
+2023-04-21 17:45:15,643 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 17:45:16,646 - root - INFO -  Ejecutar Enterprise
+2023-04-21 17:45:20,741 - root - INFO -  Cambia entre pestañas
+2023-04-21 17:46:33,353 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 17:46:33,359 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 17:46:33,974 - root - INFO -  La pantalla ejecutada es Ubicaciones en deposito.
+2023-04-21 17:46:33,975 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_46_33.png
+2023-04-21 17:46:44,617 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 17:46:45,204 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:46:45,256 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:46:45,319 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 17:46:45,369 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2023-04-21 17:46:45,473 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 17:46:45,776 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 17:46:45,888 - root - INFO -  Hizo click en el checkbox 
+2023-04-21 17:46:46,889 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_46_46.png
+2023-04-21 17:46:47,123 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 17:46:47,339 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 17:46:47,609 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 17:46:48,180 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 17:46:48,228 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 17:46:48,271 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 17:46:48,310 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2023-04-21 17:46:48,450 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 17:46:48,652 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 17:46:48,737 - root - INFO -  Hizo click en el checkbox 
+2023-04-21 17:46:48,815 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-21 17:46:49,817 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_46_49.png
+2023-04-21 17:46:55,420 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 17:46:56,422 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_46_56.png
+2023-04-21 17:46:56,679 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 17:46:56,796 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-21 17:46:56,927 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 17:46:58,603 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 17:46:59,632 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-21 17:46:59,744 - root - INFO -  Hizo click en el checkbox 
+2023-04-21 17:47:00,746 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_47_00.png
+2023-04-21 17:47:00,955 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 17:47:01,213 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-21 17:47:02,806 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 17:47:02,921 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-21 17:47:04,923 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20230421_17_47_04.png
+2023-04-21 17:47:05,109 - root - INFO -  Se confirma el eliminado del registro
+2023-04-21 17:47:05,301 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 17:47:07,367 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Ubicaciones Depositos.
+2023-04-21 17:47:11,577 - root - INFO -  Se cierra chrome

@@ -1,0 +1,63 @@
+2022-08-02 15:06:15,001 - root - INFO -  Se abre el chrome
+2022-08-02 15:06:18,105 - root - INFO -  Entra a la URL
+2022-08-02 15:06:18,243 - root - INFO -  Maximiza la pantalla
+2022-08-02 15:06:21,304 - root - INFO -  Cambia al frame
+2022-08-02 15:06:24,392 - root - INFO -  Escribe el usuario
+2022-08-02 15:06:24,500 - root - INFO -  Escribe la contraseña
+2022-08-02 15:06:24,635 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-02 15:06:27,719 - root - INFO -  Ejecutar Enterprise
+2022-08-02 15:06:27,720 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_06_27.png
+2022-08-02 15:06:31,953 - root - INFO -  Cambia entre pestañas
+2022-08-02 15:06:54,484 - root - INFO -  Abre el menu completo
+2022-08-02 15:07:07,458 - root - INFO -  Abre la pantalla de Worksflow
+2022-08-02 15:07:07,521 - root - INFO -  La pantalla ejecutada es Work Flows
+2022-08-02 15:07:10,536 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_07_10.png
+2022-08-02 15:07:10,742 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-02 15:07:15,813 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-02 15:07:15,852 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-02 15:07:15,891 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-02 15:07:15,962 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-02 15:07:19,242 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-02 15:07:22,259 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_07_22.png
+2022-08-02 15:07:22,514 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-02 15:07:27,636 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-02 15:07:30,726 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-08-02 15:07:30,785 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-08-02 15:07:30,825 - root - INFO -  El campo 'Modo Bloqueo' si se encuentra visible.
+2022-08-02 15:07:30,863 - root - INFO -  El campo 'Obligatorio' si se encuentra visible.
+2022-08-02 15:07:51,848 - root - INFO -  Hizo click en el checkbox 
+2022-08-02 15:07:54,951 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-02 15:08:00,060 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-02 15:08:05,163 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-02 15:08:08,259 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-02 15:08:11,350 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-02 15:08:11,395 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-02 15:08:11,435 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-02 15:08:11,504 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-02 15:08:14,754 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-02 15:08:17,853 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-02 15:08:20,861 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_08_20.png
+2022-08-02 15:08:21,104 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-02 15:08:26,202 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-02 15:08:30,340 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-02 15:08:37,976 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-02 15:08:43,257 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-08-02 15:08:46,271 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_08_46.png
+2022-08-02 15:08:46,494 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-02 15:08:56,146 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-02 15:09:22,512 - root - INFO -  Hizo click en el checkbox 
+2022-08-02 15:09:25,628 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-08-02 15:09:30,742 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-02 15:09:35,878 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-08-02 15:09:43,488 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-02 15:09:48,614 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-02 15:09:56,228 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-02 15:09:59,352 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-02 15:10:02,469 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-08-02 15:10:12,069 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-02 15:10:17,180 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-08-02 15:10:20,188 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20220802_15_10_20.png
+2022-08-02 15:10:20,427 - root - INFO -  Se confirma el eliminado del registro
+2022-08-02 15:10:23,587 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-02 15:10:26,689 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-08-02 15:10:31,947 - root - INFO -  Se cierra chrome

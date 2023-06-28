@@ -1,0 +1,726 @@
+2022-08-26 09:07:23,742 - root - INFO -  Se abre el chrome
+2022-08-26 09:07:27,425 - root - INFO -  Entra a la URL
+2022-08-26 09:07:27,546 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:07:30,600 - root - INFO -  Cambia al frame
+2022-08-26 09:07:33,687 - root - INFO -  Escribe el usuario
+2022-08-26 09:07:33,800 - root - INFO -  Escribe la contraseña
+2022-08-26 09:07:33,941 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:07:35,741 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:07:35,741 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_07_35.png
+2022-08-26 09:07:39,970 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:07:45,118 - root - INFO -  Abre el menu completo
+2022-08-26 09:08:01,068 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:08:01,132 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:08:01,132 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_08_01.png
+2022-08-26 09:08:01,299 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:08:04,362 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:08:04,402 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:08:04,440 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:08:04,480 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:08:04,518 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:08:04,562 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:08:04,607 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:08:04,652 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:08:04,690 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:08:04,728 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:08:04,798 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:08:07,942 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:08:11,082 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:08:14,199 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:08:17,325 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:08:20,443 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:08:23,579 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:08:26,714 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:08:29,834 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:08:34,845 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_08_34.png
+2022-08-26 09:08:45,160 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:08:45,301 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:08:45,902 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:08:45,947 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:08:45,985 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:08:46,023 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:08:46,062 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:08:46,102 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:08:46,141 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:08:46,179 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:08:46,218 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:08:46,300 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:08:49,422 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:08:52,576 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:09:08,226 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:09:11,348 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:09:14,458 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:09:17,580 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:09:20,709 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:09:23,843 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:09:26,981 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:09:28,102 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:09:28,139 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:09:28,176 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:09:28,213 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:09:28,249 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:09:28,287 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:09:28,323 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:09:28,360 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:09:28,469 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:09:31,602 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:09:34,752 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:09:37,882 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:09:40,997 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:09:44,127 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:09:47,288 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:09:50,425 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:09:53,560 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:09:56,688 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:09:57,293 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-26 09:09:57,334 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:09:57,373 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:09:57,414 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:09:57,452 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:09:57,503 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:09:57,547 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:09:57,584 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:09:57,694 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:10:00,857 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:10:04,004 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:10:07,127 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:10:10,246 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:10:13,357 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:10:16,473 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:10:19,637 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:10:22,769 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:10:25,906 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:10:29,047 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:10:32,166 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:10:32,733 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-26 09:10:32,772 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:11:07,877 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:11:10,990 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:11:14,132 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:11:17,255 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:11:27,397 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:11:32,495 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:11:32,535 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:11:32,575 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:11:32,614 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:11:32,653 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:11:32,695 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:11:32,735 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:11:32,774 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:11:32,814 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:11:32,869 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:11:32,942 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:11:36,078 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:11:39,265 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:11:42,369 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:11:45,519 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:11:48,625 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:11:51,747 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:11:54,882 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:11:58,025 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:12:05,252 - root - ERROR - No se encontró el botón Guardar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:12:05,255 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_12_05.png
+2022-08-26 09:12:07,979 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:12:07,980 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_12_07.png
+2022-08-26 09:12:08,008 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:12:08,010 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_12_08.png
+2022-08-26 09:19:30,733 - root - INFO -  Se abre el chrome
+2022-08-26 09:19:31,924 - root - INFO -  Entra a la URL
+2022-08-26 09:19:32,042 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:19:35,108 - root - INFO -  Cambia al frame
+2022-08-26 09:19:38,184 - root - INFO -  Escribe el usuario
+2022-08-26 09:19:38,287 - root - INFO -  Escribe la contraseña
+2022-08-26 09:19:38,414 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:19:39,780 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:19:39,782 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_19_39.png
+2022-08-26 09:19:43,981 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:19:49,106 - root - INFO -  Abre el menu completo
+2022-08-26 09:20:05,074 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:20:05,144 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:20:05,145 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_20_05.png
+2022-08-26 09:20:05,304 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:20:08,369 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:20:08,407 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:20:08,448 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:20:08,489 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:20:08,529 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:20:08,570 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:20:08,610 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:20:08,651 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:20:08,690 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:20:08,728 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:20:08,814 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:20:09,967 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:20:11,154 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:20:12,267 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:20:13,383 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:20:14,501 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:20:15,638 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:20:16,753 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:20:17,860 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:20:18,865 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_20_18.png
+2022-08-26 09:20:29,210 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:20:29,347 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:20:29,954 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:20:29,995 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:20:30,034 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:20:30,075 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:20:30,127 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:20:30,166 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:20:30,203 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:20:30,244 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:20:30,286 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:20:30,374 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:20:31,514 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:20:32,672 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:20:46,361 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:20:47,516 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:20:48,652 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:20:49,782 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:20:50,934 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:20:52,066 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:20:53,185 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:20:53,793 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:20:53,841 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:20:53,881 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:20:53,922 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:20:53,960 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:20:53,999 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:20:54,038 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:20:54,076 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:20:54,172 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:20:55,389 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:20:56,572 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:20:57,712 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:20:58,837 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:20:59,955 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:21:01,114 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:21:02,242 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:21:03,427 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:21:06,562 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:21:07,119 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-26 09:21:07,157 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:21:07,194 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:21:07,237 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:21:07,284 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:21:07,333 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:21:07,372 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:21:07,410 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:21:07,536 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:21:08,697 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:21:09,819 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:21:10,925 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:21:12,053 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:21:13,153 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:21:14,284 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:21:15,417 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:21:16,520 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:21:21,644 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:21:26,764 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:21:29,905 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:21:30,486 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-26 09:21:30,524 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:22:15,590 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:22:20,705 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:22:25,819 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:22:31,982 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:22:31,985 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_22_31.png
+2022-08-26 09:22:34,514 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:22:34,515 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_22_34.png
+2022-08-26 09:22:34,523 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:22:34,524 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_22_34.png
+2022-08-26 09:24:45,107 - root - INFO -  Se abre el chrome
+2022-08-26 09:24:46,229 - root - INFO -  Entra a la URL
+2022-08-26 09:24:46,491 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:24:49,538 - root - INFO -  Cambia al frame
+2022-08-26 09:24:52,631 - root - INFO -  Escribe el usuario
+2022-08-26 09:24:52,736 - root - INFO -  Escribe la contraseña
+2022-08-26 09:24:52,865 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:24:54,136 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:24:54,137 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_24_54.png
+2022-08-26 09:24:58,358 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:25:03,486 - root - INFO -  Abre el menu completo
+2022-08-26 09:25:19,469 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:25:19,533 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:25:19,533 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_25_19.png
+2022-08-26 09:25:19,697 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:25:22,783 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:25:22,821 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:25:22,861 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:25:22,901 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:25:22,940 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:25:22,985 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:25:23,027 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:25:23,065 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:25:23,104 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:25:23,142 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:25:23,219 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:25:24,357 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:25:25,524 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:25:26,644 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:25:27,758 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:25:28,860 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:25:30,009 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:25:31,146 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:25:32,261 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:25:33,266 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_25_33.png
+2022-08-26 09:25:43,617 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:25:43,734 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:25:44,328 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:25:44,367 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:25:44,406 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:25:44,444 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:25:44,485 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:25:44,523 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:25:44,562 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:25:44,600 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:25:44,641 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:25:44,745 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:25:45,881 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:25:47,038 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:26:00,645 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:26:01,800 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:26:02,934 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:26:04,051 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:26:05,168 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:26:06,274 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:26:07,400 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:26:07,988 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:26:08,030 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:26:08,087 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:26:08,125 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:26:08,164 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:26:08,201 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:26:08,240 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:26:08,283 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:26:08,380 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:26:09,512 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:26:10,642 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:26:11,798 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:26:12,924 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:26:14,064 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:26:15,199 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:26:16,316 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:26:17,425 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:26:20,561 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:26:21,176 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-26 09:26:21,221 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:26:21,263 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:26:21,303 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:26:21,344 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:26:21,382 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:26:21,421 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:26:21,462 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:26:21,575 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:26:22,753 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:26:23,914 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:26:25,067 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:26:26,225 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:26:27,379 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:26:28,504 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:26:29,664 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:26:30,793 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:26:35,920 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:26:41,048 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:26:44,175 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:26:44,784 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-26 09:26:44,823 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:27:29,894 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:27:35,008 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:27:40,154 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:27:45,274 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:27:55,378 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:28:00,530 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:28:01,666 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:28:02,836 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:28:03,979 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:28:05,106 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:28:06,233 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:28:07,398 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:28:08,507 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:28:09,623 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:28:10,635 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_28_10.png
+2022-08-26 09:28:10,829 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:28:15,833 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_28_15.png
+2022-08-26 09:28:36,063 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:28:36,065 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_28_36.png
+2022-08-26 09:28:38,595 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:28:38,595 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_28_38.png
+2022-08-26 09:28:38,605 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:28:38,605 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_28_38.png
+2022-08-26 09:32:00,260 - root - INFO -  Se abre el chrome
+2022-08-26 09:32:01,528 - root - INFO -  Entra a la URL
+2022-08-26 09:32:01,651 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:32:04,701 - root - INFO -  Cambia al frame
+2022-08-26 09:32:07,794 - root - INFO -  Escribe el usuario
+2022-08-26 09:32:07,897 - root - INFO -  Escribe la contraseña
+2022-08-26 09:32:08,022 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:32:09,309 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:32:09,310 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_32_09.png
+2022-08-26 09:32:13,512 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:32:18,650 - root - INFO -  Abre el menu completo
+2022-08-26 09:32:34,617 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:32:34,690 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:32:34,690 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_32_34.png
+2022-08-26 09:32:34,885 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:32:37,956 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:32:37,996 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:32:38,036 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:32:38,075 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:32:38,113 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:32:38,153 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:32:38,202 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:32:38,240 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:32:38,280 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:32:38,318 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:32:38,394 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:32:39,526 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:32:40,728 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:32:41,880 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:32:43,012 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:32:44,157 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:32:45,273 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:32:46,406 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:32:47,552 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:32:48,567 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_32_48.png
+2022-08-26 09:32:58,867 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:32:58,987 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:32:59,568 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:32:59,609 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:32:59,648 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:32:59,689 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:32:59,728 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:32:59,767 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:32:59,806 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:32:59,846 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:32:59,885 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:32:59,971 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:33:01,132 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:33:02,296 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:33:15,930 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:33:17,063 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:33:18,178 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:33:19,300 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:33:20,388 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:33:21,481 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:33:22,612 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:33:23,216 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-08-26 09:33:23,277 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:33:23,314 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:33:23,354 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:33:23,392 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:33:23,430 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:33:23,468 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:33:23,505 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:33:23,603 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:33:24,742 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:33:25,876 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:33:26,998 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:33:28,154 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:33:29,282 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:33:30,430 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:33:31,557 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:33:32,684 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:33:35,826 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:33:36,419 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-08-26 09:33:36,458 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:33:36,496 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:33:36,536 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:33:36,575 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:33:36,613 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:33:36,650 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:33:36,691 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:33:36,800 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:33:37,960 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:33:39,108 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:33:40,262 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:33:41,406 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:33:42,558 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:33:43,670 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:33:44,827 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:33:45,984 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:33:51,114 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:33:56,234 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-08-26 09:33:59,377 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:33:59,969 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-08-26 09:34:00,015 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-08-26 09:34:45,126 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:34:50,259 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:34:55,391 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:35:00,507 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:35:10,638 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:35:15,749 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:35:16,908 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:35:18,073 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:35:19,195 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:35:20,314 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:35:21,456 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:35:22,578 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:35:23,692 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:35:24,808 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:35:25,817 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_35_25.png
+2022-08-26 09:35:26,031 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:35:33,040 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_35_33.png
+2022-08-26 09:35:53,187 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:35:53,190 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_35_53.png
+2022-08-26 09:35:55,864 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:35:55,865 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_35_55.png
+2022-08-26 09:35:55,878 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:35:55,879 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_35_55.png
+2022-08-26 09:38:45,342 - root - INFO -  Se abre el chrome
+2022-08-26 09:38:46,414 - root - INFO -  Entra a la URL
+2022-08-26 09:38:46,551 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:38:49,631 - root - INFO -  Cambia al frame
+2022-08-26 09:38:52,728 - root - INFO -  Escribe el usuario
+2022-08-26 09:38:52,831 - root - INFO -  Escribe la contraseña
+2022-08-26 09:38:52,966 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:38:54,288 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:38:54,289 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_38_54.png
+2022-08-26 09:38:58,483 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:39:03,608 - root - INFO -  Abre el menu completo
+2022-08-26 09:39:19,567 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:39:19,626 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:39:19,626 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_39_19.png
+2022-08-26 09:39:19,838 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:39:23,951 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:39:23,954 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_39_23.png
+2022-08-26 09:39:26,417 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:39:26,418 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_39_26.png
+2022-08-26 09:39:26,425 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:39:26,426 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_39_26.png
+2022-08-26 09:40:54,956 - root - INFO -  Se abre el chrome
+2022-08-26 09:40:56,050 - root - INFO -  Entra a la URL
+2022-08-26 09:40:56,169 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:40:59,228 - root - INFO -  Cambia al frame
+2022-08-26 09:41:02,307 - root - INFO -  Escribe el usuario
+2022-08-26 09:41:02,406 - root - INFO -  Escribe la contraseña
+2022-08-26 09:41:02,534 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:41:03,971 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:41:03,973 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_41_03.png
+2022-08-26 09:41:08,158 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:41:13,276 - root - INFO -  Abre el menu completo
+2022-08-26 09:41:29,221 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:41:29,287 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:41:29,287 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_41_29.png
+2022-08-26 09:41:29,452 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:41:33,572 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:41:33,573 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_41_33.png
+2022-08-26 09:41:36,053 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:41:36,054 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_41_36.png
+2022-08-26 09:41:36,060 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:41:36,061 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_41_36.png
+2022-08-26 09:42:15,703 - root - INFO -  Se abre el chrome
+2022-08-26 09:42:16,699 - root - INFO -  Entra a la URL
+2022-08-26 09:42:16,888 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:42:19,945 - root - INFO -  Cambia al frame
+2022-08-26 09:42:23,023 - root - INFO -  Escribe el usuario
+2022-08-26 09:42:23,124 - root - INFO -  Escribe la contraseña
+2022-08-26 09:42:23,255 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:42:24,550 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:42:24,552 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_42_24.png
+2022-08-26 09:42:28,763 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:42:33,890 - root - INFO -  Abre el menu completo
+2022-08-26 09:42:49,852 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:42:49,929 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:42:49,930 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_42_49.png
+2022-08-26 09:42:50,100 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:42:55,228 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:43:00,364 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:43:01,489 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:43:02,662 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:43:03,817 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:43:04,930 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:43:06,042 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:43:07,175 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:43:08,316 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:43:09,428 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:43:10,438 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_43_10.png
+2022-08-26 09:43:10,658 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-08-26 09:43:15,668 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_43_15.png
+2022-08-26 09:43:35,790 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-08-26 09:43:35,793 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_43_35.png
+2022-08-26 09:43:38,251 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:43:38,252 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_43_38.png
+2022-08-26 09:43:38,258 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:43:38,259 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_43_38.png
+2022-08-26 09:48:00,225 - root - INFO -  Se abre el chrome
+2022-08-26 09:48:01,428 - root - INFO -  Entra a la URL
+2022-08-26 09:48:01,696 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:48:04,755 - root - INFO -  Cambia al frame
+2022-08-26 09:48:07,840 - root - INFO -  Escribe el usuario
+2022-08-26 09:48:07,940 - root - INFO -  Escribe la contraseña
+2022-08-26 09:48:08,072 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:48:09,341 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:48:09,342 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_48_09.png
+2022-08-26 09:48:13,579 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:48:18,707 - root - INFO -  Abre el menu completo
+2022-08-26 09:48:34,675 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:48:34,743 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:48:34,743 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_48_34.png
+2022-08-26 09:48:34,914 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:48:40,032 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:48:45,173 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:48:46,310 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:48:47,493 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:48:48,619 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:48:49,743 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:48:50,860 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:48:52,001 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:48:53,128 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:48:54,276 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:48:55,289 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_48_55.png
+2022-08-26 09:49:00,054 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:49:00,055 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_49_00.png
+2022-08-26 09:49:07,137 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-08-26 09:49:12,244 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-08-26 09:49:25,143 - root - INFO -  Se abre el chrome
+2022-08-26 09:49:26,263 - root - INFO -  Entra a la URL
+2022-08-26 09:49:26,401 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:49:29,449 - root - INFO -  Cambia al frame
+2022-08-26 09:49:32,540 - root - INFO -  Escribe el usuario
+2022-08-26 09:49:32,639 - root - INFO -  Escribe la contraseña
+2022-08-26 09:49:32,775 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:49:34,044 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:49:34,046 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_49_34.png
+2022-08-26 09:49:38,253 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:49:43,384 - root - INFO -  Abre el menu completo
+2022-08-26 09:49:59,337 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:49:59,414 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:49:59,415 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_49_59.png
+2022-08-26 09:49:59,596 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:50:04,710 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:50:09,826 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:50:10,975 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:50:12,173 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:50:13,309 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:50:14,439 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:50:15,564 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:50:16,703 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:50:17,855 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:50:18,999 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:50:20,004 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_50_20.png
+2022-08-26 09:50:24,783 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:50:24,784 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_50_24.png
+2022-08-26 09:50:44,936 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-08-26 09:50:44,939 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_50_44.png
+2022-08-26 09:50:47,631 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:50:47,632 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_50_47.png
+2022-08-26 09:50:47,653 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:50:47,654 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_50_47.png
+2022-08-26 09:51:26,184 - root - INFO -  Se abre el chrome
+2022-08-26 09:51:27,174 - root - INFO -  Entra a la URL
+2022-08-26 09:51:27,306 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:51:30,360 - root - INFO -  Cambia al frame
+2022-08-26 09:51:33,446 - root - INFO -  Escribe el usuario
+2022-08-26 09:51:33,549 - root - INFO -  Escribe la contraseña
+2022-08-26 09:51:33,678 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:51:35,024 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:51:35,025 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_51_35.png
+2022-08-26 09:51:39,221 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:51:44,336 - root - INFO -  Abre el menu completo
+2022-08-26 09:52:00,332 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:52:00,408 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:52:00,409 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_00.png
+2022-08-26 09:52:00,582 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:52:05,678 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:52:10,792 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:52:11,941 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:52:13,098 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:52:14,230 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:52:15,356 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:52:16,523 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:52:17,641 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:52:18,804 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:52:19,926 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:52:20,941 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_20.png
+2022-08-26 09:52:25,686 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-08-26 09:52:25,688 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_25.png
+2022-08-26 09:52:46,326 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-08-26 09:52:46,328 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_46.png
+2022-08-26 09:52:48,813 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:52:48,817 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_48.png
+2022-08-26 09:52:48,829 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:52:48,831 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_52_48.png
+2022-08-26 09:53:35,778 - root - INFO -  Se abre el chrome
+2022-08-26 09:53:36,855 - root - INFO -  Entra a la URL
+2022-08-26 09:53:36,989 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:53:40,033 - root - INFO -  Cambia al frame
+2022-08-26 09:53:43,123 - root - INFO -  Escribe el usuario
+2022-08-26 09:53:43,226 - root - INFO -  Escribe la contraseña
+2022-08-26 09:53:43,359 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:53:44,634 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:53:44,635 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_53_44.png
+2022-08-26 09:53:48,832 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:53:53,962 - root - INFO -  Abre el menu completo
+2022-08-26 09:54:09,922 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:54:09,981 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:54:09,981 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_54_09.png
+2022-08-26 09:54:10,152 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-08-26 09:54:15,272 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-08-26 09:54:20,396 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:54:21,534 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:54:22,693 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:54:23,820 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:54:24,969 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:54:26,085 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:54:27,211 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:54:28,385 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:54:29,530 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:54:32,540 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_54_32.png
+2022-08-26 09:54:40,330 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-08-26 09:54:43,333 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_54_43.png
+2022-08-26 09:55:03,510 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, revise la accion anterior si el xpath es el correcto o el tiempo de la accion
+2022-08-26 09:55:03,513 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_55_03.png
+2022-08-26 09:55:06,005 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:55:06,006 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_55_06.png
+2022-08-26 09:55:06,014 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-08-26 09:55:06,015 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_55_06.png
+2022-08-26 09:57:58,696 - root - INFO -  Se abre el chrome
+2022-08-26 09:57:59,943 - root - INFO -  Entra a la URL
+2022-08-26 09:58:00,075 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:58:03,134 - root - INFO -  Cambia al frame
+2022-08-26 09:58:06,227 - root - INFO -  Escribe el usuario
+2022-08-26 09:58:06,325 - root - INFO -  Escribe la contraseña
+2022-08-26 09:58:06,449 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:58:08,214 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:58:08,215 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_58_08.png
+2022-08-26 09:58:12,399 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:58:17,565 - root - INFO -  Abre el menu completo
+2022-08-26 09:58:33,521 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:58:33,591 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:58:33,591 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_58_33.png
+2022-08-26 09:59:07,406 - root - INFO -  Se abre el chrome
+2022-08-26 09:59:08,308 - root - INFO -  Entra a la URL
+2022-08-26 09:59:08,448 - root - INFO -  Maximiza la pantalla
+2022-08-26 09:59:11,492 - root - INFO -  Cambia al frame
+2022-08-26 09:59:14,584 - root - INFO -  Escribe el usuario
+2022-08-26 09:59:14,681 - root - INFO -  Escribe la contraseña
+2022-08-26 09:59:14,806 - root - INFO -  Se dio clic en el boton ingresar
+2022-08-26 09:59:16,147 - root - INFO -  Ejecutar Enterprise
+2022-08-26 09:59:16,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_59_16.png
+2022-08-26 09:59:20,341 - root - INFO -  Cambia entre pestañas
+2022-08-26 09:59:25,479 - root - INFO -  Abre el menu completo
+2022-08-26 09:59:41,416 - root - INFO -  Abre la pantalla de Paises
+2022-08-26 09:59:41,496 - root - INFO -  La pantalla ejecutada es Paises.
+2022-08-26 09:59:41,496 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_59_41.png
+2022-08-26 09:59:41,683 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-08-26 09:59:44,762 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-08-26 09:59:44,802 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-08-26 09:59:44,841 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-08-26 09:59:44,880 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-08-26 09:59:44,920 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-08-26 09:59:44,959 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-08-26 09:59:44,998 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-08-26 09:59:45,035 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-08-26 09:59:45,085 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-08-26 09:59:45,125 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-08-26 09:59:45,201 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-08-26 09:59:46,332 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-08-26 09:59:47,513 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-08-26 09:59:48,639 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-08-26 09:59:49,763 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-08-26 09:59:50,867 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-08-26 09:59:51,997 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-08-26 09:59:53,134 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-08-26 09:59:54,260 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-08-26 09:59:55,276 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220826_09_59_55.png

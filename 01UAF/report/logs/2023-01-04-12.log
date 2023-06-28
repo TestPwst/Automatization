@@ -1,0 +1,45 @@
+2023-01-04 12:13:09,750 - root - INFO -  Se abre el chrome
+2023-01-04 12:13:11,673 - root - INFO -  Entra a la URL
+2023-01-04 12:13:11,810 - root - INFO -  Maximiza la pantalla
+2023-01-04 12:13:14,961 - root - INFO -  Escribe el usuario
+2023-01-04 12:13:15,079 - root - INFO -  Escribe la contraseña
+2023-01-04 12:13:15,185 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-04 12:13:16,462 - root - INFO -  Ejecutar Enterprise
+2023-01-04 12:13:20,535 - root - INFO -  Cambia entre pestañas
+2023-01-04 12:13:33,655 - root - INFO -  Abre la pantalla de tipos de compañia
+2023-01-04 12:13:34,381 - root - INFO -  La pantalla ejecutada es RUBROS DE CAJA
+2023-01-04 12:13:34,382 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_13_34.png
+2023-01-04 12:13:44,944 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-04 12:13:45,617 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-04 12:13:45,725 - root - INFO -  El campo 'Código' si se encuentra visible.
+2023-01-04 12:13:45,843 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2023-01-04 12:13:45,954 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-04 12:13:46,214 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-04 12:13:46,506 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-04 12:13:47,853 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_13_47.png
+2023-01-04 12:13:48,217 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-04 12:13:48,630 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 12:13:48,916 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-04 12:13:49,707 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-04 12:13:50,004 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-04 12:13:50,354 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_13_50.png
+2023-01-04 12:13:50,750 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-04 12:13:51,759 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_13_51.png
+2023-01-04 12:13:57,646 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-04 12:13:58,652 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_13_58.png
+2023-01-04 12:13:59,074 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-04 12:13:59,821 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-04 12:14:00,050 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 12:14:01,833 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-04 12:14:02,664 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-04 12:14:03,941 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_14_03.png
+2023-01-04 12:14:04,193 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-04 12:14:04,337 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-04 12:14:04,669 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-04 12:14:06,411 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-04 12:14:06,613 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-04 12:14:07,633 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UAF\report\img  screen：20230104_12_14_07.png
+2023-01-04 12:14:08,015 - root - INFO -  Se confirma el eliminado del registro
+2023-01-04 12:14:08,400 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-04 12:14:08,631 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de presupuestos.
+2023-01-04 12:14:13,171 - root - INFO -  Se cierra chrome

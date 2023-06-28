@@ -1,0 +1,57 @@
+2023-01-11 10:24:50,330 - root - INFO -  Se abre el chrome
+2023-01-11 10:24:51,284 - root - INFO -  Entra a la URL
+2023-01-11 10:24:51,414 - root - INFO -  Maximiza la pantalla
+2023-01-11 10:24:54,553 - root - INFO -  Escribe el usuario
+2023-01-11 10:24:54,675 - root - INFO -  Escribe la contraseña
+2023-01-11 10:24:54,781 - root - INFO -  Se dio clic en el boton ingresar
+2023-01-11 10:24:55,596 - root - INFO -  Ejecutar Enterprise
+2023-01-11 10:24:59,653 - root - INFO -  Cambia entre pestañas
+2023-01-11 10:25:11,128 - root - INFO -  Abre la pantalla de unidades
+2023-01-11 10:25:11,691 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_11.png
+2023-01-11 10:25:12,203 - root - INFO -  La pantalla ejecutada es Zonas Bancarias.
+2023-01-11 10:25:22,756 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-01-11 10:25:23,361 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:25:23,405 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:25:23,446 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2023-01-11 10:25:23,497 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:25:23,548 - root - INFO -  El campo 'Repartidor' si se encuentra visible.
+2023-01-11 10:25:23,606 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-01-11 10:25:23,669 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:25:23,789 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-11 10:25:24,041 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 10:25:24,147 - root - INFO -  Ingresa el repartidor del nuevo registro 
+2023-01-11 10:25:25,412 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_25.png
+2023-01-11 10:25:26,353 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-01-11 10:25:26,649 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:25:26,935 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-01-11 10:25:27,489 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-01-11 10:25:27,528 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-01-11 10:25:27,567 - root - INFO -  El campo 'Codigo alternativo' si se encuentra visible.
+2023-01-11 10:25:27,635 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-01-11 10:25:27,672 - root - INFO -  El campo 'Repartidor' si se encuentra visible.
+2023-01-11 10:25:27,708 - root - INFO -  El campo 'Unidad Negocio' si se encuentra visible.
+2023-01-11 10:25:27,767 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-01-11 10:25:27,879 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2023-01-11 10:25:28,132 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-01-11 10:25:28,217 - root - INFO -  Ingresa el repartidor del nuevo registro 
+2023-01-11 10:25:29,639 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-01-11 10:25:30,640 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_30.png
+2023-01-11 10:25:36,752 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:25:37,755 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_37.png
+2023-01-11 10:25:38,649 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-01-11 10:25:38,788 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-01-11 10:25:38,957 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:25:40,635 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-01-11 10:25:41,289 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-11 10:25:41,616 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-01-11 10:25:42,684 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_42.png
+2023-01-11 10:25:43,280 - root - INFO -  Se modifica el contenido del campo repartidor
+2023-01-11 10:25:43,371 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-01-11 10:25:43,646 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-01-11 10:25:45,284 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-01-11 10:25:45,399 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-01-11 10:25:46,401 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01ZR\report\img  screen：20230111_10_25_46.png
+2023-01-11 10:25:47,046 - root - INFO -  Se confirma el eliminado del registro
+2023-01-11 10:25:47,362 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-01-11 10:25:47,705 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2023-01-11 10:25:52,055 - root - INFO -  Se cierra chrome

@@ -1,0 +1,42 @@
+2022-07-05 10:27:24,437 - root - INFO -  Se abre el chrome
+2022-07-05 10:27:27,769 - root - INFO -  Entra a la URL
+2022-07-05 10:27:27,906 - root - INFO -  Maximiza la pantalla
+2022-07-05 10:27:31,019 - root - INFO -  Cambia al frame
+2022-07-05 10:27:34,200 - root - INFO -  Escribe el usuario
+2022-07-05 10:27:34,320 - root - INFO -  Escribe la contraseña
+2022-07-05 10:27:34,484 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-05 10:27:38,485 - root - INFO -  Ejecutar Enterprise
+2022-07-05 10:27:42,535 - root - INFO -  Cambia entre pestañas
+2022-07-05 10:28:09,810 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-05 10:28:12,872 - root - INFO -  Abre el menu completo
+2022-07-05 10:28:25,761 - root - INFO -  Abre la pantalla de Ubicaciones en deposito
+2022-07-05 10:28:25,812 - root - INFO -  La pantalla ejecutada es Ubicaciones en deposito.
+2022-07-05 10:28:25,881 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-05 10:28:26,961 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-05 10:28:27,011 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-05 10:28:27,067 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-05 10:28:29,141 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-07-05 10:28:31,201 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-05 10:28:34,392 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-05 10:28:37,503 - root - INFO -  Hizo click en el checkbox 
+2022-07-05 10:28:40,683 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-05 10:28:43,776 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-05 10:28:46,868 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-05 10:28:48,005 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-05 10:28:48,071 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-05 10:28:48,138 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-05 10:28:50,203 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-07-05 10:28:52,305 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-05 10:28:55,465 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-05 10:28:58,760 - root - INFO -  Hizo click en el checkbox 
+2022-07-05 10:29:01,947 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2022-07-05 10:29:04,044 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-05 10:29:06,132 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-05 10:29:10,204 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-05 10:29:17,815 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-05 10:29:18,031 - root - INFO -  Se modifica el contenido del campo Descripcion
+2022-07-05 10:29:21,109 - root - INFO -  Hizo click en el checkbox 
+2022-07-05 10:29:24,172 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-05 10:29:28,287 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-05 10:29:28,288 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220705_10_29_28.png
+2022-07-05 10:29:30,717 - root - INFO -  Se cierra chrome

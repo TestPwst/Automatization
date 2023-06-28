@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporte de pruebas</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    :root{
+        --body-font: 'Poppins', sans-serif;
+
+    }
+    body{
+        margin: var(--header-height) 0 0 0;
+        padding: 1rem 1rem 0;
+        font-family: var(--body-font);
+        background-color: #F9F6FD;
+    }    
+    .container{
+        background-color: white;
+        border-radius: 3%;
+    }
+    .imagenpwst img{
+        position:static;
+        right: 4%;
+        padding-top: 5%;
+    }
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class="imagenpwst">
+    <img src="https://i.postimg.cc/g2fdS2VC/Recurso-jpg.jpg"width="320"  align="right" >
+</div>    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+4:Error  
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = 'Hola';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ver"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="Ocultar"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "Ver"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "Ocultar"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='heading'>
+<h2 style="font-family: Microsoft YaHei">Reporte de pruebas</h4>
+<p class='attribute'><strong>Desarrollado por : </strong> Area de Testing PWST</p>
+<p class='attribute'><strong>Fecha y hora de inicio : </strong> 2022-07-01 11:20:07</p>
+<p class='attribute'><strong>Duracion : </strong> 0:00:56.712974</p>
+<p class='attribute'><strong>Resultado : </strong> Total 8，Correctos 3 ，Errores 5 ，Taza de resultado 37.50%</p>
+
+<h3 class='description'>Detalles</h3>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Resumen 37.50% </a>
+<a class="btn btn-warning" href='javascript:showCase(4)'>Errores 5 </a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>Fallidos 0 </a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Correctos 3 </a>
+<a class="btn btn-info" href='javascript:showCase(3)'>Test realizados 8 </a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>Caso de Prueba</td>
+    <td>Total</td>
+    <td>Correctos</td>
+    <td>Fallido</td>
+    <td>Error</td>
+    <td>Detalles</td>
+    <td>Captura del error</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>ZonasBancarias.Test: Escenario 1 de Unidades de Artículos</td>
+    <td class="text-center">8</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
+    <td class="text-center">5</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',8)" class="detail" id='c1'>Detalles</a></td>
+    <td class="text-center"></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>Correcto</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_1: 2022-07-01 11:20:09,225 - root - INFO -  Se abre el chrome
+2022-07-01 11:20:11,548 - root - INFO -  Entra a la URL
+2022-07-01 11:20:11,680 - root - INFO -  Maximiza la pantalla
+2022-07-01 11:20:14,791 - root - INFO -  Cambia al frame
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_000: Ingresa a la base de datos</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>Correcto</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_2: 2022-07-01 11:20:18,011 - root - INFO -  Escribe el usuario
+2022-07-01 11:20:18,260 - root - INFO -  Escribe la contraseña
+2022-07-01 11:20:18,808 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-01 11:20:21,805 - root - INFO -  Ejecutar Enterprise
+2022-07-01 11:20:25,979 - root - INFO -  Cambia entre pestañas
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_3' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_001: Abre menu y ejecuta pantalla</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>Error</button>
+    <div id='div_ft1_3' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_3: 2022-07-01 11:20:39,961 - root - ERROR - No se pudo encontrar el botón para desplegar el menu completo, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 11:20:39,972 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\report\img  screen：20220701_11_20_39.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ZonasBancarias.py", line 46, in test_001
+    return ingresopantalla.ingresopantalla(self)
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ingresopantalla.py", line 19, in ingresopantalla
+    Sandwich.click()
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 89, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 773, in _execute
+    return self._parent.execute(command, params)
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;div id="toggleMenuBar" style="visibility: visible;" title="alternar barra de menú"&gt;&lt;/div&gt; is not clickable at point (1257, 19). Other element would receive the click: &lt;div class="ui-modal-container"&gt;...&lt;/div&gt;
+  (Session info: chrome=103.0.5060.66)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008E6463+2188387]
+	Ordinal0 [0x0087E461+1762401]
+	Ordinal0 [0x00793D78+802168]
+	Ordinal0 [0x007C7F9B+1015707]
+	Ordinal0 [0x007C5F68+1007464]
+	Ordinal0 [0x007C3C6B+998507]
+	Ordinal0 [0x007C29D9+993753]
+	Ordinal0 [0x007B8613+951827]
+	Ordinal0 [0x007DC7DC+1099740]
+	Ordinal0 [0x007B7FF4+950260]
+	Ordinal0 [0x007DC9F4+1100276]
+	Ordinal0 [0x007ECC22+1166370]
+	Ordinal0 [0x007DC5F6+1099254]
+	Ordinal0 [0x007B6BE0+945120]
+	Ordinal0 [0x007B7AD6+948950]
+	GetHandleVerifier [0x00B871F2+2712546]
+	GetHandleVerifier [0x00B7886D+2652765]
+	GetHandleVerifier [0x0097002A+520730]
+	GetHandleVerifier [0x0096EE06+516086]
+	Ordinal0 [0x0088468B+1787531]
+	Ordinal0 [0x00888E88+1805960]
+	Ordinal0 [0x00888F75+1806197]
+	Ordinal0 [0x00891DF1+1842673]
+	BaseThreadInitThunk [0x76C06739+25]
+	RtlGetFullPathName_UEx [0x77DA8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DA8FBD+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/ 20220701_11_20_39.png" target="_blank">
+            <img src="../../../../img/ 20220701_11_20_39.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_002: Abre la ventana de nuevo y crear un registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>Error</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_4: 2022-07-01 11:20:45,489 - root - ERROR - La pantalla ejecutada no es correcta, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 11:20:45,499 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\report\img  screen：20220701_11_20_45.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ZonasBancarias.py", line 50, in test_002
+    return nuevoregistro.nuevoregistro(self)
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\nuevoregistro.py", line 20, in nuevoregistro
+    Crea = self.wait.until(conditions.visibility((By.XPATH, Configuracion.titulo_nuevo))).text
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008E6463+2188387]
+	Ordinal0 [0x0087E461+1762401]
+	Ordinal0 [0x00793D78+802168]
+	Ordinal0 [0x007C1880+989312]
+	Ordinal0 [0x007C1B1B+989979]
+	Ordinal0 [0x007EE912+1173778]
+	Ordinal0 [0x007DC824+1099812]
+	Ordinal0 [0x007ECC22+1166370]
+	Ordinal0 [0x007DC5F6+1099254]
+	Ordinal0 [0x007B6BE0+945120]
+	Ordinal0 [0x007B7AD6+948950]
+	GetHandleVerifier [0x00B871F2+2712546]
+	GetHandleVerifier [0x00B7886D+2652765]
+	GetHandleVerifier [0x0097002A+520730]
+	GetHandleVerifier [0x0096EE06+516086]
+	Ordinal0 [0x0088468B+1787531]
+	Ordinal0 [0x00888E88+1805960]
+	Ordinal0 [0x00888F75+1806197]
+	Ordinal0 [0x00891DF1+1842673]
+	BaseThreadInitThunk [0x76C06739+25]
+	RtlGetFullPathName_UEx [0x77DA8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DA8FBD+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/ 20220701_11_20_45.png" target="_blank">
+            <img src="../../../../img/ 20220701_11_20_45.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_003: Repetir el registro creado anteriormente</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>Error</button>
+    <div id='div_ft1_5' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_5: 2022-07-01 11:20:51,058 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 11:20:51,071 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\report\img  screen：20220701_11_20_51.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ZonasBancarias.py", line 54, in test_003
+    return repetirregistro.repetirregistro(self)
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\repetirregistro.py", line 21, in repetirregistro
+    Refresca = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008E6463+2188387]
+	Ordinal0 [0x0087E461+1762401]
+	Ordinal0 [0x00793D78+802168]
+	Ordinal0 [0x007C1880+989312]
+	Ordinal0 [0x007C1B1B+989979]
+	Ordinal0 [0x007EE912+1173778]
+	Ordinal0 [0x007DC824+1099812]
+	Ordinal0 [0x007ECC22+1166370]
+	Ordinal0 [0x007DC5F6+1099254]
+	Ordinal0 [0x007B6BE0+945120]
+	Ordinal0 [0x007B7AD6+948950]
+	GetHandleVerifier [0x00B871F2+2712546]
+	GetHandleVerifier [0x00B7886D+2652765]
+	GetHandleVerifier [0x0097002A+520730]
+	GetHandleVerifier [0x0096EE06+516086]
+	Ordinal0 [0x0088468B+1787531]
+	Ordinal0 [0x00888E88+1805960]
+	Ordinal0 [0x00888F75+1806197]
+	Ordinal0 [0x00891DF1+1842673]
+	BaseThreadInitThunk [0x76C06739+25]
+	RtlGetFullPathName_UEx [0x77DA8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DA8FBD+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/ 20220701_11_20_51.png" target="_blank">
+            <img src="../../../../img/ 20220701_11_20_51.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_6' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_004: Modificar el registro</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_6' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_6'>Error</button>
+    <div id='div_ft1_6' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_6: 2022-07-01 11:20:56,563 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 11:20:56,575 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\report\img  screen：20220701_11_20_56.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ZonasBancarias.py", line 58, in test_004
+    return modificarregistro.modificarregistro(self)
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\modificarregistro.py", line 22, in modificarregistro
+    Refresca2 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008E6463+2188387]
+	Ordinal0 [0x0087E461+1762401]
+	Ordinal0 [0x00793D78+802168]
+	Ordinal0 [0x007C1880+989312]
+	Ordinal0 [0x007C1B1B+989979]
+	Ordinal0 [0x007EE912+1173778]
+	Ordinal0 [0x007DC824+1099812]
+	Ordinal0 [0x007ECC22+1166370]
+	Ordinal0 [0x007DC5F6+1099254]
+	Ordinal0 [0x007B6BE0+945120]
+	Ordinal0 [0x007B7AD6+948950]
+	GetHandleVerifier [0x00B871F2+2712546]
+	GetHandleVerifier [0x00B7886D+2652765]
+	GetHandleVerifier [0x0097002A+520730]
+	GetHandleVerifier [0x0096EE06+516086]
+	Ordinal0 [0x0088468B+1787531]
+	Ordinal0 [0x00888E88+1805960]
+	Ordinal0 [0x00888F75+1806197]
+	Ordinal0 [0x00891DF1+1842673]
+	BaseThreadInitThunk [0x76C06739+25]
+	RtlGetFullPathName_UEx [0x77DA8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DA8FBD+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/ 20220701_11_20_56.png" target="_blank">
+            <img src="../../../../img/ 20220701_11_20_56.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='ft1_7' class='none'>
+    <td class='errorCase' width='300px'><div class='testcase'>test_006: Eliminar el registro creado</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_7' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_ft1_7'>Error</button>
+    <div id='div_ft1_7' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+ft1_7: 2022-07-01 11:21:02,037 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-01 11:21:02,039 - root - INFO -  Captura: C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\report\img  screen：20220701_11_21_02.png
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\ZonasBancarias.py", line 62, in test_006
+    return eliminarregistro.eliminarregistro(self)
+  File "C:\xampp\htdocs\automatizaciones\AutoPWST\01ZB\testCase\eliminarregistro.py", line 21, in eliminarregistro
+    Refresca3 = self.wait.until(conditions.visibility((By.XPATH, Configuracion.btn_Refresca)))
+  File "D:\TecnologiasParaEstudiar\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008E6463+2188387]
+	Ordinal0 [0x0087E461+1762401]
+	Ordinal0 [0x00793D78+802168]
+	Ordinal0 [0x007C1880+989312]
+	Ordinal0 [0x007C1B1B+989979]
+	Ordinal0 [0x007EE912+1173778]
+	Ordinal0 [0x007DC824+1099812]
+	Ordinal0 [0x007ECC22+1166370]
+	Ordinal0 [0x007DC5F6+1099254]
+	Ordinal0 [0x007B6BE0+945120]
+	Ordinal0 [0x007B7AD6+948950]
+	GetHandleVerifier [0x00B871F2+2712546]
+	GetHandleVerifier [0x00B7886D+2652765]
+	GetHandleVerifier [0x0097002A+520730]
+	GetHandleVerifier [0x0096EE06+516086]
+	Ordinal0 [0x0088468B+1787531]
+	Ordinal0 [0x00888E88+1805960]
+	Ordinal0 [0x00888F75+1806197]
+	Ordinal0 [0x00891DF1+1842673]
+	BaseThreadInitThunk [0x76C06739+25]
+	RtlGetFullPathName_UEx [0x77DA8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DA8FBD+1165]
+
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a  href="../../../../img/ 20220701_11_21_02.png" target="_blank">
+            <img src="../../../../img/ 20220701_11_21_02.png" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' width='300px'><div class='testcase'>test_007: Cerrar_Navegador</div></td>
+    <td colspan='5' align='left' width='600px'> <!--print 输出框位置-->
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn btn-primary btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>Correcto</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="overflow-y:scroll; overflow-x:hidden;height:200px; width:600px; margin:auto; border:1px solid #e1e1e1;">
+    
+pt1_8: 2022-07-01 11:21:04,560 - root - INFO -  Se cierra chrome
+
+
+    </pre>
+    </div>
+    </td>
+    <td align="right">
+        <a hidden="hidden" href="" target="_blank">
+            <img src="" height="200px" width="400px"/>
+        </a>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>Caso de prueba</td>
+    <td>8</td>
+    <td>3</td>
+    <td>0</td>
+    <td>5</td>
+    <td>Taza de resultado：37.50%</td>
+    <td> <a href="" target="_blank"></a></td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

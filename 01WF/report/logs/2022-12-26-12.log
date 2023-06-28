@@ -1,0 +1,43 @@
+2022-12-26 12:56:31,594 - root - INFO -  Se abre el chrome
+2022-12-26 12:56:32,952 - root - INFO -  Entra a la URL
+2022-12-26 12:56:33,095 - root - INFO -  Maximiza la pantalla
+2022-12-26 12:56:36,257 - root - INFO -  Escribe el usuario
+2022-12-26 12:56:36,376 - root - INFO -  Escribe la contraseña
+2022-12-26 12:56:36,501 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-26 12:56:37,257 - root - INFO -  Ejecutar Enterprise
+2022-12-26 12:56:41,365 - root - INFO -  Cambia entre pestañas
+2022-12-26 12:56:52,521 - root - INFO -  Abre la pantalla de Worksflow
+2022-12-26 12:56:53,101 - root - INFO -  La pantalla ejecutada es Work Flows
+2022-12-26 12:56:56,109 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20221226_12_56_56.png
+2022-12-26 12:57:06,744 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-26 12:57:11,788 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-26 12:57:11,819 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-26 12:57:11,852 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-26 12:57:11,902 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-26 12:57:12,053 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-26 12:57:13,059 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20221226_12_57_13.png
+2022-12-26 12:57:13,266 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar con el registro nuevo
+2022-12-26 12:57:13,863 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Tipos Documento.
+2022-12-26 12:57:14,423 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2022-12-26 12:57:14,454 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2022-12-26 12:57:14,489 - root - INFO -  El campo 'Modo Bloqueo' si se encuentra visible.
+2022-12-26 12:57:14,518 - root - INFO -  El campo 'Obligatorio' si se encuentra visible.
+2022-12-26 12:57:15,387 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2022-12-26 12:57:15,882 - root - INFO -  Se dió click en el regitro de Modo Bloqueo.
+2022-12-26 12:57:16,211 - root - INFO -  Hizo click en el checkbox Obligatorio 
+2022-12-26 12:57:16,269 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro Tipos Documento.
+2022-12-26 12:57:16,475 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-26 12:57:16,677 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-26 12:57:16,786 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-26 12:57:17,332 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-26 12:57:17,373 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-26 12:57:17,477 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-12-26 12:57:17,517 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-26 12:57:17,613 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-12-26 12:57:17,656 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2022-12-26 12:57:18,664 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20221226_12_57_18.png
+2022-12-26 12:58:19,349 - root - ERROR - No se dió click en el botón Cerrar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2022-12-26 12:58:19,350 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20221226_12_58_19.png
+2022-12-26 12:58:24,162 - root - INFO -  Se cierra chrome
+2022-12-26 12:58:24,165 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2022-12-26 12:58:24,168 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte

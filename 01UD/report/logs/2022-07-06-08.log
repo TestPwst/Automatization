@@ -1,0 +1,29 @@
+2022-07-06 08:52:03,759 - root - INFO -  Se abre el chrome
+2022-07-06 08:52:13,412 - root - INFO -  Entra a la URL
+2022-07-06 08:52:13,541 - root - INFO -  Maximiza la pantalla
+2022-07-06 08:52:16,592 - root - INFO -  Cambia al frame
+2022-07-06 08:52:19,659 - root - INFO -  Escribe el usuario
+2022-07-06 08:52:19,748 - root - INFO -  Escribe la contraseña
+2022-07-06 08:52:19,895 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-06 08:52:27,024 - root - INFO -  Ejecutar Enterprise
+2022-07-06 08:52:31,075 - root - INFO -  Cambia entre pestañas
+2022-07-06 08:53:31,018 - root - INFO -  Se presiona el boton 'Cerrar Error', para crear un nuevo registro igual al anterior.
+2022-07-06 08:53:34,100 - root - INFO -  Abre el menu completo
+2022-07-06 08:53:47,007 - root - INFO -  Abre la pantalla de Ubicaciones en deposito
+2022-07-06 08:53:47,073 - root - INFO -  La pantalla ejecutada es Ubicaciones en deposito.
+2022-07-06 08:53:47,132 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-06 08:53:47,690 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-06 08:53:47,728 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-06 08:53:47,764 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-06 08:53:49,809 - root - INFO -  El campo 'Detallar envio' si se encuentra visible.
+2022-07-06 08:53:51,940 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-06 08:53:55,058 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-06 08:53:58,156 - root - INFO -  Hizo click en el checkbox 
+2022-07-06 08:54:01,278 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-06 08:54:05,403 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-06 08:54:05,404 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220706_08_54_05.png
+2022-07-06 08:54:06,964 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-06 08:54:06,966 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220706_08_54_06.png
+2022-07-06 08:54:08,148 - root - ERROR - No se encontró el botón Refrescar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-06 08:54:08,149 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01UD\report\img  screen：20220706_08_54_08.png
+2022-07-06 08:54:10,408 - root - INFO -  Se cierra chrome

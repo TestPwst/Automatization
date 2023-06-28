@@ -1,0 +1,55 @@
+2022-11-29 10:41:25,440 - root - INFO -  Se abre el chrome
+2022-11-29 10:41:26,536 - root - INFO -  Entra a la URL
+2022-11-29 10:41:26,877 - root - INFO -  Maximiza la pantalla
+2022-11-29 10:41:29,933 - root - INFO -  Cambia al frame
+2022-11-29 10:41:33,047 - root - INFO -  Escribe el usuario
+2022-11-29 10:41:33,189 - root - INFO -  Escribe la contraseña
+2022-11-29 10:41:33,371 - root - INFO -  Se dio clic en el boton ingresar
+2022-11-29 10:41:34,201 - root - INFO -  Ejecutar Enterprise
+2022-11-29 10:41:38,369 - root - INFO -  Cambia entre pestañas
+2022-11-29 10:41:49,199 - root - INFO -  Abre el menu completo
+2022-11-29 10:42:02,100 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-11-29 10:42:02,148 - root - INFO -  La pantalla ejecutada es Familias de Impuestos
+2022-11-29 10:42:02,149 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221129_10_42_02.png
+2022-11-29 10:42:02,774 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-11-29 10:42:05,828 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-11-29 10:42:05,890 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-11-29 10:42:05,937 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-11-29 10:42:05,987 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-11-29 10:42:06,033 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-11-29 10:42:06,079 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-11-29 10:42:06,124 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-11-29 10:42:06,169 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-11-29 10:42:06,216 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-11-29 10:42:06,261 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-11-29 10:42:06,306 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-11-29 10:42:06,359 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-11-29 10:42:06,406 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-11-29 10:42:06,452 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-11-29 10:42:06,513 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-11-29 10:42:06,562 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-11-29 10:42:06,608 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-11-29 10:42:06,654 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-11-29 10:42:06,700 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-11-29 10:42:06,747 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-11-29 10:42:06,794 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-11-29 10:42:06,839 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-11-29 10:42:06,927 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-11-29 10:42:08,123 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-11-29 10:42:09,253 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-11-29 10:42:10,457 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-11-29 10:42:11,634 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-11-29 10:42:12,813 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-11-29 10:42:13,946 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-11-29 10:42:15,090 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-11-29 10:42:16,228 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-11-29 10:42:17,366 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-11-29 10:42:18,478 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-11-29 10:44:02,205 - root - ERROR - No se encontró el registro deseado de Formula Pedido, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 10:44:02,206 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221129_10_44_02.png
+2022-11-29 10:44:10,243 - root - ERROR - v Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 10:44:10,244 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221129_10_44_10.png
+2022-11-29 10:44:10,280 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 10:44:10,281 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221129_10_44_10.png
+2022-11-29 10:44:10,297 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-11-29 10:44:10,297 - root - INFO -  Captura: C:\xampp\htdocs\Versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221129_10_44_10.png

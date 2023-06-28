@@ -1,0 +1,622 @@
+2022-12-27 10:00:14,524 - root - ERROR - No se encontró el registro deseado de Agencia, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 10:00:14,527 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_00_14.png
+2022-12-27 10:01:14,963 - root - ERROR - No se encontró el botón Cerrar, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-12-27 10:01:16,975 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_01_16.png
+2022-12-27 10:01:18,368 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 10:01:18,369 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_01_18.png
+2022-12-27 10:01:23,080 - root - INFO -  Se cierra chrome
+2022-12-27 10:03:19,476 - root - INFO -  Se abre el chrome
+2022-12-27 10:03:20,584 - root - INFO -  Entra a la URL
+2022-12-27 10:03:20,718 - root - INFO -  Maximiza la pantalla
+2022-12-27 10:03:23,957 - root - INFO -  Escribe el usuario
+2022-12-27 10:03:24,129 - root - INFO -  Escribe la contraseña
+2022-12-27 10:03:24,300 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 10:03:25,124 - root - INFO -  Ejecutar Enterprise
+2022-12-27 10:03:29,220 - root - INFO -  Cambia entre pestañas
+2022-12-27 10:03:39,508 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-12-27 10:03:40,075 - root - INFO -  La pantalla ejecutada es Familias de Impuestos
+2022-12-27 10:03:40,084 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_03_40.png
+2022-12-27 10:03:40,893 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:03:41,785 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:03:47,537 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:03:47,601 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:03:47,731 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:03:53,502 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:03:53,574 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:03:53,678 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:03:54,752 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:03:54,820 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:03:54,914 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:03:55,485 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:03:55,559 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:03:56,135 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 10:03:56,333 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:03:56,469 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:03:57,037 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:03:57,133 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:03:57,176 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:03:57,224 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:03:57,267 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:03:57,316 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:03:57,362 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:03:57,410 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:03:57,453 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:03:57,503 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:03:57,545 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:03:57,587 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:03:57,630 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:03:57,673 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:03:57,717 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:03:57,764 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:03:57,814 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:03:57,857 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:03:57,901 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:03:57,947 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:03:57,994 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:03:58,037 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:03:58,112 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:03:58,218 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:03:58,342 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:03:58,496 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:03:58,627 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:03:58,784 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:03:58,893 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:03:59,053 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:03:59,181 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:03:59,305 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:03:59,421 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:04:14,052 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_04_14.png
+2022-12-27 10:04:14,292 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:04:14,872 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:04:15,471 - root - INFO -  El campo 'Serie base' si se encuentra visible.
+2022-12-27 10:04:15,513 - root - INFO -  El campo 'Tipo Impresora' si se encuentra visible.
+2022-12-27 10:04:15,554 - root - INFO -  El campo 'Puerto Impresora' si se encuentra visible.
+2022-12-27 10:04:15,592 - root - INFO -  El campo 'Impresora + Lenguaje' si se encuentra visible.
+2022-12-27 10:04:15,629 - root - INFO -  El campo 'Clave correlativo' si se encuentra visible.
+2022-12-27 10:04:15,666 - root - INFO -  El campo 'Desde número' si se encuentra visible.
+2022-12-27 10:04:15,704 - root - INFO -  El campo 'Hasta número' si se encuentra visible.
+2022-12-27 10:04:17,386 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:04:17,473 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:04:17,577 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:04:17,663 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:04:17,895 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:04:18,490 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:04:19,049 - root - INFO -  El campo 'Tipo documento' si se encuentra visible.
+2022-12-27 10:04:19,088 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:04:21,334 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:04:21,507 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:04:22,111 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:04:22,664 - root - INFO -  El campo 'Tipo Documento 2' si se encuentra visible.
+2022-12-27 10:04:22,699 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:04:24,879 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:04:25,071 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:04:25,366 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:04:25,501 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-27 10:04:26,071 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:04:26,161 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:04:26,203 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:04:26,245 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:04:26,287 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:04:26,330 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:04:26,373 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:04:26,417 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:04:26,460 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:04:26,502 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:04:26,550 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:04:26,594 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:04:26,638 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:04:26,681 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:04:26,726 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:04:26,771 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:04:26,816 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:04:26,860 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:04:26,904 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:04:26,951 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:04:27,003 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:04:27,048 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:04:27,118 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:04:27,224 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:04:27,342 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:04:27,491 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:04:27,620 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:04:27,762 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:04:27,862 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:04:27,990 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:04:28,122 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:04:28,256 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:04:28,387 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:04:42,139 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:04:43,148 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_04_43.png
+2022-12-27 10:04:44,360 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_04_44.png
+2022-12-27 10:04:49,817 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:04:50,826 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_04_50.png
+2022-12-27 10:04:51,107 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:04:51,185 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-27 10:04:51,275 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:04:52,879 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:04:53,577 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:04:53,734 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:04:53,956 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:04:54,138 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:04:54,335 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:04:54,492 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:04:54,675 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:04:54,865 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:04:55,175 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:04:55,352 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:05:18,853 - root - ERROR - No se encontró el registro deseado de Oficina, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 10:05:18,855 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_05_18.png
+2022-12-27 10:05:18,890 - root - ERROR - No se dió click al botón Refrescar, validar que la acción anterior haya finalizado,que el xpath sea el correcto o que la página no presente lentitud
+2022-12-27 10:05:18,892 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_05_18.png
+2022-12-27 10:08:10,001 - root - INFO -  Se abre el chrome
+2022-12-27 10:08:11,075 - root - INFO -  Entra a la URL
+2022-12-27 10:08:11,204 - root - INFO -  Maximiza la pantalla
+2022-12-27 10:08:14,387 - root - INFO -  Escribe el usuario
+2022-12-27 10:08:14,450 - root - INFO -  Escribe la contraseña
+2022-12-27 10:08:14,503 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 10:08:15,172 - root - INFO -  Ejecutar Enterprise
+2022-12-27 10:08:19,239 - root - INFO -  Cambia entre pestañas
+2022-12-27 10:08:29,582 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-12-27 10:08:30,134 - root - INFO -  La pantalla ejecutada es Familias de Impuestos
+2022-12-27 10:08:30,134 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_08_30.png
+2022-12-27 10:08:30,839 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:08:31,431 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:08:37,350 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:08:37,416 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:08:37,526 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:08:43,364 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:08:43,419 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:08:43,540 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:08:44,645 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:08:44,699 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:08:44,819 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:08:45,390 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:08:45,455 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:08:46,054 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 10:08:46,269 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:08:46,536 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:08:47,107 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:08:47,136 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:08:47,206 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:08:47,234 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:08:47,263 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:08:47,292 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:08:47,319 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:08:47,349 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:08:47,378 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:08:47,406 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:08:47,466 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:08:47,495 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:08:47,523 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:08:47,551 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:08:47,579 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:08:47,607 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:08:47,635 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:08:47,663 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:08:47,690 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:08:47,731 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:08:47,760 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:08:47,789 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:08:47,835 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:08:47,911 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:08:48,011 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:08:48,122 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:08:48,243 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:08:48,333 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:08:48,388 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:08:48,470 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:08:48,564 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:08:48,638 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:08:48,713 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:09:03,462 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_09_03.png
+2022-12-27 10:09:03,678 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:09:04,285 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:09:04,903 - root - INFO -  El campo 'Serie base' si se encuentra visible.
+2022-12-27 10:09:04,933 - root - INFO -  El campo 'Tipo Impresora' si se encuentra visible.
+2022-12-27 10:09:04,964 - root - INFO -  El campo 'Puerto Impresora' si se encuentra visible.
+2022-12-27 10:09:04,995 - root - INFO -  El campo 'Impresora + Lenguaje' si se encuentra visible.
+2022-12-27 10:09:05,024 - root - INFO -  El campo 'Clave correlativo' si se encuentra visible.
+2022-12-27 10:09:05,053 - root - INFO -  El campo 'Desde número' si se encuentra visible.
+2022-12-27 10:09:05,082 - root - INFO -  El campo 'Hasta número' si se encuentra visible.
+2022-12-27 10:09:07,146 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:09:07,324 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:09:07,385 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:09:07,435 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:09:07,686 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:09:08,283 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:09:08,829 - root - INFO -  El campo 'Tipo documento' si se encuentra visible.
+2022-12-27 10:09:08,859 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:09:11,024 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:09:11,227 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:09:11,827 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:09:12,386 - root - INFO -  El campo 'Tipo Documento 2' si se encuentra visible.
+2022-12-27 10:09:12,415 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:09:14,512 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:09:14,737 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:09:15,038 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:09:15,169 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-27 10:09:15,760 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:09:15,822 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:09:15,853 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:09:15,910 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:09:15,942 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:09:15,971 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:09:16,001 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:09:16,031 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:09:16,064 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:09:16,093 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:09:16,123 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:09:16,153 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:09:16,183 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:09:16,212 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:09:16,241 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:09:16,271 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:09:16,301 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:09:16,331 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:09:16,361 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:09:16,390 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:09:16,421 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:09:16,451 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:09:16,503 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:09:16,590 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:09:16,700 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:09:16,833 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:09:17,025 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:09:17,112 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:09:17,178 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:09:17,262 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:09:17,350 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:09:17,503 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:09:17,576 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:09:31,322 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:09:32,323 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_09_32.png
+2022-12-27 10:09:33,491 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_09_33.png
+2022-12-27 10:09:39,008 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:09:40,015 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_09_40.png
+2022-12-27 10:09:40,266 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:09:40,384 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-27 10:09:40,490 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:09:42,133 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:09:42,824 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:09:42,936 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:09:43,092 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:09:43,203 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:09:43,455 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:09:43,545 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:09:43,665 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:09:43,831 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:09:43,932 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:09:44,030 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:11:26,848 - root - INFO -  Se abre el chrome
+2022-12-27 10:11:27,903 - root - INFO -  Entra a la URL
+2022-12-27 10:11:28,051 - root - INFO -  Maximiza la pantalla
+2022-12-27 10:11:31,251 - root - INFO -  Escribe el usuario
+2022-12-27 10:11:31,409 - root - INFO -  Escribe la contraseña
+2022-12-27 10:11:31,555 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 10:11:32,297 - root - INFO -  Ejecutar Enterprise
+2022-12-27 10:11:36,383 - root - INFO -  Cambia entre pestañas
+2022-12-27 10:11:47,272 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-12-27 10:11:47,852 - root - INFO -  La pantalla ejecutada es Familias de Impuestos
+2022-12-27 10:11:47,853 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_11_47.png
+2022-12-27 10:11:48,548 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:11:49,192 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:11:55,070 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:11:55,123 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:11:55,239 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:12:01,081 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:12:01,144 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:12:01,260 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:12:02,386 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:12:02,461 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:12:02,589 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:12:03,167 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:12:03,231 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:12:03,823 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 10:12:04,002 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:12:04,121 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:12:04,698 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:12:04,764 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:12:04,794 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:12:04,824 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:12:04,854 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:12:04,882 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:12:04,912 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:12:04,940 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:12:04,969 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:12:05,007 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:12:05,037 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:12:05,065 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:12:05,093 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:12:05,121 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:12:05,150 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:12:05,179 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:12:05,207 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:12:05,238 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:12:05,269 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:12:05,298 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:12:05,326 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:12:05,354 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:12:05,404 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:12:05,559 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:12:05,634 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:12:05,826 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:12:05,909 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:12:05,999 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:12:06,074 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:12:06,165 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:12:06,409 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:12:06,536 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:12:06,605 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:12:21,554 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_12_21.png
+2022-12-27 10:12:21,765 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:12:22,372 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:12:22,996 - root - INFO -  El campo 'Serie base' si se encuentra visible.
+2022-12-27 10:12:23,027 - root - INFO -  El campo 'Tipo Impresora' si se encuentra visible.
+2022-12-27 10:12:23,057 - root - INFO -  El campo 'Puerto Impresora' si se encuentra visible.
+2022-12-27 10:12:23,087 - root - INFO -  El campo 'Impresora + Lenguaje' si se encuentra visible.
+2022-12-27 10:12:23,116 - root - INFO -  El campo 'Clave correlativo' si se encuentra visible.
+2022-12-27 10:12:23,145 - root - INFO -  El campo 'Desde número' si se encuentra visible.
+2022-12-27 10:12:23,243 - root - INFO -  El campo 'Hasta número' si se encuentra visible.
+2022-12-27 10:12:25,434 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:12:25,550 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:12:25,615 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:12:25,674 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:12:25,877 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:12:26,477 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:12:27,033 - root - INFO -  El campo 'Tipo documento' si se encuentra visible.
+2022-12-27 10:12:27,064 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:12:29,258 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:12:29,475 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:12:30,081 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:12:30,655 - root - INFO -  El campo 'Tipo Documento 2' si se encuentra visible.
+2022-12-27 10:12:30,683 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:12:32,869 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:12:33,025 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:12:33,388 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:12:33,509 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-27 10:12:34,062 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:12:34,092 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:12:34,154 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:12:34,247 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:12:34,276 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:12:34,305 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:12:34,334 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:12:34,363 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:12:34,392 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:12:34,422 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:12:34,454 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:12:34,483 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:12:34,557 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:12:34,637 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:12:34,667 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:12:34,697 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:12:34,726 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:12:34,755 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:12:34,785 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:12:34,814 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:12:34,843 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:12:34,872 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:12:34,921 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:12:35,000 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:12:35,092 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:12:35,225 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:12:35,318 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:12:35,481 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:12:35,547 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:12:35,726 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:12:35,802 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:12:35,876 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:12:35,945 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:12:49,741 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:12:50,756 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_12_50.png
+2022-12-27 10:12:51,915 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_12_51.png
+2022-12-27 10:12:57,377 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:12:58,394 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_12_58.png
+2022-12-27 10:12:58,662 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:12:58,784 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-27 10:12:58,947 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:13:00,627 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:01,292 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:13:01,451 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:13:01,621 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:13:01,746 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:13:01,873 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:13:01,964 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:13:02,072 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:13:02,189 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:13:02,319 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:13:02,429 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:13:17,191 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_13_17.png
+2022-12-27 10:13:17,390 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:18,499 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:18,560 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:13:18,691 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:13:21,184 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:13:21,292 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:13:21,407 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:13:21,459 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:13:21,675 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:22,796 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:24,416 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:13:24,609 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:25,724 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:27,363 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:13:27,581 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:13:27,889 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-27 10:13:29,671 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:13:30,270 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:31,355 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:31,424 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:13:31,540 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:32,624 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:32,686 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:13:32,857 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:13:33,945 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:13:34,028 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:13:34,137 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:13:34,721 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:13:35,798 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:13:35,801 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_13_35.png
+2022-12-27 10:13:36,005 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 10:13:36,185 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:13:36,305 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-12-27 10:13:40,658 - root - INFO -  Se cierra chrome
+2022-12-27 10:13:45,030 - root - INFO -  Se abre el chrome
+2022-12-27 10:13:46,276 - root - INFO -  Entra a la URL
+2022-12-27 10:13:46,417 - root - INFO -  Maximiza la pantalla
+2022-12-27 10:13:49,616 - root - INFO -  Escribe el usuario
+2022-12-27 10:13:49,777 - root - INFO -  Escribe la contraseña
+2022-12-27 10:13:49,928 - root - INFO -  Se dio clic en el boton ingresar
+2022-12-27 10:13:50,688 - root - INFO -  Ejecutar Enterprise
+2022-12-27 10:13:54,765 - root - INFO -  Cambia entre pestañas
+2022-12-27 10:14:05,995 - root - INFO -  Abre la pantalla de Familias de Impuestos
+2022-12-27 10:14:06,555 - root - INFO -  La pantalla ejecutada es Familias de Impuestos
+2022-12-27 10:14:06,556 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_14_06.png
+2022-12-27 10:14:17,174 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:14:17,731 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:14:17,766 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:14:17,841 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:14:17,875 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:14:17,909 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:14:18,032 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:14:18,064 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:14:18,095 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:14:18,129 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:14:18,160 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:14:18,191 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:14:18,224 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:14:18,256 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:14:18,288 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:14:18,321 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:14:18,354 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:14:18,386 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:14:18,419 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:14:18,453 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:14:18,486 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:14:18,521 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:14:18,551 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:14:18,606 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:14:18,680 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:14:18,759 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:14:18,860 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:14:18,944 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:14:19,037 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:14:19,107 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:14:19,189 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:14:19,269 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:14:19,346 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:14:19,423 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:14:33,911 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_14_33.png
+2022-12-27 10:14:34,167 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:14:34,761 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:14:35,331 - root - INFO -  El campo 'Serie base' si se encuentra visible.
+2022-12-27 10:14:35,407 - root - INFO -  El campo 'Tipo Impresora' si se encuentra visible.
+2022-12-27 10:14:35,443 - root - INFO -  El campo 'Puerto Impresora' si se encuentra visible.
+2022-12-27 10:14:35,478 - root - INFO -  El campo 'Impresora + Lenguaje' si se encuentra visible.
+2022-12-27 10:14:35,514 - root - INFO -  El campo 'Clave correlativo' si se encuentra visible.
+2022-12-27 10:14:35,551 - root - INFO -  El campo 'Desde número' si se encuentra visible.
+2022-12-27 10:14:35,588 - root - INFO -  El campo 'Hasta número' si se encuentra visible.
+2022-12-27 10:14:37,404 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:14:37,518 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:14:37,636 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:14:37,737 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:14:38,015 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:14:38,617 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:14:39,179 - root - INFO -  El campo 'Tipo documento' si se encuentra visible.
+2022-12-27 10:14:39,221 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:14:41,482 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:14:41,644 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:14:42,262 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:14:42,825 - root - INFO -  El campo 'Tipo Documento 2' si se encuentra visible.
+2022-12-27 10:14:42,865 - root - INFO -  El campo 'Modelo de Impresión' si se encuentra visible.
+2022-12-27 10:14:45,110 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:14:45,386 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:14:45,732 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:14:45,862 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-12-27 10:14:46,440 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-12-27 10:14:46,480 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-12-27 10:14:46,565 - root - INFO -  El campo 'Código Alternativo' si se encuentra visible.
+2022-12-27 10:14:46,608 - root - INFO -  El campo 'Código Usuario' si se encuentra visible.
+2022-12-27 10:14:46,650 - root - INFO -  El campo 'Nom Negocio' si se encuentra visible.
+2022-12-27 10:14:46,691 - root - INFO -  El campo 'Documento de Identidad' si se encuentra visible.
+2022-12-27 10:14:46,732 - root - INFO -  El campo 'Calle' si se encuentra visible.
+2022-12-27 10:14:46,775 - root - INFO -  El campo 'Nro. Puerta' si se encuentra visible.
+2022-12-27 10:14:46,820 - root - INFO -  El campo 'Esquinas' si se encuentra visible.
+2022-12-27 10:14:46,861 - root - INFO -  El campo 'Teléfonos' si se encuentra visible.
+2022-12-27 10:14:46,904 - root - INFO -  El campo 'Empresa base' si se encuentra visible.
+2022-12-27 10:14:46,946 - root - INFO -  El campo 'Cuenta base' si se encuentra visible.
+2022-12-27 10:14:46,991 - root - INFO -  El campo 'Distribuidor base' si se encuentra visible.
+2022-12-27 10:14:47,043 - root - INFO -  El campo 'Agencia' si se encuentra visible.
+2022-12-27 10:14:47,098 - root - INFO -  El campo 'Oficina' si se encuentra visible.
+2022-12-27 10:14:47,142 - root - INFO -  El campo 'Depósito' si se encuentra visible.
+2022-12-27 10:14:47,188 - root - INFO -  El campo 'Modelo liquidación' si se encuentra visible.
+2022-12-27 10:14:47,232 - root - INFO -  El campo 'Perfil móvil' si se encuentra visible.
+2022-12-27 10:14:47,278 - root - INFO -  El campo 'Tipo de Vendedor' si se encuentra visible.
+2022-12-27 10:14:47,324 - root - INFO -  El campo 'Plataforma Móvil' si se encuentra visible.
+2022-12-27 10:14:47,374 - root - INFO -  El campo 'Fórmula pedido sugerido' si se encuentra visible.
+2022-12-27 10:14:47,420 - root - INFO -  El campo 'Habilitar Encuestas' si se encuentra visible.
+2022-12-27 10:14:47,489 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-12-27 10:14:47,593 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:14:47,711 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:14:48,021 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:14:48,260 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:14:48,482 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:14:48,648 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:14:48,788 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:14:48,967 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:14:49,447 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:14:49,724 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:15:03,798 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-12-27 10:15:04,813 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_15_04.png
+2022-12-27 10:15:06,013 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_15_06.png
+2022-12-27 10:15:11,430 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:15:12,440 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_15_12.png
+2022-12-27 10:15:12,728 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-12-27 10:15:12,809 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-12-27 10:15:12,935 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:15:14,580 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:15,235 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-12-27 10:15:15,383 - root - INFO -  Ingresa el codigo usuario del nuevo registro 
+2022-12-27 10:15:15,534 - root - INFO -  Ingresa el Nom Negocio del nuevo registro 
+2022-12-27 10:15:15,652 - root - INFO -  Ingresa el Documento de Identidad del nuevo registro 
+2022-12-27 10:15:15,775 - root - INFO -  Ingresa la calle del nuevo registro 
+2022-12-27 10:15:15,879 - root - INFO -  Ingresa el nro puerta del nuevo registro 
+2022-12-27 10:15:16,002 - root - INFO -  Ingresa la Esquina 1 del nuevo registro 
+2022-12-27 10:15:16,129 - root - INFO -  Ingresa la Esquina 2 del nuevo registro 
+2022-12-27 10:15:16,258 - root - INFO -  Ingresa el Telefono 1 del nuevo registro 
+2022-12-27 10:15:16,398 - root - INFO -  Ingresa el Telefono 2 del nuevo registro 
+2022-12-27 10:15:31,030 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_15_31.png
+2022-12-27 10:15:31,243 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:32,313 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:32,393 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:15:32,525 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-12-27 10:15:35,010 - root - INFO -  Ingresa la Clave Correlativo del nuevo registro 
+2022-12-27 10:15:35,156 - root - INFO -  Ingresa Desde Numero del nuevo registro 
+2022-12-27 10:15:35,301 - root - INFO -  Ingresa Hasta Numero del nuevo registro 
+2022-12-27 10:15:35,388 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:15:35,622 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:36,762 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:38,401 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:15:38,578 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:39,687 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:41,374 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro.
+2022-12-27 10:15:41,563 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:15:41,937 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-12-27 10:15:43,561 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:15:44,151 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:45,225 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:45,345 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:15:45,474 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:46,589 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:46,653 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:15:46,761 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-12-27 10:15:47,864 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-12-27 10:15:47,924 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:15:48,046 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-12-27 10:15:48,641 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-12-27 10:15:49,735 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-12-27 10:15:49,736 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01VE\report\img  screen：20221227_10_15_49.png
+2022-12-27 10:15:49,928 - root - INFO -  Se confirma el eliminado del registro
+2022-12-27 10:15:50,130 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-12-27 10:15:50,218 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-12-27 10:15:54,662 - root - INFO -  Se cierra chrome

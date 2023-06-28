@@ -1,0 +1,126 @@
+2023-04-21 18:31:23,843 - root - INFO -  Se abre el chrome
+2023-04-21 18:31:25,698 - root - INFO -  Entra a la URL
+2023-04-21 18:31:25,820 - root - INFO -  Maximiza la pantalla
+2023-04-21 18:31:28,960 - root - INFO -  Escribe el usuario
+2023-04-21 18:31:29,063 - root - INFO -  Escribe la contraseña
+2023-04-21 18:31:29,193 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 18:31:30,039 - root - INFO -  Ejecutar Enterprise
+2023-04-21 18:31:34,119 - root - INFO -  Cambia entre pestañas
+2023-04-21 18:34:01,831 - root - INFO -  Se abre el chrome
+2023-04-21 18:34:03,631 - root - INFO -  Entra a la URL
+2023-04-21 18:34:03,756 - root - INFO -  Maximiza la pantalla
+2023-04-21 18:34:06,881 - root - INFO -  Escribe el usuario
+2023-04-21 18:34:07,005 - root - INFO -  Escribe la contraseña
+2023-04-21 18:34:07,104 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 18:34:07,823 - root - INFO -  Ejecutar Enterprise
+2023-04-21 18:34:11,870 - root - INFO -  Cambia entre pestañas
+2023-04-21 18:36:41,731 - root - ERROR - La pantalla ejecutada no es correcta, validar que la acción anterior haya finalizado, que el nombre de la pantalla sea el correcto o que la página no presente lentitud
+2023-04-21 18:36:44,732 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_36_44.png
+2023-04-21 18:36:44,742 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-21 18:36:44,742 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_36_44.png
+2023-04-21 18:36:44,762 - root - ERROR - No se dió click el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-21 18:36:44,763 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_36_44.png
+2023-04-21 18:36:44,771 - root - ERROR - No se dió click el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-21 18:36:44,772 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_36_44.png
+2023-04-21 18:37:22,529 - root - INFO -  Se abre el chrome
+2023-04-21 18:37:25,332 - root - INFO -  Entra a la URL
+2023-04-21 18:37:25,466 - root - INFO -  Maximiza la pantalla
+2023-04-21 18:37:28,575 - root - INFO -  Escribe el usuario
+2023-04-21 18:37:28,675 - root - INFO -  Escribe la contraseña
+2023-04-21 18:37:28,769 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 18:37:29,508 - root - INFO -  Ejecutar Enterprise
+2023-04-21 18:37:33,557 - root - INFO -  Cambia entre pestañas
+2023-04-21 18:40:17,363 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 18:40:17,365 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 18:40:18,962 - root - INFO -  La pantalla ejecutada es Work Flows
+2023-04-21 18:40:21,963 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_40_21.png
+2023-04-21 18:40:32,376 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 18:40:37,433 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 18:40:37,472 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 18:40:37,509 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 18:40:37,578 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 18:40:37,808 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:40:38,809 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_40_38.png
+2023-04-21 18:40:38,958 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar con el registro nuevo
+2023-04-21 18:40:39,554 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Tipos Documento.
+2023-04-21 18:40:40,120 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2023-04-21 18:40:40,163 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-04-21 18:40:40,203 - root - INFO -  El campo 'Modo Bloqueo' si se encuentra visible.
+2023-04-21 18:40:40,236 - root - INFO -  El campo 'Obligatorio' si se encuentra visible.
+2023-04-21 18:40:41,174 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-04-21 18:40:41,689 - root - INFO -  Se dió click en el regitro de Modo Bloqueo.
+2023-04-21 18:40:41,774 - root - INFO -  Hizo click en el checkbox Obligatorio 
+2023-04-21 18:40:41,849 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro Tipos Documento.
+2023-04-21 18:40:42,101 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 18:40:43,228 - root - ERROR - No se dió click en el botón Refrescar, validar que la acción anterior haya finalizado, que el xpath sea el correcto o que la página no presente lentitud
+2023-04-21 18:40:43,229 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_40_43.png
+2023-04-21 18:40:47,723 - root - INFO -  Se cierra chrome
+2023-04-21 18:40:47,725 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-21 18:40:47,727 - root - ERROR - La pantalla anterior fallo por lo que esta no funcionara, para mas detalles del error consulte el reporte
+2023-04-21 18:41:13,508 - root - INFO -  Se abre el chrome
+2023-04-21 18:41:14,235 - root - INFO -  Entra a la URL
+2023-04-21 18:41:14,390 - root - INFO -  Maximiza la pantalla
+2023-04-21 18:41:17,501 - root - INFO -  Escribe el usuario
+2023-04-21 18:41:17,596 - root - INFO -  Escribe la contraseña
+2023-04-21 18:41:17,689 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-21 18:41:18,395 - root - INFO -  Ejecutar Enterprise
+2023-04-21 18:41:22,440 - root - INFO -  Cambia entre pestañas
+2023-04-21 18:44:04,536 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-21 18:44:04,544 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-21 18:44:05,143 - root - INFO -  La pantalla ejecutada es Work Flows
+2023-04-21 18:44:08,145 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_08.png
+2023-04-21 18:44:18,549 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-21 18:44:23,604 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 18:44:23,640 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 18:44:23,674 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 18:44:23,743 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 18:44:23,941 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:44:24,941 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_24.png
+2023-04-21 18:44:25,113 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar con el registro nuevo
+2023-04-21 18:44:25,702 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro de Tipos Documento.
+2023-04-21 18:44:26,259 - root - INFO -  El campo 'Orden' si se encuentra visible.
+2023-04-21 18:44:26,296 - root - INFO -  El campo 'Tipo Documento' si se encuentra visible.
+2023-04-21 18:44:26,332 - root - INFO -  El campo 'Modo Bloqueo' si se encuentra visible.
+2023-04-21 18:44:26,384 - root - INFO -  El campo 'Obligatorio' si se encuentra visible.
+2023-04-21 18:44:27,306 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-04-21 18:44:27,847 - root - INFO -  Se dió click en el regitro de Modo Bloqueo.
+2023-04-21 18:44:27,936 - root - INFO -  Hizo click en el checkbox Obligatorio 
+2023-04-21 18:44:28,022 - root - INFO -  Se presiona el boton 'Guardar', para guardar el registro Tipos Documento.
+2023-04-21 18:44:28,207 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-21 18:44:28,472 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-21 18:44:28,645 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-21 18:44:29,199 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-21 18:44:29,239 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-21 18:44:29,271 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-21 18:44:29,335 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-21 18:44:29,531 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-21 18:44:29,599 - root - INFO -  Se da clic en el boton Guardar; No se debe crear un nuevo registro.
+2023-04-21 18:44:30,600 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_30.png
+2023-04-21 18:44:35,981 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 18:44:36,984 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_36.png
+2023-04-21 18:44:37,149 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-21 18:44:37,289 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-21 18:44:37,413 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a modificar el registro.
+2023-04-21 18:44:39,010 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-21 18:44:39,766 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-21 18:44:40,768 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_40.png
+2023-04-21 18:44:40,938 - root - INFO - Se hace el cambio de pestaña Tipos Documento para continuar modificando el registro
+2023-04-21 18:44:42,033 - root - INFO -  Se da doble click en el registro de Tipos Documento, para proceder a modificarlo.
+2023-04-21 18:44:43,767 - root - INFO -  Se dió doble click en el regitro de Tipo Documento.
+2023-04-21 18:44:44,283 - root - INFO -  Se dió click en la opción No Aplica.
+2023-04-21 18:44:44,367 - root - INFO -  Hizo click en el checkbox Obligatorio
+2023-04-21 18:44:44,442 - root - INFO -  Se presiona el boton 'Guardar', para guardar la modificación del registro de Tipo Documento.
+2023-04-21 18:44:44,682 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 18:44:44,929 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-21 18:44:46,565 - root - INFO -  Se da doble click en el registro creado, para proceder a eliminarlo.
+2023-04-21 18:44:47,150 - root - INFO - Se hace el cambio a la Pestaña Tipos Documento para continuar con la eliminación del registro
+2023-04-21 18:44:48,217 - root - INFO -  Se da clic en el registro de Tipo Documento, para proceder a eliminarlo.
+2023-04-21 18:44:48,286 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro de Tipo Documento.
+2023-04-21 18:44:48,404 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-21 18:44:48,982 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2023-04-21 18:44:49,069 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-21 18:44:51,071 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01WF\report\img  screen：20230421_18_44_51.png
+2023-04-21 18:44:51,217 - root - INFO -  Se confirma el eliminado del registro
+2023-04-21 18:44:51,387 - root - INFO -  Se presiona el boton 'Refrescar', para verificar si el registro ha sido eliminado.
+2023-04-21 18:44:53,459 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Works Flows.
+2023-04-21 18:44:59,937 - root - INFO -  Se cierra chrome

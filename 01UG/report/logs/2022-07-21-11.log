@@ -1,0 +1,561 @@
+2022-07-21 11:02:08,846 - root - INFO -  Se abre el chrome
+2022-07-21 11:02:13,200 - root - INFO -  Entra a la URL
+2022-07-21 11:02:13,327 - root - INFO -  Maximiza la pantalla
+2022-07-21 11:02:16,387 - root - INFO -  Cambia al frame
+2022-07-21 11:02:19,492 - root - INFO -  Escribe el usuario
+2022-07-21 11:02:19,599 - root - INFO -  Escribe la contraseña
+2022-07-21 11:02:19,735 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 11:02:24,897 - root - INFO -  Ejecutar Enterprise
+2022-07-21 11:02:24,898 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_02_24.png
+2022-07-21 11:02:29,124 - root - INFO -  Cambia entre pestañas
+2022-07-21 11:02:55,964 - root - INFO -  Abre el menu completo
+2022-07-21 11:03:11,915 - root - INFO -  Abre la pantalla de Paises
+2022-07-21 11:03:11,971 - root - INFO -  La pantalla ejecutada es Paises.
+2022-07-21 11:03:11,971 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_03_11.png
+2022-07-21 11:03:12,178 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:03:13,254 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:03:13,293 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:03:13,333 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:03:13,369 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:03:13,415 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:03:13,476 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:03:13,514 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:03:13,552 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:03:13,591 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:03:13,631 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:03:13,703 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:03:16,836 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:03:20,038 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:03:23,157 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:03:26,276 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:03:29,373 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:03:32,473 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:03:35,596 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:03:38,711 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:03:43,724 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_03_43.png
+2022-07-21 11:03:54,044 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:03:54,155 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:03:55,751 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:03:55,788 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:03:55,826 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:03:55,866 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:03:55,918 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:03:55,956 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:03:55,995 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:03:56,031 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:03:56,070 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:03:56,157 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:03:59,300 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:04:02,494 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:04:18,460 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:04:21,582 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:04:24,687 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:04:27,835 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:04:30,974 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:04:34,096 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:04:37,207 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:04:38,850 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-07-21 11:04:38,892 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:04:38,931 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:04:38,968 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:04:39,006 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:04:39,045 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:04:39,085 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:04:39,123 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:04:39,221 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:04:42,369 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:04:45,580 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:04:48,705 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:04:51,831 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:04:54,950 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:04:58,065 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:05:01,175 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:05:04,314 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:05:07,437 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:05:08,574 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-07-21 11:05:08,618 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:05:08,668 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:05:08,713 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:05:08,758 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:05:08,795 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:05:08,832 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:05:08,870 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:05:08,982 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:05:12,122 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:05:15,326 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:05:18,449 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:05:21,584 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:05:24,711 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:05:27,817 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:05:30,932 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:05:34,065 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:05:37,181 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:05:40,309 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:05:43,423 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:05:44,537 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-07-21 11:05:44,577 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:06:29,203 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:06:32,317 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:06:35,432 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:06:38,534 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:06:48,644 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-21 11:06:53,705 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:06:53,758 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:06:53,801 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:06:53,843 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:06:53,888 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:06:53,931 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:06:53,982 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:06:54,024 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:06:54,066 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:06:54,113 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:06:54,226 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:06:57,362 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:07:00,543 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:07:03,677 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:07:06,793 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:07:09,883 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:07:12,981 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:07:16,099 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:07:19,198 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:07:25,432 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:07:28,439 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_07_28.png
+2022-07-21 11:07:28,667 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-21 11:07:30,781 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-21 11:07:34,895 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:07:51,175 - root - INFO -  Se presiona el boton 'Codigo', para buscar  un nuevo registro y poder modificarlo.
+2022-07-21 11:07:55,813 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:07:55,982 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:07:59,255 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:08:02,393 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:08:05,544 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:08:08,688 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:08:11,858 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:08:14,991 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:08:18,177 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:08:21,188 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_08_21.png
+2022-07-21 11:08:31,529 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:08:36,145 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:08:36,341 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:08:39,615 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:08:55,582 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:08:58,724 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:09:01,866 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:09:05,003 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:09:08,153 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:09:11,263 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:09:18,867 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:09:19,054 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:09:22,325 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:09:25,479 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:09:28,638 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:09:31,786 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:09:34,952 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:09:38,104 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:09:41,234 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:09:48,929 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:09:49,457 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:09:52,740 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:09:55,885 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:09:59,044 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:10:02,194 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:10:05,338 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:10:08,496 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:10:11,622 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:10:14,748 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:10:19,869 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:10:27,490 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:11:08,285 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:11:11,428 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:11:14,543 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:11:17,653 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-21 11:11:35,271 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:11:38,372 - root - ERROR - No se encontró el botón Departamentos, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-21 11:11:38,373 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_11_38.png
+2022-07-21 11:16:31,995 - root - INFO -  Se abre el chrome
+2022-07-21 11:16:36,815 - root - INFO -  Entra a la URL
+2022-07-21 11:16:36,939 - root - INFO -  Maximiza la pantalla
+2022-07-21 11:16:39,987 - root - INFO -  Cambia al frame
+2022-07-21 11:16:43,078 - root - INFO -  Escribe el usuario
+2022-07-21 11:16:43,184 - root - INFO -  Escribe la contraseña
+2022-07-21 11:16:43,320 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 11:16:47,405 - root - INFO -  Ejecutar Enterprise
+2022-07-21 11:16:47,405 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_16_47.png
+2022-07-21 11:16:51,622 - root - INFO -  Cambia entre pestañas
+2022-07-21 11:17:17,409 - root - INFO -  Abre el menu completo
+2022-07-21 11:17:33,325 - root - INFO -  Abre la pantalla de Paises
+2022-07-21 11:17:33,385 - root - INFO -  La pantalla ejecutada es Paises.
+2022-07-21 11:17:33,386 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_17_33.png
+2022-07-21 11:17:33,582 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:17:34,686 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:17:34,725 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:17:34,764 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:17:34,809 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:17:34,849 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:17:34,888 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:17:34,951 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:17:34,989 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:17:35,026 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:17:35,064 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:17:35,141 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:17:38,271 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:17:41,465 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:17:44,572 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:17:47,683 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:17:50,785 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:17:53,898 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:17:57,004 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:18:00,109 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:18:05,116 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_18_05.png
+2022-07-21 11:18:15,466 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:18:15,581 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:18:16,668 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:18:16,718 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:18:16,761 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:18:16,808 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:18:16,848 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:18:16,887 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:18:16,924 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:18:16,961 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:18:16,999 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:18:17,089 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:18:20,249 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:18:23,490 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:18:39,352 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:18:42,452 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:18:45,575 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:18:48,730 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:18:51,848 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:18:54,977 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:18:58,105 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:18:59,197 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-07-21 11:18:59,236 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:18:59,275 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:18:59,314 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:18:59,353 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:18:59,398 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:18:59,445 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:18:59,492 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:18:59,591 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:19:02,733 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:19:05,933 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:19:09,036 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:19:12,165 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:19:15,281 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:19:18,397 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:19:21,550 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:19:24,714 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:19:27,831 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:19:28,948 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-07-21 11:19:28,987 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:19:29,024 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:19:29,061 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:19:29,098 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:19:29,142 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:19:29,180 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:19:29,218 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:19:29,326 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:19:32,470 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:19:35,664 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:19:38,783 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:19:41,899 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:19:45,009 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:19:48,113 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:19:51,230 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:19:54,367 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:19:57,487 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:20:00,610 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:20:03,760 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:20:04,317 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-07-21 11:20:04,358 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:20:43,628 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:20:46,738 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:20:49,849 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:20:52,963 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:21:03,071 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-21 11:21:08,123 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:21:08,165 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:21:08,205 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:21:08,243 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:21:08,283 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:21:08,322 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:21:08,361 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:21:08,421 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:21:08,459 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:21:08,497 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:21:08,578 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:21:11,699 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:21:14,906 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:21:18,026 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:21:21,129 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:21:24,273 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:21:27,366 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:21:30,479 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:21:33,605 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:21:39,808 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:21:42,824 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_21_42.png
+2022-07-21 11:21:43,068 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-21 11:21:45,171 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-21 11:21:49,281 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:22:05,552 - root - INFO -  Se presiona el boton 'Codigo', para buscar  un nuevo registro y poder modificarlo.
+2022-07-21 11:22:10,199 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:22:10,364 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:22:13,626 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:22:16,757 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:22:19,904 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:22:23,048 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:22:26,202 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:22:29,372 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:22:32,552 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:22:35,566 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_22_35.png
+2022-07-21 11:22:45,910 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:22:50,523 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:22:50,700 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:22:53,968 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:23:09,885 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:23:13,065 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:23:16,205 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:23:19,343 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:23:22,477 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:23:25,600 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:23:33,213 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:23:33,434 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:23:36,693 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:23:39,841 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:23:42,989 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:23:46,141 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:23:49,301 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:23:52,462 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:23:55,581 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:24:03,209 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:24:03,420 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:24:06,696 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:24:09,854 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:24:13,065 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:24:16,210 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:24:19,347 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:24:22,498 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:24:25,666 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:24:28,796 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:24:33,929 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:24:41,593 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:25:21,537 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:25:24,654 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:25:27,790 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:25:30,904 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-21 11:25:48,544 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:25:54,673 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:25:59,275 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:25:59,904 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:26:07,552 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:26:07,699 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:26:15,333 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:26:15,433 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 11:26:18,553 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:26:23,690 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:26:26,792 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:26:34,408 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:26:38,028 - root - ERROR - No se encontró el botón Departamentos, revise si el xpath sigue siendo el mismo, para mas detalles del error consulte el reporte
+2022-07-21 11:26:38,030 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_26_38.png
+2022-07-21 11:30:24,056 - root - INFO -  Se abre el chrome
+2022-07-21 11:30:27,709 - root - INFO -  Entra a la URL
+2022-07-21 11:30:27,838 - root - INFO -  Maximiza la pantalla
+2022-07-21 11:30:30,886 - root - INFO -  Cambia al frame
+2022-07-21 11:30:33,977 - root - INFO -  Escribe el usuario
+2022-07-21 11:30:34,091 - root - INFO -  Escribe la contraseña
+2022-07-21 11:30:34,228 - root - INFO -  Se dio clic en el boton ingresar
+2022-07-21 11:30:37,823 - root - INFO -  Ejecutar Enterprise
+2022-07-21 11:30:37,824 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_30_37.png
+2022-07-21 11:30:42,038 - root - INFO -  Cambia entre pestañas
+2022-07-21 11:31:15,872 - root - INFO -  Abre el menu completo
+2022-07-21 11:31:31,782 - root - INFO -  Abre la pantalla de Paises
+2022-07-21 11:31:31,836 - root - INFO -  La pantalla ejecutada es Paises.
+2022-07-21 11:31:31,837 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_31_31.png
+2022-07-21 11:31:32,039 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:31:33,135 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:31:33,174 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:31:33,213 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:31:33,252 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:31:33,290 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:31:33,346 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:31:33,385 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:31:33,429 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:31:33,475 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:31:33,514 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:31:33,589 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:31:36,705 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:31:39,893 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:31:43,012 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:31:46,118 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:31:49,231 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:31:52,332 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:31:55,434 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:31:58,544 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:32:03,552 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_32_03.png
+2022-07-21 11:32:13,881 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:32:14,009 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:32:15,127 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:32:15,167 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:32:15,206 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:32:15,246 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:32:15,297 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:32:15,337 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:32:15,375 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:32:15,412 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:32:15,449 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:32:15,534 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:32:18,666 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:32:21,953 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:32:37,830 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:32:40,961 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:32:44,065 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:32:47,185 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:32:50,292 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:32:53,420 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:32:56,542 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:32:57,634 - root - INFO -  El campo 'Localidad' si se encuentra visible.
+2022-07-21 11:32:57,675 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:32:57,714 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:32:57,753 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:32:57,797 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:32:57,838 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:32:57,877 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:32:57,919 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:32:58,066 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:33:01,196 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:33:04,414 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:33:07,544 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:33:10,649 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:33:13,774 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:33:16,894 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:33:20,016 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:33:23,145 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:33:26,265 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:33:27,387 - root - INFO -  El campo 'Código' si se encuentra visible.
+2022-07-21 11:33:27,428 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:33:27,468 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:33:27,514 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:33:27,552 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:33:27,589 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:33:27,627 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:33:27,664 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:33:27,772 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:33:30,900 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:33:34,104 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:33:37,223 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:33:40,343 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:33:43,461 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:33:46,570 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:33:49,680 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:33:52,799 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:33:55,931 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:33:59,079 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:34:02,191 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2022-07-21 11:34:03,309 - root - INFO -  El campo 'Artículo' si se encuentra visible.
+2022-07-21 11:34:03,351 - root - INFO -  El campo 'Impuesto' si se encuentra visible.
+2022-07-21 11:34:45,923 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:34:49,055 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:34:52,177 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:34:55,281 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:35:05,405 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2022-07-21 11:35:10,459 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2022-07-21 11:35:10,499 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2022-07-21 11:35:10,557 - root - INFO -  El campo 'Alternativo' si se encuentra visible.
+2022-07-21 11:35:10,596 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2022-07-21 11:35:10,633 - root - INFO -  El campo 'Viviendas' si se encuentra visible.
+2022-07-21 11:35:10,671 - root - INFO -  El campo 'Hogares Particulares' si se encuentra visible.
+2022-07-21 11:35:10,708 - root - INFO -  El campo 'Población Hombres' si se encuentra visible.
+2022-07-21 11:35:10,746 - root - INFO -  El campo 'Población Mujeres' si se encuentra visible.
+2022-07-21 11:35:10,785 - root - INFO -  El campo 'Población Total' si se encuentra visible.
+2022-07-21 11:35:10,821 - root - INFO -  El campo 'Código ISO 3166' si se encuentra visible.
+2022-07-21 11:35:10,908 - root - INFO -  Ingresa el codigo del nuevo registro 
+2022-07-21 11:35:14,028 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:35:17,229 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:35:20,357 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:35:23,479 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:35:26,591 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:35:29,714 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:35:32,826 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:35:35,940 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:35:42,151 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:35:45,167 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_35_45.png
+2022-07-21 11:35:45,412 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2022-07-21 11:35:47,530 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2022-07-21 11:35:51,650 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:36:07,916 - root - INFO -  Se presiona el boton 'Codigo', para buscar  un nuevo registro y poder modificarlo.
+2022-07-21 11:36:12,510 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:36:12,660 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:36:15,928 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:36:19,086 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:36:22,237 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:36:25,386 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:36:28,554 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:36:31,698 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:36:34,880 - root - INFO -  Ingresa el Codigo ISO del nuevo registro 
+2022-07-21 11:36:37,891 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_36_37.png
+2022-07-21 11:36:48,185 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:36:52,801 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:36:52,978 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:36:56,265 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:37:12,280 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:37:15,429 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:37:18,578 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:37:21,723 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:37:24,867 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:37:27,980 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:37:35,608 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:37:35,791 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:37:39,062 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:37:42,223 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:37:45,364 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:37:48,530 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:37:51,680 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:37:54,848 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:37:57,977 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:38:05,615 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:38:05,833 - root - INFO -  Ingresa el codigo alternativo del nuevo registro 
+2022-07-21 11:38:09,128 - root - INFO -  Ingresa la descripción del nuevo registro 
+2022-07-21 11:38:12,284 - root - INFO -  Ingresa el número de viviendas del nuevo registro 
+2022-07-21 11:38:15,426 - root - INFO -  Ingresa el número de hogares particulares del nuevo registro 
+2022-07-21 11:38:18,593 - root - INFO -  Ingresa el número de Población de hombres del nuevo registro 
+2022-07-21 11:38:21,744 - root - INFO -  Ingresa el número de Población de mujeres del nuevo registro 
+2022-07-21 11:38:24,919 - root - INFO -  Ingresa el número de Población Total del nuevo registro 
+2022-07-21 11:38:28,039 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:38:31,161 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:38:36,281 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:38:43,901 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:39:23,936 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:39:27,049 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:39:30,174 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:39:33,287 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2022-07-21 11:39:50,909 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:39:57,024 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:40:01,656 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:40:01,766 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:40:09,398 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:40:09,516 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:40:17,127 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:40:17,257 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 11:40:20,366 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:40:25,522 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:40:28,651 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:40:36,277 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:40:39,385 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:40:43,997 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:40:44,087 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:40:51,711 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:40:51,814 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 11:40:56,963 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2022-07-21 11:41:00,087 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:41:07,706 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:41:10,844 - root - INFO - Se hace el cambio de pestaña para continuar con el registro nuevo
+2022-07-21 11:41:15,454 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2022-07-21 11:41:15,558 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 11:41:20,672 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2022-07-21 11:41:28,297 - root - INFO -  Se da clic en el registro creado, para proceder a eliminarlo.
+2022-07-21 11:41:28,388 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2022-07-21 11:41:35,395 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01UG\report\img  screen：20220721_11_41_35.png
+2022-07-21 11:41:35,611 - root - INFO -  Se confirma el eliminado del registro
+2022-07-21 11:41:45,734 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2022-07-21 11:41:53,813 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Categorias Fiscales.
+2022-07-21 11:41:58,052 - root - INFO -  Se cierra chrome

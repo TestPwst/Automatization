@@ -1,0 +1,46 @@
+2023-04-24 09:50:51,113 - root - INFO -  Se abre el chrome
+2023-04-24 09:50:51,943 - root - INFO -  Entra a la URL
+2023-04-24 09:50:52,108 - root - INFO -  Maximiza la pantalla
+2023-04-24 09:50:55,245 - root - INFO -  Escribe el usuario
+2023-04-24 09:50:55,342 - root - INFO -  Escribe la contraseña
+2023-04-24 09:50:55,428 - root - INFO -  Se dio clic en el boton ingresar
+2023-04-24 09:50:56,642 - root - INFO -  Ejecutar Enterprise
+2023-04-24 09:51:00,691 - root - INFO -  Cambia entre pestañas
+2023-04-24 09:52:12,549 - root - INFO - Se ingreso a la pantalla mediante el buscador porque fallo el ingreso por menus
+2023-04-24 09:52:12,558 - root - INFO -  La función buscador funciona de manera correcta.
+2023-04-24 09:52:13,661 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_13.png
+2023-04-24 09:52:13,743 - root - INFO -  La pantalla ejecutada es Zonas Bancarias.
+2023-04-24 09:52:24,108 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro.
+2023-04-24 09:52:24,667 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 09:52:24,706 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 09:52:24,746 - root - INFO -  El campo 'Descrición' si se encuentra visible.
+2023-04-24 09:52:24,812 - root - INFO -  Ingresa el codigo del nuevo registro 
+2023-04-24 09:52:25,032 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_25.png
+2023-04-24 09:52:25,152 - root - INFO -  Ingresa la descripción del nuevo registro 
+2023-04-24 09:52:25,209 - root - INFO -  Se da clic en el boton Guardar; se debe crear un nuevo registro.
+2023-04-24 09:52:25,477 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 09:52:25,704 - root - INFO -  Se presiona el boton 'Nuevo', para crear un nuevo registro igual al anterior.
+2023-04-24 09:52:26,270 - root - INFO -  Se abrio la pantalla para el ingreso de un registro nuevo.
+2023-04-24 09:52:26,312 - root - INFO -  El campo 'Codigo' si se encuentra visible.
+2023-04-24 09:52:26,348 - root - INFO -  El campo 'Descripción' si se encuentra visible.
+2023-04-24 09:52:26,405 - root - INFO -  Ingresa el codigo del nuevo registro igual al anterior
+2023-04-24 09:52:26,624 - root - INFO -  Ingresa la descripción del nuevo registro igual al anterior
+2023-04-24 09:52:26,675 - root - INFO -  Se da clic en el boton Guardar; NO se debe crear un nuevo registro.
+2023-04-24 09:52:27,678 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_27.png
+2023-04-24 09:52:33,053 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 09:52:34,054 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_34.png
+2023-04-24 09:52:34,265 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el mensaje de duplicidad de llave primaria
+2023-04-24 09:52:34,343 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2023-04-24 09:52:34,453 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 09:52:36,089 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 09:52:37,856 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_37.png
+2023-04-24 09:52:37,959 - root - INFO -  Se modifica el contenido del campo Descripcion
+2023-04-24 09:52:38,026 - root - INFO -  Se da clic en el boton Guardar; se debe modificar la informacion del registro.
+2023-04-24 09:52:38,327 - root - INFO -  Se presiona el boton 'Refrescar', para proceder a eliminar el registro.
+2023-04-24 09:52:39,921 - root - INFO -  Se da clic en el registro creado, para proceder a modificarlo.
+2023-04-24 09:52:40,005 - root - INFO -  Se presiona el boton 'Eliminar', para eliminar el registro.
+2023-04-24 09:52:42,005 - root - INFO -  Captura: C:\xampp\htdocs\versiones\automatizaciones\AutoPWST\01ZB\report\img  screen：20230424_09_52_42.png
+2023-04-24 09:52:42,170 - root - INFO -  Se confirma el eliminado del registro
+2023-04-24 09:52:42,406 - root - INFO -  Se presiona el boton 'Refrescar', para crear un nuevo registro igual al anterior.
+2023-04-24 09:52:44,499 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la pantalla de Zonas Bancarias.
+2023-04-24 09:52:50,948 - root - INFO -  Se cierra chrome
